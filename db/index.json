@@ -1,0 +1,37 @@
+[
+    {
+        "titulo": "Jugador",
+        "imagen": "./files/index/jugador.jpg",
+        "file": "personaje.html"
+    }
+    ,
+    {
+        "titulo": "Objetos",
+        "imagen": "./files/index/objetos.jpg",
+        "file": "objetos.html"
+    }
+    ,
+    {
+        "titulo": "Bestiario",
+        "imagen": "./files/index/bestia.jpg",
+        "file": "bestiario.html"
+    }
+    ,
+    {
+        "titulo": "Combate",
+        "imagen": "./files/index/combate.jpg",
+        "file": "combate.html"
+    }
+    ,
+    {
+        "titulo": "Profesiones",
+        "imagen": "./files/index/profesiones.jpg",
+        "file": "profesiones.html"
+    }
+    ,
+    {
+        "titulo": "Profesiones",
+        "imagen": "./files/index/profesiones.jpg",
+        "file": "profesiones.html"
+    }
+]

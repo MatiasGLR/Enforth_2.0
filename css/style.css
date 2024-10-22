@@ -1,0 +1,27 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:hover div {
+    background-color: red;
+    border: 1px solid red;
+}
+
+header a {
+    text-decoration: none;
+    transition: 0.2s;
+    color:white;
+}
+
+header a:hover {
+    color:skyblue;
+    transition: 0.2s;
+}
