@@ -13,25 +13,19 @@
     ,
     {
         "titulo": "Bestiario",
-        "imagen": "./files/index/bestia.jpg",
+        "imagen": "./files/index/bestia.png",
         "file": "bestiario.html"
     }
     ,
     {
         "titulo": "Combate",
-        "imagen": "./files/index/combate.jpg",
+        "imagen": "./files/index/combate.png",
         "file": "combate.html"
     }
     ,
     {
-        "titulo": "Profesiones",
-        "imagen": "./files/index/profesiones.jpg",
-        "file": "profesiones.html"
-    }
-    ,
-    {
-        "titulo": "Profesiones",
-        "imagen": "./files/index/profesiones.jpg",
-        "file": "profesiones.html"
+        "titulo": "Divinidades",
+        "imagen": "./files/index/dioses.png",
+        "file": "dioses.html"
     }
 ]
