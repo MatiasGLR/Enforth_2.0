@@ -9,11 +9,35 @@
 
 a:hover {
     text-decoration: none;
+    cursor: pointer;
+}
+
+#title_button_info {
+    color:white
+}
+#title_button_info:hover {
+    color:black
+}
+
+.cabecera_main:has(.show) {
+    background-color: white;
+}
+
+#title_button_info:has(.show) #title_info {
+    background-color: white;
+}
+
+#title_button_info:hover #title_info {
+    background-color: white;
 }
 
 a:hover div {
     background-color: red;
     border: 1px solid red;
+}
+
+.card a {
+    text-decoration: none;
 }
 
 header a {
@@ -26,3 +50,4 @@ header a:hover {
     color:skyblue;
     transition: 0.2s;
 }
+
