@@ -3,7 +3,7 @@ async function read_index_json() {
 
     str = `<div class="">`
 
-    await $.get("./db/index.json", function(textString) {
+    await $.get("./db/character.json", function(textString) {
         const index_json = Object.entries(textString);
         for(let i = 0; i < index_json.length ; i++) {
             const json_a = JSON.parse(JSON.stringify(index_json[i][1]));

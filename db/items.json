@@ -1,3 +1,47 @@
 [
+    {
+        "nombre": "Poción de Vida Lv1",
+        "categoria": "Pociones",
+        "rareza": "Cobre",
+        "descripcion": "Recupera 2d4 de vida",
+        "preciocompra": "",
+        "precioventa": "",
+        "materiales": "",
+        "creadaen": ""
+    }
+    ,
+    {
+        "nombre": "Poción de Vida Lv2",
+        "categoria": "Pociones",
+        "rareza": "Hierro",
+        "descripcion": "Recupera 4d4 de vida",
+        "preciocompra": "",
+        "precioventa": "",
+        "materiales": "",
+        "creadaen": ""
+    }
+    ,
+    {
+        "nombre": "Poción de Vida Lv3",
+        "categoria": "Pociones",
+        "rareza": "Oro",
+        "descripcion": "Recupera 6d4 de vida",
+        "preciocompra": "",
+        "precioventa": "",
+        "materiales": "",
+        "creadaen": ""
+    }
+    ,
+    {
+        "nombre": "Espada larga",
+        "categoria": "Armas",
+        "rareza": "Cobre",
+        "descripcion": "",
+        "preciocompra": "",
+        "precioventa": "",
+        "materiales": "",
+        "creadaen": ""
+    }
+    
     
 ]
