@@ -1,34 +1,30 @@
+@font-face {
+    font-family: MedievalSharp;
+    src: url(../files/fonts/MedievalSharp/MedievalSharp.ttf);
+}
+
+@font-face {
+    font-family: Abel;
+    src: url(../files/fonts/Abel/Abel.ttf);
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url(../files/fonts/Merryweather/Merriweather.ttf);
+}
+
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-variant: small-caps;
     text-decoration: none;
-    font-family: Tahoma;
+    font-family: Abel;
+    overflow-x: hidden;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
-}
-
-#title_button_info {
-    color:white
-}
-#title_button_info:hover {
-    color:black
-}
-
-.cabecera_main:has(.show) {
-    background-color: white;
-}
-
-#title_button_info:has(.show) #title_info {
-    background-color: white;
-}
-
-#title_button_info:hover #title_info {
-    background-color: white;
 }
 
 a:hover div {
