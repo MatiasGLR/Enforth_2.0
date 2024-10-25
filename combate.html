@@ -9,14 +9,15 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 <body style="background-color: rgb(167, 167, 167);">
-    <div style="width:95%; min-height:768px; border-left: 5px solid black; border-right: 5px solid black;" class="bg-dark m-auto">
-        <header>
-            <div class="bg-primary text-center p-3"><a href="./index.html"><h4>Cuentos de Enforth</h4></a></div>
-        </header>
+    <header>
+        <div class="bg-primary"><a href="./index.html"><h4>Cuentos de Enforth</h4></a></div>
+    </header>
+    <div style="width:100%; min-height:768px; border-left: 5px solid black; border-right: 5px solid black;" class="bg-dark m-auto">
+        
         <topmain>
             
         </topmain>
-        <main id="main_personaje" class="text-white">
+        <main id="main_personaje" class="text-white" style="margin-top:82px;">
             <div id="listado_datos" class="card bg-white text-dark" style="border-radius:0">
                 <div class="cabecera_main text-dark">
                     <a id="title_button_info" class="" data-toggle="collapse" data-target="#estadisticas" aria-expanded="true" aria-controls="estadisticas">
@@ -25,24 +26,39 @@
                 </div>
                 <div id="estadisticas" class="collapse" aria-labelledby="estadisticas" data-parent="#listado_datos">
                     <div class="card-body  bg-dark text-white">
-                        <b class="ms-4">Comenzando el combate</b><br>
+                        <b class="ms-4 text-warning">Comenzando el combate</b><br>
                         Puedes posicionarte en cualquier lugar del tablero (A menos que un evento especifique que te encuentres en una posición, como, por ejemplo, entrar por una puerta). A partir
                         de aqui, se lanzan las iniciativas de todos los participantes del combate (Realizadas mediante una tirada de Agilidad). Se pasan a ordenar los turnos de mayor a menor en 
                         base a los valores; si dos participantes son parte del mismo equipo, pueden intercambiar sus turnos, siempre y cuando no haya un enemigo entre ambos.
-                        <br><br><b class="ms-4">Iniciando tu turno</b><br>
+                        <br><br><b class="ms-4 text-warning">Iniciando tu turno</b><br>
                         Cuando tu turno comienza, tus acciones se restablecen, y puedes hacer lo que creas conveniente, con los objetos y acciones disponibles. Cada que realices un ataque, perderás
                         una acción de ataque, y cuando realices otro tipo de acción (Utilizar objetos, mirar tu mochila, levantar o curar a un aliado, moverte, etc) consumirás una acción de movimiento.
-                        <br><br><b class="ms-4">Atacando a un enemigo</b><br>
+                        En caso de que te encuentres abatido en el inicio de tu turno, puedes realizar una <b>tirada de salvación</b>, mediante un 20 natural, superando un 10, y, en caso de superarlo,
+                        te levantarás con 1 de vida; si la tirada de salvación fue critica (20 natural), te levantarás con 1d10 de vida (No puede pasar tu limite de vida máxima).
+                        <br><br><b class="ms-4 text-warning">Atacando a un enemigo</b><br>
                         Si te encuentras a una distancia posible de ataque (Dependiendo de tu arma, como los arcos, que tienen un rango mayor, o las armas cuerpo a cuerpo largas, que atacan a 10ft) 
                         puedes realizar una tirada de puntería (Con la estadística de Combate), donde el oponente puede decidir si esquivar (A cambio de una acción de movimiento) o simplemente
                         resistir el ataque. En caso de lograr impactar el ataque contra el enemigo, se restará la armadura, escudo, protecciones y resistencia del enemigo de ese daño, y el restante lo 
                         restará de su vida.
+                        <br><br><b class="ms-4 text-warning">Ganando un combate</b><br>
+                        Cuando todos los enemigos sean derrotados (Están abatidos o muertos) el combate se contará como ganado. En caso de que los enemigos sean jugadores,
+                        estos tendrán una última tirada de salvación, con un 20 natural, y superando 10; en caso de superarlo, se levantarán con 1 punto de vida.
+                        <br><br><b class="ms-4 text-warning">Muerte del personaje</b><br>
+                        Cuando tu vida baje hasta cero, serás abatido, y si recibes un ataque en este estado, tu personaje será asesinado; en caso de no volver a la vida (Mediante resucitación mágica,
+                        médica, o cualquier otro medio establecido) antes de terminado el combate, o inmediatamente después que el combate termina, el personaje será irrecuperable, y el jugador puede
+                        proceder a crearse un personaje nuevo
+                        <br><br><b class="ms-4 text-warning">Uso de consumibles</b><br>
+                        Durante un combate puedes utilizar consumibles que pueden aumentar tus características, curarte, o incluso atacar. Los consumibles que ataquen, consumirán acciones de ataque,
+                        y el resto de consumibles, consumirán acciones de movimiento. Si un consumible fue utilizado desde un lugar externo a riñoneras, fundas extra y cinturones, consumirá una acción
+                        de movimiento adicional (Ejemplo, agarrar algo del suelo, un cofre, la mochila, etc.)
+                        <br><br><b class="ms-4 text-warning">Acciones narrativas</b><br>
+                        Las acciones narrativas se pueden realizar mediante el uso de acciones de movimiento, y una tirada relacionada a la acción que se busque realizar. Un
+                        ejemplo de acción narrativa, sería agarrar a un enemigo por detrás, para que un aliado le ataque sin que pueda esquivar, en ese caso, deberán de lanzar
+                        Fuerza por detrás del enemigo, contra la Fuerza de este para comprobar si se libera.
+                        <br><br><b class="ms-4 text-warning">Ataque de oportunidad</b><br>
+                        Es un ataque realizable de forma gratuita (Sin costo) hacia un enemigo que se quiere alejar de ti (Excepto si esquivó), o si está realizando un acción lenta (Ej. Revisar mochila,
+                        cofre, levantar un objeto del piso, etc) que tenga un coste de movimientos mayor a uno, en ese caso podrán realizar un ataque no esquivable contra este.
                     </div>
-                </div>
-                <div class="cabecera_main text-dark">
-                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#creacion" aria-expanded="true" aria-controls="creacion">
-                        <h5 class="mb-0" style="padding: 10px 0 10px 20%">Estadísticas</h5>
-                    </a>
                 </div>
                 <div id="creacion" class="collapse" aria-labelledby="creacion" data-parent="#listado_datos">
                     <div class="card-body  bg-dark text-white">

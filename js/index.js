@@ -11,8 +11,8 @@ async function read_index_json() {
                 <a href="`+json_a.file+`">
                     <div class="card mb-3 m-4 text-center bg-primary text-white" style="width:10rem;">
                         <img style="height:150px; border-radius:5px 5px 0px 0px; object-fit:cover; object-position: 50% 0%;" src="`+json_a.imagen+`" alt="Card image cap">
-                        <div style="height:10%">
-                            <h5 class="card-title">`+json_a.titulo+`</h5>
+                        <div style="height:10%;">
+                            <h5 id="title_cat_index" class="card-title pt-2 text-white" style="overflow:hidden">`+json_a.titulo+`</h5>
                         </div>
                     </div>
                 </a>
