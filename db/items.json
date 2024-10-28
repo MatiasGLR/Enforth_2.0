@@ -4,10 +4,11 @@
         "categoria": "Pociones",
         "rareza": "Cobre",
         "descripcion": "Recupera 2d4 de vida",
-        "preciocompra": "",
-        "precioventa": "",
+        "preciocompra": "200",
+        "precioventa": "90",
         "materiales": "",
-        "creadaen": ""
+        "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "vendidaen": "Todo Enforth"
     }
     ,
     {
@@ -15,10 +16,11 @@
         "categoria": "Pociones",
         "rareza": "Hierro",
         "descripcion": "Recupera 4d4 de vida",
-        "preciocompra": "",
-        "precioventa": "",
+        "preciocompra": "500",
+        "precioventa": "120",
         "materiales": "",
-        "creadaen": ""
+        "obtenidaen": "Estación de Alquimia",
+        "vendidaen": "Todo Enforth"
     }
     ,
     {
@@ -26,10 +28,203 @@
         "categoria": "Pociones",
         "rareza": "Oro",
         "descripcion": "Recupera 6d4 de vida",
-        "preciocompra": "",
-        "precioventa": "",
+        "preciocompra": "800",
+        "precioventa": "200",
         "materiales": "",
-        "creadaen": ""
+        "obtenidaen": "Estación de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Poción de Maná Lv1",
+        "categoria": "Pociones",
+        "rareza": "Cobre",
+        "descripcion": "Obtén 1 núcleo de maná",
+        "preciocompra": "500",
+        "precioventa": "150",
+        "materiales": "",
+        "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Poción de Maná Lv2",
+        "categoria": "Pociones",
+        "rareza": "Hierro",
+        "descripcion": "Obtén 2 núcleos de maná",
+        "preciocompra": "800",
+        "precioventa": "300",
+        "materiales": "",
+        "obtenidaen": "Estación de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Poción de Maná Lv3",
+        "categoria": "Pociones",
+        "rareza": "Oro",
+        "descripcion": "Obtén 3 núcleos de maná",
+        "preciocompra": "1200",
+        "precioventa": "500",
+        "materiales": "",
+        "obtenidaen": "Estación de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Antidoto Lv1",
+        "categoria": "Pociones",
+        "rareza": "Cobre",
+        "descripcion": "Elimina 1 carga de veneno",
+        "preciocompra": "300",
+        "precioventa": "120",
+        "materiales": "",
+        "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Antidoto Lv2",
+        "categoria": "Pociones",
+        "rareza": "Hierro",
+        "descripcion": "Elimina 2 cargas de veneno",
+        "preciocompra": "600",
+        "precioventa": "200",
+        "materiales": "",
+        "obtenidaen": "Estación de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Antidoto Lv3",
+        "categoria": "Pociones",
+        "rareza": "Plata",
+        "descripcion": "Elimina 3 cargas de veneno",
+        "preciocompra": "800",
+        "precioventa": "350",
+        "materiales": "",
+        "obtenidaen": "Estación de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Antidoto Lv1",
+        "categoria": "Pociones",
+        "rareza": "Cobre",
+        "descripcion": "Elimina 1 carga de veneno",
+        "preciocompra": "300",
+        "precioventa": "120",
+        "materiales": "",
+        "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Antidoto Lv2",
+        "categoria": "Pociones",
+        "rareza": "Hierro",
+        "descripcion": "Elimina 2 cargas de veneno",
+        "preciocompra": "600",
+        "precioventa": "200",
+        "materiales": "",
+        "obtenidaen": "Estación de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Antidoto Lv3",
+        "categoria": "Pociones",
+        "rareza": "Plata",
+        "descripcion": "Elimina 3 cargas de veneno",
+        "preciocompra": "800",
+        "precioventa": "350",
+        "materiales": "",
+        "obtenidaen": "Estación de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Poción de Musculatura Lv1",
+        "categoria": "Pociones",
+        "rareza": "Cobre",
+        "descripcion": "Da 1 punto de Fuerza temporal durante un combate o una exploración",
+        "preciocompra": "300",
+        "precioventa": "100",
+        "materiales": "",
+        "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Poción de Musculatura Lv2",
+        "categoria": "Pociones",
+        "rareza": "Hierro",
+        "descripcion": "Da 2 puntos de Fuerza temporal durante un combate o una exploración",
+        "preciocompra": "700",
+        "precioventa": "300",
+        "materiales": "",
+        "obtenidaen": "Estación de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Poción de Musculatura Lv3",
+        "categoria": "Pociones",
+        "rareza": "Oro",
+        "descripcion": "Da 4 puntos de Fuerza temporal durante un combate o una exploración",
+        "preciocompra": "1200",
+        "precioventa": "500",
+        "materiales": "",
+        "obtenidaen": "Estación de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Poción de Musculatura Lv1",
+        "categoria": "Pociones",
+        "rareza": "Cobre",
+        "descripcion": "Da 1 punto de Fuerza temporal durante un combate o una exploración",
+        "preciocompra": "300",
+        "precioventa": "100",
+        "materiales": "",
+        "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Poción de Musculatura Lv2",
+        "categoria": "Pociones",
+        "rareza": "Hierro",
+        "descripcion": "Da 2 puntos de Fuerza temporal durante un combate o una exploración",
+        "preciocompra": "700",
+        "precioventa": "300",
+        "materiales": "",
+        "obtenidaen": "Estación de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Poción de Musculatura Lv3",
+        "categoria": "Pociones",
+        "rareza": "Oro",
+        "descripcion": "Da 4 puntos de Fuerza temporal durante un combate o una exploración",
+        "preciocompra": "1200",
+        "precioventa": "500",
+        "materiales": "",
+        "obtenidaen": "Estación de Alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Minerales",
+        "categoria": "Material de herrería",
+        "rareza": "Cobre",
+        "descripcion": "Pueden ser fundidos en lingotes",
+        "preciocompra": "0",
+        "precioventa": "10",
+        "materiales": "",
+        "obtenidaen": "Minería",
+        "vendidaen": "Ningun lugar"
     }
     ,
     {
@@ -40,7 +235,8 @@
         "preciocompra": "",
         "precioventa": "",
         "materiales": "",
-        "creadaen": ""
+        "obtenidaen": "",
+        "vendidaen": ""
     }
     
     

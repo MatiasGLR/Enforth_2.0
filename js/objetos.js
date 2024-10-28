@@ -22,7 +22,7 @@ async function read_index_json() {
                     <td class="align-middle">`+json_a.nombre+`</td>
                     <td class="align-middle text-center">`+json_a.categoria+`</td>
                     <td class="align-middle text-center">`+json_a.rareza+`</td>
-                    <td class="align-middle text-center"><button class="btn btn-light" onclick="modal()">Ver información</button></td>
+                    <td class="align-middle text-center"><button class="btn btn-light" onclick="modal()">Más información</button></td>
                 </tr>
                 `);
             }
