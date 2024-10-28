@@ -20,11 +20,11 @@
         <main id="main_personaje" class="text-white" style="margin-top:82px;">
             <div id="listado_datos" class="card bg-white text-dark" style="border-radius:0">
                 <div class="cabecera_main text-dark">
-                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#estadisticas" aria-expanded="true" aria-controls="estadisticas">
+                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#1" aria-expanded="true" aria-controls="1">
                         <h5 class="mb-0" style="padding: 10px 0 10px 20%">¿Cómo funciona el combate?</h5>
                     </a>
                 </div>
-                <div id="estadisticas" class="collapse" aria-labelledby="estadisticas" data-parent="#listado_datos">
+                <div id="1" class="collapse" aria-labelledby="1" data-parent="#listado_datos">
                     <div class="card-body  bg-dark text-white">
                         <b class="ms-4 text-warning">Comenzando el combate</b><br>
                         Puedes posicionarte en cualquier lugar del tablero (A menos que un evento especifique que te encuentres en una posición, como, por ejemplo, entrar por una puerta). A partir
@@ -63,12 +63,173 @@
                         cofre, levantar un objeto del piso, etc) que tenga un coste de utilidad mayor a uno, en ese caso podrán realizar un ataque no esquivable contra este.
                         <br><br><b class="ms-4 text-warning">Aplicar efecto</b><br>
                         Los efectos son aplicados cuando el dado de puntería tuvo un 20 natural. Se aplican el efecto del arma y el material, o, en caso de que el arma tuviera una infusión,
-                        se aplica solo el efecto de la infusión.<br>
+                        se aplica solo el efecto de la infusión.
                         <br><br><b class="ms-4 text-warning">Ataque critico</b><br>
                         Si tu dado de ataque sale con el máximo valor (Ej. tienes 1d6 en tu daño, si ese dado sale 6); el ataque será critico, y agregará un dado mas al daño (En caso de tener varios dados, 
                         será el dado de menor valor).
                     </div>
                 </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#2" aria-expanded="true" aria-controls="2">
+                        <h5 class="mb-0" style="padding: 10px 0 10px 20%">Efectos</h5>
+                    </a>
+                </div>
+                <div id="2" class="collapse" aria-labelledby="2" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+
+                        <b class="ms-4 text-warning">Fuentes de efectos</b><br>
+                        
+                        <x class="text-danger">Fuente fisica.</x> Son causados por daños no mágicos, y propios de las criaturas, armas o materiales.<br>
+                        <x class="text-info">Fuente mágica.</x> Son causados por cualquier fuente de magia, como hechizos, o infusiones.<br>
+                        <x style="color:#acacac">Daño verdadero.</x> Ignora las protecciones en general, y afecta la vida directamente.
+
+                        <br><br><b class="ms-4 text-warning">Listado de efectos</b><br>
+
+                        <x class="text-info">Absorción</x> (Mágico). Te curas el daño que causes al enemigo (No puedes curarte por encima de tu vida máxima).<br>
+                        <x class="text-info">Ceguera</x> (Fisico o Mágico). Impide la visión del afectado, por lo que le elimina su modificador de puntería. Si la fuente es física, puede eliminarse
+                        mediante una acción de utilidad (De ser fisicamente posible).<br>
+                        <x class="text-info">Congelamiento</x> (Mágico). Los ataques tendrán -1 de daño por carga. A las 10 cargas, el jugador no podrá realizar acciones. El recibir una carga de quemadura,
+                        eliminará todas las cargas de congelamiento.<br>
+                        <x class="text-info">Envenenado</x> (Fisico o Mágico). Recibe 1d4 de daño. Si el dado resulta ser 4, se repite la tirada, y asi de forma sucesiva. A partir de las 5 cargas, se obtiene desventaja
+                        en Agilidad y Puntería<br>
+                        <x class="text-info">Estatizado</x> (Mágico). El afectado no puede moverse si tiene una pieza de armadura o arma de metal.<br>
+                        <x class="text-info">Derribo</x> (Fisico). El afectado cae al suelo, puede levantarse con una acción de utilidad, si no se levanta, sus esquives tendrán desventaja, y no podrá atacar fisicamente.<br>
+                        <x class="text-info">Desarme</x> (Fisico). Arroja el arma del afectado en 1d4 cuadros de distancia en dirección opuesta a quien aplicó el efecto. Si el afectado tenía
+                        un escudo, se prioriza el escudo.<br>
+                        <x class="text-info">Miedo</x> (Fisico). El afectado no puede atacar o moverse en dirección al causante de su miedo. Se vuelve inmune a esto durante una ronda, si supera
+                        un 10 en tirada de Valentía (Promedio de Fuerza y Resistencia)<br>
+                        <x class="text-info">Oscuridad</x> (Mágico). No causas daño. Al causar 10 cargas, el enemigo es asesinado.<br>
+                        <x class="text-info">Perforación</x> (Fisico). Ignora la armadura (Yelmo, Peto, Pantalones, Guantes y Extras de defensa) al momento de atacar.<br>
+                        <x class="text-info">Quemadura</x> (Fisico o Mágico). Causa 1d4 de daño por carga, al final del turno del afectado, al llegar a 10 cargas, el afectado es abatido. Las cargas pueden ser eliminadas
+                        mediante una fuente de agua.<br>
+                        <x class="text-info">Quemadura helada</x> (Mágico). Si el afectado ataca fisicamente a quien le colocó estas cargas, estas explotan y le causan 1d6 de daño por carga. Pueden ser removidas con altas temperaturas.<br>
+                        <x class="text-info">Roñoso</x> (Fisico). Este efecto solo afecta a armas. Pierde su efecto de arma y material.<br>
+                        <x class="text-info">Rompe armadura</x> (Fisico). Desgasta la armadura del oponente, al llegar a 10 cargas, rompe una pieza aleatoria de su armadura (Yelmo, Peto, Pantalones, Guantes o Extras de defensa).<br>
+                        <x class="text-info">Sangrado</x> (Fisico). Causa 1d4 de daño por carga, al inicio del turno del afectado, al llegar a 10 cargas, el afectado es abatido.<br>
+                        <x class="text-info">Saqueo</x> (Mágico). Roba parte del alma del afectado.<br>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#3" aria-expanded="true" aria-controls="3">
+                        <h5 class="mb-0" style="padding: 10px 0 10px 20%">Armas cuerpo a cuerpo</h5>
+                    </a>
+                </div>
+                <div id="3" class="collapse" aria-labelledby="3" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        <p>Las armas proveen el dado para el daño, mientras que el material, dará el modificador. Las armas tienen una 
+                            habilidad que obtienen al subir el arma a Nivel 5 (Este se verá en <x class="text-warning">amarillo</x>).
+                        </p>
+                        <h4 class="text-center text-info">Cuerpo a cuerpo ligeras a una mano</h4>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Arma</th>
+                                    <th class="text-info">Efecto</th>
+                                    <th class="text-info">Daño</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+                                <tr><td>Espada corta</td><td>Sangrado</td><td>1d4</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Backstab.</b> Al atacar por la espalda, siempre causa una carga de sangrado, si se le causa daño al enemigo.</td></tr>
+                                <tr><td>Daga</td><td>Sangrado</td><td>1d4</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Backstab.</b> Al atacar por la espalda, siempre causa una carga de sangrado, si se le causa daño al enemigo.</td></tr>
+                                <tr><td>Estoque</td><td>Desarme</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Parry distintivo.</b> Al aplicar Parry mediante la habilidad de Guerrero, puedes aplicar desarme, en lugar de causar daño, por una acción de utilidad.</td></tr>
+                                <tr><td>Cestus</td><td>Derribo</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Knockout.</b> Si causas critico en 5 ataques seguidos contra el mismo enemigo, este será abatido.</td></tr>
+                                <tr><td>Látigo dentado</td><td>Sangrado</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Desprotegido.</b> Si el enemigo resiste tu ataque y tiene un escudo, puedes realizar desarme en su escudo.</td></tr>
+                            </tbody>
+                        </table>
+                        <h4 class="text-center text-info">Cuerpo a cuerpo ligeras a dos manos</h4>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Arma</th>
+                                    <th class="text-info">Efecto</th>
+                                    <th class="text-info">Daño</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+                                <tr><td>Lanza</td><td>Perforación</td><td>1d8</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Distancia.</b> Ataca a 10ft de distancia.</td></tr>
+                                <tr><td>Jabalina</td><td>Perforación</td><td>1d8</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Distancia.</b> Ataca a 10ft de distancia.</td></tr>
+                                <tr><td>Tridente</td><td>Sangrado</td><td>1d8</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Distancia.</b> Ataca a 10ft de distancia.</td></tr>
+                            </tbody>
+                        </table>
+                        <h4 class="text-center text-info">Cuerpo a cuerpo pesadas a una mano</h4>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Arma</th>
+                                    <th class="text-info">Efecto</th>
+                                    <th class="text-info">Daño</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+                                <tr><td>Cimitarra</td><td>Sangrado</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Abriendo heridas.</b> Tus ataques criticos aplican sangrado.</td></tr>
+                                <tr><td>Katana</td><td>Sangrado</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Desviación.</b> Puedes realizar parry a proyectiles, a flechas si tienes al menos 4 en puntería.</td></tr>
+                                <tr><td class="text-center" colspan="3"><x class="text-info">Si el arma fue hecha por un herrero de Suredozo, gana además, la capacidad de desviar balas, con al menos 6 en puntería.</x></td></tr>
+                                <tr><td>Hacha</td><td>Sangrado</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Mutilación.</b> Los animales atacados morirán, si se les causa daño y quedan con el 10% de su vida o menos.</td></tr>
+                                <tr><td>Maza</td><td>Derribo</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
+                                <tr><td>Martillo</td><td>Derribo</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
+                                <tr><td>Espada larga</td><td>Sangrado</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Caballero.</b> Si tienes un escudo en tu otra mano, te vuelves inmune al desarme</td></tr>
+                                <tr><td>Schiavona</td><td>Desarme</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Parry distintivo.</b> Al aplicar Parry mediante la habilidad de Guerrero, puedes aplicar desarme, en lugar de causar daño, por una acción de utilidad.</td></tr>
+                                <tr><td class="text-center" colspan="3"><x class="text-info">Si el arma fue hecha por un herrero de Endricci, gana además, el efecto de Rompearmadura</x></td></tr>
+                                <tr><td>Morningstar</td><td>Sangrado</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Picos afilados.</b> Ignora 3 puntos de la armadura enemiga.</td></tr>
+                                <tr><td>Pico</td><td>Sin efecto</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Creado para la ocasión.</b> Si atacas a un ser creado de minerales, ignoras 5 de la resistencia del enemigo.</td></tr>
+                            </tbody>
+                        </table>
+                        <h4 class="text-center text-info">Cuerpo a cuerpo pesadas a dos manos</h4>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Arma</th>
+                                    <th class="text-info">Efecto</th>
+                                    <th class="text-info">Daño</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+                                <tr><td>Espadón ultrapesado</td><td>Derribo y rompearmadura</td><td>1d10</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Temblores.</b> Causa 1d10 de daño a los enemigos a 5ft del enemigo/zona atacada. Puede atacar a 10ft de distancia, pero su dado pasa a ser de 8.</td></tr>
+                                <tr><td>Zweihander</td><td>Sangrado y rompearmadura</td><td>1d10</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Filo evanescente.</b> Si el ataque es critico, ignora 3 puntos de la protección del enemigo.</td></tr>
+                                <tr><td>Martillo de guerra</td><td>Derribo y rompearmadura</td><td>1d8</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
+                                <tr><td>Alabarda</td><td>Perforación y Rompearmadura</td><td>1d8</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Distancia.</b> Ataca a 10ft de distancia.</td></tr>
+                                <tr><td>Hacha gigante</td><td>Sangrado y rompearmadura</td><td>1d8</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
+                                <tr><td>Hachamartillo</td><td>Sangrado y derribo</td><td>1d8</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Sangrado pesado.</b> Si el enemigo no tiene cargas de sangrado, recibe una de forma asegurada.</td></tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#4" aria-expanded="true" aria-controls="4">
+                        <h5 class="mb-0" style="padding: 10px 0 10px 20%">Arcos y Ballestas</h5>
+                    </a>
+                </div>
+                <div id="4" class="collapse" aria-labelledby="4" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+
+                    </div>
+                </div>
+
+
             </div>
         </main>
     </div>
