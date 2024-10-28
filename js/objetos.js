@@ -13,7 +13,7 @@ async function read_index_json() {
             nombre_val = input_nombre.value;
             let yes = 1;
             const json_a = JSON.parse(JSON.stringify(index_json[i][1]));
-            if(rareza_val != "") { if(!json_a.rareza.toLowerCase().includes(rareza_val.toLowerCase())) yes = 0; }
+            if(rareza_val != "") { if(!(json_a.rareza == rareza_val)) yes = 0; }
             if(categoria_val != "") { if(!json_a.categoria.toLowerCase().includes(categoria_val.toLowerCase())) yes = 0; }
             if(nombre_val != "") { if(!json_a.nombre.toLowerCase().includes(nombre_val.toLowerCase())) yes = 0; }
             if(yes == 1) {
