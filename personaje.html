@@ -9,8 +9,19 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 <body style="background-color: rgb(167, 167, 167);">
-    <header>
-        <div class="bg-primary"><a href="./index.html"><h4>Cuentos de Enforth</h4></a></div>
+    <header style="max-height:80px; overflow: hidden;">
+        <div class="bg-primary d-flex justify-content-between">
+            <a href="./index.html" class="align-items-center">
+                <h4 class="m-auto align-items-center">
+                    <i class="bi bi-house"></i> Cuentos de Enforth
+                </h4>
+            </a>
+            <a onclick="cerrar()" class="align-items-center">
+                <h4 class="m-auto align-items-center" style="overflow:hidden">
+                    <i class="bi bi-x"></i> Cerrar
+                </h4>
+            </a>
+        </div>
     </header>
     <div style="width:100%; min-height:768px; border-left: 5px solid black; border-right: 5px solid black;" class="bg-dark m-auto">
         <topmain>
@@ -39,7 +50,7 @@
                         <p>
                             <b class="text-warning">Agilidad</b><br>
                             Representa la destreza, reflejos y equilibrio del personaje. Un alto valor en agilidad mejora las probabilidades de esquivar ataques, realizar acciones que requieren precisión física, y afecta el orden de actuación en combate. También puede influir en habilidades como el sigilo y la acrobacia.<br>
-                            Aumenta la cantidad de acciones en utilidad en 1 por cada 3 puntos en esta estadística.<br>
+                            Aumenta la cantidad de acciones en utilidad en 1 por cada 3 puntos en esta estadística.
                             <br><b class="text-info">Esquivar no te cuesta acciones de utilidad</b>
                         </p>
                         <p>
@@ -103,4 +114,9 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script>
+    function cerrar() {
+        $('.collapse').collapse('hide');
+    }
+</script>
 </html>

@@ -9,8 +9,8 @@ async function read_index_json() {
             const json_a = JSON.parse(JSON.stringify(index_json[i][1]));
             str2 = str2.concat(`
                 <a href="`+json_a.file+`">
-                    <div class="card mb-3 m-4 text-center bg-primary text-white" style="width:10rem;">
-                        <img style="height:150px; border-radius:5px 5px 0px 0px; object-fit:cover; object-position: 50% 0%;" src="`+json_a.imagen+`" alt="Card image cap">
+                    <div class="card mb-3 mt-3 text-center bg-primary text-white" style="width:13rem; border-radius:10px 0px">
+                        <img style="height:11rem; border-radius:5px 5px 0px 0px; object-fit:cover; object-position: 50% 0%;" src="`+json_a.imagen+`" alt="Card image cap">
                         <div style="height:10%;">
                             <h5 id="title_cat_index" class="card-title pt-2 text-white" style="overflow:hidden">`+json_a.titulo+`</h5>
                         </div>

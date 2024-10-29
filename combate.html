@@ -9,8 +9,19 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 <body style="background-color: rgb(167, 167, 167);">
-    <header>
-        <div class="bg-primary"><a href="./index.html"><h4>Cuentos de Enforth</h4></a></div>
+    <header style="max-height:80px; overflow: hidden;">
+        <div class="bg-primary d-flex justify-content-between">
+            <a href="./index.html" class="align-items-center">
+                <h4 class="m-auto align-items-center">
+                    <i class="bi bi-house"></i> Cuentos de Enforth
+                </h4>
+            </a>
+            <a onclick="cerrar()" class="align-items-center">
+                <h4 class="m-auto align-items-center" style="overflow:hidden">
+                    <i class="bi bi-x"></i> Cerrar
+                </h4>
+            </a>
+        </div>
     </header>
     <div style="width:100%; min-height:768px; border-left: 5px solid black; border-right: 5px solid black;" class="bg-dark m-auto">
         
@@ -20,8 +31,9 @@
         <main id="main_personaje" class="text-white" style="margin-top:82px;">
             <div id="listado_datos" class="card bg-white text-dark" style="border-radius:0">
                 <div class="cabecera_main text-dark">
-                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#1" aria-expanded="true" aria-controls="1">
-                        <h5 class="mb-0" style="padding: 10px 0 10px 20%">¿Cómo funciona el combate?</h5>
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#1" aria-expanded="true" aria-controls="1">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>General</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">¿Cómo funciona el combate?</h5>
                     </a>
                 </div>
                 <div id="1" class="collapse" aria-labelledby="1" data-parent="#listado_datos">
@@ -70,8 +82,9 @@
                     </div>
                 </div>
                 <div class="cabecera_main text-dark" style="border-top:5px solid black">
-                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#2" aria-expanded="true" aria-controls="2">
-                        <h5 class="mb-0" style="padding: 10px 0 10px 20%">Efectos</h5>
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#2" aria-expanded="true" aria-controls="2">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>General</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Listado de efectos</h5>
                     </a>
                 </div>
                 <div id="2" class="collapse" aria-labelledby="2" data-parent="#listado_datos">
@@ -109,8 +122,37 @@
                     </div>
                 </div>
                 <div class="cabecera_main text-dark" style="border-top:5px solid black">
-                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#3" aria-expanded="true" aria-controls="3">
-                        <h5 class="mb-0" style="padding: 10px 0 10px 20%">Armas cuerpo a cuerpo</h5>
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#3_1" aria-expanded="true" aria-controls="3_1">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Armamento</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">¿Cómo funcionan los daños?</h5>
+                    </a>
+                </div>
+                <div id="3_1" class="collapse" aria-labelledby="3_1" data-parent="#listado_datos">
+                    <div class="card-body bg-dark text-white">
+                        <p>Para acabar con los enemigos, es necesario hacerles daño, para ello, puedes hacer uso de las armas del mundo, o de tu propio
+                            cuerpo. Esto se cuenta mediante lo llamado <b>tirada de daño</b>, la cual es conformada por:
+                        </p>
+                        <p>
+                            <b class="text-warning">-</b> Daño variable<br>
+                            <b class="text-warning">-</b> Daño fijo o modificador
+                        </p>
+                        <p>
+                            El daño variable, se da mediante un dado; ese dado es establecido por el tipo de arma utilizada. En el caso de los <b>puños</b>
+                            o el daño por contacto sin arma, será de 1d4, si se tiene al menos 4 de Fuerza.<br>
+                            El daño fijo o modificador, establece tu daño minimo, pues es sumado al daño variable; es generalmente establecido por el material
+                            de tu arma.
+                            <br><br>
+                            Una tirada de daño puede ser ejemplificada por <code>1d6+2</code> siendo el <code>1d6</code> el daño variable, y el <code>+2</code>,
+                            el daño fijo o modificador de daño.<br><br>
+                            Cuando un efecto menciona el "agregar dado", significa que se suma un dado mas a la tirada (Siempre se suma al dado mas bajo, en
+                            caso de haber varios dados), por lo que, una tirada de <code>1d6</code>, pasará a ser de <code>2d6</code>.
+                        </p>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#3" aria-expanded="true" aria-controls="3">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Armamento</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Armas cuerpo a cuerpo</h5>
                     </a>
                 </div>
                 <div id="3" class="collapse" aria-labelledby="3" data-parent="#listado_datos">
@@ -129,15 +171,15 @@
                             </thead>
                             <tbody id="listado_datos">
                                 <tr><td>Espada corta</td><td>Sangrado</td><td>1d4</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Backstab.</b> Al atacar por la espalda, siempre causa una carga de sangrado, si se le causa daño al enemigo.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Backstab.</b> Al atacar por la espalda, siempre causa una carga de sangrado, si se le causa daño al enemigo.</td></tr>
                                 <tr><td>Daga</td><td>Sangrado</td><td>1d4</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Backstab.</b> Al atacar por la espalda, siempre causa una carga de sangrado, si se le causa daño al enemigo.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Backstab.</b> Al atacar por la espalda, siempre causa una carga de sangrado, si se le causa daño al enemigo.</td></tr>
                                 <tr><td>Estoque</td><td>Desarme</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Parry distintivo.</b> Al aplicar Parry mediante la habilidad de Guerrero, puedes aplicar desarme, en lugar de causar daño, por una acción de utilidad.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Parry distintivo.</b> Al aplicar Parry mediante la habilidad de Guerrero, puedes aplicar desarme, en lugar de causar daño, por una acción de utilidad.</td></tr>
                                 <tr><td>Cestus</td><td>Derribo</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Knockout.</b> Si causas critico en 5 ataques seguidos contra el mismo enemigo, este será abatido.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Knockout.</b> Si causas critico en 5 ataques seguidos contra el mismo enemigo, este será abatido.</td></tr>
                                 <tr><td>Látigo dentado</td><td>Sangrado</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Desprotegido.</b> Si el enemigo resiste tu ataque y tiene un escudo, puedes realizar desarme en su escudo.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Desprotegido.</b> Si el enemigo resiste tu ataque y tiene un escudo, puedes realizar desarme en su escudo.</td></tr>
                             </tbody>
                         </table>
                         <h4 class="text-center text-info">Cuerpo a cuerpo ligeras a dos manos</h4>
@@ -151,11 +193,11 @@
                             </thead>
                             <tbody id="listado_datos">
                                 <tr><td>Lanza</td><td>Perforación</td><td>1d8</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Distancia.</b> Ataca a 10ft de distancia.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Distancia.</b> Ataca a 10ft de distancia.</td></tr>
                                 <tr><td>Jabalina</td><td>Perforación</td><td>1d8</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Distancia.</b> Ataca a 10ft de distancia.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Distancia.</b> Ataca a 10ft de distancia.</td></tr>
                                 <tr><td>Tridente</td><td>Sangrado</td><td>1d8</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Distancia.</b> Ataca a 10ft de distancia.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Distancia.</b> Ataca a 10ft de distancia.</td></tr>
                             </tbody>
                         </table>
                         <h4 class="text-center text-info">Cuerpo a cuerpo pesadas a una mano</h4>
@@ -169,25 +211,25 @@
                             </thead>
                             <tbody id="listado_datos">
                                 <tr><td>Cimitarra</td><td>Sangrado</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Abriendo heridas.</b> Tus ataques criticos aplican sangrado.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Abriendo heridas.</b> Tus ataques criticos aplican sangrado.</td></tr>
                                 <tr><td>Katana</td><td>Sangrado</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Desviación.</b> Puedes realizar parry a proyectiles, a flechas si tienes al menos 4 en puntería.</td></tr>
-                                <tr><td class="text-center" colspan="3"><x class="text-info">Si el arma fue hecha por un herrero de Suredozo, gana además, la capacidad de desviar balas, con al menos 6 en puntería.</x></td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Desviación.</b> Puedes realizar parry a proyectiles, a flechas si tienes al menos 4 en puntería.</td></tr>
+                                <tr><td colspan="3"><x class="text-info">Si el arma fue hecha por un herrero de Suredozo, gana además, la capacidad de desviar balas, con al menos 6 en puntería.</x></td></tr>
                                 <tr><td>Hacha</td><td>Sangrado</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Mutilación.</b> Los animales atacados morirán, si se les causa daño y quedan con el 10% de su vida o menos.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Mutilación.</b> Los animales atacados morirán, si se les causa daño y quedan con el 10% de su vida o menos.</td></tr>
                                 <tr><td>Maza</td><td>Derribo</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
                                 <tr><td>Martillo</td><td>Derribo</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
                                 <tr><td>Espada larga</td><td>Sangrado</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Caballero.</b> Si tienes un escudo en tu otra mano, te vuelves inmune al desarme</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Caballero.</b> Si tienes un escudo en tu otra mano, te vuelves inmune al desarme</td></tr>
                                 <tr><td>Schiavona</td><td>Desarme</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Parry distintivo.</b> Al aplicar Parry mediante la habilidad de Guerrero, puedes aplicar desarme, en lugar de causar daño, por una acción de utilidad.</td></tr>
-                                <tr><td class="text-center" colspan="3"><x class="text-info">Si el arma fue hecha por un herrero de Endricci, gana además, el efecto de Rompearmadura</x></td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Parry distintivo.</b> Al aplicar Parry mediante la habilidad de Guerrero, puedes aplicar desarme, en lugar de causar daño, por una acción de utilidad.</td></tr>
+                                <tr><td colspan="3"><x class="text-info">Si el arma fue hecha por un herrero de Endricci, gana además, el efecto de Rompearmadura</x></td></tr>
                                 <tr><td>Morningstar</td><td>Sangrado</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Picos afilados.</b> Ignora 3 puntos de la armadura enemiga.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Picos afilados.</b> Ignora 3 puntos de la armadura enemiga.</td></tr>
                                 <tr><td>Pico</td><td>Sin efecto</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Creado para la ocasión.</b> Si atacas a un ser creado de minerales, ignoras 5 de la resistencia del enemigo.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Creado para la ocasión.</b> Si atacas a un ser creado de minerales, ignoras 5 de la resistencia del enemigo.</td></tr>
                             </tbody>
                         </table>
                         <h4 class="text-center text-info">Cuerpo a cuerpo pesadas a dos manos</h4>
@@ -201,25 +243,26 @@
                             </thead>
                             <tbody id="listado_datos">
                                 <tr><td>Espadón ultrapesado</td><td>Derribo y rompearmadura</td><td>1d10</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Temblores.</b> Causa 1d10 de daño a los enemigos a 5ft del enemigo/zona atacada. Puede atacar a 10ft de distancia, pero su dado pasa a ser de 8.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Temblores.</b> Causa 1d10 de daño a los enemigos a 5ft del enemigo/zona atacada. Puede atacar a 10ft de distancia, pero su dado pasa a ser de 8.</td></tr>
                                 <tr><td>Zweihander</td><td>Sangrado y rompearmadura</td><td>1d10</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Filo evanescente.</b> Si el ataque es critico, ignora 3 puntos de la protección del enemigo.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Filo evanescente.</b> Si el ataque es critico, ignora 3 puntos de la protección del enemigo.</td></tr>
                                 <tr><td>Martillo de guerra</td><td>Derribo y rompearmadura</td><td>1d8</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
                                 <tr><td>Alabarda</td><td>Perforación y Rompearmadura</td><td>1d8</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Distancia.</b> Ataca a 10ft de distancia.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Distancia.</b> Ataca a 10ft de distancia.</td></tr>
                                 <tr><td>Hacha gigante</td><td>Sangrado y rompearmadura</td><td>1d8</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
                                 <tr><td>Hachamartillo</td><td>Sangrado y derribo</td><td>1d8</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Sangrado pesado.</b> Si el enemigo no tiene cargas de sangrado, recibe una de forma asegurada.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Sangrado pesado.</b> Si el enemigo no tiene cargas de sangrado, recibe una de forma asegurada.</td></tr>
                                 
                             </tbody>
                         </table>
                     </div>
                 </div>
                 <div class="cabecera_main text-dark" style="border-top:5px solid black">
-                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#4" aria-expanded="true" aria-controls="4">
-                        <h5 class="mb-0" style="padding: 10px 0 10px 20%">Arcos, Ballestas y Flechas</h5>
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#4" aria-expanded="true" aria-controls="4">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Armamento</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Arcos, ballestas y flechas</h5>
                     </a>
                 </div>
                 <div id="4" class="collapse" aria-labelledby="4" data-parent="#listado_datos">
@@ -238,17 +281,62 @@
                             </thead>
                             <tbody id="listado_datos">
                                 <tr><td>Arco corto</td><td>20ft</td><td>1d4</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Tiro preciso.</b> Puedes atacar animales comunes de forma sigilosa, siempre que estos no te hayan detectado, y ejecutarlos, superando un 12 en Puntería.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Tiro preciso.</b> Puedes atacar animales comunes de forma sigilosa, siempre que estos no te hayan detectado, y ejecutarlos, superando un 12 en Puntería.</td></tr>
                                 <tr><td>Arco largo</td><td>20ft</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Tensión.</b> Por cada 2 puntos en Fuerza, aumenta en 5ft el rango de tiro.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Tensión.</b> Por cada 2 puntos en Fuerza, aumenta en 5ft el rango de tiro.</td></tr>
                                 <tr><td>Ballesta</td><td>30ft</td><td>1d8</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Tiempo de recarga.</b> Tras cada disparo, se debe consumir una acción de utilidad como recarga.</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Tiempo de recarga.</b> Tras cada disparo, se debe consumir una acción de utilidad como recarga.</td></tr>
                                 
                             </tbody>
                         </table>
-                        <h4 class="text-center text-info">Proyectiles</h4>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#5" aria-expanded="true" aria-controls="5">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Armamento</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Armas de fuego</h5>
+                    </a>
+                </div>
+                <div id="5" class="collapse" aria-labelledby="5" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        <p>Las armas proveen el dado para el daño, mientras que el material, dará el modificador. Las armas tienen una 
+                            habilidad que obtienen al subir el arma a Nivel 5 (Este se verá en <x class="text-warning">amarillo</x>).
+                        </p>
+                        <p>Todas las armas deben consumir una acción de utilidad como recarga, antes de realizar un disparo (Excepto el del inicio del combate, se
+                            considerará que entras al combate con el arma cargada).
+                        </p>
+                        <h4 class="text-center text-info">Armas</h4>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Arma</th>
+                                    <th class="text-info">Distancia</th>
+                                    <th class="text-info">Daño</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+                                <tr><td>Revolver</td><td>15ft</td><td>1d4</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Cargador amplio.</b> No requiere gastar acciones de utilidad para recargar.</td></tr>
+                                <tr><td>Cañón de mano</td><td>10ft</td><td>1d6</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Disperción.</b> Obtiene -3 de daño por cada 5ft de distancia del enemigo, a partir de los 10ft.</td></tr>
+                                <tr><td>Escopeta (a dos manos)</td><td>15ft</td><td>1d8</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Disperción.</b> Obtiene -3 de daño por cada 5ft de distancia del enemigo, a partir de los 10ft.</td></tr>
+                                <tr><td>Rifle (a dos manos)</td><td>70ft</td><td>1d8</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Distancia.</b> Obtienes -1 en Puntería por cada 5ft que el objetivo esté lejos, a partir de los 5ft. Puedes evitar este negativo en el tiro, consumiendo una acción de utilidad para ponerte en "Modo Francotirador", no pudiendo moverte o esquivar en este modo, deberás consumir una acción de utilidad para salir de este modo.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#6" aria-expanded="true" aria-controls="6">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Armamento</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Proyectiles</h5>
+                    </a>
+                </div>
+                <div id="6" class="collapse" aria-labelledby="6" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
                         <P>
-                            Las flechas con puntas de ciertos materiales, aplicarán los siguientes efectos, y agregarán el siguiente daño fijo al arco:
+                            Las flechas con puntas de ciertos materiales y las balas, aplicarán los siguientes efectos, y agregarán el siguiente daño fijo al ataque:
                         </P>
                         <table class="table table-striped table-dark">
                             <thead>
@@ -263,19 +351,166 @@
                                 <tr><td>Roca</td><td>Derribo</td><td>+0</td></tr>
                                 <tr><td>Cobre y Oro</td><td>Sin efecto</td><td>+1</td></tr>
                                 <tr><td>Hierro</td><td>Sangrado</td><td>+1</td></tr>
-                                <tr><td>Hierro platinado</tr><td>Perforación</td><td>+1</td></tr>
-                                <tr><td>Plata</tr><td>Perforación contra malditos</td><td>+1</td></tr>
-                                <tr><td>Oro</tr><td>Sin efecto</td><td>+1</td></tr>
-                                <tr><td>Basalto</tr><td>Sangrado. Si la tirada de puntería es menor a 10, la flecha se rompe antes de salir.</td><td>+2</td></tr>
-                                <tr><td>Cuarzo</tr><td>Perforación contra seres de magia o invocaciones</td><td>+2</td></tr>
-                                <tr><td>Titanio</tr><td>Veneno</td><td>+2</td></tr>
-                                <tr><td>Everfrost</tr><td>Quemadura helada</td><td>+2</td></tr>
-                                <tr><td>Cobalto</tr><td>Estatizado</td><td>+2</td></tr>
-                                <tr><td>Oricalco</tr><td>Quemadura</td><td>+3</td></tr>
-                                <tr><td>Luminita</tr><td>Perforación, si el que la usa es maldito</td><td>+3</td></tr>
-                                <tr><td>Infernita</tr><td>Doble quemadura, si el que la usa es demonio, sino, aplica quemadura</td><td>+3</td></tr>
-                                <tr><td>Druvix</tr><td>Sangrado y Perforación</td><td>+4</td></tr>
+                                <tr><td>Hierro platinado</td><td>Perforación</td><td>+1</td></tr>
+                                <tr><td>Plata</td><td>Perforación contra malditos</td><td>+1</td></tr>
+                                <tr><td>Oro</td><td>Sin efecto</td><td>+1</td></tr>
+                                <tr><td>Basalto</td><td>Sangrado. Si la tirada de puntería es menor a 10, el proyectil se rompe antes de salir.</td><td>+2</td></tr>
+                                <tr><td>Cuarzo</td><td>Perforación contra seres de magia o invocaciones</td><td>+2</td></tr>
+                                <tr><td>Titanio</td><td>Veneno</td><td>+2</td></tr>
+                                <tr><td>Everfrost</td><td>Quemadura helada</td><td>+2</td></tr>
+                                <tr><td>Cobalto</td><td>Estatizado</td><td>+2</td></tr>
+                                <tr><td>Oricalco</td><td>Quemadura</td><td>+3</td></tr>
+                                <tr><td>Luminita</td><td>Perforación, si el que la usa es maldito</td><td>+3</td></tr>
+                                <tr><td>Infernita</td><td>Doble quemadura, si el que la usa es demonio, sino, aplica quemadura</td><td>+3</td></tr>
+                                <tr><td>Druvix</td><td>Sangrado y Perforación</td><td>+4</td></tr>
                                 
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#7" aria-expanded="true" aria-controls="7">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Armamento</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Arrojadizas</h5>
+                    </a>
+                </div>
+                <div id="7" class="collapse" aria-labelledby="7" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        <p>Las armas arrojadizas pueden ser de varios tipos, ya sea bombas, cuchillos, u objetos del entorno.</p>
+                        <p><b class="text-warning">Distancia de arrojado</b><br>Las bombas pueden ser arrojadas a 5ft por cada 2 puntos en fuerza (Min. 10ft)</p>
+                        <p><b class="text-warning">Rango de efecto</b><br>Cuando una bomba tiene rango de efecto, significa que lo hará en un cuadro, usando
+                        como centro, el lugar donde la bomba fue arrojada</p>
+                        <h4 class="text-center text-info">Armas</h4>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Arrojadiza</th>
+                                    <th class="text-info">Daño</th>
+                                    <th class="text-info">Efecto</th>
+                                    <th class="text-info">Rango de efecto</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+                                <tr><td>Bomba explosiva</td><td>1d8</td><td>Sin efecto</td><td>3x3</td></tr>
+                                <tr><td colspan="3"><b class="text-warning">Cargador amplio.</b> No requiere gastar acciones de utilidad para recargar.</td></tr>
+                                <tr><td>Bomba de humo</td><td>Sin daño</td><td>Ceguera</td><td>5x5</td></tr>
+                                <tr><td colspan="3">Aplica su efecto a todo aquel que esté dentro del humo. Dura 1 ronda.</td></tr>
+                                <tr><td>Bomba incendario</td><td>1d6</td><td>Quemadura</td><td>3x3</td></tr>
+                                <tr><td colspan="3">No funciona en fuentes de agua o lluvias</td></tr>
+                                <tr><td>Bomba criogénica</td><td>1d6</td><td>Congelamiento</td><td>3x3</td></tr>
+                                <tr><td>Bomba ponzoñosa</td><td>1d6</td><td>Veneno</td><td>3x3</td></tr>
+                                <tr><td>Bomba ácida</td><td>1d6</td><td>Rompearmadura</td><td>3x3</td></tr>
+                                <tr><td>Bomba eléctrica</td><td>1d6</td><td>Estatizado</td><td>3x3</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#8" aria-expanded="true" aria-controls="8">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Protección</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">¿Cómo funciona la protección?</h5>
+                    </a>
+                </div>
+                <div id="8" class="collapse" aria-labelledby="8" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        <p>Lo que es llamado "protección", se refiere a la cantidad que un ser es capaz de defenderse de los ataques.</p>
+                        <p>La protección de un personaje está conformada por:</p>
+                        <p>
+                            <b class="text-warning">-</b> Sus puntos en resistencia y resistencia natural (Por raza).<br>
+                            <b class="text-warning">-</b> El valor de protección del escudo.<br>
+                            <b class="text-warning">-</b> El valor de protección de la armadura (Yelmo, Peto, Pantalones, Guantes)<br>
+                            <b class="text-warning">-</b> Extras de defensa (Como la Cota de malla, Joyas defensivas, etc)<br>
+                        </p>
+                        <p>Los animales y otros seres sin armadura, solo poseen su resistencia y resistencia natural</p>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#9" aria-expanded="true" aria-controls="9">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Protección</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Protección por materiales</h5>
+                    </a>
+                </div>
+                <div id="9" class="collapse" aria-labelledby="9" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        <p>Cada pieza da una cantidad de protección fija, dependiendo de la categoría del material correspondiente, lo que varía
+                            por cada material, es el efecto que provee el material, por su bono de set completo
+                        </p>
+                        <p>Estos valores también determinan la protección que darán los <b>escudos</b></p>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Materiales</th>
+                                    <th class="text-info">Protección por pieza</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+                                <tr><td>Tela/Cuero</td><td>+0</td></tr>
+                                <tr><td>Cobre Hierro Plata Oro</td><td>+1</td></tr>
+                                <tr><td>Basalto Titanio Cuarzo Cobalto</td><td>+2</td></tr>
+                                <tr><td>Oricalco Luminita Infernita</td><td>+3</td></tr>
+                                <tr><td>Druvix</td><td>+4</td></tr>
+                                <tr><td>Platinado</td><td>+1</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#10" aria-expanded="true" aria-controls="10">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Protección</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Bono por set completo de armaduras</h5>
+                    </a>
+                </div>
+                <div id="10" class="collapse" aria-labelledby="10" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        <p>Este bono por set completo solo es aplicado, cuando el personaje tiene todas las piezas del mismo material, al nivel máximo (5),
+                            excepto en el caso de la armadura te tela, que no posee efecto, ni se puede mejorar.
+                        </p>
+                        <p>Todas las piezas, se considera Yelmo, Peto, Guantes y Pantalones.</p>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Materiales</th>
+                                    <th class="text-info">Protección por pieza</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+                                <tr><td>Cuero o Tela</td><td>Inmunidad al derribo</td></tr>
+                                <tr><td>Cobre</td><td>Las armas a dos manos, obtienen +1 de daño fijo</td></tr>
+                                <tr><td>Hierro</td><td>Inmunidad a la perforación</td></tr>
+                                <tr><td>Plata</td><td>Los malditos no pueden hacerte daño desarmado</td></tr>
+                                <tr><td>Oro</td><td>Inmunidad al congelamiento</td></tr>
+                                <tr><td>Basalto</td><td>Obtienes +4 en protección. Se rompe con 3 cargas de rompearmadura.</td></tr>
+                                <tr><td>Titanio</td><td>Inmunidad al veneno. Tus ataques desarmados aplican estatizado.</td></tr>
+                                <tr><td>Cuarzo</td><td>Inmunidad al daño mágico. Tus ataques desarmados hacen 1d6 de daño a seres mágicos e invocaciones.</td></tr>
+                                <tr><td>Cobalto</td><td>Inmunidad al estatizado. Tus ataques desarmados aplican estatizado.</td></tr>
+                                <tr><td>Infernita</td><td>Inmunidad a la quemadura. Tus ataques desarmados aplican quemadura.</td></tr>
+                                <tr><td>Luminita</td><td>Un ser maldito con esta armadura, obtiene +5 de protección</td></tr>
+                                <tr><td>Druvix</td><td>Inmunidad a rompearmadura y perforación</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#11" aria-expanded="true" aria-controls="11">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Protección</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Bono por set completo platinado de armaduras</h5>
+                    </a>
+                </div>
+                <div id="11" class="collapse" aria-labelledby="11" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        <p>El bono por set platinado cumple las mismas condiciones que el de las protecciones comunes. Las armaduras de cuero y tela no pueden
+                            ser platinados.
+                        </p>
+                        <p>Todas las piezas, se considera Yelmo, Peto, Guantes y Pantalones.</p>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Materiales</th>
+                                    <th class="text-info">Protección por pieza</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+
                             </tbody>
                         </table>
                     </div>
@@ -289,4 +524,9 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script>
+    function cerrar() {
+        $('.collapse').collapse('hide');
+    }
+</script>
 </html>
