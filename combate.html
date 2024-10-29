@@ -219,7 +219,7 @@
                 </div>
                 <div class="cabecera_main text-dark" style="border-top:5px solid black">
                     <a id="title_button_info" class="" data-toggle="collapse" data-target="#4" aria-expanded="true" aria-controls="4">
-                        <h5 class="mb-0" style="padding: 10px 0 10px 20%">Arcos y Ballestas</h5>
+                        <h5 class="mb-0" style="padding: 10px 0 10px 20%">Arcos, Ballestas y Flechas</h5>
                     </a>
                 </div>
                 <div id="4" class="collapse" aria-labelledby="4" data-parent="#listado_datos">
@@ -227,6 +227,7 @@
                         <p>Las armas proveen el dado para el daño, mientras que el material, dará el modificador. Las armas tienen una 
                             habilidad que obtienen al subir el arma a Nivel 5 (Este se verá en <x class="text-warning">amarillo</x>).
                         </p>
+                        <h4 class="text-center text-info">Armas</h4>
                         <table class="table table-striped table-dark">
                             <thead>
                                 <tr>
@@ -237,11 +238,43 @@
                             </thead>
                             <tbody id="listado_datos">
                                 <tr><td>Arco corto</td><td>20ft</td><td>1d4</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Temblores.</b> Causa 1d10 de daño a los enemigos a 5ft del enemigo/zona atacada. Puede atacar a 10ft de distancia, pero su dado pasa a ser de 8.</td></tr>
-                                <tr><td>Arco largo</td><td>40ft</td><td>1d6</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Filo evanescente.</b> Si el ataque es critico, ignora 3 puntos de la protección del enemigo.</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Tiro preciso.</b> Puedes atacar animales comunes de forma sigilosa, siempre que estos no te hayan detectado, y ejecutarlos, superando un 12 en Puntería.</td></tr>
+                                <tr><td>Arco largo</td><td>20ft</td><td>1d6</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Tensión.</b> Por cada 2 puntos en Fuerza, aumenta en 5ft el rango de tiro.</td></tr>
                                 <tr><td>Ballesta</td><td>30ft</td><td>1d8</td></tr>
-                                <tr><td class="text-center" colspan="3"><b class="text-warning">Golpe pesado.</b> Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.</td></tr>
+                                <tr><td class="text-center" colspan="3"><b class="text-warning">Tiempo de recarga.</b> Tras cada disparo, se debe consumir una acción de utilidad como recarga.</td></tr>
+                                
+                            </tbody>
+                        </table>
+                        <h4 class="text-center text-info">Proyectiles</h4>
+                        <P>
+                            Las flechas con puntas de ciertos materiales, aplicarán los siguientes efectos, y agregarán el siguiente daño fijo al arco:
+                        </P>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Material</th>
+                                    <th class="text-info">Efecto/Habilidad</th>
+                                    <th class="text-info">Modificador</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+                                <tr><td>Madera</td><td>Sin efecto</td><td>+0</td></tr>
+                                <tr><td>Roca</td><td>Derribo</td><td>+0</td></tr>
+                                <tr><td>Cobre y Oro</td><td>Sin efecto</td><td>+1</td></tr>
+                                <tr><td>Hierro</td><td>Sangrado</td><td>+1</td></tr>
+                                <tr><td>Hierro platinado</tr><td>Perforación</td><td>+1</td></tr>
+                                <tr><td>Plata</tr><td>Perforación contra malditos</td><td>+1</td></tr>
+                                <tr><td>Oro</tr><td>Sin efecto</td><td>+1</td></tr>
+                                <tr><td>Basalto</tr><td>Sangrado. Si la tirada de puntería es menor a 10, la flecha se rompe antes de salir.</td><td>+2</td></tr>
+                                <tr><td>Cuarzo</tr><td>Perforación contra seres de magia o invocaciones</td><td>+2</td></tr>
+                                <tr><td>Titanio</tr><td>Veneno</td><td>+2</td></tr>
+                                <tr><td>Everfrost</tr><td>Quemadura helada</td><td>+2</td></tr>
+                                <tr><td>Cobalto</tr><td>Estatizado</td><td>+2</td></tr>
+                                <tr><td>Oricalco</tr><td>Quemadura</td><td>+3</td></tr>
+                                <tr><td>Luminita</tr><td>Perforación, si el que la usa es maldito</td><td>+3</td></tr>
+                                <tr><td>Infernita</tr><td>Doble quemadura, si el que la usa es demonio, sino, aplica quemadura</td><td>+3</td></tr>
+                                <tr><td>Druvix</tr><td>Sangrado y Perforación</td><td>+4</td></tr>
                                 
                             </tbody>
                         </table>
