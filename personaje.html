@@ -107,10 +107,62 @@
                         </p>
                     </div>
                 </div>
+                <div class="cabecera_main text-dark">
+                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#2" aria-expanded="true" aria-controls="2">
+                        <h5 class="mb-0" style="padding: 10px 0 10px 20%; border-top:5px solid black">Razas</h5>
+                    </a>
+                </div>
+                <div id="2" class="collapse p-1" aria-labelledby="2" data-parent="#listado_datos">
+                    <div class="card-body bg-dark text-white">
+                        <div class="w-100 d-flex">
+                            <select class="text-center" name="" id="lista_raza1" style="width:50%;" onchange="cargar_razas()">
+                                <option value="">Elegir raza principal</option>
+                                <option value="Automata">Automata</option>
+                                <option value="Benirie">Benirie</option>
+                                <option value="Demonio">Demonio</option>
+                                <option value="Draieach">Draieach</option>
+                                <option value="Fjereo">Fjereo</option>
+                                <option value="Humano">Humano</option>
+                                <option value="Lhanie">Lhanie</option>
+                                <option value="Naturis">Naturis</option>
+                                <option value="Orco">Orco</option>
+                                <option value="Sarka">Sarka</option>
+                                <option value="Shira">Shira</option>
+                                <option value="Turbe">Turbe</option>
+                            </select>
+                            <select class="text-center" name="" id="lista_raza2" style="width:50%;" onchange="cargar_razas()">
+                                <option value="">Elegir raza secundaria</option>
+                                <option value="Automata">Automata</option>
+                                <option value="Benirie">Benirie</option>
+                                <option value="Demonio">Demonio</option>
+                                <option value="Draieach">Draieach</option>
+                                <option value="Fjereo">Fjereo</option>
+                                <option value="Humano">Humano</option>
+                                <option value="Lhanie">Lhanie</option>
+                                <option value="Naturis">Naturis</option>
+                                <option value="Orco">Orco</option>
+                                <option value="Sarka">Sarka</option>
+                                <option value="Shira">Shira</option>
+                                <option value="Turbe">Turbe</option>
+                            </select>
+                        </div>
+                        <div id="raza-info" class="w-100">
+                            <div id="raza-imagenes" style="" class="d-flex"></div>
+                            <div id="raza-datos" class=""></div>
+                            <div id="raza-habilidades" class=""></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+
             </div>
         </main>
     </div>
 </body>
+<script src="./js/personaje.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
