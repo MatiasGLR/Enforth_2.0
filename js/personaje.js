@@ -1,6 +1,16 @@
 const raza1_box = document.querySelector("#lista_raza1");
 const raza2_box = document.querySelector("#lista_raza2");
+const profesion_box = document.querySelector("#lista_profesiones");
 
+async function cargar_profesiones(){
+    let profesion = profesion_box.value;
+
+    if(profesion == "") return $("#profesion-info").html("");
+
+    await $.get("./db/profesiones/"+profesion+".html", function(textString) {
+        $("#profesion-info").html(textString);
+    });
+}
 
 async function cargar_razas() {
     var str2 = `<div class="">`;
@@ -33,6 +43,7 @@ async function cargar_razas() {
         str_datos = "",
         str_stats = "",
         str_skills = "";
+        str_desc = "";
 
 
     await $.get("./db/razas.json", function(textString) {
@@ -57,6 +68,7 @@ async function cargar_razas() {
                 if(str_datos == "") str_datos = "<b class='text-warning'>Datos de raza</b><br>";
                 if(str_stats == "") str_stats = "<b class='text-warning'>Estadisticas</b><br>";
                 if(str_skills == "") str_skills = "<b class='text-warning'>Habilidades</b><br>";
+                str_desc = str_desc.concat("<br><b class='text-warning'>Descripción del "+json_a.Nombre+"</b><br>"+json_a.Descripcion+"<br>");
                 str_imagenes = str_imagenes.concat(`<img src="./files/personaje/`+imagenraza1+`" style="width:250px; margin:4px" alt="Imagen">`);
                 str_datos = str_datos.concat(datosraza1+`<br><br>`);
                 str_stats = str_stats.concat(estadisticasraza1+`<br><br>`);
@@ -77,6 +89,7 @@ async function cargar_razas() {
                 if(str_datos == "") str_datos = "<b class='text-warning'>Datos de raza</b><br>";
                 if(str_stats == "") str_stats = "<b class='text-warning'>Estadisticas</b><br>";
                 if(str_skills == "") str_skills = "<b class='text-warning'>Habilidades</b><br>";
+                str_desc = str_desc.concat("<br><b class='text-warning'>Descripción del "+json_a.Nombre+"</b><br>"+json_a.Descripcion+"<br>");
                 str_imagenes = str_imagenes.concat(`<img src="./files/personaje/`+imagenraza2+`" style="width:250px; margin:4px" alt="Imagen">`);
                 str_datos = str_datos.concat(datosraza2+`<br><br>`);
                 str_stats = str_stats.concat(estadisticasraza2+`<br><br>`);
@@ -112,6 +125,7 @@ async function cargar_razas() {
     document.querySelector("#raza-datos").innerHTML = str_datos;
     document.querySelector("#raza-estadisticas").innerHTML = str_stats;
     document.querySelector("#raza-habilidades").innerHTML = str_skills;
+    document.querySelector("#raza-descripcion").innerHTML = str_desc;
 
     str2 = str2.concat(str2,`</div>`);
 }
