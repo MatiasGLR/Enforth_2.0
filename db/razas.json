@@ -3,23 +3,25 @@
         "Nombre": "Humano",
         "Imagen": "humano.png",
         "Datos": "PruebaHumanoDatos",
-        "Estadisticas": "",
+        "Estadisticas": "PruebaHumanoStats",
         "Habilidad5": "PruebaHumano5",
         "Habilidad4": "PruebaHumano4",
         "Habilidad3": "PruebaHumano3",
         "Habilidad2": "PruebaHumano2",
-        "Habilidad1": "PruebaHumano1"
+        "Habilidad1": "PruebaHumano1",
+        "HabilidadP": "PruebaHumanoP"
     }
     ,
     {
         "Nombre": "Orco",
         "Imagen": "orco.png",
         "Datos": "PruebaOrcoDatos",
-        "Estadisticas": "",
+        "Estadisticas": "PruebaOrcoStats",
         "Habilidad5": "PruebaOrco5",
         "Habilidad4": "PruebaOrco4",
         "Habilidad3": "PruebaOrco3",
         "Habilidad2": "PruebaOrco2",
-        "Habilidad1": "PruebaOrco1"
+        "Habilidad1": "PruebaOrco1",
+        "HabilidadP": "PruebaOrcoP"
     }
 ]
