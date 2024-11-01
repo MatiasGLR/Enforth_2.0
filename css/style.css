@@ -1,3 +1,6 @@
+.text-code { color:#ed6cfa }
+.text-successl { color:#81f360 }
+
 @font-face {
     font-family: MedievalSharp;
     src: url(../files/fonts/MedievalSharp/MedievalSharp.ttf);
