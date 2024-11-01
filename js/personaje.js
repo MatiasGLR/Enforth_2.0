@@ -1,6 +1,17 @@
 const raza1_box = document.querySelector("#lista_raza1");
 const raza2_box = document.querySelector("#lista_raza2");
 const profesion_box = document.querySelector("#lista_profesiones");
+const maldicion_box = document.querySelector("#lista_maldiciones");
+
+async function cargar_maldiciones(){
+    let maldicion = maldicion_box.value;
+
+    if(maldicion == "") return $("#maldicion-info").html("");
+
+    await $.get("./db/maldiciones/"+maldicion+".html", function(textString) {
+        $("#maldicion-info").html(textString);
+    });
+}
 
 async function cargar_profesiones(){
     let profesion = profesion_box.value;

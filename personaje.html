@@ -191,10 +191,6 @@
                 <div id="profesiones" class="collapse p-1" aria-labelledby="profesiones" data-parent="#listado_datos">
                     <div class="card-body bg-dark text-white">
                         <div class="w-100 text-center">
-                            <p>
-                                Las profesiones te permitirán realizar creaciones de mejor nivel, realizar acciones dificiles, ayudarte en tu exploración por el mundo. Cada una de ellas empieza
-                                en nivel 0, y va subiendo de nivel por cada 30 puntos que se ganen en la profesión.
-                            </p>
                             <select class="text-center btn btn-light" style="width:50%" id="lista_profesiones" onchange="cargar_profesiones()">
                                 <option value="">Elegir profesión</option>
                                 <option value="alquimista">Alquimista</option>
@@ -217,6 +213,11 @@
                                 <option value="minero">Minero</option>
                                 <option value="talabartero">Talabartero</option>
                             </select>
+                            <br><br>
+                            <p>
+                                Las profesiones te permitirán realizar creaciones de mejor nivel, realizar acciones dificiles, ayudarte en tu exploración por el mundo. Cada una de ellas empieza
+                                en nivel 0, y va subiendo de nivel por cada 30 puntos que se ganen en la profesión.
+                            </p>
                         </div>
                         <div id="profesion-info" class="w-100 text-center">
                             
@@ -278,7 +279,36 @@
                         </div>
                     </div>
                 </div>
+                <div class="cabecera_main text-dark">
+                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#3" aria-expanded="true" aria-controls="3">
+                        <h5 class="mb-0" style="padding: 10px 0 10px 20%; border-top:5px solid black">Maldiciones</h5>
+                    </a>
+                </div>
+                <div id="3" class="collapse p-1" aria-labelledby="3" data-parent="#listado_datos">
+                    <div class="card-body bg-dark text-white">
+                        <div class="w-100 text-center">
+                            <p>
+                                Las maldiciones son poderosas alteraciones sobrenaturales que afectan profundamente a los seres, alterando no solo sus cuerpos sino también sus mentes y almas. Las maldiciones pueden tener múltiples orígenes, incluyendo antiguos hechizos, pactos rotos con entidades poderosas, maldiciones generacionales transmitidas a través de la sangre, o exposición a lugares o artefactos corrompidos por energías oscuras.
+                            </p>
+                            <select class="text-center btn btn-light" name="" id="lista_maldiciones" style="width:50%; border-radius:0" onchange="cargar_maldiciones()">
+                                <option value="">Elegir maldicion</option>
+                                <option value="bestia" style="background-color:rgb(249, 251, 143);">Bestias</option>
+                                <option value="vampiro" style="background-color:rgb(249, 251, 143);">Vampiros</option>
+                                <option value="sinalma" style="background-color:rgb(249, 251, 143);">Sin alma</option>
+                                <option value="madera" style="background-color:aquamarine;">Infección de madera</option>
+                            </select>
+                            <br><br>
+                            <p>
+                                Las que están con fondo verde, son maldiciones que pueden ser causadas por enemigos comunes.<br>
+                                Las que están con fondo amarillo, se pueden elegir al inicio, durante la creación del personaje
+                            </p>
+                            
+                        </div>
+                        <div id="maldicion-info" class="w-100 text-center">
 
+                        </div>
+                    </div>
+                </div>
 
 
                 
