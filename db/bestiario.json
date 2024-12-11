@@ -1,0 +1,20 @@
+[
+    {
+        "img": "./bestiario/caballo.png",
+        "nombre": "Lobo",
+        "agilidad": 1,
+        "punteria": 1,
+        "fuerza": 1,
+        "percepcion": 1,
+        "resistencia": 1,
+        "peligro": 1,
+        "nivelbase": 1,
+        "daño": "1d4+2",
+        "efecto": 1,
+        "vidabase": 1,
+        "accionesatq": 1,
+        "accionesutil": 1,
+        "habilespeciales": "<ul><li><b>Galope Rápido:</b> Pueden moverse 15ft por accion de movimiento.</li><li><b>Esquivo:</b> Cada ronda obtienen +2 en esquive.</li></ul>",
+        "loot": "<ul><li><b>Piel (1, o 2 con 4 o mas en agilidad):</b>  Usable en artículos de cuero.</li><li><b>Carne: </b> Comestible y puede utilizarse para alimentación.</li></ul>"
+    }
+]
