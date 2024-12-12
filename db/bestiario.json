@@ -2,6 +2,7 @@
     {
         "img": "./bestiario/caballo.png",
         "nombre": "Lobo",
+        "apuntes": "", 
         "agilidad": 1,
         "punteria": 1,
         "fuerza": 1,
