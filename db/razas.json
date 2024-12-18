@@ -5,11 +5,17 @@
         "Datos": "PruebaHumanoDatos",
         "Descripcion": " Como una de las razas más débiles en general, tanto física, como mágicamente, debieron de valerse de su ingenio, para poder construir la tecnología que les permitiera sobrevivir en este intrépido mundo.",
         "Estadisticas": "PruebaHumanoStats",
+        "Habilidad5t": "PruebaHumano5",
         "Habilidad5": "PruebaHumano5",
+        "Habilidad4t": "PruebaHumano4",
         "Habilidad4": "PruebaHumano4",
+        "Habilidad3t": "PruebaHumano3",
         "Habilidad3": "PruebaHumano3",
+        "Habilidad2t": "PruebaHumano2",
         "Habilidad2": "PruebaHumano2",
+        "Habilidad1t": "PruebaHumano1",
         "Habilidad1": "PruebaHumano1",
+        "HabilidadPt": "PruebaHumanoP",
         "HabilidadP": "PruebaHumanoP"
     }
     ,
@@ -19,10 +25,15 @@
         "Datos": "PruebaOrcoDatos",
         "Descripcion": "Conquistadores casi desde sus inicios, debido a su fatal arrogancia, la sed de sangre, y de demostrar su fuerza, creyéndose las perfectas armas de combate, debido a que, en cuanto a ejército, ellos son el que mejor resiste a los ataques, y el hecho de que no pueden ser detenidos por cualquiera durante enfrentamientos directos.",
         "Estadisticas": "PruebaOrcoStats",
+        "Habilidad5t": "PruebaOrco5",
         "Habilidad5": "PruebaOrco5",
+        "Habilidad4t": "PruebaOrco4",
         "Habilidad4": "PruebaOrco4",
+        "Habilidad3t": "PruebaOrco3",
         "Habilidad3": "PruebaOrco3",
+        "Habilidad2t": "PruebaOrco2",
         "Habilidad2": "PruebaOrco2",
+        "Habilidad1t": "PruebaOrco1",
         "Habilidad1": "PruebaOrco1",
         "HabilidadP": "PruebaOrcoP"
     }
