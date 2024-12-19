@@ -76,6 +76,18 @@
                         <br><br><b class="ms-4 text-warning">Aplicar efecto</b><br>
                         Los efectos son aplicados cuando la tirada de puntería fue igual o superior a 20. Se aplican el efecto del arma y el material, o, en caso de que el arma tuviera una infusión,
                         se aplica solo el efecto de la infusión.
+                        <br><br><b class="ms-4 text-warning">Prioridad de efectos</b><br>
+                        Un arma puede llegar a tener varios efectos sobre ella, debido a varias condiciones; como por ejemplo, estar imbuida durante un combate, o tener un cierto material, por ello
+                        es importante saber, que efecto de los que esta arma tiene vas a aplicar, y es tan sencillo como seguir este orden:
+                        <ul>
+                            <li><b>1. Infusión.</b> Es la primera, debido a que su efecto es temporal, y se activa manualmente mediante algun hechizo u objeto</li>
+                            <li><b>2. Encantamiento.</b> Es provisto por un hechizo que el arma tenga, y que mantenga permanentemente el filo inbuido en algun tipo de magia</li>
+                            <li><b>3. Material.</b> Ciertos materiales proveen de características especiales al arma, como el Titanio, que le da veneno.</li>
+                            <li><b>4. Arma.</b> El arma por si misma posee un efecto, el cuál puede ser usado, si no posees ninguno de los efectos anteriores.</li>
+                        </ul>
+                        <br><br><b class="ms-4 text-warning">Escalera de efectos</b><br>
+                        Si tienes en tu prioridad de efectos, varios efectos repetidos (Ejemplo, Inbuida en fuego, y el encantamiento es de fuego), los efectos se sumarán, causando una carga adicional
+                        de efecto.
                         <br><br><b class="ms-4 text-warning">Ataque critico</b><br>
                         Si tu dado de ataque sale con el máximo valor (Ej. tienes 1d6 en tu daño, si ese dado sale 6); el ataque será critico, y agregará un dado mas al daño (En caso de tener varios dados, 
                         será el dado de menor valor).
@@ -452,6 +464,42 @@
                                 <tr><td>Basalto Titanio Cuarzo Cobalto Everfrost</td><td>+2</td></tr>
                                 <tr><td>Oricalco Luminita Infernita</td><td>+3</td></tr>
                                 <tr><td>Druvix</td><td>+4</td></tr>
+                                <tr><td>Platinado</td><td>+1</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#9.1" aria-expanded="true" aria-controls="9.1">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Armamento</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Daño fijo por materiales</h5>
+                    </a>
+                </div>
+                <div id="9.1" class="collapse" aria-labelledby="9.1" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        <p>Los materiales proveen de una cantidad de daño fija al arma, dependiendo que tan bueno sea el material, por su categoría. Las categorías de los materiales son:
+                            <ul>
+                                <li>Básico</li>
+                                <li>Medio</li>
+                                <li>Alto</li>
+                                <li>Épico</li>
+                                <li>Legendario</li>
+                            </ul>
+                        </p>
+                        <p>Para ver de que categoría es cada material, comprobar la lista de objetos</p>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Materiales</th>
+                                    <th class="text-info">Protección por pieza</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+                                <tr><td>Básico</td><td>+0</td></tr>
+                                <tr><td>Medio</td><td>+1</td></tr>
+                                <tr><td>Alto</td><td>+3</td></tr>
+                                <tr><td>Épico</td><td>+4</td></tr>
+                                <tr><td>Legendario</td><td>+5</td></tr>
                                 <tr><td>Platinado</td><td>+1</td></tr>
                             </tbody>
                         </table>
