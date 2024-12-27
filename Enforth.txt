@@ -1,0 +1,745 @@
+- Escalera de efectos sin gema
+- Escalera de efectos acumula si son el mismo
+- Ya no se equipa gemas a armas no mágicas
+- Las categorías de daño que se agregan como fijo al arma
+
+    Humano.
+Inteligencia 1. Natural 2.
+
+Mínimo para vivir (Habilidad nivel 1). 
+Inmunidad a estadísticas negativas.
+
+Mal presagio (Habilidad nivel 2). 
+Puedes tirar percepción para saber si hay criaturas hostiles cerca (Máximo 3 por exploración).
+
+Hipersupervivencia (Habilidad nivel 3)
+Ante un peligro inmediato, se agregará un punto a tu siguiente tirada.
+
+Venganza (Habilidad nivel 4)
+Si un aliado es abatido, obtienes +2 de daño contra el enemigo que lo abatió, y +4 en su lugar, si tu aliado murió
+
+Múltiple especialidad (Habilidad nivel 5)
+Puede desbloquear un segundo don.
+
+    Orco.
+Fuerza 1. Natural 3.
+
+Preferencia de contacto (Habilidad nivel 1).
+El ataque desarmado pega 1d6, y puede meter crítico.
+
+Contraataque feroz (Habilidad nivel 1)
+Al recibir un ataque que lo dejara fuera de combate, recupera la mitad del daño recibido este turno y aparta al enemigo una casilla (Solo usable una vez por turno enemigo).
+
+Furia interna (Habilidad nivel 2)
+Al tener 8 de vida o menos, obtienes 5% de probabilidad de efecto, y, al tener 3 de vida o menos, obtienes +2 en el daño cuerpo a cuerpo
+
+Rompecascos (Habilidad nivel 3)
+Duplica la ruptura de armadura de las armas a dos manos, y las armas a una mano y ataques desarmado, aplican rompearmadura.
+
+Embestida titánica (Habilidad nivel 4)
+Pueden correr en una dirección, consumiendo una acción de ataque y una de utilidad (por cada 3 casillas recorridas); si impacta contra un enemigo, lo lleva con él (Si es del mismo tamaño o inferior al orco), y, si impacta contra un obstáculo o borde del mapa, le causa 1 de daño verdadero por accion utilizada, y le aplica derribo.
+
+Ejecución sanguinaria (Habilidad nivel 5)
+Al abatir a un enemigo, puede tomarlo, y ejecutarlo en el momento (Siempre que sea de tamaño igual o menor al orco).
+
+    Shira.
+Puntería 1. Armadura natural 2.
+
+Criofilia (Habilidad pasiva)
+Son inmunes al daño de hielo, y al efecto del congelamiento. Al recibir una carga de quemadura, son abatidos al momento.
+
+Punto frío (Habilidad nivel 1)
+Al atacar a un enemigo que tenga cargas de congelamiento, le causa 1d4 de daño por cada carga, y le elimina las cargas.
+
+Danza de hielo (Habilidad nivel 1)
+Moverse en climas helados, y en el hielo, les dará el doble de casillas. Pueden moverse al estar estatizados, mientras pisen hielo, o nieve.
+
+Escarcha del gigante de hielo (Habilidad nivel 2)
+Por cada 4 de vida que le falte, y por cada carga de congelamiento que tenga, obtienen un punto de armadura helada, la cual aumenta la armadura natural por cada carga de armadura helada.
+
+Porte sencillo (Habilidad nivel 3)
+Pueden utilizar un arma ligera a dos manos, con una mano, pudiendo utilizar únicamente un escudo en su otra mano.
+
+Rompehielos (Habilidad nivel 3)
+Al atinar un golpe a un enemigo que tenga diez cargas de congelamiento, lo congela en un bloque de hielo, dejándolo fuera de combate (Si son del mismo tamaño o inferior que el Shira).
+
+Tormenta helada (Habilidad nivel 4)
+Pueden crear una tormenta de nieve en la zona de combate, la cual colocará una carga de congelamiento a cada individuo en la zona de combate (Por cada acción de utilidad usada para pagar esta habilidad, con un máximo de 4), al final de la ronda. (Costo: 1 Acciones de ataque).
+
+Forja helada (Habilidad nivel 5)
+Pueden hacer una aleación de Titanio (1) y Zafiro desbloqueado (1), para hacer lingotes de Everfrost, los cuales tendrán el mismo daño que el Titanio, y el efecto de quemadura helada. Si portan una armadura de Everfrost, obtienen +1 de daño fijo por cada pieza de defensa de Everfrost (Armadura y escudo)
+
+    Lhanie.
+Agilidad 1. Natural 2.
+
+Desomnivorismo (Habilidad pasiva)
+No pueden comer otro alimento, que no sea el preferente de su animal originario (Carnes, o frutas y vegetales).
+
+Llamado de la naturaleza (Habilidad nivel 1)
+Consume una acción de utilidad, para convocar a un animal salvaje básico durante una ronda. Mediante 1d20, tiene 10% de obtener un animal medio, sino será básico.
+
+Fium (Habilidad nivel 1)
+Pueden moverse el doble de casillas por movimiento
+
+Rastreo (Habilidad nivel 1)
+Aumenta al doble la probabilidad de encontrar activamente animales exactos durante una exploración. Durante un combate, puedes saber en que dirección está un enemigo, superando percepción (10)
+
+Alimentación balanceada (Habilidad nivel 2)
+Al comer un alimento preferente, obtienen el doble de beneficios. Los carnivoros pueden comer carne cruda, y los herviboros son inmunes a los venenos naturales de las frutas y verduras.
+
+Equipamiento natural (Habilidad nivel 3)
+Pueden hacer armas y equipamiento de hueso (Misma cantidad de materiales que armadura, pero usa hueso), estos tendrán el efecto de armadura completa si todas las piezas de armadura tienen una de estas acomplada: "Inmunidad al derribo. Aumenta la armadura en +3. Si un arma tiene hueso acoplada, aumenta su daño físico en +1.".
+
+Absorción de nutrientes (Habilidad nivel 4)
+Al comer un alimento preferente durante un combate, puedes renunciar al bufo que este da (Puedes obtenerlo de nuevo al comer otro alimento preferente), para curarte como una Poción de Vida Lv2.
+
+Adaptabilidad (Habilidad nivel 5)
+Al derrotar a un enemigo, obtienes +2 de daño contra enemigos del mismo tipo, hasta el final del combate.
+
+    Turbe.
+Inteligencia 1. Natural 0.
+
+Lanzas brillantes (Habilidad nivel 1)
+Pueden apilar lanzas de madera, hasta dos por nivel. El daño de estas lanzas al arrojarlas individualmente, será de 1d6 mágico, escalando con Inteligencia. Las lanzas quedarán clavadas en el enemigo, y pueden ser retiradas con una acción de utilidad por lanza, causando 2 de daño verdadero por lanza, y un punto de daño verdadero a los enemigos entre ti, y las lanzas, por cada lanza (Max. 10ft).
+
+Escurridizo (Habilidad nivel 1)
+Al esquivar, pueden pasar hacia detrás del enemigo, siempre que a este se le pueda pasar por debajo, o entre medio.
+
+Bajo tierra (Habilidad nivel 2)
+Pueden crear túneles entre dos partes del mapa de combate por tres acciones de utilidad, y cruzar entre estos, a cambio de dos acciones de utilidad.
+
+Refuerzo mágico (Habilidad nivel 3)
+Pueden cambiar el daño físico, por daño mágico en sus armas.
+
+Espiritualidad (Habilidad nivel 4)
+Obtienen el conocimiento de magia de almas. Conseguir almas tendrá el doble de probabilidad.
+
+Unión espiritual (Habilidad nivel 5)
+Pueden consumir un alma para invocar al animal correspondiente, en forma de fantasma, como apoyo de combate, además, de obtener una de sus estadísticas, durante un combate, o una acción narrativa.
+
+    Fjereo.
+Agilidad 1. Natural 0.
+
+Aviación turbulenta (Habilidad pasiva)
+Reciben 2 mas de daño por cada ataque que reciben.
+
+Valentía (Habilidad nivel 1)
+Al luchar con aliados, se vuelve inmune al debufo de miedo.
+
+Alza el vuelo (Habilidad nivel 2)
+Puede volar durante el resto de la ronda, a 5ft de altura por cada nivel en la raza, teniendo que tomar una ronda de descanso antes de poder volver a volar. Si te atacan volando, caerás y recibirás 1d4 por cada 5ft
+
+Alma de fénix (Habilidad nivel 2)
+Al morir, el cuerpo arde en llamas, destruyendo todo el equipamiento, posteriormente, las llamas se unirán en un huevo de oro, el cual emerge en llamas nuevamente en la forma antes de morir, sin heridas, al día siguiente de consumirse. Se debe esperar otro día para volver a usar esta habilidad.
+
+Caída en picada (Habilidad nivel 3)
+Requiere “Alza el vuelo”. Mientras vuelas, puedes caer hacia un enemigo, atacándolo con el impulso de la caída, causando tantos dados de 4 de daño, por cada 15ft de distancia de vuelo, sumado a la distancia del enemigo (No puede sobrepasar la altura). Costo. 1 Acción de ataque y 2 de utilidad.
+
+Plumas afiladas (Habilidad nivel 4)
+Cualquier ataque cuerpo a cuerpo que recibas, devolverá el 1/4 del daño recibido al enemigo como daño verdadero (Redondeado hacia abajo). Los ataques cuerpo a cuerpo que recibas tendrán 10% de probabilidad de causar sangrado.
+
+Tornado de plumas (Habilidad nivel 5)
+Requiere “Plumas afiladas”. Puede consumir cualquier cantidad de acciones de utilidad, para lanzar plumas en dirección a un enemigo (Max. 15ft), que causa tantos dados de 4 de daño, como acciones de utilidad se consumieron. En caso de consumir todos los puntos de acción de utilidad, se suma un 1d4 adicional, por cada Nivel en la raza.
+
+    Sarka.
+Carisma 1. Natural 2.
+
+Hidratación (Habilidad pasiva)
+En cada exploración en desiertos deberá beber agua, o algún líquido sano, o tendrán desventaja en sus tiradas, hasta hidratarse. Tomar agua contaminada (Estancada) no les afecta.
+
+Respiración acuática (Habilidad nivel 1)
+Puedes mantenerte debajo del agua, durante tantos turnos, como nivel tengas en esta raza, más uno.
+
+Ventaja marina (Habilidad nivel 2)
+Obtienen 10% de probabilidad de critico al pelear en una fuente de agua o bajo la lluvia.
+
+Escamas reforzadas (Habilidad nivel 2)
+Al hidratarse, obtienen dos puntos de resistencia natural por nivel en la raza, durante el resto de la ronda (No acumulable).
+
+Tramposo (Habilidad nivel 3)
+Luego de esquivar un ataque, pueden lanzar un chorro de agua hacia el enemigo (esquivable), lo cual lo dejará derribado, y le causará 2 puntos de daño verdadero.
+
+Negociación (Habilidad nivel 4)
+Obtienen ventaja en tiradas de negociación y de convencimiento. En caso de fallar en este tipo de tiradas, el efecto negativo no será grave. Obtienen 5% más de oro en ventas.
+
+Ráfaga de anguila (Habilidad nivel 5)
+Requiere saber Magia de Electricidad. Al portar un Berilio, los ataques cuerpo a cuerpo, causarán Estatizado (mágico) con un 25% de probabilidad (No cuenta como realizar un hechizo)
+
+    Demonio.
+Combate 1. Natural 2.
+
+Locura ancestral (Habilidad pasiva)
+A partir de la segunda ronda en un combate, estos empiezan a ver a cualquier participante del combate como sus enemigos, atacando al objetivo más cercano, obteniendo 1 de daño por nivel en raza. Son inmunes a la maldición. Pueden evitar atacar a un aliado, si este los convence con una tirada de Carisma contra tu Combate.
+
+Preferencia por lo pesado (Habilidad nivel 1)
+Pueden utilizar un tridente a una sola mano.
+
+Altas temperaturas (Habilidad nivel 2)
+Son inmunes al daño por el efecto de quemadura. Recibir daño por fuego (fuente mágica), reducirá el daño a la mitad.
+
+Herrería infernal (Habilidad nivel 3)
+Obtienen el conocimiento de Herrería con Infernita, además, pueden agregar infernita como impureza a un arma, para agregarle el efecto de Quemadura. Aprenden como hacer la espada larga, tridente, lanza y las dagas de infernita.
+
+Infusión ígnea (Habilidad nivel 4)
+Puedes imbuir un arma cuerpo a cuerpo en fuego (por lo que aplica quemadura). En caso de que el arma estuviera hecha de Infernita, causa 1 de daño verdadero al enemigo por cada carga de quemadura que tenga. Costo. 1 Acción de ataque y 1 Acción de utilidad.
+
+Cauterización (Habilidad nivel 5)
+Absorbes todas las cargas de quemadura (De todos los participantes del combate), para curarte 1 punto por cada carga absorbida, y causando un punto de daño a cada ser del que se absorbieron las quemaduras, aplicando el siguiente efecto, dependiendo de la cantidad de cargas:
+
+3 cargas. Tu siguiente ataque causará quemadura de forma asegurada.
+5 cargas. En caso de tener desbloqueada la clase de Mago, obtienes 2 Núcleos.
+7 cargas. Tu siguiente ataque tiene efecto asegurado.
+10 cargas. La zona a tu alrededor (10ft) se quema, todo ser que se encuentre sobre la zona, obtiene dos cargas de quemadura al inicio de su turno
+15 cargas. Tu arma se imbuye en Magia Infernal, por lo que todos los ataques hasta el final de tu siguiente turno tendrán 100% de probabilidad de dar dos cargas mas de quemadura.
+25 cargas. Puedes canalizar tus hechizos de Fuego sin consumir núcleos, por el resto de la ronda (Máximo 3 hechizos por turno).
+35 cargas. Explotas una carga de quemadura y le agregas 2 cargas de quemadura a cada ser del combate (Excepto tú y tus aliados), curando a tus aliados y a ti, 1d4 de vida por cada enemigo que recibió daño, y causándoles desventaja en su siguiente esquive.
+
+Costo. 1 Acción de ataque y 3 de utilidad.
+
+Refuerzo del mas allá (Habilidad nivel 6)
+Al utilizar una armadura de Infernita completa, podrán conjurar magia de fuego, sin la necesidad de una gema.
+
+    Naturis.
+Inteligencia 1. Natural 4.
+
+Forma natural (Habilidad pasiva)
+Raza no hibridable, pueden tener hijos, pero estos saldrán puros de la otra raza.
+No tienen una forma física como tal, sino que pueden replicar la de una raza a voluntad, aunque manteniendo los rasgos de su raza. Cualquier fuente de daño de fuego les causa el doble de daño. Comienzan con el Dios de la Naturaleza, y este no puede ser cambiado. La primera clase que tengan, debe ser Curandero hasta Nivel 2, antes de desbloquear otra clase. Solo pueden alimentarse de agua, frutas y verduras. Son inmunes a las maldiciones.
+
+Crecimiento afortunado (Habilidad nivel 1)
+Todas las frutas y verduras que sean obtenidas de forma salvaje, tendrán ventaja en su cantidad (Excepto frutos de raza).
+
+Baile de la rosa (Habilidad nivel 2)
+Tu cuerpo se cubre con enredaderas de espinas por tantos turnos como nivel en raza, por lo que un ataque cuerpo a cuerpo que recibas, causará sangrado al enemigo con 50% de probabilidad (No aumentable). Costo. 1 Accion de utilidad.
+
+Regeneración (Habilidad nivel 3)
+Al inicio de cada ronda, o cuando reviven, regeneran 2 de vida por nivel en la raza. Las amputaciones que se les realicen, solo duran una ronda.
+
+Enredaderas (Habilidad nivel 3)
+Puedes lanzar semillas a una zona hasta 20ft de distancia, a la cual le crecerán enredaderas, que atraparán a quien sea que pase sobre ellas. Pueden ser eliminadas con un golpe. Costo. 1 Acciones de utilidad.
+
+Brotes (Habilidad nivel 4)
+Pueden plantar pequeños brotes en el suelo (Uno por cada Nivel del jugador), que crecerán al final de la ronda, y correrán al enemigo más cercano, pegándose a su armadura y debilitándola, por lo que perderá un punto de armadura por cada brote, a los 10 puntos perdidos, romperá la armadura. Costo. 3 Acciones de utilidad.
+
+Lanzaespinas (Habilidad nivel 5)
+Requiere “Brotes”. Luego de que un brote explote, lanzará una semilla de rosa a 10ft en tu dirección, creciendo al inicio de tu turno en una Rosa lanzadora, la cual escupirá espinas al enemigo más cercano (Max. 15ft desde la planta) al invocador al inicio de cada turno, causándole envenenamiento al impactar. Estas Rosas pueden ser destruidas con dos golpes, o con un ataque de fuego. Al ser destruida una Enredadera, también crecerá una semilla de rosa en su ubicación.
+
+    Automata.
+Fuerza 1. Natural 4.
+
+Núcleo energético (Habilidad pasiva)
+Raza no hibridable.
+Estos tienen energía limitada, que, a pesar de recargarse de forma automática, se consume rápido; al realizar acciones, estos consumirán energía, además de las acciones correspondientes, consumiendo un punto de energía por acción consumida. El máximo de energía será de 10 + 1 por nivel en raza. Pueden conjurar hechizos de magia eléctrica sin la necesidad de un canalizador; no utilizan núcleos de maná, sino núcleos eléctricos, obteniendo dos por cada punto de energía que se busque consumir, siendo esta, y el uso de equipamiento (Ej. Joyas) la única forma de aumentar núcleos. Durante lluvias o en fuentes de agua, divide la energía a la mitad para proteger las piezas mecánicas. Al cambio de ronda, recuperan toda su energía. No pueden consumir alimentos.
+
+Reparación (Habilidad nivel 1)
+Requiere. Equipo de taller
+Pueden comprar a un Ingeniero las "Piezas de recambio", los cuales curarán toda la vida al automata, pero debe consumir su turno completo para ello. Requieren Nivel 2 en Ingenieria para reparar un Automata. Si aun no han perdido 1/4 de su vida, pueden curarse mediante reparaciones menores, consumiendo 2 acciones de utilidad, curandose 1d4 + 1 por nivel en Ingenieria
+
+Modo de combate (Habilidad nivel 1)
+Duplica la cantidad de energía, pero bloquea el uso de magia y da desventaja en el esquive. Por cada ataque acertado, obtienen +1 de daño fijo cuerpo a cuerpo. Solo se puede tener un modo a la vez, y solo puede cambiarse de modo una vez por ronda.
+Costo. 5 de Energía + 2 Acciones de utilidad
+
+Modo de defensa (Habilidad nivel 1)
+Divide a la mitad la cantidad de energía, bloquea el uso de la magia y ataques, da ventaja en el esquive, duplica la armadura natural. Por cada ataque recibido que cause daño mayor a 1, obtienen +1 de armadura mágica. Solo se puede tener un modo a la vez, y solo puede cambiarse de modo una vez por ronda.
+Costo. 5 de Energía + 1 Acción de utilidad
+
+Modo de radar (Habilidad nivel 2)
+Bloquea el uso de magia, y da ventaja en la percepción. Solo se puede tener un modo a la vez, y solo puede cambiarse de modo una vez por ronda. Pueden detectar elementos ocultos.
+Costo. 5 de Energía
+
+Aumento físico (Habilidad nivel 3)
+Pueden llevar un arma a dos manos a una mano, pero los ataques pasarán a costar 5 de energía.
+
+Absorción eléctrica (Habilidad nivel 3)
+Durante tormentas eléctricas, absorben rayos para volver a llenar su contador de energía, si reciben un rayo, o un ataque con daño electrico estando con la energía al máximo, se sobrecargarán, y recibirán la mitad de su vida actual como daño, volviendo a bajar la energía hasta el máximo.
+
+Modo de velocidad (Habilidad nivel 4)
+Bloquea el uso de la magia, y da ventaja en esquive, además, moverse y esquivar ya no costará energía ni acciones de movimiento. Obtienes -5 de daño y pierdes la armadura natural. 
+Costo. 5 de Energía y 2 Acciones de utilidad
+
+Modo de conjurador (Habilidad nivel 4)
+Bloquea el ataque cuerpo a cuerpo, y reduce la resistencia natural y mágica a cero. Los hechizos ya no consumirán energía al conjurarlos, pero siguen consumiendo núcleos.
+
+Sobrecarga (Habilidad nivel 5)
+Desactiva todos los modos. Pueden realizar todas las acciones en este turno, sin gastar energía, a cambio, perderán dos puntos de vida por cada punto de energía que fuera a ser gastado al final de su turno. Por cada punto de energía "gastado" durante este modo, aumenta el daño físico en un punto.
+Costo. 1 Acción de utilidad.
+
+    Draieach.
+Resistencia 1. Natural 3.
+
+Escamas ancestrales (Habilidad pasiva)
+Pueden conjurar un tipo de magia, de su elección, sin la necesidad de una gema, de la siguiente opción:
+
+Arcana. Las escamas serán rosadas o violetas.
+Fuego. Las escamas serán naranjas o rojas.
+Hielo. Las escamas serán celestes o azules.
+Electricidad. Las escamas serán amarillas.
+Viento. Las escamas serán verdes claros.
+Veneno. Las escamas serán verdes oscuros.
+Luz. Las escamas serán blancas.
+Oscuridad. Las escamas serán negras.
+Aunque esto les dará la siguiente debilidad:
+
+Arcana. Sus escamas son mas débiles, por lo que su armadura natural baja hasta 1, y los ataques físicos les harán 1d6 de daño adicional.
+Fuego. Al recibir agua, hielo, o frío sobre si, les quitará la capacidad de conjurar magia propia, y les quitará su armadura natural y mágica.
+Hielo. Al recibir fuego, o calor sobre si, les quitará la capacidad de conjurar magia propia, y les quitará su armadura natural y mágica.
+Electricidad. Si alguna parte de su cuerpo es cubierta por un mal conductor, como la madera y las rocas, les quitará la capacidad de conjurar magia propia, y les quitará su armadura natural y mágica.
+Viento. Al estar encerrado en un interior, les quitará la capacidad de conjurar magia propia, y les quitará su armadura natural y mágica.
+Veneno. Si utilizan mucho su magia propia (3 veces por ronda), se envenenarán a si mismos, tener cargas de veneno, les quitará la capacidad de conjurar magia propia, y les quitará su armadura natural y mágica.
+Luz. El no estar bajo una fuente de luz fuerte (Sol, ciudad o pueblo), les quitará la capacidad de conjurar magia propia, y les quitará su armadura natural y mágica.
+Oscuridad. El estar bajo una fuente de luz fuerte (Sol, ciudad o pueblo), les quitará la capacidad de conjurar magia propia, y les quitará su armadura natural y mágica.
+
+Herencia del dragón (Habilidad nivel 1)
+Raza no hibridable, pueden tener hijos, pero estos saldrán puros de la otra raza. Obtienes las estadísticas de tu raza. El desbloquear esta con fruto de raza, solo dará las estadísticas.
+Dependiendo el elemento elegido, se desbloquea el siguiente conocimiento:
+
+Arcana. Conocimiento "Arcana" y "Alquimia". Profesión "Alquimista" Lv3.
+Fuego. Conocimiento "Fuego" y "Herrería". Profesión "Herrero" Lv3.
+Hielo. Conocimiento "Hielo" y "Cocina". Profesión "Cantinero" Lv2.
+Electricidad. Conocimiento "Electricidad" e "Ingenieria". Profesión "Ingeniero" Lv2.
+Viento. Conocimiento único "Viento" y "Música". Profesión "Bardo" Lv2.
+Veneno. Conocimiento "Veneno" y "Herbolaria". Profesión "Explorador" Lv2.
+Luz. Conocimiento "Luz" y "Medicina". Profesión "Médico" Lv2.
+Oscuridad. Conocimiento "Oscuridad" y "Ladrón". Profesión "Ladrón" Lv2.
+
+Conjuración de dragón (Habilidad nivel 1)
+Pueden conjurar cualquier tipo de hechizo de su tipo con sus manos, pero el costo de maná será de 2 Núcleos mas (Excepto los hechizos y tácticas propios de esta raza).
+
+Garras infundidas (Habilidad nivel 1)
+Pueden imbuir sus garras con su magia propia (Si ese tipo de magia no tiene efecto, solo cambia el daño por mágico), al atacar de forma desarmada o mediante cestus, aplicará el efecto del tipo de magia. Consume 2 núcleos por ronda.
+Costo. 1 Acción de utilidad + 2 Núcleos (Activación).
+
+Desplegar alas (Habilidad nivel 2)
+Pueden desplegar alas de su cuerpo desde su interior, estas serán muy finas, pero luego de dos rondas, le crecerán escamas rapidamente. Mientras sean finas, consumen 1 acciones de utilidad por ronda para mantenerlas. Cuando les crezcan escamas, se obtiene 2 de armadura natural por nivel en raza y consumen 2 acciones de utilidad por ronda para mantenerlas, o 1 acciones de utilidad y 1 núcleos, por ronda. Estas solo pueden ser usadas para volar mientras no tengan escamas, pero cualquier ataque recibido le derribará, tomando 1d10 de daño verdadero por la caida.
+Costo. 2 Acciones de utilidad (Activación).
+
+Visión de dragón (Habilidad nivel 3)
+Puede invocar su poder ancestral, para obtener una mejor posición de combate, esto evitará recibir ataques por la espalda, y el esquive tendrá ventaja, al esquivar, se podrá dar un golpe desarmado, que causará un punto de daño verdadero, y aplicará el efecto correspondiente (Incluido Garras infundidas). El efecto dura 5 turnos, +1 turno por nivel en raza.
+Costo. 1 Acciones de ataque + 2 Acciones de utilidad (Activación).
+
+Adaptabilidad de tipo (Habilidad nivel 4)
+Al recibir daño de un ataque mágico del mismo tipo que el propio, puede recibir uno de los siguientes mediante 1d6:
+
+Obtener un núcleo
+Ganar 5 puntos de vida
+Obtener 5% de probabilidad de efecto en el siguiente ataque (Acumulable, y se elimina la acumulación al activarlo)
+Obtener perforación en el siguiente ataque
+Obtener 5 de armadura en el siguiente ataque recibido (Acumulable, y se elimina la acumulación al activarlo)
+Eliges dos a tu gusto de las opciones anteriores
+
+Invocación de dragón (Habilidad nivel 5)
+Pueden meditar durante una ronda, para realizar una invocación, esto requerirá que se quede completamente quieto, el recibir un ataque hará que la meditación se reinicie. Esto imbuirá una de tus armas con el Alma de Dragón ardiente, el cuál hará que tu arma ignore 1/4 de la armadura enemiga, y 75% de probabilidad de efecto del tipo propio de la raza (No aumentable). Además, cada que se aplique una carga, se aplicará una carga de Maldición de dragón (Max. 10), lo que causará un punto de daño verdadero cada inicio de turno del afectado. Cuesta tres núcleos por ronda mantener el efecto. El efecto se pierde al final del turno si no se pagó el costo, y elimina todas las cargas de Maldición de dragón.
+Costo.
+1 Acción de ataque (Iniciar meditación)
+2 Acciones de utilidad + 5 Núcleos (Activación)
+
+    Draieach.
+Combate 1. Natural 1.
+
+Marcas de mentira (Habilidad pasiva)
+Raza no hibridable, pueden tener hijos, pero estos saldrán puros de la otra raza.
+Sus rostros y cuerpo tienen algun tipo de marca, ya sean lineas, puntos, formas, etc. que cubren una parte del mismo, al mentir, estas marcas se iluminan y muestran, incluso si se tiene ropa encima, demostrando que lo que se dijo es una mentira. A su vez, si este no miente, la otra persona estará segura de que se dice una verdad, por lo que no dudará de su palabra.
+
+Arma vinculada (Habilidad nivel 1)
+Pueden crear un arma con su propio poder, la cuál es generada aleatoriamente cada cambio de ronda e inicio de combate, o, pueden optar por un arco al crear un personaje, que disparará flechas mágicas. Esta puede ser conjurada y eliminada a voluntad, y desaparecerá por si misma al alejarse del conjurador. En caso de elegir el arco, obtendrán la clase Ranger con la subclase Arquero.
+
+Percepción mágica (Habilidad nivel 1)
+Pueden detectar fuentes de magia en el entorno.
+
+Adaptabilidad a terrenos (Habilidad nivel 2)
+No obtienen efectos negativos por los terrenos dificiles, ya sea combatiendo sobre hielo, agua, lodo, etc.
+
+Evasión acrobática (Habilidad nivel 3)
+Pueden saltar obstáculos durante el esquive, si logran esquivar.
+
+Estilo danzante (Habilidad nivel 4)
+Te permite realizar lo siguiente, dependiendo de tipo de arma que tengas, solo aplicará, si ambas manos tienen el mismo tipo:
+
+Arma a una mano ligera. Te permite realizar un ataque de reacción, luego de esquivar.
+Arma a dos manos ligera. Te permite esquivar dos casillas.
+Arma a una mano pesada. Los golpes dados al enemigo, lo alejarán una casilla.
+Arco. Pueden arrojar proyectiles, los cuales seguirán al enemigo, evitando un obstáculo, pero no luego de esquivar
+
+Vinculación completa (Habilidad nivel 5)
+Obtienen ventaja en el arma obtenida de forma aleatoria con la habilidad "Arma vinculada". En caso de que en ambos casos, salga la misma arma, esta obtendrá 5ft mas de rango, y critico.
+
+(EFECTOS)
+
+Congelamiento. Pierdes una parte de las cargas al final de tu turno.
+Derribo. No puedes atacar cuerpo a cuerpo.
+Miedo. Valentía = Resistencia > 15.
+Quemadura helada (Mágico). Si el afectado ataca fisicamente a quien le colocó estas cargas, estas explotan y le causan 1d6 de daño + 1 por carga. Pueden ser removidas con altas temperaturas.
+
+(CLASES)
+
+(GUERRERO)
+
+( Nivel 0 ).   Alma de guerrero
+Por cada nivel en la clase, aumenta la probabilidad de efecto de las armas cuerpo a cuerpo en 5% (Max. 30%).
+
+( Nivel 0 ).   Parry
+Puedes lanzar una tirada de punteria, contra un ataque cuerpo a cuerpo enemigo, y, en caso de superarlo, puedes bloquear el ataque, y si la diferencia es de 4 o menor, o superada por el doble, de forma opcional, puedes atacar en el momento sin costo, y, si es superada por el triple o mas, ganas un dado de daño adicional. En caso de perder en el Parry, el enemigo tendrá un dado adicional de daño.
+Costo. 1 Acción de utilidad.
+
+( Nivel 1 ).   Último esfuerzo
+Requiere: Parry desbloqueado.
+Al recibir un daño que fuera a ser mortal, puedes realizar un Parry sin costo a último momento. Solo puede ser utilizado una vez por ronda.
+
+( Nivel 2 ).   Escudazo
+Al atinar un ataque, puedes realizar un ataque con el escudo que tendrá atine asegurado, y causará un punto de daño. Pueden desviar proyectiles mientras posean un escudo.
+
+( Nivel 3 ).   Defensa perfecta
+Requiere: Parry desbloqueado.
+Al realizar un Parry con máximo valor (20), y este sea efectivo, si se realiza un ataque, este tendrá +2 de daño adicional, y obtienes dos acciones de utilidad.
+
+( Nivel 4 ).   Pose de defensa
+Puedes utilizar tu arma como un escudo (No aplica Escudazo), protegiendo igual que su equivalente en material. Deberás gastar una acción de utilidad para cambiar a pose de ataque a pose de defensa, pero no para volver a pose de ataque. No se puede atacar durante poses de defensa.
+
+( Nivel 5 ).   Táctica de distancia
+Requiere: Parry desbloqueado.
+Al realizar un ataque seguido del Parry, alejas al enemigo a 5ft de ti, y en caso de que este impacte contra un objeto o pared, puedes volver a realizar un ataque sin costo contra este (Te acercas a este sin gastar acciones de utilidad de igual modo).
+
+(SENESCAL)
+
+( Nivel 2 ).   Larga distancia
+Puedes atacar con lanzas y alabardas a 15ft de distancia.
+
+( Nivel 3 ).   Táctica de Alto Rango
+Cada ataque acertado, tendrá una probabilidad de 5% de causar desventaja al esquive del enemigo por el resto del combate.
+
+( Nivel 4 ).   Avance inmediato
+Cuando un enemigo se aleja de ti (5ft), puedes saltar sobre él al atacarlo para evitar su movimiento (ataque de oportunidad), evitando que este esquive el ataque.
+
+(SAMURAI)
+
+( Nivel 2 ).   Recobrar el honor
+Al ser abatido por un enemigo, obtendrás ventaja en la puntería contra el enemigo que te derribó por el resto del combate.
+
+( Nivel 3 ).   Enfrentando el temor
+Obtienes un dado adicional de daño si tienes alguna carga de miedo.
+
+( Nivel 4 ).   Disciplina honrada
+Obtienes +2 de daño al usar Katanas, y obtienes +3 adicional si lo usas a dos manos.
+
+(PICARO)
+
+( Nivel 0 ).   Paso ligero
+Obtiene ventaja en las tiradas de sigilo.
+
+( Nivel 0 ).   Gran robo
+Obtienen ventaja en las tiradas de recompensa tras una misión (Solo en el dinero).
+
+( Nivel 1 ).   Movimientos ocultos
+Puede moverse sin utilizar acciones de utilidad dentro de bombas de humo y en la oscuridad.
+
+( Nivel 2 ).   Adenada
+Al realizar critico en el daño, obtienes una acción de utilidad.
+
+( Nivel 3 ).   Emboscada sigilosa
+Requiere: Paso ligero.
+Al atacar por la espalda, tienes una probabilidad del 5% de ejecutar al enemigo (Solo durante su primer turno, si son de tamaño igual o inferior).
+
+( Nivel 4 ).   Golpe a la tráquea
+Al atacar por la espalda, tienes un 5% por nivel en la clase de aplicar critico
+
+( Nivel 4 ).   Mentiroso
+Obtienes +1 por cada 2 niveles en clase en Carisma al engañar o estafar
+
+( Nivel 5 ).   Espejo oscuro
+Al tener dos armas del mismo escalado, mejora, y material, obtienen 10% de probabilidad de critico
+
+(ASESINO)
+
+( Nivel 2 ).   Despiadado
+Al aplicar efecto, además, aplica una carga de sangrado. Si este ya tiene una carga de sangrado, te curas 2 por carga.
+
+( Nivel 3 ).   Ejecución
+Al abatir a un enemigo, obtienes un ataque contra este, sin consumir acciones de ataque.
+
+( Nivel 4 ).   Búsqueda de muerte
+Al acertar un crítico, el critico tendrá dado máximo.
+
+(ASESINO SOMBRÍO)
+
+( Nivel 2 ).   Camuflaje oscuro
+No será detectable visualmente en la oscuridad, aunque esta sea tenue.
+
+( Nivel 3 ).   Desangramiento espeso
+Al asesinar a alguien, su sangre se convertirá en “Sangre negra”, la cual puede usarse para crear Viales de sombras, que imbuirán las armas en penumbra durante un ataque; este efecto disminuye la vida máxima del atacado en 10% cada que es aplicado, por el resto del combate, en lugar de causar daño.
+
+( Nivel 4 ).   Salto de sombras
+Puedes teletransportarte entre sombras hasta 40ft.
+
+( Nivel 5 ).   Golpe mimético
+Puedes crear un clon de ti mismo de sombras, para atacar a un enemigo, teniendo cada uno, una tirada independiente. Tu ataque obtendrá crítico, y el de tu clon, efecto asegurado. El clon desaparecerá luego de atacar.
+Costo. 1 Acciones de ataque y 2 Acción de utilidad.
+
+(CLERIGO)
+
+( Nivel 0 ).   Protección
+
+Nivel 0.Tienes una probabilidad del 10% de evitar efectos físicos (Excepto perforación).
+Nivel 1.Tienes una probabilidad del 20% de evitar efectos físicos (Excepto perforación).
+Nivel 2.Tienes una probabilidad del 25% de evitar efectos físicos (Excepto perforación).
+Nivel 3.Tienes una probabilidad del 25% de evitar efectos físicos (Excepto perforación), y 5% de evitar efectos mágicos
+Nivel 4.Tienes una probabilidad del 25% de evitar efectos físicos (Excepto perforación), y 10% de evitar efectos mágicos
+Nivel 5.Tienes una probabilidad del 25% de evitar efectos físicos (Excepto perforación), y 15% de evitar efectos mágicos
+
+(CURANDERO)
+
+( Nivel 1 ).   Medicina mágica
+Puedes curar una parte con ventaja de las cargas de un efecto físico que sufras, o que sufra un participante del combate, a 15ft de ti o menos. Aumenta las curaciones en 1d4 por nivel en clase (Max. 5).
+Costo. 2 Acciones de utilidad.
+
+( Nivel 2 ).   Restauración
+Curas 1d4 a un participante del combate a 15ft de ti o menos, por cada Nivel en esta clase, teniendo como máximo, el tipo de material del báculo:
+
+
+Hierro o Madera. 1 dado.
+Plata u Oro. 2 dados.
+Basalto o Cuarzo. 3 dados.
+Cobalto o Titanio. 4 dados.
+Oricalco o Luminita. 5 dados.
+Infernita. 6 dados.
+Druvix. 7 dados.
+El tener el báculo platinado agrega dos dados adicionales.
+Costo. 1 Acción de ataque y 1 Acción de utilidad
+
+( Nivel 3 ).   Aura de curación
+Creas un aura de 10ft alrededor de ti, todo aliado que se encuentre dentro de ella al inicio de su turno, se cura 1d6. Solo puedes tener un aura al mismo tiempo.
+Costo. 1 Acción de ataque.
+
+( Nivel 4 ).   Aura de protección
+Creas un aura de 10ft alrededor de ti, todo aliado que se encuentre dentro de ella, se vuelve inmune a recibir efectos mágicos (Pero no elimina los efectos que ya tienen). Solo puedes tener un aura al mismo tiempo.
+Costo. 1 Acción de ataque.
+
+( Nivel 5 ).   Orbe de vida
+Cada que cures a un participante del combate hasta su vida máxima, si tenía menos de la mitad de su vida, obtienes un Núcleo de vida, el cuál puede ser consumido para agregar un dado más a una curación, o sacar el máximo valor en un dado de curación. En caso de curar toda la vida a un aliado utilizando tres o más núcleos de vida, también le remueves todos los efectos negativos.
+
+( Nivel 5 ).   Aura debilitante
+Creas un aura de 15ft alrededor de ti, todo enemigo que se encuentre dentro de ella, no puede ganar dados de daño (Excepto por magia externa al aura)
+Costo. 1 Acciones de ataque.
+
+(PALADIN)
+
+( Pasiva ).   Poder divino.
+Al subir de nivel en Paladín, además de obtener una habilidad de la clase, también obtienes una habilidad de tu dios.
+
+( Nivel 0 ).   Lanzamiento
+Puedes usar el escudo como arma arrojadiza, que puede causar derribo, con un 10% de probabilidad.
+
+( Nivel 1 ).   Prueba de fé
+Obtienes +2, por cada 20 puntos de Karma (Max 6), y 1 de Armadura mágica cada 10 puntos (Max 10).
+
+( Nivel 2 ).   Rebote
+Al bloquear un proyectil, puedes redirigirlo en una dirección, causando dos puntos de daño verdadero al golpear otro objetivo.
+
+( Nivel 3 ).   Reflejo
+Requiere. Protección.
+Al evitar un efecto por la habilidad de Protección, puedes causarle este efecto al mismo enemigo que lo provocó, a cambio de 1 de Karma.
+
+( Nivel 4 ).   Geoteología
+Obtienes daño fijo y protección en tu escudo, si tu arma y escudo comparten el mismo material:
+
+Hierro o Madera. 0 puntos.
+Plata u Oro. 1 puntos.
+Basalto o Cuarzo. 2 puntos.
+Cobalto o Titanio. 3 puntos.
+Oricalco o Luminita. 4 puntos.
+
+(RANGER)
+
+( Nivel 0 ).   Apilamiento
+Puedes tener balas y flechas ilimitadas en tu inventario (a partir de las 150 unidades) y apilarlas sin límite, siempre que estas sean del mismo tipo.
+
+( Nivel 2 ).   Distancia prudencial
+Al estar a menos de 15ft de distancia de un enemigo, tu armadura se disminuye a la mitad y al atacar obtienes daño fijo igual a tu nivel en esta clase.
+
+( Nivel 4 ).   Sin escapatoria
+Tu siguiente ataque tendrá máxima puntería, y efecto asegurado.
+Costo. Dos acciones de utilidad.
+
+( Nivel 5 ).   Tiro a la cabeza
+Al sacar 20 en puntería de forma natural (No aplica Sin escapatoria), puedes sustituir el efecto por “Tiro a la cabeza”, lo que te dará un dado adicional.
+
+(PISTOLERO)
+
+( Nivel 0 ).   Sin retroceso
+Las armas de fuego ya no tendrán desventaja en puntería.
+
+( Nivel 1 ).   Cambio de pólvora
+Cambiar la munición de tu arma, no te costará acciones de utilidad.
+
+( Nivel 2 ).   Doble recarga
+Requiere: Cambio de pólvora
+Al cambiar la munición por otro tipo, obtienes 10% adicional de probabilidad de efecto +5% adicional por cada acción de utilidad que desees consumir.
+
+( Nivel 3 ).   Quemarropa
+Al atacar a un enemigo a 5ft de ti, obtienes +3 en daño fijo y puntería
+
+( Nivel 4 ).   Bayoneta
+Requiere. Herrería del nivel correspondiente al material.
+Puedes crear una cuchilla acoplable a un arma de fuego a dos manos, que hará daño en d6. Al atinar un ataque con esta arma, tendrá un 25% de probabilidad de aplicar “Empalamiento”, que, al aplicarlo, tendrás un ataque adicional por una acción de utilidad con el arma de fuego que no puede ser esquivado. Este efecto se quitará al realizar el disparo.
+
+( Nivel 5 ).   Puntería rápida
+Al atinar un ataque a un enemigo, puedes inmediatamente realizar un disparo, a un enemigo que se encuentre a 5ft o menos de él, sin costo, pero no hará mas de 1 dado de daño (y el daño fijo) y no aplica efecto.
+
+(ARQUERO)
+
+( Nivel 0 ).   Carcaj rápido
+Puedes cambiar de flechas sin gastar acciones de utilidad.
+
+( Nivel 1 ).   Acoplado
+Puedes crear puntas de flechas, con las bombas arrojadizas, aplicando sus efectos, y sumando su daño. Estas flechas llegarán a la mitad de distancia.
+
+( Nivel 2 ).   Tiro triple
+Lanzas tres flechas, en cono frente a ti, causando daño al impactar.
+Costo. 1 Acción de ataque
+
+( Nivel 3 ).   Ojo de halcón
+Al atacar con el arco a máxima distancia, obtienes ventaja en puntería.
+
+( Nivel 4 ).   Caja de infusores
+Requiere. Alquimia Lv3.
+Puedes crear un accesorio para el carcaj, el cuál puede acomplar hasta 4 gemas (Arcana, Fuego, Hielo, Electricidad, Luz, Veneno), las cuales pueden usarse para imbuir las puntas de las flechas, y aplicar el efecto correspondiente.
+
+( Nivel 5 ).   Creación de erizos
+Las flechas impactadas quedarán clavadas en el enemigo. Este podrá quitárselas con una acción de utilidad, causándose 2 puntos de daño. Luego de las cinco flechas clavadas, todas las flechas impactadas aplicarán critico.
+
+(LUCHADOR)
+
+( Nivel 0 ).   Golpe pesado
+Tus ataques desarmados tendrán el efecto de derribo, y ademas, si tu tirada de puntería, es de 20 natural, aplicas una carga de rompearmadura.
+
+( Nivel 1 ).   Combo
+Por cada ataque acertado, obtienes 5% de probabilidad de efecto con un máximo de 50%. Al llegar a 50% puedes anular este aumento, para ganar +1 de daño fijo.
+
+( Nivel 2 ).   Manos reforzadas
+Obtienes +2 de daño al atacar con cestus o desarmado. En caso de tener guantes de cuarzo, o de un material platinado, puedes golpear con una gema desbloqueada en la mano, y aplicar el efecto de la misma.
+
+( Nivel 3 ).   Contraesquive
+Una vez por turno, al esquivar un ataque con el mismo valor que la precisión del enemigo (con una diferencia de hasta 2), puedes realizar un contraataque, que aplique efecto asegurado.
+
+( Nivel 4 ).   Espíritu de lucha
+Cada vez que se pierde un 10% de la vida, va ganando cargas de "Coraje", las cuales pueden ser consumidas para aplicar los siguientes efectos:
+
+2 cargas. Táctica. Me toca. Gana 5% de probabilidad de efecto
+3 cargas. Táctica. ¿Es todo lo que tienes?. Tu siguiente ataque tiene +2 de daño
+5 cargas. Táctica. 200% Lucha. Puedes realizar algun tipo de llave de lucha, la cuál puede aplicar Derribo, Rompearmadura o Cegado, depende la narrativa
+8 cargas. Táctica. Mas fuerte que tú. Elimina todas las cargas de un solo tipo que tengas.
+10 cargas. Táctica. Knockout. El siguiente ataque que aplique Derribo, le hará 3 de daño verdadero al enemigo
+
+( Nivel 5 ).   Golpe duro
+Por cada 10% de probabilidad de efecto, obtienes +1 de daño fijo. Si tienes 50% de efecto, tus ataques hacen 1 de daño verdadero.
+
+(SHAOLIN)
+
+( Nivel 2 ).   Núcleos Zen
+Al atinar un ataque a un enemigo, obtienes un núcleo zen.
+
+( Nivel 3 ).   Golpe diamante
+Requiere: Núcleos Zen
+Puedes consumir cualquier cantidad de núcleos zen (Min. 4), para obtener +1 de daño por cada núcleo consumido, que se contarán como daño mágico.
+
+( Nivel 4 ).   Contra efecto
+Requiere: Núcleos Zen
+Al recibir un efecto mágico, si tienes cinco o más núcleos Zen, tienes anula el efecto, y tienes 25% de probabilidad de causar este a tu oponente. Aumenta en 5% por cada núcleo que desees consumir.
+
+( Nivel 5 ).   Tornado de Cristal
+Requiere: Núcleos Zen
+Puedes consumir veinticinco núcleos zen, para que tu siguiente ataque tenga daño verdadero.
+
+(TORTUGA MARCIAL)
+
+( Nivel 2 ).   Espalda impenetrable
+No pueden recibir ataques por la espalda.
+
+( Nivel 3 ).   Estilo acorazado
+Obtienes +3 de daño, por cada punto que consume tu armadura para moverte. Además, obtienes los efectos siguientes:
+2 puntos. El atinar un ataque, te dará una acción de utilidad.
+3 puntos. El resistir un ataque, te dará 2 puntos de armadura mágica por el resto de la ronda.
+
+( Nivel 4 ).   Distribución de peso
+Sustituye la mitad del daño fijo que tengas, por una cantidad igual a la mitad de armadura, además, tus armaduras pueden consumir un punto menos para moverte (No afecta a Estilo Acorazado)
+
+( Nivel 5 ).   Estilo tortuga
+Te vuelves una pelota acorazada, no recibes daño en los siguientes 3 ataques.
+Costo. 1 Acción de ataque.
+
+(MAGO)
+
+( Pasiva ).   Especialización
+Pueden elegir un tipo de magia en el que se "Especializan", esto mejorará ese tipo de magia (Además, que la podrán desbloquear, pudiendo solo elegir magias que ya están desbloqueadas, o de nivel semi-avanzado o inferior).
+
+( Nivel 0 ).   Amplificación rúnica
+Obtienes 1 de daño adicional en tus hechizos, por cada nivel en esta clase más uno. Gana (3 + 1 por nivel)dF núcleos de maná cada inicio de su turno (en valor absoluto, con ventaja), y, por cada núcleo que supere el límite de 10, te curas 1d4 de vida.
+
+( Nivel 1 ).   Costo elevado
+Tienes un 20% de probabilidad de que tu hechizo consuma 1 núcleo menos.
+
+( Nivel 1 ).   Códice expandido
+Obtiene 4 slots de hechizos, basados en su especialización, y uno adicional cada nivel ademas de este.
+
+( Nivel 2 ).   Barrera de maná
+Pueden consumir núcleos, para reducir el daño en un 10% por núcleo consumido.
+
+( Nivel 3 ).   Maestría concentrada
+Los hechizos creados que se relacionen con la especialización, tendrán un núcleo menos de costo, y verán su probabilidad de efecto duplicada, en caso de no tener efecto, aumenta el daño en 1d6 adicional.
+
+( Nivel 4 ).   Transmutación Arcana
+Puede cambiar el efecto que cause un hechizo, al cambiar su naturaleza por el de tu especialización. En caso de no tener efecto, aplica perforación de armadura con 5% de probabilidad por cada núcleo consumido en el hechizo.
+
+( Nivel 5 ).   Sortilegio anular
+Pueden conjurar la magia en la que se especializan, de forma natural, sin la gema.
+
+(ARTIFICIERO)
+
+( Pasiva ).   Refinamiento Progresivo
+Por cada nivel en esta clase, el objeto arrojado realiza +1 de daño.
+
+( Nivel 0 ).   Alquimia Explosiva
+Una vez por turno, el Artificiero puede alterar una bomba para que explote en un radio mayor, duplicando su área de efecto.
+
+( Nivel 1 ).   Lanzamiento Múltiple
+El Artificiero puede lanzar dos objetos arrojadizos (armas, bombas, pociones, etc) en una sola acción, pero con un -2 en las tiradas de puntería.
+
+( Nivel 2 ).   Bomba magnética
+Cuando el Artificiero arroja y activa esta bomba, crea un campo magnético en una zona de 10 pies; arrojable hasta 60 pies, durante 3 turnos. Dentro de este campo, todos los ataques a distancia que utilicen proyectiles metálicos (como balas o flechas) son automáticamente repelidos o su trayectoria se desvía, reduciendo considerablemente las posibilidades de acertar a los aliados dentro del área de efecto. Este dispositivo no afecta a proyectiles no metálicos o ataques mágicos.
+Creación del mecanismo: 1 Bomba vacía + 1 mecanismo + Fragmento de berilio
+
+( Nivel 2 ).   Bomba melosa
+Pueden crear una bomba, que al estallar, cubre de una sustancia melosa el suelo, en un radio de 10ft; arrojable hasta 40ft. Todos los que pasen por esa zona, deberán superar un 15 en Fuerza para moverse, desaparece naturalmente luego de 3 turnos, o si es quemada o mojada.
+Creación del mecanismo: 1 Bomba vacía + Miel + Fragmento de zafiro
+
+( Nivel 3 ).   Precisión Mecánica
+Obtiene +1 por nivel en Artificiero en puntería al utilizar arrojadizas.
+
+( Nivel 4 ).   Bombardeo preciso
+Una vez por ronda, el Artificiero puede designar un área de 6x6 hasta 60 pies de distancia. Todas las armas, bombas, y pociones lanzadas hacia esa área durante el turno del Artificiero aterrizan exactamente donde él quiere, sin necesidad de hacer tiradas de puntería. Ideal para maximizar la eficacia de las bombas y pociones de área o asegurar el impacto de armas arrojadizas contra múltiples objetivos.
+
+( Nivel 5 ).   Mecanismo de vacío mágico
+Pueden crear un mecanismo arcano, que al activarse, estallará, y creará una zona de vacío mágico, en un area de 15ft de radio, desde hasta 40ft. Todos los hechizos lanzados en esa zona, o que atraviesen esa zona son eliminados, o pierden su efecto. El efecto desaparece luego de 3 turnos, reduciendo en un turno su durabilidad, por cada hechizo que haya anulado.
+Creación del mecanismo: 2 mecanismos + 4 Fragmentos de amatista + 2 Polvo de oro
+
+( Nivel 5 ).   Mecanismo anulador
+Pueden crear bombas anuladoras, que pueden ser arrojadas, afectando a 20ft de radio; arrojable hasta 50ft. Todas las bombas, mecanismos mecánicos, arcano-mecanicos o mecanomagicos, que sean utilizadas en esa zona, pierden su utilidad, y no pueden ser activadas nuevamente. No afecta a mecanismos o bombas que ya hayan sido activadas antes de la utilización de esta.
+Creación del mecanismo: 3 mecanismos + 6 Fragmentos de diferentes gemas (Minimo 4 gemas diferentes) + 4 Polvos de diferentes metales (Minimo 3 metales diferentes)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

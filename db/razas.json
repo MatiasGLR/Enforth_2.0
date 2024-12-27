@@ -68,4 +68,60 @@
         "Habilidad4": "<x class='text-warning'>Absorción de nutrientes</x><br>Al comer un alimento preferente durante un combate, puedes renunciar al bufo que este da (Puedes obtenerlo de nuevo al comer otro alimento preferente), para curarte como una Poción de Vida Lv2.</x>",
         "Habilidad5": "<x class='text-warning'>Adaptabilidad</x><br>Al derrotar a un enemigo, obtienes +2 de daño contra enemigos del mismo tipo, hasta el final del combate."
     }
+    ,
+    {
+        "Nombre": "Turbe",
+        "Imagen": "turbe.png",
+        "Datos": "<x class='text-danger'>Profesiones y Conocimientos</x><br>Turbe<br><b>Herrero.</b> Nivel 2.<br><b>Talabartería.</b> Nivel 2.<br><b>Carpintería.</b> Nivel 1.<br><b>Conocimiento.</b> Talabartería<br><b>Conocimiento.</b> Herrería<br><b>Conocimiento.</b> Carpintería",
+        "Descripcion": "Son por lo general confundidos con Lhanies enanos, aunque las razas de animales que conforman a ambos, no son las mismas, y nunca concuerdan. Los Turbes tienden a ser más juguetones que otros animales, además de que los objetos brillantes se les hace muy atractivos, por lo que tienden a investigarlos.",
+        "Estadisticas": "Turbe<br><x class='text-info'>Inteligencia.</x> 1<br><x class='text-info'>Armadura natural.</x> 0",
+        "HabilidadP": "<x class='text-warning'>Pequeñas travesuras</x><br>Debido a su pequeño tamaño, no pueden utilizar armas que se consideran pesadas. Al encontrarse con objetos brillantes no pueden resistirse a revisar que son. No pueden subir puntos en suerte, de forma permanente, temporal, raza, etc.",
+        "Habilidad1": "<x class='text-warning'>Lanzas brillantes</x><br>Pueden apilar lanzas de madera, hasta dos por nivel. El daño de estas lanzas al arrojarlas individualmente, será de 1d6 mágico, escalando con Inteligencia. Las lanzas quedarán clavadas en el enemigo, y pueden ser retiradas con una acción de utilidad por lanza, causando 2 de daño verdadero por lanza, y un punto de daño verdadero a los enemigos entre ti, y las lanzas, por cada lanza (Max. 10ft).<br><x class='text-warning'>Escurridizo</x><br>Al esquivar, pueden pasar hacia detrás del enemigo, siempre que a este se le pueda pasar por debajo, o entre medio.",
+        "Habilidad2": "<x class='text-warning'>Bajo tierra</x><br>Pueden crear túneles entre dos partes del mapa de combate por tres acciones de utilidad, y cruzar entre estos, a cambio de dos acciones de utilidad.",
+        "Habilidad3": "<x class='text-warning'>Refuerzo mágico</x><br>Pueden cambiar el daño físico, por daño mágico en sus armas.",
+        "Habilidad4": "<x class='text-warning'>Espiritualidad</x><br>Obtienen el conocimiento de magia de almas. Conseguir almas tendrá el doble de probabilidad.",
+        "Habilidad5": "<x class='text-warning'>Unión espiritual</x><br>Pueden consumir un alma para invocar al animal correspondiente, en forma de fantasma, como apoyo de combate, además, de obtener una de sus estadísticas, durante un combate, o una acción narrativa."
+    }
+    ,
+    {
+        "Nombre": "Fjereo",
+        "Imagen": "fjereo.png",
+        "Datos": "<x class='text-danger'>Profesiones y Conocimientos</x><br>Fjereo<br><b>Explorador.</b> Nivel 2.<br><b>Ladrón.</b> Nivel 2.<br><b>Conocimiento.</b> Manualidades.",
+        "Descripcion": "Parientes lejanos de las aves, los Fjereos tienen una gran capacidad física cuando se trata de evitar peligros, debido a la capacidad de vuelo que tienen, que les permite evitar peligros cercanos, manteniéndose al margen de las adversidades.",
+        "Estadisticas": "Fjereo<br><x class='text-info'>Agilidad.</x> 1<br><x class='text-info'>Armadura natural.</x> 0",
+        "HabilidadP": "<x class='text-warning'>Aviación turbulenta</x><br>Reciben 2 mas de daño por cada ataque que reciben.",
+        "Habilidad1": "<x class='text-warning'>Valentía</x><br>Al luchar con aliados, se vuelve inmune al debufo de miedo.",
+        "Habilidad2": "<x class='text-warning'>Alza el vuelo</x><br>Puede volar durante el resto de la ronda, a 5ft de altura por cada nivel en la raza, teniendo que tomar una ronda de descanso antes de poder volver a volar. Si te atacan volando, caerás y recibirás 1d4 por cada 5ft.<br><x class='text-warning'>Alma de fénix</x><br>Al morir, el cuerpo arde en llamas, destruyendo todo el equipamiento, posteriormente, las llamas se unirán en un huevo de oro, el cual emerge en llamas nuevamente en la forma antes de morir, sin heridas, al día siguiente de consumirse. Se debe esperar otro día para volver a usar esta habilidad.",
+        "Habilidad3": "<x class='text-warning'>Caída en picada</x><br>Requiere “Alza el vuelo”. Mientras vuelas, puedes caer hacia un enemigo, atacándolo con el impulso de la caída, causando tantos dados de 4 de daño, por cada 15ft de distancia de vuelo, sumado a la distancia del enemigo (No puede sobrepasar la altura).<br><x class='text-danger'>Costo. 1 Acción de ataque y 2 de utilidad.</x>",
+        "Habilidad4": "<x class='text-warning'>Plumas afiladas</x><br>Cualquier ataque cuerpo a cuerpo que recibas, devolverá el 1/4 del daño recibido al enemigo como daño verdadero (Redondeado hacia abajo). Los ataques cuerpo a cuerpo que recibas tendrán 10% de probabilidad de causar sangrado.",
+        "Habilidad5": "<x class='text-warning'>Tornado de plumas</x><br>Requiere “Plumas afiladas”. Puede consumir cualquier cantidad de acciones de utilidad, para lanzar plumas en dirección a un enemigo (Max. 15ft), que causa tantos dados de 4 de daño, como acciones de utilidad se consumieron. En caso de consumir todos los puntos de acción de utilidad, se suma un 1d4 adicional, por cada Nivel en la raza."
+    }
+    ,
+    {
+        "Nombre": "Sarka",
+        "Imagen": "sarka.png",
+        "Datos": "<x class='text-danger'>Profesiones y Conocimientos</x><br>Sarka<br><b>Cacería.</b> Nivel 2.<br><b>Explorador.</b> Nivel 2.<br><b>Ladrón.</b> Nivel 1.<br><b>Carpintería.</b> Nivel 1.<br><b>Conocimiento.</b> Cacería.<br><b>Conocimiento.</b> Carpintería.",
+        "Descripcion": "Son tratados como piratas sin moral, como unos demonios que solo llegan a querer quitarte todo, y que es mejor mantenerse apartado de ellos, pues no sabes cuándo te pueden llegar a traicionar. No todos son asi; por lo general suelen ser criaturas bastante amigables, que prefieren estar en soledad bajo el agua que en las multitudes.",
+        "Estadisticas": "Sarka<br><x class='text-info'>Agilidad.</x> 1<br><x class='text-info'>Armadura natural.</x> 0",
+        "HabilidadP": "<x class='text-warning'>Hidratación</x><br>En cada exploración en desiertos deberá beber agua, o algún líquido sano, o tendrán desventaja en sus tiradas, hasta hidratarse. Tomar agua contaminada (Estancada) no les afecta.",
+        "Habilidad1": "<x class='text-warning'>Respiración acuática</x><br>Puedes mantenerte debajo del agua, durante tantos turnos, como nivel tengas en esta raza, más uno.",
+        "Habilidad2": "<x class='text-warning'>Ventaja marina</x><br>Obtienen 10% de probabilidad de critico al pelear en una fuente de agua o bajo la lluvia.<br><x class='text-warning'>Escamas reforzadas</x><br>Al hidratarse, obtiene puntos de resistencia natural por nivel en la raza, durante el resto de la ronda (No acumulable).",
+        "Habilidad3": "<x class='text-warning'>Tramposo</x><br>Luego de esquivar un ataque, pueden lanzar un chorro de agua hacia el enemigo (esquivable), lo cual lo dejará derribado, y le causará 2 puntos de daño verdadero.</x>",
+        "Habilidad4": "<x class='text-warning'>Negociación</x><br>Obtienen ventaja en tiradas de negociación y de convencimiento. En caso de fallar en este tipo de tiradas, el efecto negativo no será grave. Obtienen 5% más de oro en ventas.",
+        "Habilidad5": "<x class='text-warning'>Ráfaga de anguila</x><br>Requiere saber Magia de Electricidad. Al portar un Berilio, los ataques cuerpo a cuerpo, causarán Estatizado (mágico) con un 25% de probabilidad (No cuenta como realizar un hechizo)"
+    }
+    ,
+    {
+        "Nombre": "Demonio",
+        "Imagen": "demon.png",
+        "Datos": "<x class='text-danger'>Profesiones y Conocimientos</x><br>Demonio<br><b>Herrería.</b> Nivel 2.<br><b>Joyería.</b><br><b>Conocimiento.</b> Herrería.<br><b>Conocimiento.</b> Joyería.<br><b>Conocimiento.</b> Magia de fuego.<br><b>Idioma.</b> Selga.",
+        "Descripcion": "Siendo ya una raza impura, debido al pasar de tantos años, que los demonios ya se fueron extinguiendo en esta tierra, donde su inmortalidad desaparecía, solo quedaron los herederos de estos, quienes aún portan parte del poder de sus antepasados.",
+        "Estadisticas": "Demonio<br><x class='text-info'>Punteria.</x> 1<br><x class='text-info'>Armadura natural.</x> 2",
+        "HabilidadP": "<x class='text-warning'>Locura ancestral</x><br>A partir de la segunda ronda en un combate, estos empiezan a ver a cualquier participante del combate como sus enemigos, atacando al objetivo más cercano, obteniendo 1 de daño por nivel en raza. Son inmunes a la maldición. Pueden evitar atacar a un aliado, si este los convence con una tirada de Carisma contra tu Combate.",
+        "Habilidad1": "<x class='text-warning'>Preferencia por lo pesado</x><br>Pueden utilizar un tridente a una sola mano.",
+        "Habilidad2": "<x class='text-warning'>Altas temperaturas</x><br>Son inmunes al daño por el efecto de quemadura. Recibir daño por fuego (fuente mágica), reducirá el daño a la mitad.",
+        "Habilidad3": "<x class='text-warning'>Herrería Infernal</x><br>Obtienen el conocimiento de Herrería con Infernita, además, pueden agregar infernita como impureza a un arma, para agregarle el efecto de Quemadura. Aprenden como hacer la espada larga, tridente, lanza y las dagas de infernita.</x>",
+        "Habilidad4": "<x class='text-warning'>Infusión ignea</x><br>Puedes imbuir un arma cuerpo a cuerpo en fuego (por lo que aplica quemadura). En caso de que el arma estuviera hecha de Infernita, causa 1 de daño verdadero al enemigo por cada carga de quemadura que tenga. Costo. 1 Acción de ataque y 1 Acción de utilidad.",
+        "Habilidad5": "<x class='text-warning'>Cauterización</x><br>Absorbes todas las cargas de quemadura (De todos los participantes del combate), para curarte 1 punto por cada carga absorbida, y causando un punto de daño a cada ser del que se absorbieron las quemaduras, aplicando el siguiente efecto, dependiendo de la cantidad de cargas:<br><x class='text-info'>3 cargas.</x><br> Tu siguiente ataque causará quemadura de forma asegurada.<br><x class='text-info'>5 cargas.</x><br>En caso de tener desbloqueada la clase de Mago, obtienes 2 Núcleos.<br><x class='text-info'>7 cargas.</x><br> Tu siguiente ataque tiene efecto asegurado.<br><x class='text-info'>10 cargas.</x><br> La zona a tu alrededor (10ft) se quema, todo ser que se encuentre sobre la zona, obtiene dos cargas de quemadura al inicio de su turno<br><x class='text-info'>15 cargas.</x><br> Tu arma se imbuye en Magia Infernal, por lo que todos los ataques hasta el final de tu siguiente turno tendrán 100% de probabilidad de dar dos cargas mas de quemadura.<br><x class='text-info'>25 cargas.</x><br> Puedes canalizar tus hechizos de Fuego sin consumir núcleos, por el resto de la ronda (Máximo 3 hechizos por turno).<br><x class='text-info'>35 cargas.</x><br> Explotas una carga de quemadura y le agregas 2 cargas de quemadura a cada ser del combate (Excepto tú y tus aliados), curando a tus aliados y a ti, 1d4 de vida por cada enemigo que recibió daño, y causándoles desventaja en su siguiente esquive.<br><x class='text-danger'>Costo. 1 Acción de ataque y 3 de utilidad.</x>"
+    }
 ]
