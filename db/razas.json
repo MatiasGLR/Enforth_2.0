@@ -2,39 +2,70 @@
     {
         "Nombre": "Humano",
         "Imagen": "humano.png",
-        "Datos": "PruebaHumanoDatos",
+        "Datos": "<x class='text-danger'>Profesiones y Conocimientos</x><br>Humano<br><b>Armero.</b> Nivel 2.<br><b>Cazador.</b> Nivel 2.<br><b>Conocimiento.</b> Cacería<br><b>Conocimiento.</b> Herrería<br><b>Conocimiento.</b> Armamentística",
         "Descripcion": " Como una de las razas más débiles en general, tanto física, como mágicamente, debieron de valerse de su ingenio, para poder construir la tecnología que les permitiera sobrevivir en este intrépido mundo.",
-        "Estadisticas": "PruebaHumanoStats",
-        "Habilidad5t": "PruebaHumano5",
-        "Habilidad5": "PruebaHumano5",
-        "Habilidad4t": "PruebaHumano4",
-        "Habilidad4": "PruebaHumano4",
-        "Habilidad3t": "PruebaHumano3",
-        "Habilidad3": "PruebaHumano3",
-        "Habilidad2t": "PruebaHumano2",
-        "Habilidad2": "PruebaHumano2",
-        "Habilidad1t": "PruebaHumano1",
-        "Habilidad1": "PruebaHumano1",
-        "HabilidadPt": "PruebaHumanoP",
-        "HabilidadP": "PruebaHumanoP"
+        "Estadisticas": "Humano<br><x class='text-info'>Inteligencia.</x> 1<br><x class='text-info'>Armadura natural.</x> 2",
+        "HabilidadP": "<x class='text-warning'>Historial de persecución</x><br>Obtienen desventaja al resistirse al miedo, y el doble de probabilidad de ser causado.",
+        "Habilidad1": "<x class='text-warning'>Mínimo para vivir</x><br>Inmunidad a estadísticas negativas.<br><x class='text-warning'>Rebusque</x><br>Tienes el doble de probabilidad de encontrar plantas medicinales al buscarlas activamente durante una exploración.",
+        "Habilidad2": "<x class='text-warning'>Mal presagio</x><br>Puedes tirar percepción para saber si hay criaturas hostiles cerca (Máximo 3 por exploración).",
+        "Habilidad3": "<x class='text-warning'>Hipersupervivencia</x><br>Ante un peligro inmediato, se agregará un punto a tu siguiente tirada.",
+        "Habilidad4": "<x class='text-warning'>Venganza</x><br>Si un aliado es abatido, obtienes +2 de daño contra el enemigo que lo abatió, y +4 en su lugar, si tu aliado murió.",
+        "Habilidad5": "<x class='text-warning'>Múltiple especialidad</x><br>Puede desbloquear un segundo don."
     }
     ,
     {
         "Nombre": "Orco",
         "Imagen": "orco.png",
-        "Datos": "PruebaOrcoDatos",
+        "Datos": "<x class='text-danger'>Profesiones y Conocimientos</x><br>Orco<br><b>Herrería.</b> Nivel 2.<br><b>Cazador.</b> Nivel 2.<br><b>Conocimiento.</b> Cacería<br><b>Conocimiento.</b> Herrería",
         "Descripcion": "Conquistadores casi desde sus inicios, debido a su fatal arrogancia, la sed de sangre, y de demostrar su fuerza, creyéndose las perfectas armas de combate, debido a que, en cuanto a ejército, ellos son el que mejor resiste a los ataques, y el hecho de que no pueden ser detenidos por cualquiera durante enfrentamientos directos.",
-        "Estadisticas": "PruebaOrcoStats",
-        "Habilidad5t": "PruebaOrco5",
-        "Habilidad5": "PruebaOrco5",
-        "Habilidad4t": "PruebaOrco4",
-        "Habilidad4": "PruebaOrco4",
-        "Habilidad3t": "PruebaOrco3",
-        "Habilidad3": "PruebaOrco3",
-        "Habilidad2t": "PruebaOrco2",
-        "Habilidad2": "PruebaOrco2",
-        "Habilidad1t": "PruebaOrco1",
-        "Habilidad1": "PruebaOrco1",
-        "HabilidadP": "PruebaOrcoP"
+        "Estadisticas": "Orco<br><x class='text-info'>Fuerza.</x> 1<br><x class='text-info'>Armadura natural.</x> 3",
+        "HabilidadP": "<x class='text-warning'>Falta de tacto</x><br>Su forma tosca y agresiva de ser también forma parte de su habla, por lo que tienen desventaja en cualquier tirada de carisma, excepto en la intimidación. El uso de armas a distancia tendrá desventaja en daño. No pueden utilizar ningún tipo de magia, pero el slot de hechizo que viene de base, pasa a ser otro slot de táctica.",
+        "Habilidad1": "<x class='text-warning'>Preferencia de contacto</x><br>El ataque desarmado pega 1d6, y puede meter crítico.<br><x class='text-warning'>Contraataque feróz</x><br>Al recibir un ataque que lo dejara fuera de combate, recupera la mitad del daño recibido este turno y aparta al enemigo una casilla (Solo usable una vez por turno enemigo).",
+        "Habilidad2": "<x class='text-warning'>Furia interna</x><br>Al tener 8 de vida o menos, obtienes 5% de probabilidad de efecto, y, al tener 3 de vida o menos, obtienes +2 en el daño cuerpo a cuerpo",
+        "Habilidad3": "<x class='text-warning'>Rompecascos</x><br>Duplica la ruptura de armadura de las armas a dos manos, y las armas a una mano y ataques desarmado, aplican rompearmadura.",
+        "Habilidad4": "<x class='text-warning'>Embestida titánica</x><br>Pueden correr en una dirección, consumiendo una acción de ataque y una de utilidad (por cada 3 casillas recorridas); si impacta contra un enemigo, lo lleva con él (Si es del mismo tamaño o inferior al orco), y, si impacta contra un obstáculo o borde del mapa, le causa 1 de daño verdadero por accion utilizada, y le aplica derribo.",
+        "Habilidad5": "<x class='text-warning'>Ejecución sanguinaria</x><br>Al abatir a un enemigo, puede tomarlo, y ejecutarlo en el momento (Siempre que sea de tamaño igual o menor al orco)."
+    }
+    ,
+    {
+        "Nombre": "Automata",
+        "Imagen": "automatas.png",
+        "Datos": "<x class='text-danger'>Profesiones y Conocimientos</x><br>Automata<br><b>Artificiero.</b> Nivel 2.<br><b>Conocimiento.</b> Ingenieria<br><b>Conocimiento.</b> Magia de electricidad",
+        "Descripcion": "Fueron creados por inventores de Endricci para servir para la seguridad, aunque poco tiempo después, fueron desarrollando inteligencia propia, debido a que usaron una gema artificial, una unión de las perlas, jades y berilios, que dieron nacimiento a la mente de los automatas. Su apariencia fue planeada para ser lo mas parecidos a humanos, pero son facilmente distinguibles por su voz apagada y falsa, y el hecho que todas las partes de su cuerpo tienen algun tipo de atuendo. No pueden beber pociones, ni comer alimentos.",
+        "Estadisticas": "Automata<br><x class='text-info'>Fuerza.</x> 1<br><x class='text-info'>Armadura natural.</x> 4",
+        "HabilidadP": "<x class='text-warning'>Núcleo energético</x><br><b>Raza no hibridable.</b><br>Estos tienen energía limitada, que, a pesar de recargarse de forma automática, se consume rápido; al realizar acciones, estos consumirán energía, además de las acciones correspondientes, consumiendo un punto de energía por acción consumida. El máximo de energía será de 10 + 1 por nivel en raza. Pueden conjurar hechizos de magia eléctrica sin la necesidad de un canalizador; no utilizan núcleos de maná, sino núcleos eléctricos, obteniendo dos por cada punto de energía que se busque consumir, siendo esta, y el uso de equipamiento (Ej. Joyas) la única forma de aumentar núcleos. Durante lluvias o en fuentes de agua, divide la energía a la mitad para proteger las piezas mecánicas. Al cambio de ronda, recuperan toda su energía. No pueden consumir alimentos ni beber.",
+        "Habilidad1": "<x class='text-warning'>Reparación</x><br><b>Requiere equipo de taller</b>.Pueden comprar a un Ingeniero las 'Piezas de recambio', los cuales curarán toda la vida al automata, pero debe consumir su turno completo para ello. Requieren Nivel 2 en Ingenieria para reparar un Automata. Si aun no han perdido 1/4 de su vida, pueden curarse mediante reparaciones menores, consumiendo 2 acciones de utilidad, curandose 1d4 + 1 por nivel en Ingenieria<br><x class='text-warning'>Modo de combate</x><br>Duplica la cantidad de energía, pero bloquea el uso de magia y da desventaja en el esquive. Por cada ataque acertado, obtienen +1 de daño fijo cuerpo a cuerpo. Solo se puede tener un modo a la vez, y solo puede cambiarse de modo una vez por ronda.<x class='text-danger'><br>Costo. 5 de Energía + 2 Acciones de utilidad</x><br><x class='text-warning'>Modo de defensa</x><br>Divide a la mitad la cantidad de energía, bloquea el uso de la magia, da ventaja en el esquive, duplica la armadura natural. Por cada ataque recibido que cause daño mayor a 1, obtienen +2 de armadura mágica. Solo se puede tener un modo a la vez, y solo puede cambiarse de modo una vez por ronda.<br><x class='text-danger'>Costo. 5 de Energía + 1 Acción de utilidad</x>",
+        "Habilidad2": "<x class='text-warning'>Modo de radar</x><br>Bloquea el uso de magia, y da ventaja en la percepción. Solo se puede tener un modo a la vez, y solo puede cambiarse de modo una vez por ronda. Pueden detectar elementos ocultos.<br><x class='text-danger'>Costo. 5 de Energía</x>",
+        "Habilidad3": "<x class='text-warning'>Aumento físico</x><br>Pueden llevar un arma a dos manos a una mano, pero los ataques pasarán a costar 3 de energía.<br><x class='text-warning'>Absorción eléctrica</x><br>Durante tormentas eléctricas, absorben rayos para volver a llenar su contador de energía, si reciben un rayo, o un ataque con daño electrico estando con la energía al máximo, se sobrecargarán, y recibirán la mitad de su vida actual como daño, volviendo a bajar la energía hasta el máximo.",
+        "Habilidad4": "<x class='text-warning'>Modo de velocidad</x><br>Bloquea el uso de la magia, y da ventaja en esquive, además, moverse y esquivar ya no costará energía ni acciones de movimiento. Obtienes -5 de daño y pierdes la armadura natural.<br><x class='text-danger'>Costo. 5 de Energía y 2 Acciones de utilidad</x><br><x class='text-warning'>Modo de conjurador</x><br>Bloquea el ataque cuerpo a cuerpo, y reduce la resistencia natural y mágica a cero. Los hechizos ya no consumirán energía al conjurarlos, pero siguen consumiendo núcleos.",
+        "Habilidad5": "<x class='text-warning'>Sobrecarga</x><br>Desactiva todos los modos. Pueden realizar todas las acciones en este turno, sin gastar energía, a cambio, perderán dos puntos de vida por cada punto de energía que fuera a ser gastado al final de su turno. Por cada punto de energía 'gastado' durante este modo, aumenta el daño físico en un punto.<br><x class='text-danger'>Costo. 1 Acción de utilidad.</x>"
+    }
+    ,
+    {
+        "Nombre": "Shira",
+        "Imagen": "shira.png",
+        "Datos": "<x class='text-danger'>Profesiones y Conocimientos</x><br>Shira<br><b>Cazador.</b> Nivel 2.<br><b>Talabartería.</b> Nivel 2.<br><b>Conocimiento.</b> Cacería<br><b>Conocimiento.</b> Talabartería<br><b>Conocimiento.</b> Magia de hielo",
+        "Descripcion": "Provenientes de las heladas tierras de Glosbeheim, los Shira se han adecuado a los inhóspitos climas helados, en los cuales han aprendido a sobrevivir al frío, y a cazar la poca variedad de especies que hay en esas tierras, o al menos las que se les podía cazar fácilmente.",
+        "Estadisticas": "Shira<br><x class='text-info'>Puntería.</x> 1<br><x class='text-info'>Armadura natural.</x> 2",
+        "HabilidadP": "<x class='text-warning'>Criofilia</x><br>Son inmunes al daño de hielo, y al efecto del congelamiento. Al recibir una carga de quemadura, son abatidos al momento.",
+        "Habilidad1": "<x class='text-warning'>Punto frío</x><br>Al atacar a un enemigo que tenga cargas de congelamiento, le causa 1d4 de daño por cada carga, y le elimina las cargas.<br><x class='text-warning'>Danza de hielo</x><br>Moverse en climas helados, y en el hielo, les dará el doble de casillas. Pueden moverse al estar estatizados, mientras pisen hielo, o nieve.",
+        "Habilidad2": "<x class='text-warning'>Escarcha del gigante de hielo</x><br>Por cada 4 de vida que le falte, y por cada carga de congelamiento que tenga, obtienen un punto de armadura helada, la cual aumenta la armadura natural por cada carga de armadura helada.",
+        "Habilidad3": "<x class='text-warning'>Porte sencillo</x><br>Pueden utilizar un arma ligera a dos manos, con una mano, pudiendo utilizar únicamente un escudo en su otra mano.<br><x class='text-warning'>Rompehielo</x><br>Al atinar un golpe a un enemigo que tenga diez cargas de congelamiento, lo congela en un bloque de hielo, dejándolo fuera de combate (Si son del mismo tamaño o inferior que el Shira).",
+        "Habilidad4": "<x class='text-warning'>Tormenta helada</x><br>Pueden crear una tormenta de nieve en la zona de combate, la cual colocará una carga de congelamiento a cada individuo en la zona de combate (Por cada acción de utilidad usada para pagar esta habilidad, con un máximo de 4), al final de la ronda.<br><x class='text-danger'>(Costo: 1 Acciones de ataque).</x>",
+        "Habilidad5": "<x class='text-warning'>Forja helada</x><br>Pueden hacer una aleación de Titanio (1) y Zafiro desbloqueado (1), para hacer lingotes de Everfrost, los cuales tendrán el mismo daño que el Titanio, y el efecto de quemadura helada. Si portan una armadura de Everfrost, obtienen +1 de daño fijo por cada pieza de defensa de Everfrost (Armadura y escudo)"
+    }
+    ,
+    {
+        "Nombre": "Lhanie",
+        "Imagen": "lhanie.png",
+        "Datos": "<x class='text-danger'>Profesiones y Conocimientos</x><br>Lhanie<br><b>Cazador.</b> Nivel 2.<br><b>Talabartería.</b> Nivel 2.<br><b>Conocimiento.</b> Cacería<br><b>Conocimiento.</b> Talabartería<br><b>Conocimiento.</b> Herbolaria",
+        "Descripcion": "Mitad hombre y mitad bestia, los Lhanies son los más conectados al mundo animal, entendiendo estos la manera de poder comunicarse de forma relativa con estos, y así, poder pedir su ayuda en este intrépido mundo.",
+        "Estadisticas": "Lhanie<br><x class='text-info'>Agilidad.</x> 1<br><x class='text-info'>Armadura natural.</x> 2",
+        "HabilidadP": "<x class='text-warning'>Desomnivorismo</x><br>No pueden comer otro alimento, que no sea el preferente de su animal originario (Carnes, o frutas y vegetales).",
+        "Habilidad1": "<x class='text-warning'>Llamado de la naturaleza</x><br>Consume una acción de utilidad, para convocar a un animal salvaje básico durante una ronda. Mediante 1d20, tiene 10% de obtener un animal medio, sino será básico.<br><x class='text-warning'>Fium</x><br>Pueden moverse el doble de casillas por movimiento.<br><x class='text-warning'>Rastreo</x><br>Aumenta al doble la probabilidad de encontrar activamente animales exactos durante una exploración. Durante un combate, puedes saber en que dirección está un enemigo, superando percepción (10).",
+        "Habilidad2": "<x class='text-warning'>Alimentación balanceada</x><br>Al comer un alimento preferente, obtienen el doble de beneficios. Los carnivoros pueden comer carne cruda, y los herviboros son inmunes a los venenos naturales de las frutas y verduras.",
+        "Habilidad3": "<x class='text-warning'>Equipamiento natural</x><br>Pueden hacer armas y equipamiento de hueso (Misma cantidad de materiales que armadura, pero usa hueso), estos tendrán el efecto de armadura completa si todas las piezas de armadura tienen una de estas acomplada: ''Inmunidad al derribo. Aumenta la armadura en +3. Si un arma tiene hueso acoplada, aumenta su daño físico en +1.''.",
+        "Habilidad4": "<x class='text-warning'>Absorción de nutrientes</x><br>Al comer un alimento preferente durante un combate, puedes renunciar al bufo que este da (Puedes obtenerlo de nuevo al comer otro alimento preferente), para curarte como una Poción de Vida Lv2.</x>",
+        "Habilidad5": "<x class='text-warning'>Adaptabilidad</x><br>Al derrotar a un enemigo, obtienes +2 de daño contra enemigos del mismo tipo, hasta el final del combate."
     }
 ]
