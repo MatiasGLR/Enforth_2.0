@@ -289,35 +289,27 @@
                         <div class="w-100 text-center">
                             <p>
                                 Las clases es el nombre establecido a el estilo de pelea elegido por el jugador para utilizar con su personaje, asi como el tipo de arma principal que este utilizará.
+                                <p>
+                                    Las que están con fondo blanco son las clases con las que se puede iniciar, y canjeables con puntos de mejora<br>
+                                    Las que tienen otros colores, son especiales, y desbloqueadas de diferentes modos
+                                </p>
                                 <div id="maldicion-info" class="w-100 text-center">
-                                    <select class="text-center btn btn-light" name="" id="lista_clases" style="width:50%; border-radius:0" onchange="cargar_clases()">
+                                    <p>
+                                        <input type="checkbox" name="" id="ver_clases_especiales" onclick="cambiar_lista_clases()"> ¿Ver clases especiales?
+                                    </p>
+                                    <select class="text-center btn btn-light" name="" id="lista_clases" style="width:50%; border-radius:0" onchange="cargar_clase()">
                                         <option value="">Elegir clase</option>
                                         <option value="guerrero" style="background-color:rgb(255, 255, 255);">Guerrero</option>
                                         <option value="picaro" style="background-color:rgb(255, 255, 255);">Picaro</option>
-                                        <option value="clérigo" style="background-color:rgb(255, 255, 255);">Clérigo</option>
-                                        <option value="ranger" style="background-color:rgb(255, 255, 255);;">Ranger</option>
-                                        <option value="luchador" style="background-color:rgb(255, 255, 255);;">Luchador</option>
-                                        <option value="mago" style="background-color:rgb(255, 255, 255);;">Mago</option>
+                                        <option value="clerigo" style="background-color:rgb(255, 255, 255);">Clérigo</option>
+                                        <option value="ranger" style="background-color:rgb(255, 255, 255);">Ranger</option>
+                                        <option value="luchador" style="background-color:rgb(255, 255, 255);">Luchador</option>
+                                        <option value="mago" style="background-color:rgb(255, 255, 255);">Mago</option>
                                         <option value="artificiero" style="background-color:rgb(255, 255, 255);;">Artificiero</option>
-                                        <option value="aracnomante" style="background-color:rgb(241, 137, 215);">Aracnomante</option>
-                                        <option value="dragonslayer" style="background-color:rgb(241, 179, 137);">Dragonslayer</option>
-                                        <option value="dragonmaster" style="background-color:rgb(241, 179, 137);">Dragonmaster</option>
-                                        <option value="berserker" style="background-color:rgb(241, 137, 137);">Berserker</option>
-                                        <option value="cazador" style="background-color:rgb(137, 161, 241);">Cazador</option>
-                                        <option value="corruptor" style="background-color:rgb(241, 137, 215);">Corruptor</option>
-                                        <option value="pirata" style="background-color:rgb(241, 137, 137);">Pirata</option>
-                                        <option value="mosquetero" style="background-color:rgb(137, 161, 241);">Mosquetero</option>
-                                        <option value="necromante" style="background-color:rgb(241, 137, 215);">Necromante</option>
-                                        <option value="ninja" style="background-color:rgb(241, 137, 137);">Ninja</option>
                                     </select>
                                     <br><br>
-                                    <p>
-                                        Las que están con fondo blanco son las clases con las que se puede iniciar, y canjeables con puntos de mejora<br>
-                                        Las que tienen otros colores, son especiales, y desbloqueadas de diferentes modos
-                                    </p>
                                 </div>
-                                
-                                <div id="clase-info" class="w-100 text-center">
+                                <div id="clase-info">
 
                                 </div>
                             </p>

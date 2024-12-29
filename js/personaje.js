@@ -2,6 +2,50 @@ const raza1_box = document.querySelector("#lista_raza1");
 const raza2_box = document.querySelector("#lista_raza2");
 const profesion_box = document.querySelector("#lista_profesiones");
 const maldicion_box = document.querySelector("#lista_maldiciones");
+const clases_box = document.querySelector("#lista_clases");
+
+async function cambiar_lista_clases(){
+    const ver_clases_especiales = document.querySelector("#ver_clases_especiales");
+    if(ver_clases_especiales.checked) {
+        $("#lista_clases").html('<option value="">Elegir clase</option>\
+            <option value="guerrero" style="background-color:rgb(255, 255, 255);">Guerrero</option>\
+            <option value="picaro" style="background-color:rgb(255, 255, 255);">Picaro</option>\
+            <option value="clerigo" style="background-color:rgb(255, 255, 255);">Clérigo</option>\
+            <option value="ranger" style="background-color:rgb(255, 255, 255);">Ranger</option>\
+            <option value="luchador" style="background-color:rgb(255, 255, 255);">Luchador</option>\
+            <option value="mago" style="background-color:rgb(255, 255, 255);">Mago</option>\
+            <option value="artificiero" style="background-color:rgb(255, 255, 255);;">Artificiero</option>\
+            <option value="aracnomante" style="background-color:rgb(241, 137, 215);">Aracnomante</option>\
+            <option value="dragonslayer" style="background-color:rgb(241, 179, 137);">Dragonslayer</option>\
+            <option value="dragonmaster" style="background-color:rgb(241, 179, 137);">Dragonmaster</option>\
+            <option value="berserker" style="background-color:rgb(241, 137, 137);">Berserker</option>\
+            <option value="cazador" style="background-color:rgb(137, 161, 241);">Cazador</option>\
+            <option value="corruptor" style="background-color:rgb(241, 137, 215);">Corruptor</option>\
+            <option value="pirata" style="background-color:rgb(241, 137, 137);">Pirata</option>\
+            <option value="mosquetero" style="background-color:rgb(137, 161, 241);">Mosquetero</option>\
+            <option value="necromante" style="background-color:rgb(241, 137, 215);">Necromante</option>\
+            <option value="ninja" style="background-color:rgb(241, 137, 137);">Ninja</option>');
+    } else {
+        $("#lista_clases").html('<option value="">Elegir clase</option>\
+            <option value="guerrero" style="background-color:rgb(255, 255, 255);">Guerrero</option>\
+            <option value="picaro" style="background-color:rgb(255, 255, 255);">Picaro</option>\
+            <option value="clerigo" style="background-color:rgb(255, 255, 255);">Clérigo</option>\
+            <option value="ranger" style="background-color:rgb(255, 255, 255);">Ranger</option>\
+            <option value="luchador" style="background-color:rgb(255, 255, 255);">Luchador</option>\
+            <option value="mago" style="background-color:rgb(255, 255, 255);">Mago</option>\
+            <option value="artificiero" style="background-color:rgb(255, 255, 255);;">Artificiero</option>');
+    }
+}
+
+async function cargar_clase(){
+    let clase = clases_box.value;
+
+    if(clase == "") return $("#clase-info").html("");
+
+    await $.get("./files/clases/"+clase+".html", function(textString) {
+        $("#clase-info").html(textString);
+    });
+}
 
 async function cargar_maldiciones(){
     let maldicion = maldicion_box.value;
