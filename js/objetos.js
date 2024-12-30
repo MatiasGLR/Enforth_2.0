@@ -40,10 +40,22 @@ async function cargar_objeto(objeto) {
         for(let i = 0; i < index_json.length ; i++) {
             const nombre_val = input_nombre.value, json_a = JSON.parse(JSON.stringify(index_json[i][1]));
             if(objeto != "" && json_a.nombre.includes(objeto)) {
+                let material = "", obtenida = "", creada = "";
+                if(json_a.materiales && json_a.materiales.length) material = `<b>Materiales:</b> `+json_a.materiales+`<br>`;
+                if(json_a.creadaen && json_a.creadaen.length) obtenida = `<b>Creada en:</b> `+json_a.creadaen+`<br>`;
+                if(json_a.obtenidaen && json_a.obtenidaen.length) obtenida = `<b>Obtenida en:</b> `+json_a.obtenidaen+`<br>`;
                 str = str.concat(`
-                aaaaaaaaaaaaa
+                    <b>Categoría:</b> `+json_a.categoria+`<br>
+                    <b>Precio de compra:</b> `+json_a.preciocompra+`<br>
+                    <b>Precio de venta:</b> `+json_a.precioventa+`<br>
+                    <b>Se puede comprar en:</b> `+json_a.vendidaen+`<br><br>
+                    `+material+`
+                    `+creada+`
+                    `+obtenida+`<br>
+                    <b>Descripción:</b> `+json_a.descripcion+`<br>
+
                 `);
-                document.querySelector("#titulo_objeto").innerHTML = str;
+                document.querySelector("#titulo_objeto").innerHTML = json_a.nombre;
                 document.querySelector("#datos_objeto").innerHTML = str;
                 modal();
                 break;

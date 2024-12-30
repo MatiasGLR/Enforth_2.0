@@ -8,6 +8,7 @@
         "precioventa": "90",
         "materiales": "",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -19,7 +20,8 @@
         "preciocompra": "500",
         "precioventa": "120",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -31,7 +33,8 @@
         "preciocompra": "800",
         "precioventa": "200",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -44,6 +47,7 @@
         "precioventa": "150",
         "materiales": "",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -55,7 +59,8 @@
         "preciocompra": "800",
         "precioventa": "300",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -67,7 +72,8 @@
         "preciocompra": "1200",
         "precioventa": "500",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -80,6 +86,7 @@
         "precioventa": "120",
         "materiales": "",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -91,7 +98,8 @@
         "preciocompra": "600",
         "precioventa": "200",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -103,7 +111,8 @@
         "preciocompra": "800",
         "precioventa": "350",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -116,6 +125,7 @@
         "precioventa": "120",
         "materiales": "",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -127,7 +137,8 @@
         "preciocompra": "600",
         "precioventa": "200",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -139,7 +150,8 @@
         "preciocompra": "800",
         "precioventa": "350",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -152,6 +164,7 @@
         "precioventa": "100",
         "materiales": "",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -163,7 +176,8 @@
         "preciocompra": "700",
         "precioventa": "300",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -175,7 +189,8 @@
         "preciocompra": "1200",
         "precioventa": "500",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -188,6 +203,7 @@
         "precioventa": "100",
         "materiales": "",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -199,7 +215,8 @@
         "preciocompra": "700",
         "precioventa": "300",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -211,7 +228,8 @@
         "preciocompra": "1200",
         "precioventa": "500",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -224,6 +242,7 @@
         "precioventa": "200",
         "materiales": "",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -235,7 +254,8 @@
         "preciocompra": "1200",
         "precioventa": "500",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -247,7 +267,8 @@
         "preciocompra": "2000",
         "precioventa": "900",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -260,6 +281,7 @@
         "precioventa": "120",
         "materiales": "",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -271,7 +293,8 @@
         "preciocompra": "600",
         "precioventa": "250",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -283,7 +306,8 @@
         "preciocompra": "900",
         "precioventa": "400",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -296,6 +320,7 @@
         "precioventa": "200",
         "materiales": "",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -307,7 +332,8 @@
         "preciocompra": "900",
         "precioventa": "420",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -319,7 +345,8 @@
         "preciocompra": "1300",
         "precioventa": "650",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -332,6 +359,7 @@
         "precioventa": "300",
         "materiales": "",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -344,6 +372,7 @@
         "precioventa": "800",
         "materiales": "",
         "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -356,6 +385,7 @@
         "precioventa": "1500",
         "materiales": "",
         "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -368,6 +398,7 @@
         "precioventa": "150",
         "materiales": "",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -379,7 +410,8 @@
         "preciocompra": "800",
         "precioventa": "300",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -391,7 +423,8 @@
         "preciocompra": "1500",
         "precioventa": "750",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -404,6 +437,7 @@
         "precioventa": "150",
         "materiales": "",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -415,7 +449,8 @@
         "preciocompra": "1000",
         "precioventa": "450",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -427,7 +462,8 @@
         "preciocompra": "1500",
         "precioventa": "750",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -440,6 +476,7 @@
         "precioventa": "100",
         "materiales": "",
         "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -451,7 +488,8 @@
         "preciocompra": "1200",
         "precioventa": "550",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -475,7 +513,8 @@
         "preciocompra": "1000",
         "precioventa": "450",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -488,6 +527,7 @@
         "precioventa": "900",
         "materiales": "",
         "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -499,7 +539,8 @@
         "preciocompra": "3500",
         "precioventa": "1050",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -511,7 +552,8 @@
         "preciocompra": "5000",
         "precioventa": "1250",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -523,7 +565,8 @@
         "preciocompra": "2500",
         "precioventa": "750",
         "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
     ,
