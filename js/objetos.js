@@ -22,7 +22,7 @@ async function read_index_json() {
                     <td class="align-middle">`+json_a.nombre+`</td>
                     <td class="align-middle text-center">`+json_a.categoria+`</td>
                     <td class="align-middle text-center">`+json_a.rareza+`</td>
-                    <td class="align-middle text-center"><button class="btn btn-light" onclick="modal()">Más información</button></td>
+                    <td class="align-middle text-center"><button class="btn btn-light" onclick="cargar_objeto('`+json_a.nombre+`')">Más información</button></td>
                 </tr>
                 `);
             }
@@ -30,6 +30,29 @@ async function read_index_json() {
     });
 
     document.querySelector("#listado_datos").innerHTML = str2;
+}
+
+async function cargar_objeto(objeto) {
+    var str = "";
+
+    await $.get("./db/items.json", function(textString) {
+        const index_json = Object.entries(textString);
+        for(let i = 0; i < index_json.length ; i++) {
+            const nombre_val = input_nombre.value, json_a = JSON.parse(JSON.stringify(index_json[i][1]));
+            if(objeto != "" && json_a.nombre.includes(objeto)) {
+                str = str.concat(`
+                aaaaaaaaaaaaa
+                `);
+                document.querySelector("#titulo_objeto").innerHTML = str;
+                document.querySelector("#datos_objeto").innerHTML = str;
+                modal();
+                break;
+            }
+        }
+    });
+
+    
+    
 }
 
 input_categoria.addEventListener("input", () => {
