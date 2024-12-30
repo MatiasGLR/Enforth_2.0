@@ -102,7 +102,7 @@
         "Imagen": "sarka.png",
         "Datos": "<x class='text-danger'>Profesiones y Conocimientos</x><br>Sarka<br><b>Cacería.</b> Nivel 2.<br><b>Explorador.</b> Nivel 2.<br><b>Ladrón.</b> Nivel 1.<br><b>Carpintería.</b> Nivel 1.<br><b>Conocimiento.</b> Cacería.<br><b>Conocimiento.</b> Carpintería.",
         "Descripcion": "Son tratados como piratas sin moral, como unos demonios que solo llegan a querer quitarte todo, y que es mejor mantenerse apartado de ellos, pues no sabes cuándo te pueden llegar a traicionar. No todos son asi; por lo general suelen ser criaturas bastante amigables, que prefieren estar en soledad bajo el agua que en las multitudes.",
-        "Estadisticas": "Sarka<br><x class='text-info'>Agilidad.</x> 1<br><x class='text-info'>Armadura natural.</x> 0",
+        "Estadisticas": "Sarka<br><x class='text-info'>Agilidad.</x> 1<br><x class='text-info'>Armadura natural.</x> 2",
         "HabilidadP": "<x class='text-warning'>Hidratación</x><br>En cada exploración en desiertos deberá beber agua, o algún líquido sano, o tendrán desventaja en sus tiradas, hasta hidratarse. Tomar agua contaminada (Estancada) no les afecta.",
         "Habilidad1": "<x class='text-warning'>Respiración acuática</x><br>Puedes mantenerte debajo del agua, durante tantos turnos, como nivel tengas en esta raza, más uno.",
         "Habilidad2": "<x class='text-warning'>Ventaja marina</x><br>Obtienen 10% de probabilidad de critico al pelear en una fuente de agua o bajo la lluvia.<br><x class='text-warning'>Escamas reforzadas</x><br>Al hidratarse, obtiene puntos de resistencia natural por nivel en la raza, durante el resto de la ronda (No acumulable).",

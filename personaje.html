@@ -387,7 +387,487 @@
                         La experiencia se obtiene al realizar misiones y trabajos para los NPCs. Luego de obtener cierta cantidad de experiencia, subirás de nivel, por lo que obtendrás 2 puntos de mejora.
                     </div>
                 </div>
-
+                <div class="cabecera_main text-dark">
+                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#6" aria-expanded="true" aria-controls="6">
+                        <h5 class="mb-0" style="padding: 10px 0 10px 20%; border-top:5px solid black">Inventario</h5>
+                    </a>
+                </div>
+                <div id="6" class="collapse p-1" aria-labelledby="6" data-parent="#listado_datos">
+                    <div class="card-body bg-dark text-white row">
+                        <h4 class="text-warning ms-4">¿Que es el inventario?</h4>
+                        <p>Son los espacios disponibles en tu personaje para poder llevar objetos útiles en tu aventura, y poder guardar los recursos obtenidos</p>
+                        <h2 class="text-warning text-center">Objetos no equipados</h2>
+                        <h4 class="text-warning ms-4">Tipos de inventario</h4>
+                        <p class="col-md-3">
+                            <span class="text-warning"><b>Mochila</b></span><br><br>
+                            <span class="text-warning">Capacidad básica.</span> 1 Slot<br>
+                            <span class="text-warning">Capacidad máxima.</span> 9 Slots (14 Slots si se tiene el Don de la Carga)<br>
+                            <span class="text-warning">Método de mejora.</span> Usar cueros con un kit de taller y conocimiento de talabartería, cada cuero le aumentará en 1 su espacio.
+                        </p>
+                        <p class="col-md-3">
+                            <x class="text-warning"><b>Riñonera</b></x><br><br>
+                            <x class="text-warning">Capacidad básica.</x> 0 Slots<br>
+                            <x class="text-warning">Capacidad máxima.</x> 4 Slots (Se obtienen los 4 al comprarla)<br>
+                            <x class="text-warning">Utilidad.</x> Desde este almacenamiento se pueden realizar "Acciones rápidas", las cuales te permitirán usar objetos sin darle ataques
+                            de oportunidad al enemigo, y reaccionar rapidamente en entornos hostiles.
+                        </p>
+                        <p class="col-md-3">
+                            <x class="text-warning"><b>Cinturón</b></x><br><br>
+                            <x class="text-warning">Capacidad básica.</x> 0 Slots<br>
+                            <x class="text-warning">Capacidad máxima.</x> 3 Slots (Se obtienen los 3 al comprarlo)<br>
+                            <x class="text-warning">Utilidad.</x> Desde este almacenamiento se pueden realizar "Acciones rápidas", las cuales te permitirán usar objetos sin darle ataques
+                            de oportunidad al enemigo, y reaccionar rapidamente en entornos hostiles.
+                        </p>
+                        <p class="col-md-3">
+                            <x class="text-warning"><b>Fundas extras</b></x><br><br>
+                            <x class="text-warning">Capacidad básica.</x> 3 Slots especificos<br>
+                            <x class="text-warning">Capacidad máxima.</x> 8 Slots<br>
+                            <x class="text-warning">Utilidad.</x> Estas fundas solo pueden llevar un tipo específico de objeto, el jugador inicial contará con una funda extra para monedas,
+                            pociones y medicina, la categoría de estos objetos puede ser vista en los objetos; las fundas extras se pueden conseguir en cofres, o comprandoselas a un talabartero.
+                        </p>
+                        <h2 class="text-warning text-center">Objetos equipados</h2>
+                        <div class="col-md-3">
+                            <x class="text-warning">Manos. </x>Puedes llevar cualquier tipo de objeto que pueda ser llevado en los otros espacios, estos pueden ser usados inmediatamente, como
+                            si del cinturón o riñonera se tratase. Aqui se equipan las armas. Solo tienes un slot por mano (Máximo 2).<br>
+                        </div>
+                        <div class="col-md-3">
+                            <x class="text-warning">Joyas. </x>Pueden ser utilizadas en el cuello, manos, orejas, etc. dependiendo del tipo de joya que sea. Un personaje tiene 6 slots de este tipo.<br>
+                        </div>
+                        <div class="col-md-3">
+                            <x class="text-warning">Extras. </x>Son adicionales a la armadura, como la cota de malla, o los trajes. Hay 2 slots de este tipo, pero solo se puede usar objetos
+                            defensivos en solo uno.<br>
+                        </div>
+                        <div class="col-md-3">
+                            <x class="text-warning">Armadura. </x>Puedes llevar 4 piezas de armadura equipadas, las cuales son el yelmo, peto, pantalones y guantes, estos últimos aplicarán su efecto
+                            al atacar desarmado.
+                        </div>
+                        <h2 class="text-warning text-center">Reglamento de inventario</h2>
+                        <div class="col-md-3">
+                            <x class="text-warning">Apilado de objetos.</x> Solo pueden apilarse objetos que tiendan a tener una cantidad alta, como las municiones, las monedas, y los polvos de los lingotes. La forma de apilar mas objetos, sería mediante las habilidades de las profesiones, o con el Don de la Carga, que aumenta en 1 el máximo que un objeto puede ser apilado, siempre que sea del mismo tipo, y en caso de armas y equipamiento modificable, tiene que contener el mismo encantamiento, nivel, etc.
+                        </div>
+                        <div class="col-md-3">
+                            <x class="text-warning">Uso de objetos en Narrativo.</x> Durante los momentos narrativos, se pueden hacer uso rápido sin problema de objetos dentro de la riñonera, funda extra o el cinturón, pero los objetos de la mochila, requerirán superar una tirada de Agilidad.
+                        </div>
+                        <div class="col-md-3">
+                            <x class="text-warning">Uso de objetos en Combate.</x>Durante los momentos de combate, utilizar objetos de la funda extra no constará ningun tipo de acción; la riñonera y el cinturón consumirán una Acción de Movimiento, y la mochila consumirá dos acciones de movimiento.
+                            <br>Si se utiliza un objeto para atacar, siempre consumirá sus correspondientes acciones de ataque.
+                            <br>Si se usa un objeto para curar, o cualquier acción que requiera una adicional, no consumirá acciones adicionales (excepto atacar), la Acción de utilidad contará como "Sacar objeto para curar", por ejemplo
+                        </div>
+                        <h2 class="text-warning text-center">Otros inventarios</h2>
+                        <div class="col-md-3">
+                            <x class="text-warning">Carreta.</x> Esta puede ser comprada a un Carpintero (Ver tienda), y puede ser usada para cargar objetos en la aventura. La carreta te permitirá avanzar dos casillas en lugar de una, pero solo se podrá transitar por caminos (Lineas negras en el mapa). La carreta inicialmente solo tendrá 2 slots, en los cuales se pueden apilar items hasta la siguiente cantidad, dependiendo de la mejora que tenga:
+                            <br>
+                            <x class="text-info">Madera.</x> 2 items<br>
+                            <x class="text-info">Cobre.</x> 4 items<br>
+                            <x class="text-info">Hierro.</x> 6 items<br>
+                            <x class="text-info">Plata.</x> 8 items<br>
+                            <x class="text-info">Oro.</x> 10 items<br>
+                            Las mejoras pueden hacerse en un herrero, con 10 lingotes del material correspondiente (Las mejoras deben hacerse en orden, ejemplo, para mejorarla a hierro, primero hay que pasar por cobre), sumado a un 20% por su mano de obra, y 500 monedas. Para <x class="text-warning">mejorar la cantidad de slots</x> para guardar objetos dentro de la carreta, se le debe colocar un cofre sano abierto, el cuál agregará slots, de la misma forma que hacen los del <x class="text-danger">Cofrerro</x>, este cofre, por ejemplo, de madera, ocupará un slot en el inventario, y agregará 2 adicionales.
+                        </div>
+                        <div class="col-md-3">
+                            <x class="text-warning">Cofrerro.</x> Durante tu aventura, quizá encuentres un objeto mágico, llamado "Cofrerro" que es un pequeño cofre viviente que te sigue, mientras tu tengas su llave en tu inventario. El cofrerro tragará todos los items que le des, siempre y cuando este tenga espacio, y funcionará como un cofre móvil. Los slots que el cofrerro puede llevar, son los siguientes, dependiendo de su material.
+                            <br><x class="text-info">Madera.</x> 2 Slots<br>
+                            <x class="text-info">Hierro.</x> 3 Slots<br>
+                            <x class="text-info">Plata.</x> 4 Slots<br>
+                            <x class="text-info">Oro.</x> 5 Slots<br>
+                            <x class="text-info">Infernita.</x> 6 Slots<br>
+                            Es importante tomar en cuenta, que si un objeto muy caliente, como la infernita, es dejada en un cofre de madera, este puede resultar dañado o muerto, y no será recuperable.
+                        </div>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark">
+                    <a id="title_button_info" class="" data-toggle="collapse" data-target="#7" aria-expanded="true" aria-controls="7">
+                        <h5 class="mb-0" style="padding: 10px 0 10px 20%; border-top:5px solid black">Dones</h5>
+                    </a>
+                </div>
+                <div id="7" class="collapse p-1" aria-labelledby="7" data-parent="#listado_datos">
+                    <div class="card-body bg-dark text-white row">
+                            <div style="box-sizing: border-box; padding:4px;">
+                              <p>
+                                Los dones representan habilidades únicas, bendiciones o poderes innatos que un personaje 
+                                posee, distinguiéndolos no solo por sus habilidades o su entrenamiento, sino por características excepcionales que 
+                                definen su destino o su esencia misma. Estos dones pueden manifestarse de innumerables formas, influenciando tanto el 
+                                desarrollo del personaje como la narrativa del juego. A continuación, se describe con más detalle la naturaleza y el 
+                                impacto de estos dones:
+                                
+                                <h2 class="text-warning">Origen de los Dones</h2>
+                                <p>Los dones pueden tener diversas fuentes, tales como:</p>
+                                
+                                <x class="text-warning">Herencia:</x> Algunos dones son el resultado de la línea de sangre de un personaje, transmitidos a través de generaciones. 
+                                Estos pueden vincularse con antiguos pactos, sangre de criaturas mágicas o ascendencia divina.<br>
+                                <x class="text-warning">Eventos Cósmicos o Mágicos:</x> La exposición a fenómenos sobrenaturales, como cometas mágicos,
+                                conjuros antiguos o artefactos legendarios, puede otorgar dones inesperados o impredecibles.<br>
+                                <x class="text-warning">Bendiciones o Maldiciones:</x> Las deidades, espíritus o entidades poderosas pueden otorgar 
+                                dones como recompensas, o imponerlos como pruebas o maldiciones, a menudo con intenciones ocultas o pruebas 
+                                adjuntas.<br>
+                                <x class="text-warning">Experiencias Vitales:</x> Algunos dones emergen de experiencias traumáticas, revelaciones personales o el logro de una comprensión profunda de los misterios del mundo.</p>
+                              <div class="p-4 profmain">
+                                <div class="prof-data row text-center">
+                                  <hr>
+                        <div class=""><h4 class="text-info pb-2">Dones basados en mejoras a mecánicas</h4></div>
+                                  <hr>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Sangre de Cuarzo</x>
+                                    <p class="text-w">No podrá conjurar magia, pero también será inmune a ella.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Mano Dura</x>
+                                    <p class="text-w">Un arma a dos manos puede ser utilizada a una mano.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Carga</x>
+                                    <p class="text-w">Aumenta el máximo de la mochila hasta 14, y empiezas con una mochila de 14 espacios. Puedes apilar cualquier objeto hasta dos; y, por cada tres puntos en fuerza, apilas uno más.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Casualidad</x>
+                                    <p class="text-w">El personaje puede ser hibrido de una raza no hibridable.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Glotón</x>
+                                    <p class="text-w">Podrás comer hasta tres alimentos distintos, y obtener sus efectos.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Longevidad</x>
+                                    <p class="text-w">Tu personaje no podrá morir por edad o causas naturales, aunque esto no evitará que envejezca.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Perdón</x>
+                                    <p class="text-w">Divide a la mitad todas las perdidas de karma</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Renacimiento</x>
+                                    <p class="text-w">Cuando tu personaje muera, nacerá un árbol, del que saldrá el personaje nuevamente, en forma de un Naturis, perdiendo todas las habilidades de raza, y siendo reemplazadas por las de esta nueva.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Iniciante</x>
+                                    <p class="text-w">Obtienes 3 puntos de mejora adicionales al comenzar un personaje, y sacarás el máximo en todo lo que requiera una tirada durante una mejora.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Fanático</x>
+                                    <p class="text-w">Todos los aumentos de Karma son duplicados.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Avance</x>
+                                    <p class="text-w">Obtienen tres puntos de mejora al subir de nivel, en lugar de dos. Subir de nivel luego del nivel
+                                      5, dará un punto de mejora, en lugar de no dar ninguno.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Afinidad Animal</x>
+                                    <p class="text-w">Permite entender a animales comunes, y estos te entiendan</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Guerrero Eterno</x>
+                                    <p class="text-w">Al pelear sin armadura, obtienes un dado adicional de daño, y, además, cambia todos tus efectos por aumento físico (solo aplicable con un 20 natural de 
+                                      puntería), lo que te dará +1 de daño fisico adicional por el resto del combate, por cada carga de aumento 
+                                      (Máximo 10). En caso de que la vida baje hasta cero, pueden consumir una carga de aumento, para recuperar
+                                      una parte de su vida máxima (Hasta dos veces por ronda).
+                                    </p>
+                                  </div>
+                                  <hr>
+                        <div class=""><h4 class="text-info pb-2">Dones basados en la magia y maldiciones</h4></div>
+                                  <hr>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Magia</x>
+                                    <p class="text-w">Iniciará el combate con un núcleo mágico por nivel (En caso de ser vampiro, iniciará con núcleos de sangre).</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Absorción</x>
+                                    <p class="text-w">Al recibir o bloquear un ataque mágico, recibes un núcleo (En caso de los vampiros, obtienen un Núcleo de Sangre). En caso de tener al menos 5 núcleos guardados, obtienes dos núcleos en lugar de uno.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Afinidad</x>
+                                    <p class="text-w">Puede utilizar hasta una joya adicional en una mano, a cambio de perder el 5% de tu resistencia total, por cada joya adicional que pase las cuatro.</p>
+                                  </div>
+                                  <hr>
+                        <div class=""><h4 class="text-info pb-2">Dones basados en el combate</h4></div>
+                                  <hr>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Sanguinario</x>
+                                    <p class="text-w">Al asesinar a un enemigo, se obtiene un dado adicional de daño por el resto de la ronda (No acumulable), si la criatura abatida 
+                                        vuelve al combate, se pierde el dado ganado.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Velocidad</x>
+                                    <p class="text-w">Siempre tendrás el primer turno durante un combate.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Recolector</x>
+                                    <p class="text-w">Aumenta la probabilidad de drop del alma de una criatura asesinada al 25%.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Cowboy</x>
+                                    <p class="text-w">Al impactar balas en un enemigo, donde la puntería superó el esquive del adversario por el doble o más, inmediatamente puedes impactarle nuevamente, sin consumir acciones de combate.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Pelea</x>
+                                    <p class="text-w">Duplica todas las probabilidades de efecto durante un combate.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Especialista</x>
+                                    <p class="text-w">Podrás cambiar armas y utilizar objetos de la mochila de forma rápida, como si se tratara
+                                      de la riñonera o el cinturón.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Completista</x>
+                                    <p class="text-w">Al tener Yelmo, Guantes, Pecho, Pantalones, arma y escudo del mismo material, aumenta el daño en dos dados, y la armadura en uno por nivel.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Incompletista</x>
+                                    <p class="text-w">Al utilizar armas y piezas de armadura todas de diferente material, ganas un dado de daño.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Ninja</x>
+                                    <p class="text-w">Al usar armas como arrojadiza, pueden obtener escalado y mejoras en sus dados. Por cada nivel en Pícaro, aumenta en 1 la puntería
+                                      al usar arrojadizas.
+                                    </p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Ejecutor</x>
+                                    <p class="text-w">Al bajar el aguante de un enemigo hasta cero, este se considerará muerto en lugar de fuera de combate.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Respuesta</x>
+                                    <p class="text-w">Al esquivar un ataque, puedes inmediatamente realizar un ataque no esquivable con un arma cuerpo a cuerpo contra el enemigo atacante. Solo utilizable una vez por turno.</p>
+                                  </div>
+                                  <hr>
+                        <div class=""><h4 class="text-info pb-2">Dones basados en mejoras a tiradas</h4></div>
+                                  <hr>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Protagonista</x>
+                                    <p class="text-w">Hasta una vez por partida, una tirada puede tener el valor máximo, sin la necesidad de tirar.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Guionista</x>
+                                    <p class="text-w">En caso de sacar un veinte en tirada natural de suerte, la situación se volcará totalmente a tu 
+                                      favor.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Liderazgo</x>
+                                    <p class="text-w">Cuando un aliado cercano a ti (10ft) requiera realizar una tirada de estadística, podrá utilizar 
+                                      tu tirada, si esta es más alta.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Fortuna</x>
+                                    <p class="text-w">Los unos en tiradas de estadística, se contarán como veintes.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Imitador</x>
+                                    <p class="text-w">Hasta cinco veces, cuando debas realizar una tirada enfrentada que no puedas superar, puedes empatar la tirada, causando que se repita la tirada enfrentada (o quede como empate).</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Desafortunado</x>
+                                    <p class="text-w">Al obtener dos unos seguidos en un tipo de tirada durante un combate, hará que todas las tiradas del mismo tipo sean de veinte durante el resto del combate.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Fuerza</x>
+                                    <p class="text-w">Obtienes ventaja en tiradas de Fuerza, y dos puntos en esta estadística.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Agilidad</x>
+                                    <p class="text-w">Obtienes ventaja en tiradas de Agilidad, y dos puntos en esta estadística.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Carisma</x>
+                                    <p class="text-w">Obtienes ventaja en tiradas de Carisma, y dos puntos en esta estadística.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Resistencia</x>
+                                    <p class="text-w">Obtienes ventaja en tiradas de Resistencia, y dos puntos en esta estadística.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Vitalidad</x>
+                                    <p class="text-w">Obtienes ventaja en tiradas de Vitalidad, y dos puntos en esta estadística.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Percepción</x>
+                                    <p class="text-w">Obtienes ventaja en tiradas de Percepción, y dos puntos en esta estadística.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Inteligencia</x>
+                                    <p class="text-w">Obtienes ventaja en tiradas de Inteligencia, y dos puntos en esta estadística.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Suerte</x>
+                                    <p class="text-w">Obtienes ventaja en tiradas de Suerte, y dos puntos en esta estadística.</p>
+                                  </div>
+                                  <hr>
+                        <div class=""><h4 class="text-info pb-2">Dones basados en armas legendarias</h4></div>
+                                  <hr>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Martillo</x>
+                                    <p class="text-w">Empiezas la partida en posesión del “Mjolnir”, un arma a dos manos cuyo daño siempre será el 
+                                      del material equivalente al nivel del jugador en material (Ver forja). Esta arma causará el efecto de 
+                                      Estatizado, y volverá a tu mano a voluntad tras ser lanzada.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Protector</x>
+                                    <p class="text-w">Empiezas la partida en posesión del “Escudo de Aquiles”, un accesorio que tiene una probabilidad 
+                                      del 10% de anular un daño, su protección será de un punto por cada nivel del jugador, sumado a la protección
+                                      base de cualquier escudo.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Espada Real</x>
+                                    <p class="text-w">Empiezas la partida en posesión de la “Excalibur”, un arma a dos manos cuyo daño siempre será 
+                                      el del material equivalente al nivel del jugador en material (Ver forja). Esta arma tendrá el efecto único de 
+                                      <b>Cegado</b>, que da doble desventaja al esquivar y atacar al afectado, durante el resto de la ronda.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Espadachín Místico</x>
+                                    <p class="text-w">Empiezas la partida en posesión de la “Mystica”, una espada a dos manos, cuyo daño siempre será
+                                      el de un arma de Cobalto. Esta arma puede conjurar cualquier magia básica (Arcana, Fuego, Hielo y 
+                                      Electricidad).</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Arquero</x>
+                                    <p class="text-w">Empiezas la partida en posesión del “Arco de Apolo”, un arco a dos manos, hecho de madera, que 
+                                      usará flechas mágicas, cuyo daño será de 1d8 por Nivel del jugador. Al causar daño a un enemigo, el aliado más 
+                                      cercano a este, recuperará una parte del daño causado.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Cosechador</x>
+                                    <p class="text-w">Empiezas la partida en posesión de la "Ratzor", una guadaña a dos manos, cuyo daño será igual 
+                                      al de un arma de Cobalto. Al asesinar a un enemigo con esta arma, tienes un 20% de probabilidad de obtener su 
+                                      alma, y en caso de no obtenerla, el arma obtiene un dado de daño, hasta la próxima recolección de alma con este 
+                                      efecto (No acumulable).</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Gatillo</x>
+                                    <p class="text-w">Empiezas la partida en posesión de la "Castigadora", un arma de fuego a una mano, con munición 
+                                      ilimitada, que utiliza balas cuyo daño siempre será el del material equivalente al nivel del jugador en material 
+                                      (Ver forja). Al causar efecto con esta arma, aplicará una carga de quemadura y una de veneno en el enemigo, que 
+                                      explotan en el momento, causando el daño, en caso de asesinar o dejar fuera de combate por el efecto de esta 
+                                      arma, te curas tanto, como daño haya realizado con este efecto durante esta ronda.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Artillería Mágica</x>
+                                    <p class="text-w">Empiezas la partida en posesión del "Cañón arcano", un arma de fuego a dos manos, que tiene
+                                      la forma de un cañón de cintura pesado, este usa gemas y fragmentos de gemas como munición, causando daño
+                                      en dados de 10 si la munición es una gema, y causando efecto con 100% de probabilidad, y, en caso de ser un
+                                      fragmento, hará daño en dados de 6, y causando efecto con 25% de probabilidad. Ningun efecto es escalable,
+                                      y tiene un rango de disparo máximo de 50ft</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Cazadora de la Selva</x>
+                                    <p class="text-w">Empiezas la partida en posesión del "Aguijón", una alabarda de hierro a dos manos, que aplica
+                                      veneno al causar el daño máximo con el dado critico. Cada que causa sangrado, puede explotar las cargas
+                                      de veneno, eliminandolas, y causando daño por sangrado, en tantos dados como el de venenos eliminados; 
+                                      si el daño por sangrado causado por este efecto baja la vida del enemigo hasta cero, lo ejecuta.
+                                    </p>
+                                  </div>
+                                  <hr>
+                        <div class=""><h4 class="text-info pb-2">Dones basados en clases</h4></div>
+                                  <hr>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Guerrero</x>
+                                    <p class="text-w">Obtiene un nivel en la Clase de Guerrero (y la clase, si no la tiene).</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Picaro</x>
+                                    <p class="text-w">Obtiene un nivel en la Clase de Picaro (y la clase, si no la tiene).</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Clérigo</x>
+                                    <p class="text-w">Obtiene un nivel en la Clase de Clérigo (y la clase, si no la tiene).</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Fé</x>
+                                    <p class="text-w">Reemplaza la clase de Clérigo por Paladin, aunque no se cumplan las condiciones iniciales.
+                                      El jugador debe tratar de cumplir las condiciones antes del Nivel 5, o este Don se anulará, ocupando
+                                      el espacio de Don. Cualquier pérdida de Karma, llevará
+                                      al jugador a ser castigado, perdiendo las habilidades dadas por el Dios durante 1d6 dias.
+                                    </p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Luchador</x>
+                                    <p class="text-w">Obtiene un nivel en la Clase de Luchador (y la clase, si no la tiene).</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Mago</x>
+                                    <p class="text-w">Obtiene un nivel en la Clase de Mago (y la clase, si no la tiene).</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Ranger</x>
+                                    <p class="text-w">Obtiene un nivel en la Clase de Ranger (y la clase, si no la tiene).</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Artificiero</x>
+                                    <p class="text-w">Obtiene un nivel en la Clase de Artificiero (y la clase, si no la tiene).</p>
+                                  </div>
+                                  <hr>
+                        <div class=""><h4 class="text-info pb-2">Dones basados en profesiones y conocimientos</h4></div>
+                                  <hr>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Trabajador</x>
+                                    <p class="text-w">Ganas el doble de puntos de profesión.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Cazador</x>
+                                    <p class="text-w">Aumenta el daño contra animales en 1 dado por ronda. Conoce su debilidad luego de la 2da ronda.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Minero</x>
+                                    <p class="text-w">Se duplica la obtención de minerales, y duplica la ratio de aparición del Platino.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Maestro</x>
+                                    <p class="text-w">Puede enseñar los conocimientos generales y mágicos que sepa, a otros, sin requerir tiradas.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Profesional</x>
+                                    <p class="text-w">Comienzas con una profesión a Nivel 10 (Excepto Herrero, Alquimista, Armero, Bardo, Guardia, 
+                                      Joyero, Domador o Mercenario).</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Guía</x>
+                                    <p class="text-w">Sabrás la ubicación de cofres y entradas ocultas en Mazmorras.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Fundidor</x>
+                                    <p class="text-w">Podrás obtener todos los lingotes al reciclar un objeto que use los mismos, en lugar de la 
+                                      mitad.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Traductor</x>
+                                    <p class="text-w">Comienzas sabiendo todos los idiomas.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Conocedor</x>
+                                    <p class="text-w">Comienzas con todos los conocimientos básicos.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Ahorrista</x>
+                                    <p class="text-w">Al crear un objeto, tienes 50% de probabilidad de gastar un material menos (No aplica para el Platino).</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Platinado</x>
+                                    <p class="text-w">Tienes probabilidad del 10% de encontrar un mineral de platino dentro de las rocas de mineral.</p>
+                                  </div>
+                                  <hr>
+                        <div class=""><h4 class="text-info pb-2">Dones basados en la economía</h4></div>
+                                  <hr>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Falsificador</x>
+                                    <p class="text-w">Puedes utilizar cualquier moneda al realizar compras.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Ricachón</x>
+                                    <p class="text-w">Toda obtención de ganancia, tendrá un 10% más, y los bancos no te cobrarán comisión por 
+                                      cambios de moneda.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don del Contratista</x>
+                                    <p class="text-w">El pagarle a Mercenarios para realizar trabajos, te saldrá 50% más barato.</p>
+                                  </div>
+                                  <div class="prof-info col-md-4 text-start">
+                                    <x class="text-warning">Don de la Negociación</x>
+                                    <p class="text-w">Los productos pueden comprarse hasta un 10% más barato, o vender hasta un 10% más caro, dependiendo de la tirada de Carisma al regatear.</p>
+                                  </div>
+                                </div>
+                                <hr>
+                              </div>
+                            </div>
+                    </div>
+                </div>
                 
 
             </div>
