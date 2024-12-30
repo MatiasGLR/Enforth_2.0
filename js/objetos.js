@@ -15,7 +15,7 @@ async function read_index_json() {
             const json_a = JSON.parse(JSON.stringify(index_json[i][1]));
             if(rareza_val != "") { if(!(json_a.rareza == rareza_val)) yes = 0; }
             if(categoria_val != "") { if(!json_a.categoria.toLowerCase().includes(categoria_val.toLowerCase())) yes = 0; }
-            if(nombre_val != "") { if(!json_a.nombre.toLowerCase().includes(nombre_val.toLowerCase())) yes = 0; }
+            if(nombre_val != "") { if(!json_a.nombre.toLowerCase().includes(nombre_val.toLowerCase()) && !json_a.descripcion.toLowerCase().includes(nombre_val.toLowerCase()) ) yes = 0; }
             if(yes == 1) {
                 str2 = str2.concat(`
                 <tr>
@@ -41,9 +41,9 @@ async function cargar_objeto(objeto) {
             const nombre_val = input_nombre.value, json_a = JSON.parse(JSON.stringify(index_json[i][1]));
             if(objeto != "" && json_a.nombre.includes(objeto)) {
                 let material = "", obtenida = "", creada = "";
-                if(json_a.materiales && json_a.materiales.length) material = `<b>Materiales:</b> `+json_a.materiales+`<br>`;
-                if(json_a.creadaen && json_a.creadaen.length) obtenida = `<b>Creada en:</b> `+json_a.creadaen+`<br>`;
-                if(json_a.obtenidaen && json_a.obtenidaen.length) obtenida = `<b>Obtenida en:</b> `+json_a.obtenidaen+`<br>`;
+                if(json_a.obtenidaen && json_a.obtenidaen.length > 1) obtenida = `<b>Obtenida en:</b> `+json_a.obtenidaen+`<br>`;
+                if(json_a.materiales && json_a.materiales.length > 1) material = `<b>Materiales:</b> `+json_a.materiales+`<br>`;
+                if(json_a.creadaen && json_a.creadaen.length > 1) creada = `<b>Creada en:</b> `+json_a.creadaen+`<br>`;
                 str = str.concat(`
                     <b>Categoría:</b> `+json_a.categoria+`<br>
                     <b>Precio de compra:</b> `+json_a.preciocompra+`<br>

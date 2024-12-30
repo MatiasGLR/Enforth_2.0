@@ -195,45 +195,6 @@
     }
     ,
     {
-        "nombre": "Poción de Musculatura Lv1",
-        "categoria": "Pociones",
-        "rareza": "★",
-        "descripcion": "Da 1 punto de Fuerza temporal durante un combate o una exploración",
-        "preciocompra": "300",
-        "precioventa": "100",
-        "materiales": "",
-        "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
-        "vendidaen": "Todo Enforth"
-    }
-    ,
-    {
-        "nombre": "Poción de Musculatura Lv2",
-        "categoria": "Pociones",
-        "rareza": "★★",
-        "descripcion": "Da 2 puntos de Fuerza temporal durante un combate o una exploración",
-        "preciocompra": "700",
-        "precioventa": "300",
-        "materiales": "",
-        "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
-        "vendidaen": "Todo Enforth"
-    }
-    ,
-    {
-        "nombre": "Poción de Musculatura Lv3",
-        "categoria": "Pociones",
-        "rareza": "★★★★",
-        "descripcion": "Da 4 puntos de Fuerza temporal durante un combate o una exploración",
-        "preciocompra": "1200",
-        "precioventa": "500",
-        "materiales": "",
-        "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
-        "vendidaen": "Todo Enforth"
-    }
-    ,
-    {
         "nombre": "Poción de Fortuna Lv1",
         "categoria": "Pociones",
         "rareza": "★★",
