@@ -2,7 +2,6 @@
     {
         "nombre": "Poción de Vida Lv1",
         "categoria": "Pociones",
-        "rareza": "★",
         "descripcion": "Recupera 2d4 de vida",
         "preciocompra": "200",
         "precioventa": "90",
@@ -15,7 +14,6 @@
     {
         "nombre": "Poción de Vida Lv2",
         "categoria": "Pociones",
-        "rareza": "★★",
         "descripcion": "Recupera 4d4 de vida",
         "preciocompra": "500",
         "precioventa": "120",
@@ -28,7 +26,6 @@
     {
         "nombre": "Poción de Vida Lv3",
         "categoria": "Pociones",
-        "rareza": "★★★★",
         "descripcion": "Recupera 6d4 de vida",
         "preciocompra": "800",
         "precioventa": "200",
@@ -41,7 +38,6 @@
     {
         "nombre": "Poción de Maná Lv1",
         "categoria": "Pociones",
-        "rareza": "★",
         "descripcion": "Obtén 1 núcleo de maná",
         "preciocompra": "500",
         "precioventa": "150",
@@ -54,7 +50,6 @@
     {
         "nombre": "Poción de Maná Lv2",
         "categoria": "Pociones",
-        "rareza": "★★",
         "descripcion": "Obtén 2 núcleos de maná",
         "preciocompra": "800",
         "precioventa": "300",
@@ -67,7 +62,6 @@
     {
         "nombre": "Poción de Maná Lv3",
         "categoria": "Pociones",
-        "rareza": "★★★★",
         "descripcion": "Obtén 3 núcleos de maná",
         "preciocompra": "1200",
         "precioventa": "500",
@@ -80,7 +74,6 @@
     {
         "nombre": "Antidoto Lv1",
         "categoria": "Pociones",
-        "rareza": "★",
         "descripcion": "Elimina 1 carga de veneno",
         "preciocompra": "300",
         "precioventa": "120",
@@ -93,7 +86,6 @@
     {
         "nombre": "Antidoto Lv2",
         "categoria": "Pociones",
-        "rareza": "★★",
         "descripcion": "Elimina 2 cargas de veneno",
         "preciocompra": "600",
         "precioventa": "200",
@@ -106,7 +98,6 @@
     {
         "nombre": "Antidoto Lv3",
         "categoria": "Pociones",
-        "rareza": "★★★★",
         "descripcion": "Elimina 3 cargas de veneno",
         "preciocompra": "800",
         "precioventa": "350",
@@ -119,7 +110,6 @@
     {
         "nombre": "Antidoto Lv1",
         "categoria": "Pociones",
-        "rareza": "★",
         "descripcion": "Elimina 1 carga de veneno",
         "preciocompra": "300",
         "precioventa": "120",
@@ -132,7 +122,6 @@
     {
         "nombre": "Antidoto Lv2",
         "categoria": "Pociones",
-        "rareza": "★★",
         "descripcion": "Elimina 2 cargas de veneno",
         "preciocompra": "600",
         "precioventa": "200",
@@ -145,7 +134,6 @@
     {
         "nombre": "Antidoto Lv3",
         "categoria": "Pociones",
-        "rareza": "★★★",
         "descripcion": "Elimina 3 cargas de veneno",
         "preciocompra": "800",
         "precioventa": "350",
@@ -158,7 +146,6 @@
     {
         "nombre": "Poción de Musculatura Lv1",
         "categoria": "Pociones",
-        "rareza": "★",
         "descripcion": "Da 1 punto de Fuerza temporal durante un combate o una exploración",
         "preciocompra": "300",
         "precioventa": "100",
@@ -171,7 +158,6 @@
     {
         "nombre": "Poción de Musculatura Lv2",
         "categoria": "Pociones",
-        "rareza": "★★",
         "descripcion": "Da 2 puntos de Fuerza temporal durante un combate o una exploración",
         "preciocompra": "700",
         "precioventa": "300",
@@ -184,7 +170,6 @@
     {
         "nombre": "Poción de Musculatura Lv3",
         "categoria": "Pociones",
-        "rareza": "★★★",
         "descripcion": "Da 4 puntos de Fuerza temporal durante un combate o una exploración",
         "preciocompra": "1200",
         "precioventa": "500",
@@ -197,7 +182,6 @@
     {
         "nombre": "Poción de Fortuna Lv1",
         "categoria": "Pociones",
-        "rareza": "★★",
         "descripcion": "Da 1 punto de Suerte temporal durante un combate o una exploración",
         "preciocompra": "500",
         "precioventa": "200",
@@ -210,7 +194,6 @@
     {
         "nombre": "Poción de Fortuna Lv2",
         "categoria": "Pociones",
-        "rareza": "★★★",
         "descripcion": "Da 2 puntos de Suerte temporal durante un combate o una exploración",
         "preciocompra": "1200",
         "precioventa": "500",
@@ -223,7 +206,6 @@
     {
         "nombre": "Poción de Fortuna Lv3",
         "categoria": "Pociones",
-        "rareza": "★★★★★",
         "descripcion": "Da 4 puntos de Suerte temporal durante un combate o una exploración",
         "preciocompra": "2000",
         "precioventa": "900",
@@ -236,7 +218,6 @@
     {
         "nombre": "Poción de Aura Fénix Lv1",
         "categoria": "Pociones",
-        "rareza": "★",
         "descripcion": "Un ser que se acerque a 5ft de ti, recibe 1 de daño verdadero por fuego, durante un combate o una exploración",
         "preciocompra": "300",
         "precioventa": "120",
@@ -249,7 +230,6 @@
     {
         "nombre": "Poción de Aura Fénix Lv2",
         "categoria": "Pociones",
-        "rareza": "★★",
         "descripcion": "Un ser que se acerque a 5ft de ti, recibe 2 de daño verdadero por fuego, durante un combate o una exploración",
         "preciocompra": "600",
         "precioventa": "250",
@@ -262,7 +242,6 @@
     {
         "nombre": "Poción de Aura Fénix Lv3",
         "categoria": "Pociones",
-        "rareza": "★★★",
         "descripcion": "Un ser que se acerque a 5ft de ti, recibe 3 de daño verdadero por fuego, durante un combate o una exploración",
         "preciocompra": "900",
         "precioventa": "400",
@@ -275,7 +254,6 @@
     {
         "nombre": "Poción de Puntería Lv1",
         "categoria": "Pociones",
-        "rareza": "★",
         "descripcion": "Da 1 punto de Puntería temporal durante un combate o una exploración",
         "preciocompra": "500",
         "precioventa": "200",
@@ -288,7 +266,6 @@
     {
         "nombre": "Poción de Puntería Lv2",
         "categoria": "Pociones",
-        "rareza": "★★",
         "descripcion": "Da 2 puntos de Puntería temporal durante un combate o una exploración",
         "preciocompra": "900",
         "precioventa": "420",
@@ -301,7 +278,6 @@
     {
         "nombre": "Poción de Puntería Lv3",
         "categoria": "Pociones",
-        "rareza": "★★★",
         "descripcion": "Da 4 puntos de Puntería temporal durante un combate o una exploración",
         "preciocompra": "1300",
         "precioventa": "650",
@@ -314,7 +290,6 @@
     {
         "nombre": "Poción de Velocidad Lv1",
         "categoria": "Pociones",
-        "rareza": "★★★",
         "descripcion": "Sube una posición en el orden de turnos del combate",
         "preciocompra": "800",
         "precioventa": "300",
@@ -327,7 +302,6 @@
     {
         "nombre": "Poción de Velocidad Lv2",
         "categoria": "Pociones",
-        "rareza": "★★★★",
         "descripcion": "Sube hasta tres posiciones en el orden de turnos del combate",
         "preciocompra": "1800",
         "precioventa": "800",
@@ -340,7 +314,6 @@
     {
         "nombre": "Poción de Velocidad Lv3",
         "categoria": "Pociones",
-        "rareza": "★★★★★",
         "descripcion": "Eres el primero en comenzar durante un combate",
         "preciocompra": "3500",
         "precioventa": "1500",
@@ -353,7 +326,6 @@
     {
         "nombre": "Poción de Carisma Lv1",
         "categoria": "Pociones",
-        "rareza": "★",
         "descripcion": "Da 1 punto de Carisma temporal durante un combate o una exploración",
         "preciocompra": "400",
         "precioventa": "150",
@@ -366,7 +338,6 @@
     {
         "nombre": "Poción de Carisma Lv2",
         "categoria": "Pociones",
-        "rareza": "★★",
         "descripcion": "Da 2 puntos de Carisma temporal durante un combate o una exploración",
         "preciocompra": "800",
         "precioventa": "300",
@@ -379,7 +350,6 @@
     {
         "nombre": "Poción de Carisma Lv3",
         "categoria": "Pociones",
-        "rareza": "★★★★",
         "descripcion": "Da 4 puntos de Carisma temporal durante un combate o una exploración",
         "preciocompra": "1500",
         "precioventa": "750",
@@ -392,7 +362,6 @@
     {
         "nombre": "Poción de Aumento Vital Lv1",
         "categoria": "Pociones",
-        "rareza": "★",
         "descripcion": "Aumenta tu vida máxima en 5, durante un combate o una exploración",
         "preciocompra": "500",
         "precioventa": "150",
@@ -405,7 +374,6 @@
     {
         "nombre": "Poción de Aumento Vital Lv2",
         "categoria": "Pociones",
-        "rareza": "★★",
         "descripcion": "Aumenta tu vida máxima en 10, durante un combate o una exploración",
         "preciocompra": "1000",
         "precioventa": "450",
@@ -418,7 +386,6 @@
     {
         "nombre": "Poción de Aumento Vital Lv3",
         "categoria": "Pociones",
-        "rareza": "★★★★",
         "descripcion": "Aumenta tu vida máxima en 15, durante un combate o una exploración",
         "preciocompra": "1500",
         "precioventa": "750",
@@ -431,7 +398,6 @@
     {
         "nombre": "Poción de Karma",
         "categoria": "Pociones",
-        "rareza": "★",
         "descripcion": "Devuelve el Karma a 0, en caso de ser negativo",
         "preciocompra": "4000",
         "precioventa": "100",
@@ -444,7 +410,6 @@
     {
         "nombre": "Poción de Sudoración",
         "categoria": "Pociones",
-        "rareza": "★★",
         "descripcion": "Te vuelves inmune al daño del efecto de quemadura, durante un combate, pero aun puedes obtener las cargas",
         "preciocompra": "1200",
         "precioventa": "550",
@@ -457,7 +422,6 @@
     {
         "nombre": "Poción de Criogenia",
         "categoria": "Pociones",
-        "rareza": "★★",
         "descripcion": "Te vuelves inmune al efecto del congelamiento, durante un combate, pero aun puedes obtener las cargas",
         "preciocompra": "1200",
         "precioventa": "550",
@@ -469,7 +433,6 @@
     {
         "nombre": "Poción de Muerte Lenta",
         "categoria": "Pociones",
-        "rareza": "★★★★",
         "descripcion": "Te curas -2 de vida durante cada turno",
         "preciocompra": "1000",
         "precioventa": "450",
@@ -482,7 +445,6 @@
     {
         "nombre": "Poción Desarma Candados Lv1",
         "categoria": "Pociones",
-        "rareza": "★★★",
         "descripcion": "Abres cerraduras de madera o hierro",
         "preciocompra": "2000",
         "precioventa": "900",
@@ -495,7 +457,6 @@
     {
         "nombre": "Poción Desarma Candados Lv2",
         "categoria": "Pociones",
-        "rareza": "★★★",
         "descripcion": "Abres cerraduras de madera, hierro, plata u oro",
         "preciocompra": "3500",
         "precioventa": "1050",
@@ -508,7 +469,6 @@
     {
         "nombre": "Poción Desarma Candados Lv3",
         "categoria": "Pociones",
-        "rareza": "★★★★★",
         "descripcion": "Abres cerraduras de madera, hierro, plata, oro o infernita",
         "preciocompra": "5000",
         "precioventa": "1250",
@@ -521,7 +481,6 @@
     {
         "nombre": "Poción de Desmaldecir",
         "categoria": "Pociones",
-        "rareza": "★★★★",
         "descripcion": "Destransforma a un ser maldito, y lo vuelve inmune a la transformación durante el resto de la fase lunar",
         "preciocompra": "2500",
         "precioventa": "750",
@@ -534,7 +493,6 @@
     {
         "nombre": "Minerales",
         "categoria": "Material de herrería",
-        "rareza": "★",
         "descripcion": "Pueden ser fundidos en lingotes",
         "preciocompra": "0",
         "precioventa": "10",
@@ -546,7 +504,6 @@
     {
         "nombre": "Espada larga",
         "categoria": "Armas",
-        "rareza": "★",
         "descripcion": "",
         "preciocompra": "",
         "precioventa": "",
