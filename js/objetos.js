@@ -169,6 +169,7 @@ function limpiar_tienda() {
     monto_total = 0;
     carrito = [];
     lista_tienda();
+    $("#descuento").val("");
 }
 
 function modal_tienda() {
@@ -262,6 +263,7 @@ function limpiar_tienda_compra() {
     monto_total = 0;
     carrito_compra = [];
     lista_tienda_compra();
+    $("#descuento_compra").val("");
 }
 
 function modal_tienda_compra() {
