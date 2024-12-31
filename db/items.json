@@ -2,179 +2,143 @@
     {
         "nombre": "Poción de Vida Lv1",
         "categoria": "Pociones",
-        "descripcion": "Recupera 2d4 de vida",
+        "descripcion": "Líquido color rojo brillante.<br>Recupera 2d4 de vida",
         "preciocompra": "200",
         "precioventa": "90",
-        "materiales": "",
+        "materiales": " Agua destilada (1) + Vial de sangre (2)",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Vida Lv2",
         "categoria": "Pociones",
-        "descripcion": "Recupera 4d4 de vida",
+        "descripcion": "Líquido color rojo brillante.<br>Recupera 4d4 de vida",
         "preciocompra": "500",
         "precioventa": "120",
-        "materiales": "",
+        "materiales": "Poción de Vida Lv1 (2) + Hoja de Sauce Rojo (2)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Vida Lv3",
         "categoria": "Pociones",
-        "descripcion": "Recupera 6d4 de vida",
-        "preciocompra": "800",
-        "precioventa": "200",
-        "materiales": "",
+        "descripcion": "Líquido color rojo brillante.<br>Recupera 6d4 de vida",
+        "preciocompra": "1600",
+        "precioventa": "500",
+        "materiales": "Poción de Vida Lv2 (2) + Polvo de oro (2)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Maná Lv1",
         "categoria": "Pociones",
-        "descripcion": "Obtén 1 núcleo de maná",
+        "descripcion": "Líquido azul brillante.<br>Obtén 1 núcleo de maná",
         "preciocompra": "500",
         "precioventa": "150",
-        "materiales": "",
+        "materiales": "Agua destilada (1) + Hoja de sauce azul (2) + Fragmento de amatista (2)",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Maná Lv2",
         "categoria": "Pociones",
-        "descripcion": "Obtén 2 núcleos de maná",
+        "descripcion": "Líquido azul brillante.<br>Obtén 2 núcleos de maná",
         "preciocompra": "800",
         "precioventa": "300",
-        "materiales": "",
+        "materiales": "Poción de Maná Lv1 (2) + Polvo de oro (2) + Vial de sangre azul (2)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Maná Lv3",
         "categoria": "Pociones",
-        "descripcion": "Obtén 3 núcleos de maná",
+        "descripcion": "Líquido azul brillante con estrellas.<br>Obtén 3 núcleos de maná",
         "preciocompra": "1200",
         "precioventa": "500",
-        "materiales": "",
+        "materiales": "Poción de Maná Lv2 (2) + Escama de Wyvern (5)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Antidoto Lv1",
         "categoria": "Pociones",
-        "descripcion": "Elimina 1 carga de veneno",
+        "descripcion": "Líquido verde oscuro.<br>Elimina 1 carga de veneno",
         "preciocompra": "300",
         "precioventa": "120",
-        "materiales": "",
+        "materiales": "Agua destilada (1) + Hoja de sauce azul (2) + Fragmento de amatista (2)",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Antidoto Lv2",
         "categoria": "Pociones",
-        "descripcion": "Elimina 2 cargas de veneno",
+        "descripcion": "Líquido verde oscuro.<br>Elimina 2 cargas de veneno",
         "preciocompra": "600",
         "precioventa": "200",
-        "materiales": "",
+        "materiales": "Antídoto Lv2 (2) + Polvo de oro (2) + Vial de sangre azul (2)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Antidoto Lv3",
         "categoria": "Pociones",
-        "descripcion": "Elimina 3 cargas de veneno",
+        "descripcion": "Líquido verde oscuro con filamentos negros.<br>Elimina 3 cargas de veneno",
         "preciocompra": "800",
         "precioventa": "350",
-        "materiales": "",
+        "materiales": "Antídoto Lv2 (2) + Escama de Wyvern (5)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
-        "vendidaen": "Todo Enforth"
-    }
-    ,
-    {
-        "nombre": "Antidoto Lv1",
-        "categoria": "Pociones",
-        "descripcion": "Elimina 1 carga de veneno",
-        "preciocompra": "300",
-        "precioventa": "120",
-        "materiales": "",
-        "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
-        "vendidaen": "Todo Enforth"
-    }
-    ,
-    {
-        "nombre": "Antidoto Lv2",
-        "categoria": "Pociones",
-        "descripcion": "Elimina 2 cargas de veneno",
-        "preciocompra": "600",
-        "precioventa": "200",
-        "materiales": "",
-        "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
-        "vendidaen": "Todo Enforth"
-    }
-    ,
-    {
-        "nombre": "Antidoto Lv3",
-        "categoria": "Pociones",
-        "descripcion": "Elimina 3 cargas de veneno",
-        "preciocompra": "800",
-        "precioventa": "350",
-        "materiales": "",
-        "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Musculatura Lv1",
         "categoria": "Pociones",
-        "descripcion": "Da 1 punto de Fuerza temporal durante un combate o una exploración",
+        "descripcion": "Líquido rojo oscuro.<br>Da 1 punto de Fuerza temporal durante un combate o una exploración",
         "preciocompra": "300",
         "precioventa": "100",
-        "materiales": "",
+        "materiales": "Agua destilada (1) + Polvo de hierro (2) + Polvo de oro (2)",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Musculatura Lv2",
         "categoria": "Pociones",
-        "descripcion": "Da 2 puntos de Fuerza temporal durante un combate o una exploración",
+        "descripcion": "Líquido rojo oscuro.<br>Da 2 puntos de Fuerza temporal durante un combate o una exploración",
         "preciocompra": "700",
         "precioventa": "300",
-        "materiales": "",
+        "materiales": "Poción de Musculatura Lv1 (2) + Hoja de sauce blanco (2)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Musculatura Lv3",
         "categoria": "Pociones",
-        "descripcion": "Da 4 puntos de Fuerza temporal durante un combate o una exploración",
+        "descripcion": "Líquido rojo oscuro.<br>Da 3 puntos de Fuerza temporal durante un combate o una exploración",
         "preciocompra": "1200",
         "precioventa": "500",
-        "materiales": "",
-        "creadaen": "Estación de Alquimia",
+        "materiales": "Poción de Musculatura Lv2 + Alma de Orco (2)",
+        "creadaen": "Estación de Alquimia y Conocimiento en Magia de Almas",
         "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
     }
@@ -182,70 +146,70 @@
     {
         "nombre": "Poción de Fortuna Lv1",
         "categoria": "Pociones",
-        "descripcion": "Da 1 punto de Suerte temporal durante un combate o una exploración",
+        "descripcion": "Líquido verde brillante.<br>Da 1 punto de Suerte temporal durante un combate o una exploración",
         "preciocompra": "500",
         "precioventa": "200",
-        "materiales": "",
+        "materiales": "Agua destilada (1) + Trebol de cuatro hojas (1)",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Fortuna Lv2",
         "categoria": "Pociones",
-        "descripcion": "Da 2 puntos de Suerte temporal durante un combate o una exploración",
+        "descripcion": "Líquido verde brillante.<br>Da 2 puntos de Suerte temporal durante un combate o una exploración",
         "preciocompra": "1200",
         "precioventa": "500",
-        "materiales": "",
+        "materiales": "Poción de Fortuna Lv1 (2) + Mariquita (2)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Fortuna Lv3",
         "categoria": "Pociones",
-        "descripcion": "Da 4 puntos de Suerte temporal durante un combate o una exploración",
+        "descripcion": "Líquido verde brillante.<br>Da 3 puntos de Suerte temporal durante un combate o una exploración",
         "preciocompra": "2000",
         "precioventa": "900",
-        "materiales": "",
+        "materiales": "Poción de Fortuna Lv2 (2) + Hoja de sauce dorada (2)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Aura Fénix Lv1",
         "categoria": "Pociones",
-        "descripcion": "Un ser que se acerque a 5ft de ti, recibe 1 de daño verdadero por fuego, durante un combate o una exploración",
+        "descripcion": "Líquido naranja brillante.<br>Un ser que se acerque a 5ft de ti, recibe 1 de daño verdadero por fuego, durante un combate o una exploración",
         "preciocompra": "300",
         "precioventa": "120",
-        "materiales": "",
+        "materiales": "Agua destilada (1) + Pluma de fjereo (1) + Fragmento de rubí (2)",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Aura Fénix Lv2",
         "categoria": "Pociones",
-        "descripcion": "Un ser que se acerque a 5ft de ti, recibe 2 de daño verdadero por fuego, durante un combate o una exploración",
+        "descripcion": "Líquido naranja brillante.<br>Un ser que se acerque a 5ft de ti, recibe 2 de daño verdadero por fuego, durante un combate o una exploración",
         "preciocompra": "600",
         "precioventa": "250",
-        "materiales": "",
+        "materiales": "Poción de Aura Fénix Lv1 (2) + Hoja de sauce roja (3)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Aura Fénix Lv3",
         "categoria": "Pociones",
-        "descripcion": "Un ser que se acerque a 5ft de ti, recibe 3 de daño verdadero por fuego, durante un combate o una exploración",
+        "descripcion": "Líquido naranja brillante.<br>Un ser que se acerque a 5ft de ti, recibe 3 de daño verdadero por fuego, durante un combate o una exploración",
         "preciocompra": "900",
         "precioventa": "400",
-        "materiales": "",
+        "materiales": "Poción de Aura Fénix Lv2 (2) + Polvo de basalto (3)",
         "creadaen": "Estación de Alquimia",
         "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
@@ -254,34 +218,34 @@
     {
         "nombre": "Poción de Puntería Lv1",
         "categoria": "Pociones",
-        "descripcion": "Da 1 punto de Puntería temporal durante un combate o una exploración",
+        "descripcion": "Líquido naranja oscuro.<br>Da 1 punto de Puntería temporal durante un combate o una exploración",
         "preciocompra": "500",
         "precioventa": "200",
-        "materiales": "",
+        "materiales": "Agua destilada (1) + Ojos de araña (10)",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Puntería Lv2",
         "categoria": "Pociones",
-        "descripcion": "Da 2 puntos de Puntería temporal durante un combate o una exploración",
+        "descripcion": "Líquido naranja oscuro.<br>Da 2 puntos de Puntería temporal durante un combate o una exploración",
         "preciocompra": "900",
         "precioventa": "420",
-        "materiales": "",
+        "materiales": "Poción de Puntería Lv1 (2) + Polvo de plata (2)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Puntería Lv3",
         "categoria": "Pociones",
-        "descripcion": "Da 4 puntos de Puntería temporal durante un combate o una exploración",
+        "descripcion": "Líquido naranja oscuro.<br>Da 3 puntos de Puntería temporal durante un combate o una exploración",
         "preciocompra": "1300",
         "precioventa": "650",
-        "materiales": "",
+        "materiales": "Poción de Puntería Lv2 (2) + Hoja de sauce dorada (1)",
         "creadaen": "Estación de Alquimia",
         "obtenidaen": "Cofres y tiendas",
         "vendidaen": "Todo Enforth"
@@ -290,72 +254,68 @@
     {
         "nombre": "Poción de Velocidad Lv1",
         "categoria": "Pociones",
-        "descripcion": "Sube una posición en el orden de turnos del combate",
+        "descripcion": "Líquido celeste claro.<br>Sube una posición en el orden de turnos del combate",
         "preciocompra": "800",
         "precioventa": "300",
-        "materiales": "",
+        "materiales": "Agua destilada (2) + Hoja de sauce azul (2) + Hoja de sauce verde (2) + Escama de Wyvern (3)",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Velocidad Lv2",
         "categoria": "Pociones",
-        "descripcion": "Sube hasta tres posiciones en el orden de turnos del combate",
+        "descripcion": "Líquido celeste claro.<br>Sube hasta tres posiciones en el orden de turnos del combate",
         "preciocompra": "1800",
         "precioventa": "800",
-        "materiales": "",
-        "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Velocidad Lv3",
         "categoria": "Pociones",
-        "descripcion": "Eres el primero en comenzar durante un combate",
+        "descripcion": "Líquido celeste claro.<br>Eres el primero en comenzar durante un combate",
         "preciocompra": "3500",
         "precioventa": "1500",
-        "materiales": "",
-        "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Carisma Lv1",
         "categoria": "Pociones",
-        "descripcion": "Da 1 punto de Carisma temporal durante un combate o una exploración",
+        "descripcion": "Líquido verde con brillo azul.<br>Da 1 punto de Carisma temporal durante un combate o una exploración",
         "preciocompra": "400",
         "precioventa": "150",
-        "materiales": "",
+        "materiales": "Agua destilada (2) + Alma de capibara (1)",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Carisma Lv2",
         "categoria": "Pociones",
-        "descripcion": "Da 2 puntos de Carisma temporal durante un combate o una exploración",
+        "descripcion": "Líquido verde con brillo azul.<br>Da 2 puntos de Carisma temporal durante un combate o una exploración",
         "preciocompra": "800",
         "precioventa": "300",
-        "materiales": "",
+        "materiales": "Poción de Carisma Lv1 (2) + Alma de capibara (1)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Carisma Lv3",
         "categoria": "Pociones",
-        "descripcion": "Da 4 puntos de Carisma temporal durante un combate o una exploración",
+        "descripcion": "Líquido verde con brillo azul.<br>Da 3 puntos de Carisma temporal durante un combate o una exploración",
         "preciocompra": "1500",
         "precioventa": "750",
-        "materiales": "",
+        "materiales": "Poción de Carisma Lv2 (2) + Hoja de sauce dorada (1)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -365,9 +325,9 @@
         "descripcion": "Aumenta tu vida máxima en 5, durante un combate o una exploración",
         "preciocompra": "500",
         "precioventa": "150",
-        "materiales": "",
+        "materiales": "Agua destilada (1) + Polvo de oro (2) + Hoja de sauce verde (2)",
         "creadaen": "Estación de Alquimia o Equipo Portatil de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -377,9 +337,9 @@
         "descripcion": "Aumenta tu vida máxima en 10, durante un combate o una exploración",
         "preciocompra": "1000",
         "precioventa": "450",
-        "materiales": "",
+        "materiales": "Poción de Aumento Vital Lv1 (2) + Vial de sangre (2) + Vial de sangre verde (2)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -389,54 +349,55 @@
         "descripcion": "Aumenta tu vida máxima en 15, durante un combate o una exploración",
         "preciocompra": "1500",
         "precioventa": "750",
-        "materiales": "",
+        "materiales": "Poción de Aumento Vital Lv2 (2) + Hoja de sauce dorada (2)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Karma",
         "categoria": "Pociones",
-        "descripcion": "Devuelve el Karma a 0, en caso de ser negativo",
+        "descripcion": "Líquido negro espeso sin brillo.<br>Devuelve el Karma a 0, en caso de ser negativo",
         "preciocompra": "4000",
         "precioventa": "100",
-        "materiales": "",
+        "materiales": "Agua destilada (3) + Hoja de sauce dorada (2) + Polvo de plata (5)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Sudoración",
         "categoria": "Pociones",
-        "descripcion": "Te vuelves inmune al daño del efecto de quemadura, durante un combate, pero aun puedes obtener las cargas",
+        "descripcion": "Líquido transparente con burbujas rojas.<br>Te vuelves inmune al daño del efecto de quemadura, durante un combate, pero aun puedes obtener las cargas",
         "preciocompra": "1200",
         "precioventa": "550",
-        "materiales": "",
+        "materiales": "Agua destilada (1) + Fragmento de rubí (3) + Fragmento de zafiro (3) + Hoja de sauce azul (3)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Criogenia",
         "categoria": "Pociones",
-        "descripcion": "Te vuelves inmune al efecto del congelamiento, durante un combate, pero aun puedes obtener las cargas",
+        "descripcion": "Líquido rojo con puntos negros.<br>Te vuelves inmune al efecto del congelamiento, durante un combate, pero aun puedes obtener las cargas",
         "preciocompra": "1200",
         "precioventa": "550",
-        "materiales": "",
-        "obtenidaen": "Estación de Alquimia",
+        "materiales": "Agua destilada (2) + Fragmento de zafiro (3) + Hoja de sauce azul (3)",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Muerte Lenta",
         "categoria": "Pociones",
-        "descripcion": "Te curas -2 de vida durante cada turno",
+        "descripcion": "Líquido negro espeso sin brillo.<br>Te curas -2 de vida durante cada turno",
         "preciocompra": "1000",
         "precioventa": "450",
-        "materiales": "",
+        "materiales": "Agua (2) + Fragmento de esmeralda (2) + Vial de sangre azul (2) + Polvo de titanio (1)",
         "creadaen": "Estación de Alquimia",
         "obtenidaen": "Cofres",
         "vendidaen": "Todo Enforth"
@@ -445,71 +406,82 @@
     {
         "nombre": "Poción Desarma Candados Lv1",
         "categoria": "Pociones",
-        "descripcion": "Abres cerraduras de madera o hierro",
+        "descripcion": "Líquido color morado.<br>Abres cerraduras de madera o hierro",
         "preciocompra": "2000",
         "precioventa": "900",
-        "materiales": "",
+        "materiales": "Agua destilada (2) + Hoja de sauce verde (2) + Vial de slime (2)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción Desarma Candados Lv2",
         "categoria": "Pociones",
-        "descripcion": "Abres cerraduras de madera, hierro, plata u oro",
+        "descripcion": "Líquido color morado.<br>Abres cerraduras de madera, hierro, plata u oro",
         "preciocompra": "3500",
         "precioventa": "1050",
-        "materiales": "",
+        "materiales": "Poción Desarma Candados Lv1 (2) + Polvo de basalto (3)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción Desarma Candados Lv3",
         "categoria": "Pociones",
-        "descripcion": "Abres cerraduras de madera, hierro, plata, oro o infernita",
+        "descripcion": "Líquido color morado.<br>Abres cerraduras de madera, hierro, plata, oro o infernita",
         "preciocompra": "5000",
         "precioventa": "1250",
-        "materiales": "",
+        "materiales": "Poción Desarma Candados Lv2 (2) + Polvo de oricalco (2)",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Poción de Desmaldecir",
         "categoria": "Pociones",
-        "descripcion": "Destransforma a un ser maldito, y lo vuelve inmune a la transformación durante el resto de la fase lunar",
+        "descripcion": "Líquido negro brillante.<br>Destransforma a un ser maldito, y lo vuelve inmune a la transformación durante el resto de la fase lunar",
         "preciocompra": "2500",
         "precioventa": "750",
         "materiales": "",
         "creadaen": "Estación de Alquimia",
-        "obtenidaen": "Cofres y tiendas",
+        "obtenidaen": "Cofres y tiendas de alquimia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Solución hiperhidratante",
+        "categoria": "Pociones",
+        "descripcion": "Líquido azul mate.<br>Permite al usuario, tener habilidades durante un combate, como si se encontrara bajo lluvia o una fuente de agua (Excepto para hechizos que requerian usar esa cantidad)",
+        "preciocompra": "500",
+        "precioventa": "200",
+        "materiales": "Agua destilada (3) + Hoja de sauce azul (3) + Fragmento de zafiro (2)",
+        "creadaen": "Estación de Alquimia",
+        "obtenidaen": "Cofres y tiendas de alquimia",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
         "nombre": "Minerales",
         "categoria": "Material de herrería",
-        "descripcion": "Pueden ser fundidos en lingotes",
+        "descripcion": "Pueden ser fundidos en lingotes, o vendidas a mineros (Por 20 monedas)",
         "preciocompra": "0",
         "precioventa": "10",
-        "materiales": "",
         "obtenidaen": "Minería",
         "vendidaen": "Ningun lugar"
     }
     ,
     {
-        "nombre": "Espada larga",
+        "nombre": "",
         "categoria": "Armas",
         "descripcion": "",
         "preciocompra": "",
         "precioventa": "",
         "materiales": "",
-        "obtenidaen": "",
-        "vendidaen": ""
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
     }
     
     
