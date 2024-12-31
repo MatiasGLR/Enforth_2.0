@@ -153,7 +153,7 @@ function lista_tienda_compra() {
     let descuento = document.querySelector("#descuento_compra").value;
     if(descuento == 0) {
         $("#descuento_compra").val("");
-    } else monto_total = Math.round(monto_total*(1-(descuento)/100));
+    } else monto_total_compra = Math.round(monto_total_compra*(1-(descuento)/100));
     document.querySelector("#monto-total_compra").innerHTML = '<b>Total:</b> $'+monto_total_compra;
     if(monto_total_compra == 0) str = 'Agrega objetos a la lista para comprar';
     document.querySelector("#datos_tienda_compra").innerHTML = str;
