@@ -470,19 +470,151 @@
         "preciocompra": "0",
         "precioventa": "10",
         "obtenidaen": "Minería",
-        "vendidaen": "Ningun lugar"
+        "vendidaen": "Todo Enforth"
     }
     ,
     {
-        "nombre": "",
+        "nombre": "Cobre",
+        "categoria": "Material de herrería",
+        "descripcion": "Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
+        "preciocompra": "50",
+        "precioventa": "0",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Hierro",
+        "categoria": "Material de herrería",
+        "descripcion": "Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
+        "preciocompra": "100",
+        "precioventa": "20",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Plata",
+        "categoria": "Material de herrería",
+        "descripcion": "Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
+        "preciocompra": "150",
+        "precioventa": "30",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Oro",
+        "categoria": "Material de herrería",
+        "descripcion": "Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
+        "preciocompra": "250",
+        "precioventa": "50",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuarzo",
+        "categoria": "Material de herrería",
+        "descripcion": "Puede ser fundido en un lingote con 3 minerales de este mismo tipo",
+        "preciocompra": "500",
+        "precioventa": "150",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Continente de Redain"
+    }
+    ,
+    {
+        "nombre": "Basalto",
+        "categoria": "Material de herrería",
+        "descripcion": "Puede ser fundido en un lingote con 3 minerales de este mismo tipo",
+        "preciocompra": "600",
+        "precioventa": "150",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Titanio",
+        "categoria": "Material de herrería",
+        "descripcion": "Puede ser fundido en un lingote con 3 minerales de este mismo tipo",
+        "preciocompra": "500",
+        "precioventa": "100",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Continente de Vaikne"
+    }
+    ,
+    {
+        "nombre": "Cobalto",
+        "categoria": "Material de herrería",
+        "descripcion": "Puede ser fundido en un lingote con 4 minerales de este mismo tipo",
+        "preciocompra": "1200",
+        "precioventa": "300",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Continente de Suredozo"
+    }
+    ,
+    {
+        "nombre": "Oricalco",
+        "categoria": "Material de herrería",
+        "descripcion": "Puede ser fundido en un lingote con 4 minerales de este mismo tipo",
+        "preciocompra": "2000",
+        "precioventa": "500",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Continente de Suredozo"
+    }
+    ,
+    {
+        "nombre": "Luminita",
+        "categoria": "Material de herrería",
+        "descripcion": "Puede ser fundido en un lingote con 4 minerales de este mismo tipo",
+        "preciocompra": "2500",
+        "precioventa": "600",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Continente de Fostade"
+    }
+    ,
+    {
+        "nombre": "Druvix",
+        "categoria": "Material de herrería",
+        "descripcion": "Puede ser fundido en un lingote con 5 minerales de este mismo tipo",
+        "preciocompra": "6000",
+        "precioventa": "1200",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Espada corta de cobre",
         "categoria": "Armas",
-        "descripcion": "",
-        "preciocompra": "",
-        "precioventa": "",
+        "dañoarma": "1d4", "efectoarma": "Sangrado",
+        "habilidadarmat": "Backstab","habilidadarma": "Al atacar por la espalda, siempre causa una carga de sangrado (si se le causa daño mayor a 1) al enemigo.",
+        "armatipo": "Ligera a una mano",
+        "preciocompra": "200","precioventa": "100",
         "materiales": "",
         "obtenidaen": "Cofres y taller de herrería",
         "vendidaen": "Todo Enforth"
     }
-    
-    
+    ,
+    {
+        "nombre": "Daga de cobre",
+        "categoria": "Armas",
+        "dañoarma": "1d4", "efectoarma": "Sangrado",
+        "habilidadarmat": "Backstab","habilidadarma": "Al atacar por la espalda, siempre causa una carga de sangrado (si se le causa daño mayor a 1) al enemigo.",
+        "armatipo": "Ligera a una mano",
+        "preciocompra": "200","precioventa": "100",
+        "materiales": "",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
 ]

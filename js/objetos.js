@@ -1,6 +1,8 @@
 const input_categoria = document.querySelector("#categoria");
 const input_nombre = document.querySelector("#nombre");
 
+let carrito = []; 
+
 async function read_index_json() {
     var str = "", str2 = "";
 
@@ -36,23 +38,39 @@ async function cargar_objeto(objeto) {
         for(let i = 0; i < index_json.length ; i++) {
             const nombre_val = input_nombre.value, json_a = JSON.parse(JSON.stringify(index_json[i][1]));
             if(objeto != "" && json_a.nombre.includes(objeto)) {
-                let material = "", obtenida = "", creada = "";
+                let material = "", obtenida = "", creada = "", descripcion = "";
                 if(json_a.obtenidaen && json_a.obtenidaen.length > 1) obtenida = `<b>Obtenida en:</b> `+json_a.obtenidaen+`<br>`;
                 if(json_a.materiales && json_a.materiales.length > 1) material = `<b>Materiales:</b> `+json_a.materiales+`<br>`;
                 if(json_a.creadaen && json_a.creadaen.length > 1) creada = `<b>Creada en:</b> `+json_a.creadaen+`<br>`;
+                if(json_a.categoria == "Armas") {
+                    descripcion = `
+                        <div style="width:100%; background-color:#333; padding:8px; color:white;">
+                            <div class="text-center">
+                                <b>Datos del arma</b><br>
+                            </div>
+                            <div class="text-start">
+                                <b>Daño. </b>`+json_a.dañoarma+`<br>
+                                <b>Efecto. </b>`+json_a.efectoarma+`<br>
+                                <b>Habilidad. </b><x class="text-info">`+json_a.habilidadarmat+`. </x>`+json_a.habilidadarma+`<br>
+                            </div>
+                        </div>
+                    `; 
+                } else descripcion = `<b>Descripción:</b><br> `+json_a.descripcion+`<br>`
                 str = str.concat(`
                     <b>Categoría:</b> `+json_a.categoria+`<br>
                     <b>Precio de compra:</b> `+json_a.preciocompra+`<br>
                     <b>Precio de venta:</b> `+json_a.precioventa+`<br>
-                    <b>Se puede comprar en:</b> `+json_a.vendidaen+`<br><br>
+                    <b>Zona de comercio:</b> `+json_a.vendidaen+`<br><br>
                     `+material+`
                     `+creada+`
                     `+obtenida+`<br>
-                    <b>Descripción:</b><br> `+json_a.descripcion+`<br>
-
+                    `+descripcion+`
                 `);
                 document.querySelector("#titulo_objeto").innerHTML = json_a.nombre;
                 document.querySelector("#datos_objeto").innerHTML = str;
+                document.querySelector("#botones_agregar_carrito").innerHTML = `
+                        <button onclick="agregaritem('`+json_a.nombre+`', 1, `+json_a.precioventa+`)" type="button" class="btn btn-info" data-bs-dismiss="modal">Al carrito</button>
+                        <button onclick="modal()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>`;
                 modal();
                 break;
             }
@@ -81,5 +99,73 @@ function modal() {
     $('#equipoAleatorioModal').modal('toggle');
 }
 
-read_index_json();
+let monto_total;
 
+function lista_tienda() {
+    let str = "";
+    monto_total = 0;
+    carrito.forEach(function (item) {
+        str = str.concat(`
+            <div class="d-flex justify-content-between text-center">
+                <div class="m-auto ms-0 text-center">
+                    <b class="text-danger"></b> `+item.nombre+` <b class='text-primary'>[$`+item.precio+`]</b><b class='text-info'>[x`+item.cantidad+`]</b><b class='text-danger'>[$`+item.precio*item.cantidad+`]</b>
+                </div>
+                <div class="">
+                    <button onclick="cantidad('`+item.nombre+`',1)" class="btn btn-success m-auto">+</button>
+                    <button onclick="cantidad('`+item.nombre+`',-1)" class="btn btn-danger m-auto">-</button>
+                </div>
+            </div>`);
+        monto_total = monto_total+(item.precio*item.cantidad);
+    });
+    document.querySelector("#monto-total").innerHTML = '<b>Total:</b> $'+monto_total;
+    if(monto_total == 0) str = 'Agrega objetos a la lista para vender';
+    document.querySelector("#datos_tienda").innerHTML = str;
+}
+
+function modal_tienda_mostrar() {
+    $('#ModalTienda').modal('toggle');
+}
+
+function limpiar_tienda() {
+    monto_total = 0;
+    carrito = [];
+    lista_tienda();
+}
+
+function modal_tienda() {
+    lista_tienda();
+    modal_tienda_mostrar();
+}
+
+function objeto_tienda(nombre, cantidad, precio) {
+    this.nombre = nombre;
+    this.cantidad = cantidad;
+    this.precio = precio;
+}
+
+function agregaritem(nombre, cantidad, precio){
+    let yes = 1;
+    carrito.forEach(function (item){
+        if(item.nombre == nombre) {
+            yes = 0;
+        }
+    });
+    if(yes == 1) carrito.push(new objeto_tienda(nombre, cantidad, precio));
+    $('#equipoAleatorioModal').modal('toggle');
+    modal_tienda();
+}
+
+function cantidad(nombre, cantidad){
+    carrito.forEach(function (item){
+        if(item.nombre == nombre) {
+            item.cantidad = item.cantidad+cantidad;
+            if(item.cantidad <= 0) {
+                const index = carrito.indexOf(item);
+                carrito.splice(index, 1);
+            }
+            lista_tienda();
+        }
+    });
+}
+
+read_index_json();
