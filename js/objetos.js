@@ -2,6 +2,7 @@ const input_categoria = document.querySelector("#categoria");
 const input_nombre = document.querySelector("#nombre");
 
 let carrito = []; 
+let carrito_compra = [];
 
 async function read_index_json() {
     var str = "", str2 = "";
@@ -69,7 +70,9 @@ async function cargar_objeto(objeto) {
                 document.querySelector("#titulo_objeto").innerHTML = json_a.nombre;
                 document.querySelector("#datos_objeto").innerHTML = str;
                 document.querySelector("#botones_agregar_carrito").innerHTML = `
-                        <button onclick="agregaritem('`+json_a.nombre+`', 1, `+json_a.precioventa+`)" type="button" class="btn btn-info" data-bs-dismiss="modal">Al carrito</button>
+                        <input id="cantidad_agregar" type="number" min='0' max='1000' style="width:80px" placeholder="Cantidad">
+                        <button onclick="agregaritem_compra('`+json_a.nombre+`', `+json_a.precioventa+`)" type="button" class="btn btn-info" data-bs-dismiss="modal">A la compra</button>
+                        <button onclick="agregaritem('`+json_a.nombre+`', `+json_a.precioventa+`)" type="button" class="btn btn-success" data-bs-dismiss="modal">A la venta</button>
                         <button onclick="modal()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>`;
                 modal();
                 break;
@@ -100,6 +103,7 @@ function modal() {
 }
 
 let monto_total;
+let monto_total_compra;
 
 function lista_tienda() {
     let str = "";
@@ -122,6 +126,29 @@ function lista_tienda() {
     document.querySelector("#datos_tienda").innerHTML = str;
 }
 
+function lista_tienda_compra() {
+    let str = "";
+    monto_total_compra = 0;
+    carrito_compra.forEach(function (item) {
+        str = str.concat(`
+            <div class="d-flex justify-content-between text-center">
+                <div class="m-auto ms-0 text-center">
+                    <b class="text-danger"></b> `+item.nombre+` <b class='text-primary'>[$`+item.precio+`]</b><b class='text-info'>[x`+item.cantidad+`]</b><b class='text-danger'>[$`+item.precio*item.cantidad+`]</b>
+                </div>
+                <div class="">
+                    <button onclick="cantidad_compra('`+item.nombre+`',1)" class="btn btn-success m-auto">+</button>
+                    <button onclick="cantidad_compra('`+item.nombre+`',-1)" class="btn btn-danger m-auto">-</button>
+                </div>
+            </div>`);
+        monto_total_compra = monto_total_compra+(item.precio*item.cantidad);
+    });
+    document.querySelector("#monto-total_compra").innerHTML = '<b>Total:</b> $'+monto_total_compra;
+    if(monto_total_compra == 0) str = 'Agrega objetos a la lista para comprar';
+    document.querySelector("#datos_tienda_compra").innerHTML = str;
+}
+
+/* Venta */
+
 function modal_tienda_mostrar() {
     $('#ModalTienda').modal('toggle');
 }
@@ -143,16 +170,21 @@ function objeto_tienda(nombre, cantidad, precio) {
     this.precio = precio;
 }
 
-function agregaritem(nombre, cantidad, precio){
+function agregaritem(nombre, precio){
     let yes = 1;
-    carrito.forEach(function (item){
-        if(item.nombre == nombre) {
-            yes = 0;
-        }
-    });
-    if(yes == 1) carrito.push(new objeto_tienda(nombre, cantidad, precio));
-    $('#equipoAleatorioModal').modal('toggle');
-    modal_tienda();
+    const cantidad = document.querySelector("#cantidad_agregar").value;
+    if(Number(cantidad) && cantidad >= 1){
+        carrito.forEach(function (item){
+            if(item.nombre == nombre) {
+                yes = 0;
+            }
+        });
+        if(yes == 1) carrito.push(new objeto_tienda(nombre, cantidad, precio));
+        $('#equipoAleatorioModal').modal('toggle');
+        modal_tienda();
+    } else {
+        $("#cantidad_agregar").css("background-color", "#cc0000");
+    }
 }
 
 function cantidad(nombre, cantidad){
@@ -164,6 +196,59 @@ function cantidad(nombre, cantidad){
                 carrito.splice(index, 1);
             }
             lista_tienda();
+        }
+    });
+}
+
+/* Compra */
+
+function modal_tienda_mostrar_compra() {
+    $('#ModalTiendaCompra').modal('toggle');
+}
+
+function limpiar_tienda_compra() {
+    monto_total = 0;
+    carrito_compra = [];
+    lista_tienda_compra();
+}
+
+function modal_tienda_compra() {
+    lista_tienda_compra();
+    modal_tienda_mostrar_compra();
+}
+
+function objeto_tienda_compra(nombre, cantidad, precio) {
+    this.nombre = nombre;
+    this.cantidad = cantidad;
+    this.precio = precio;
+}
+
+function agregaritem_compra(nombre, precio){
+    let yes = 1;
+    const cantidad = document.querySelector("#cantidad_agregar").value;
+    if(Number(cantidad) && cantidad >= 1){
+        carrito_compra.forEach(function (item){
+            if(item.nombre == nombre) {
+                yes = 0;
+            }
+        });
+        if(yes == 1) carrito_compra.push(new objeto_tienda_compra(nombre, cantidad, precio));
+        $('#equipoAleatorioModal').modal('toggle');
+        modal_tienda_compra();
+    } else {
+        $("#cantidad_agregar").css("background-color", "#cc0000");
+    }
+}
+
+function cantidad_compra(nombre, cantidad){
+    carrito_compra.forEach(function (item_compra){
+        if(item_compra.nombre == nombre) {
+            item_compra.cantidad = item_compra.cantidad+cantidad;
+            if(item_compra.cantidad <= 0) {
+                const index = carrito_compra.indexOf(item_compra);
+                carrito_compra.splice(index, 1);
+            }
+            lista_tienda_compra();
         }
     });
 }
