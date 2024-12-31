@@ -26,10 +26,8 @@
         </div>
     </header>
     <div style="width:100%; border-left: 5px solid black; border-right: 5px solid black;" class="bg-dark m-auto">
-        
-        <topmain>
-            
-        </topmain>
+        <topmain></topmain>
+        <datalist id="agregado_rapido"></datalist>
         <div class="modal fade" id="equipoAleatorioModal" tabindex="-1" role="dialog" aria-labelledby="equipoAleatorioModal" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered text-dark" role="document">
                 <div class="modal-content">
@@ -50,14 +48,20 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title m-auto" id="ModalTienda"><b id="titulo_tienda" class="text-danger">Carrito de venta</b></h5>
+                        <input id="inputrapido" placeholder="Busqueda rápida" type="text" onchange="agregaritemrapido()" list="agregado_rapido">
                     </div> 
                     <div id="datos_tienda" class="modal-body">
                         
                     </div>
-                    <div class="modal-footer d-flex justify-content-between align-middle">
-                        <h4 id="monto-total"></h4>
-                        <button onclick="limpiar_tienda()" type="button" class="btn btn-danger" data-bs-dismiss="modal">Limpiar carrito</button>
-                        <button onclick="modal_tienda_mostrar()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <div class="modal-footer text-center d-block w-100">
+                        <h4><input id="descuento" style="width:100%" placeholder="Descuento (0 a 100)%" type="number" min="0" max="100" onchange="lista_tienda()"></h4>
+                        <div class="d-flex justify-content-around">
+                            <h4 id="monto-total"></h4>
+                        </div>
+                        <div class="d-flex justify-content-around">
+                            <button onclick="limpiar_tienda()" type="button" class="btn btn-danger" data-bs-dismiss="modal">Limpiar carrito</button>
+                            <button onclick="modal_tienda_mostrar()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
                         <div class="text-danger m-auto">Recuerda eliminar los objetos de tu inventario tras sumar el dinero</div>
                     </div>
                     
@@ -69,14 +73,20 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title m-auto" id="ModalTiendaCompra"><b id="titulo_tienda" class="text-danger">Carrito de compra</b></h5>
+                        <input id="inputrapido_compra" placeholder="Busqueda rápida" type="text" onchange="agregaritemrapido_compra()" list="agregado_rapido">
                     </div> 
                     <div id="datos_tienda_compra" class="modal-body">
                         
                     </div>
-                    <div class="modal-footer d-flex justify-content-between align-middle">
-                        <h4 id="monto-total_compra"></h4>
-                        <button onclick="limpiar_tienda_compra()" type="button" class="btn btn-danger" data-bs-dismiss="modal">Limpiar carrito</button>
-                        <button onclick="modal_tienda_mostrar_compra()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <div class="modal-footer text-center d-block w-100">
+                        <h4><input id="descuento_compra" style="width:100%" placeholder="Descuento (0 a 100)%" type="number" min="0" max="100" onchange="lista_tienda_compra()"></h4>
+                        <div class="d-flex justify-content-around">
+                            <h4 id="monto-total_compra"></h4>
+                        </div>
+                        <div class="d-flex justify-content-around">
+                            <button onclick="limpiar_tienda_compra()" type="button" class="btn btn-danger" data-bs-dismiss="modal">Limpiar carrito</button>
+                            <button onclick="modal_tienda_mostrar_compra()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
                         <div class="text-danger m-auto">Recuerda agregar los objetos a tu inventario, y disminuir el dinero</div>
                     </div>
                     
