@@ -428,6 +428,74 @@
                     </div>
                 </div>
                 <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#9.1" aria-expanded="true" aria-controls="9.1">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Armamento</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Daño fijo por materiales</h5>
+                    </a>
+                </div>
+                <div id="9.1" class="collapse" aria-labelledby="9.1" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        <p>Los materiales proveen de una cantidad de daño fija al arma, dependiendo que tan bueno sea el material, por su categoría. Las categorías de los materiales son:
+                            <ul>
+                                <li>Básico</li>
+                                <li>Medio</li>
+                                <li>Alto</li>
+                                <li>Épico</li>
+                                <li>Legendario</li>
+                            </ul>
+                        </p>
+                        <p>Para ver de que categoría es cada material, comprobar la lista de objetos</p>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Materiales</th>
+                                    <th class="text-info">Protección por pieza</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+                                <tr><td>Básico</td><td>+0</td></tr>
+                                <tr><td>Medio</td><td>+1</td></tr>
+                                <tr><td>Alto</td><td>+3</td></tr>
+                                <tr><td>Épico</td><td>+4</td></tr>
+                                <tr><td>Legendario</td><td>+5</td></tr>
+                                <tr><td>Platinado</td><td>+1</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#9.2" aria-expanded="true" aria-controls="9.2">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Armamento</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Efecto por material en armas</h5>
+                    </a>
+                </div>
+                <div id="9.2" class="collapse" aria-labelledby="9.2" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        <p>Algunos materiales tienen efectos cuando son utilizados en armas. En caso de tener varios efectos iguales, estos se aplicarán todos al mismo tiempo.
+                        <p>Para ver de que categoría es cada material, comprobar la lista de objetos</p>
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th class="text-info">Material</th>
+                                    <th class="text-info">Efecto</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado_datos">
+                                <tr><td>Hierro</td><td>Las armas de este material aplican <b>sangrado</b>.</td></tr>
+                                <tr><td>Plata</td><td>Las armas de este material ignoran 3 puntos de resistencia contra malditos.</td></tr>
+                                <tr><td>Cuarzo</td><td>Las armas de este material ignoran 3 puntos de resistencia contra invocaciones e ignoran armaduras magicas.</td></tr>
+                                <tr><td>Basalto</td><td>Un objeto de este material tiene 25% de probabilidad de romperse al golpear o ser golpeado.</td></tr>
+                                <tr><td>Titanio</td><td>Las armas de este material aplican <b>veneno</b>.</td></tr>
+                                <tr><td>Cobalto</td><td>Las armas de este material aplican <b>estatizado</b>.</td></tr>
+                                <tr><td>Oricalco</td><td>Las armas de este material aplican <b>quemadura</b>.</td></tr>
+                                <tr><td>Infernita</td><td>Las armas de este material aplican <b>doble quemadura</b>.</td></tr>
+                                <tr><td>Luminita</td><td>Los malditos que usen armas de este material obtienen +5 de daño y +5 de armadura mágica.</td></tr>
+                                <tr><td>Druvix</td><td>Las armas de este material aplican <b>perforación, sangrado y rompearmadura</b>.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
                     <a id="title_button_info" class="row" data-toggle="collapse" data-target="#8" aria-expanded="true" aria-controls="8">
                         <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Protección</b></h5>
                         <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">¿Cómo funciona la protección?</h5>
@@ -471,42 +539,6 @@
                                 <tr><td>Basalto Titanio Cuarzo Cobalto Everfrost</td><td>+2</td></tr>
                                 <tr><td>Oricalco Luminita Infernita</td><td>+3</td></tr>
                                 <tr><td>Druvix</td><td>+4</td></tr>
-                                <tr><td>Platinado</td><td>+1</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="cabecera_main text-dark" style="border-top:5px solid black">
-                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#9.1" aria-expanded="true" aria-controls="9.1">
-                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Armamento</b></h5>
-                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Daño fijo por materiales</h5>
-                    </a>
-                </div>
-                <div id="9.1" class="collapse" aria-labelledby="9.1" data-parent="#listado_datos">
-                    <div class="card-body  bg-dark text-white">
-                        <p>Los materiales proveen de una cantidad de daño fija al arma, dependiendo que tan bueno sea el material, por su categoría. Las categorías de los materiales son:
-                            <ul>
-                                <li>Básico</li>
-                                <li>Medio</li>
-                                <li>Alto</li>
-                                <li>Épico</li>
-                                <li>Legendario</li>
-                            </ul>
-                        </p>
-                        <p>Para ver de que categoría es cada material, comprobar la lista de objetos</p>
-                        <table class="table table-striped table-dark">
-                            <thead>
-                                <tr>
-                                    <th class="text-info">Materiales</th>
-                                    <th class="text-info">Protección por pieza</th>
-                                </tr>
-                            </thead>
-                            <tbody id="listado_datos">
-                                <tr><td>Básico</td><td>+0</td></tr>
-                                <tr><td>Medio</td><td>+1</td></tr>
-                                <tr><td>Alto</td><td>+3</td></tr>
-                                <tr><td>Épico</td><td>+4</td></tr>
-                                <tr><td>Legendario</td><td>+5</td></tr>
                                 <tr><td>Platinado</td><td>+1</td></tr>
                             </tbody>
                         </table>

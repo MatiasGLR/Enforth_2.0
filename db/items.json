@@ -476,7 +476,7 @@
     {
         "nombre": "Cobre",
         "categoria": "Material de herrería",
-        "descripcion": "Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
+        "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
         "preciocompra": "50",
         "precioventa": "0",
         "creadaen": "Forja",
@@ -487,7 +487,7 @@
     {
         "nombre": "Hierro",
         "categoria": "Material de herrería",
-        "descripcion": "Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
+        "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo. ",
         "preciocompra": "100",
         "precioventa": "20",
         "creadaen": "Forja",
@@ -498,7 +498,7 @@
     {
         "nombre": "Plata",
         "categoria": "Material de herrería",
-        "descripcion": "Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
+        "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo.",
         "preciocompra": "150",
         "precioventa": "30",
         "creadaen": "Forja",
@@ -509,7 +509,7 @@
     {
         "nombre": "Oro",
         "categoria": "Material de herrería",
-        "descripcion": "Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
+        "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
         "preciocompra": "250",
         "precioventa": "50",
         "creadaen": "Forja",
@@ -520,7 +520,7 @@
     {
         "nombre": "Cuarzo",
         "categoria": "Material de herrería",
-        "descripcion": "Puede ser fundido en un lingote con 3 minerales de este mismo tipo",
+        "descripcion": "Material medio. Puede ser fundido en un lingote con 3 minerales de este mismo tipo.",
         "preciocompra": "500",
         "precioventa": "150",
         "creadaen": "Forja",
@@ -531,7 +531,7 @@
     {
         "nombre": "Basalto",
         "categoria": "Material de herrería",
-        "descripcion": "Puede ser fundido en un lingote con 3 minerales de este mismo tipo",
+        "descripcion": "Material medio. Puede ser fundido en un lingote con 3 minerales de este mismo tipo.",
         "preciocompra": "600",
         "precioventa": "150",
         "creadaen": "Forja",
@@ -542,7 +542,7 @@
     {
         "nombre": "Titanio",
         "categoria": "Material de herrería",
-        "descripcion": "Puede ser fundido en un lingote con 3 minerales de este mismo tipo",
+        "descripcion": "Material medio. Puede ser fundido en un lingote con 3 minerales de este mismo tipo. ",
         "preciocompra": "500",
         "precioventa": "100",
         "creadaen": "Forja",
@@ -553,7 +553,7 @@
     {
         "nombre": "Cobalto",
         "categoria": "Material de herrería",
-        "descripcion": "Puede ser fundido en un lingote con 4 minerales de este mismo tipo",
+        "descripcion": "Material alto. Puede ser fundido en un lingote con 4 minerales de este mismo tipo. ",
         "preciocompra": "1200",
         "precioventa": "300",
         "creadaen": "Forja",
@@ -564,7 +564,7 @@
     {
         "nombre": "Oricalco",
         "categoria": "Material de herrería",
-        "descripcion": "Puede ser fundido en un lingote con 4 minerales de este mismo tipo",
+        "descripcion": "Material alto. Puede ser fundido en un lingote con 4 minerales de este mismo tipo. ",
         "preciocompra": "2000",
         "precioventa": "500",
         "creadaen": "Forja",
@@ -573,9 +573,20 @@
     }
     ,
     {
+        "nombre": "Infernita",
+        "categoria": "Material de herrería",
+        "descripcion": "Material alto. Puede ser fundido en un lingote con 4 minerales de este mismo tipo. ",
+        "preciocompra": "2500",
+        "precioventa": "100",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
         "nombre": "Luminita",
         "categoria": "Material de herrería",
-        "descripcion": "Puede ser fundido en un lingote con 4 minerales de este mismo tipo",
+        "descripcion": "Material alto. Puede ser fundido en un lingote con 4 minerales de este mismo tipo. ",
         "preciocompra": "2500",
         "precioventa": "600",
         "creadaen": "Forja",
@@ -586,7 +597,7 @@
     {
         "nombre": "Druvix",
         "categoria": "Material de herrería",
-        "descripcion": "Puede ser fundido en un lingote con 5 minerales de este mismo tipo",
+        "descripcion": "Material épico. Puede ser fundido en un lingote con 5 minerales de este mismo tipo. ",
         "preciocompra": "6000",
         "precioventa": "1200",
         "creadaen": "Forja",
@@ -595,25 +606,288 @@
     }
     ,
     {
-        "nombre": "Espada corta de cobre",
+        "nombre": "Platino",
+        "categoria": "Material de herrería",
+        "descripcion": "Material épico. Puede ser fundido en un lingote con 5 minerales de este mismo tipo. Las armas de este material aplican <b>perforación, sangrado y rompearmadura</b>.",
+        "preciocompra": "3000",
+        "precioventa": "700",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres",
+        "vendidaen": "Foreign Frontier"
+    }
+    ,
+    {
+        "nombre": "Espada corta",
         "categoria": "Armas",
         "dañoarma": "1d4", "efectoarma": "Sangrado",
         "habilidadarmat": "Backstab","habilidadarma": "Al atacar por la espalda, siempre causa una carga de sangrado (si se le causa daño mayor a 1) al enemigo.",
         "armatipo": "Ligera a una mano",
-        "preciocompra": "200","precioventa": "100",
-        "materiales": "",
+        "preciocompra": "300","precioventa": "100",
+        "materiales": "2 Lingotes",
         "obtenidaen": "Cofres y taller de herrería",
         "vendidaen": "Todo Enforth"
     }
     ,
     {
-        "nombre": "Daga de cobre",
+        "nombre": "Daga",
         "categoria": "Armas",
         "dañoarma": "1d4", "efectoarma": "Sangrado",
         "habilidadarmat": "Backstab","habilidadarma": "Al atacar por la espalda, siempre causa una carga de sangrado (si se le causa daño mayor a 1) al enemigo.",
         "armatipo": "Ligera a una mano",
+        "preciocompra": "300","precioventa": "100",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Estoque",
+        "categoria": "Armas",
+        "dañoarma": "1d6", "efectoarma": "Desarme",
+        "habilidadarmat": "Parry distintivo","habilidadarma": "Al aplicar Parry mediante la habilidad de Guerrero, puedes aplicar desarme, en lugar de causar daño, por una acción de utilidad.",
+        "armatipo": "Ligera a una mano",
+        "preciocompra": "300","precioventa": "100",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cestus",
+        "categoria": "Armas",
+        "dañoarma": "1d6", "efectoarma": "Derribo",
+        "habilidadarmat": "Knockout","habilidadarma": "Si causas critico en 5 ataques seguidos contra el mismo enemigo, este será abatido.",
+        "armatipo": "Ligera a una mano",
+        "preciocompra": "400","precioventa": "150",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Látigo dentado",
+        "categoria": "Armas",
+        "dañoarma": "1d6", "efectoarma": "Sangrado",
+        "habilidadarmat": "Desprotegido","habilidadarma": "Si el enemigo resiste tu ataque y tiene un escudo, puedes realizar desarme en su escudo.",
+        "armatipo": "Ligera a una mano",
+        "preciocompra": "300","precioventa": "100",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Lanza",
+        "categoria": "Armas",
+        "dañoarma": "1d8", "efectoarma": "Perforación",
+        "habilidadarmat": "Distancia","habilidadarma": "Ataca a 10ft de distancia.",
+        "armatipo": "Ligera a dos manos",
+        "preciocompra": "500","precioventa": "180",
+        "materiales": "4 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Jabalina",
+        "categoria": "Armas",
+        "dañoarma": "1d8", "efectoarma": "Perforación",
+        "habilidadarmat": "Distancia","habilidadarma": "Ataca a 10ft de distancia.",
+        "armatipo": "Ligera a dos manos",
+        "preciocompra": "500","precioventa": "180",
+        "materiales": "4 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Tridente",
+        "categoria": "Armas",
+        "dañoarma": "1d8", "efectoarma": "Sangrado",
+        "habilidadarmat": "Distancia","habilidadarma": "Ataca a 10ft de distancia.",
+        "armatipo": "Ligera a dos manos",
+        "preciocompra": "500","precioventa": "150",
+        "materiales": "4 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cimitarra",
+        "categoria": "Armas",
+        "dañoarma": "1d6", "efectoarma": "Sangrado",
+        "habilidadarmat": "Abriendo heridas","habilidadarma": "Tus ataques criticos aplican sangrado.",
+        "armatipo": "Pesada a una mano",
+        "preciocompra": "300","precioventa": "100",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Katana",
+        "categoria": "Armas",
+        "dañoarma": "1d6", "efectoarma": "Sangrado",
+        "habilidadarmat": "Desviación","habilidadarma": "Puedes realizar parry a proyectiles, a flechas si tienes al menos 4 en puntería.<br>Si el arma fue hecha por un herrero de Suredozo, gana además, la capacidad de desviar balas, con al menos 6 en puntería.",
+        "armatipo": "Pesada a una mano",
+        "preciocompra": "300","precioventa": "100",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Hacha",
+        "categoria": "Armas",
+        "dañoarma": "1d6", "efectoarma": "Sangrado",
+        "habilidadarmat": "Mutilación","habilidadarma": "Los animales atacados morirán, si se les causa daño y quedan con el 10% de su vida o menos.",
+        "armatipo": "Pesada a una mano",
+        "preciocompra": "300","precioventa": "100",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Maza",
+        "categoria": "Armas",
+        "dañoarma": "1d6", "efectoarma": "Derribo",
+        "habilidadarmat": "Golpe pesado","habilidadarma": "Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.",
+        "armatipo": "Pesada a una mano",
+        "preciocompra": "300","precioventa": "100",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Martillo",
+        "categoria": "Armas",
+        "dañoarma": "1d6", "efectoarma": "Derribo",
+        "habilidadarmat": "Golpe pesado","habilidadarma": "Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.",
+        "armatipo": "Pesada a una mano",
+        "preciocompra": "350","precioventa": "150",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Espada larga",
+        "categoria": "Armas",
+        "dañoarma": "1d6", "efectoarma": "Sangrado",
+        "habilidadarmat": "Caballero","habilidadarma": "Si tienes un escudo en tu otra mano, te vuelves inmune al desarme",
+        "armatipo": "Pesada a una mano",
+        "preciocompra": "250","precioventa": "90",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Schiavona",
+        "categoria": "Armas",
+        "dañoarma": "1d6", "efectoarma": "Desarme",
+        "habilidadarmat": "Parry distintivo","habilidadarma": "Al aplicar Parry mediante la habilidad de Guerrero, puedes aplicar desarme, en lugar de causar daño, por una acción de utilidad.<br>Si el arma fue hecha por un herrero de Endricci, gana además, el efecto de Rompearmadura",
+        "armatipo": "Pesada a una mano",
+        "preciocompra": "300","precioventa": "120",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Morningstar",
+        "categoria": "Armas",
+        "dañoarma": "1d6", "efectoarma": "Sangrado",
+        "habilidadarmat": "Picos afilados","habilidadarma": "Ignora 3 puntos de la armadura enemiga.",
+        "armatipo": "Pesada a una mano",
         "preciocompra": "200","precioventa": "100",
-        "materiales": "",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Pico",
+        "categoria": "Armas",
+        "dañoarma": "1d6", "efectoarma": "Sin efecto",
+        "habilidadarmat": "Creado para la ocasión","habilidadarma": "Si atacas a un ser creado de minerales, ignoras 5 de la resistencia del enemigo.<br>Puede picar menas de nivel Cobre e inferior",
+        "armatipo": "Pesada a una mano",
+        "preciocompra": "200","precioventa": "100",
+        "materiales": "2 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Espadon ultrapesado",
+        "categoria": "Armas",
+        "dañoarma": "1d10", "efectoarma": "Derribo y rompearmadura",
+        "habilidadarmat": "Temblores","habilidadarma": "Causa 1d10 de daño a los enemigos a 5ft del enemigo/zona atacada. Puede atacar a 10ft de distancia, pero su dado pasa a ser de 8.",
+        "armatipo": "Pesada a dos manos",
+        "preciocompra": "800","precioventa": "300",
+        "materiales": "5 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Zweihander",
+        "categoria": "Armas",
+        "dañoarma": "1d8", "efectoarma": "Sangrado y rompearmadura",
+        "habilidadarmat": "Filo evanescente","habilidadarma": "Si el ataque es critico, ignora 3 puntos de la protección del enemigo.",
+        "armatipo": "Pesada a dos manos",
+        "preciocompra": "650","precioventa": "200",
+        "materiales": "4 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Martillo de guerra",
+        "categoria": "Armas",
+        "dañoarma": "1d8", "efectoarma": "Derribo y rompearmadura",
+        "habilidadarmat": "Golpe pesado","habilidadarma": "Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.",
+        "armatipo": "Pesada a dos manos",
+        "preciocompra": "700","precioventa": "300",
+        "materiales": "4 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Alabarda",
+        "categoria": "Armas",
+        "dañoarma": "1d8", "efectoarma": "Perforación y rompearmadura",
+        "habilidadarmat": "Distancia","habilidadarma": "Ataca a 10ft de distancia.",
+        "armatipo": "Pesada a dos manos",
+        "preciocompra": "550","precioventa": "150",
+        "materiales": "4 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Hacha gigante",
+        "categoria": "Armas",
+        "dañoarma": "1d8", "efectoarma": "Sangrado y rompearmadura",
+        "habilidadarmat": "Golpe pesado","habilidadarma": "Al atacar a un enemigo, o realizar un parry, lo aleja a 5ft de distancia, y, si impacta contra un obstáculo, les aplica derribo.",
+        "armatipo": "Pesada a dos manos",
+        "preciocompra": "600","precioventa": "200",
+        "materiales": "4 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Hachamartillo",
+        "categoria": "Armas",
+        "dañoarma": "1d8", "efectoarma": "Sangrado y derribo",
+        "habilidadarmat": "Sangrado pesado","habilidadarma": "Si el enemigo no tiene cargas de sangrado, recibe una de forma asegurada.",
+        "armatipo": "Pesada a dos manos",
+        "preciocompra": "600","precioventa": "200",
+        "materiales": "4 Lingotes",
         "obtenidaen": "Cofres y taller de herrería",
         "vendidaen": "Todo Enforth"
     }

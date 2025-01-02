@@ -59,6 +59,8 @@ async function cargar_objeto(objeto) {
                                 <b>Habilidad. </b><x class="text-info">`+json_a.habilidadarmat+`. </x>`+json_a.habilidadarma+`<br>
                             </div>
                         </div>
+                        <br>
+                        <b class='text-danger'>El precio de compra y venta del arma, es el servicio por crearla. Para saber el precio del arma, agrega el arma al carrito y los materiales correspondientes</b>
                     `; 
                 } else descripcion = `<b>Descripción:</b><br> `+json_a.descripcion+`<br>`
                 str = str.concat(`
