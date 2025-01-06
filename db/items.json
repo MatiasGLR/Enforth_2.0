@@ -891,4 +891,143 @@
         "obtenidaen": "Cofres y taller de herrería",
         "vendidaen": "Todo Enforth"
     }
+    ,
+    {
+        "nombre": "Pistola",
+        "categoria": "Arma a distancia",
+        "dañoarma": "1d4", "distancia": "15ft",
+        "habilidadarmat": "Cargador amplio","habilidadarma": "No requiere gastar acciones de utilidad para recargar.",
+        "armatipo": "Arma de fuego",
+        "preciocompra": "1500","precioventa": "300",
+        "materiales": "3 lingotes + 1 de Cuero",
+        "obtenidaen": "Cofres y taller de armamentística",
+        "vendidaen": "Endricci"
+    }
+    ,
+    {
+        "nombre": "Escopeta",
+        "categoria": "Arma a distancia",
+        "dañoarma": "1d8", "distancia": "15ft",
+        "habilidadarmat": "Disperción","habilidadarma": "Obtiene -4 de daño por cada 5ft de distancia del enemigo, a partir de los 10ft.",
+        "armatipo": "Arma de fuego",
+        "preciocompra": "2000","precioventa": "500",
+        "materiales": "6 lingotes + 1 de Cuero",
+        "obtenidaen": "Cofres y taller de armamentística",
+        "vendidaen": "Endricci"
+    }
+    ,
+    {
+        "nombre": "Cañón de mano",
+        "categoria": "Arma a distancia",
+        "dañoarma": "1d6", "distancia": "10ft",
+        "habilidadarmat": "Disperción","habilidadarma": "Obtiene -3 de daño por cada 5ft de distancia del enemigo, a partir de los 10ft.",
+        "armatipo": "Arma de fuego",
+        "preciocompra": "1800","precioventa": "400",
+        "materiales": "6 lingotes + 1 de Cuero",
+        "obtenidaen": "Cofres y taller de armamentística",
+        "vendidaen": "Endricci"
+    }
+    ,
+    {
+        "nombre": "Rifle de precisión",
+        "categoria": "Arma a distancia",
+        "dañoarma": "1d8", "distancia": "70ft",
+        "habilidadarmat": "Distancia","habilidadarma": "Obtienes -1 en Puntería por cada 5ft que el objetivo esté lejos, a partir de los 5ft. Puedes evitar este negativo en el tiro, consumiendo una acción de utilidad para ponerte en 'Modo Francotirador', no pudiendo moverte o esquivar en este modo, deberás consumir una acción de utilidad para salir de este modo.",
+        "armatipo": "Arma de fuego",
+        "preciocompra": "2500","precioventa": "400",
+        "materiales": "12 lingotes + 1 de Cuero",
+        "obtenidaen": "Cofres y taller de armamentística",
+        "vendidaen": "Endricci"
+    }
+    ,
+    {
+        "nombre": "Mejora de arma",
+        "categoria": "Servicio",
+        "descripcion": "Este es el precio del servicio, para saber el precio completo, se deben agregar también los materiales",
+        "armatipo": "Pesada a dos manos",
+        "preciocompra": "1000","precioventa": "200",
+        "materiales": "<a href='./creacion.html#2'>Creación</a>",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Escudo",
+        "categoria": "Armadura",
+        "descripcion": "Obtiene la misma protección que una pieza de armadura de ese material.",
+        "preciocompra": "800","precioventa": "300",
+        "materiales": "3 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Yelmo",
+        "categoria": "Armadura",
+        "descripcion": "Si se utiliza una armadura completa del mismo material, se gana el bono por set completo.",
+        "preciocompra": "400","precioventa": "150",
+        "materiales": "4 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Peto",
+        "categoria": "Armadura",
+        "descripcion": "Si se utiliza una armadura completa del mismo material, se gana el bono por set completo.",
+        "preciocompra": "1200","precioventa": "350",
+        "materiales": "8 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Pantalones",
+        "categoria": "Armadura",
+        "descripcion": "Si se utiliza una armadura completa del mismo material, se gana el bono por set completo.",
+        "preciocompra": "1200","precioventa": "350",
+        "materiales": "5 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Botas",
+        "categoria": "Armadura",
+        "descripcion": "Si se utiliza una armadura completa del mismo material, se gana el bono por set completo.",
+        "preciocompra": "300","precioventa": "100",
+        "materiales": "3 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cota de malla",
+        "categoria": "Armadura",
+        "descripcion": "Se utiliza en el slot de extra defensivo.",
+        "preciocompra": "1500","precioventa": "200",
+        "materiales": "5 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Armadura de mascota (Tamaño perro)",
+        "categoria": "Armadura",
+        "descripcion": "Se utiliza en el slot de extra defensivo.",
+        "preciocompra": "800","precioventa": "200",
+        "materiales": "5 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Armadura de mascota (Tamaño wyvern)",
+        "categoria": "Armadura",
+        "descripcion": "Se utiliza en el slot de extra defensivo.",
+        "preciocompra": "2000","precioventa": "200",
+        "materiales": "20 Lingotes",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
 ]

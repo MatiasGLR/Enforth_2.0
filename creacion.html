@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuentos de Enforth</title>
+    <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body style="background-color: rgb(167, 167, 167);">
+    <header style="max-height:80px; overflow: hidden;">
+        <div class="bg-primary d-flex justify-content-between">
+            <a href="./index.html" class="align-items-center">
+                <h4 class="m-auto align-items-center" style="overflow:hidden">
+                    <i class="bi bi-house"></i> Cuentos de Enforth
+                </h4>
+            </a>
+            <a onclick="cerrar()" class="align-items-center">
+                <h4 class="m-auto align-items-center" style="overflow:hidden">
+                    <i class="bi bi-x"></i> Cerrar
+                </h4>
+            </a>
+        </div>
+    </header>
+    <div style="width:100%; min-height:768px; border-left: 5px solid black; border-right: 5px solid black;" class="bg-dark m-auto">
+        
+        <topmain>
+            
+        </topmain>
+        <main id="main_personaje" class="text-white" style="margin-top:82px;">
+            <div id="listado_datos" class="card bg-white text-dark" style="border-radius:0">
+                <div class="cabecera_main text-dark">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#0" aria-expanded="true" aria-controls="0">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>General</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Recetas y pergaminos de aprendizaje</h5>
+                    </a>
+                </div>
+                <div id="0" class="collapse" aria-labelledby="0" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        Los consumibles abarcan una vasta gama de ítems diseñados para ser usados una vez antes de desvanecerse o consumirse totalmente. Estos objetos esenciales para la supervivencia y el combate incluyen pociones de curación, que restauran la salud de quien las bebe; elixires de maná, que reponen la energía mágica necesaria para lanzar hechizos; y bombas de diversos efectos, desde explosiones devastadoras hasta la liberación de gases paralizantes o venenosos. Además, los consumibles pueden incluir alimentos y bebidas que otorgan bonificaciones temporales en habilidades o estadísticas, antídotos contra venenos específicos, y pergaminos mágicos que permiten invocar poderosos hechizos sin necesidad de conocer la magia subyacente. Cada consumible es una herramienta valiosa que puede inclinar la balanza a favor de sus usuarios en momentos críticos, ofreciendo no solo una ayuda inmediata sino también una capa adicional de estrategia y preparación en las aventuras.
+                        <br>Aqui vamos a enlistar los tipos de consumibles, y los objetos que son requeridos para crearlos, en el caso de que sean creables.
+                        <br><br><x class="text-warning">Recetas</x>
+                        <br>Cierto equipamiento para ser creado, requiere primero de tener la receta con la cual esta se hace.
+                        <br>En el caso de las armas de platino, requieres la receta del arma de platino, y la receta de la aleación del platino con el material correspondiente, otras armas que requieren de tener la receta o el manual para crearlas, por ejemplo las de Infernita. En caso de que se quiera realizar una aleación de Platino, con un material que requiera también la receta o manual, se requerirán todas las recetas correspondientes, la receta del arma de platino, la receta del material (Platino), y la receta de la aleación entre el platino y ese otro material.
+                        <br>Una vez aprendida la receta, esta quedará guardada entre los conocimientos del jugador, pudiendo dar a otra persona la receta, para que también la aprenda, además, el jugador puede crear un pergamino con la receta, y dársela a un aliado para que la aprenda.
+                        <br><br><x class="text-warning">Pergaminos de aprendizaje</x>
+                        <br>Hay dos tipos de pergaminos, que servirán para progresar en conocimientos y profesiones, el Pergamino de conocimiento, el cuál desbloqueará el conocimiento correspondiente, y, en caso de tener el conocimiento, subirá 3 puntos en la profesión que esté directamente relacionada (Si el conocimiento es usado por mas de una profesión, no subirá a ninguna).
+                        <br>Luego, está el Pergamino de estudio de profesión, el cuál también se consumirá al usarlo, y subirá puntos de experiencia en la profesión relacionada. Para usarlo, se debe contar con los datos requeridos (Conocimientos, herramientas, y estadísticas).
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#1" aria-expanded="true" aria-controls="1">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Forja</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Materiales trabajados</h5>
+                    </a>
+                </div>
+                <div id="1" class="collapse" aria-labelledby="1" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        La forja en tu mundo no es solo un oficio, es un arte y una ciencia que requiere precisión, paciencia y un profundo conocimiento de los materiales y técnicas. Los herreros comienzan su camino trabajando con metales básicos, aprendiendo a calentar, moldear y templar el hierro y el cobre para crear herramientas sencillas y armas rudimentarias. A medida que ganan experiencia y suben de nivel en su profesión, se desbloquean nuevos y exóticos materiales para trabajar, desde el resistente hierro hasta metales mágicos que albergan propiedades únicas.
+                        <br><br>
+                        Subir de nivel en la forja no es solo una cuestión de acumular horas de trabajo; es un proceso de aprendizaje constante y experimentación. Los herreros deben dominar técnicas complejas, como el plegado de metales para aumentar su resistencia, o la infusión de elementos mágicos durante el proceso de forjado para crear armas y armaduras imbuidas con hechizos protectores o destructivos. Cada nivel alcanzado permite al herrero trabajar con materiales más desafiantes y realizar encargos más prestigiosos, abriendo las puertas a la creación de verdaderas obras maestras que son codiciadas por héroes y reyes por igual. La forja es un camino de descubrimiento eterno, donde cada martillazo acerca al herrero a la perfección.
+                        <br><br>
+                        <h4 class="text-warning">Materiales trabajados por nivel en la profesión correspondiente</h4>
+                        <x class="text-info">♦ Nivel 0.</x> Cobre<br> 
+                        <x class="text-info">♦ Nivel 1.</x> Hierro<br> 
+                        <x class="text-info">♦ Nivel 2.</x> Plata y oro<br> 
+                        <x class="text-info">♦ Nivel 3.</x> Cuarzo<br> 
+                        <x class="text-info">♦ Nivel 4.</x> Basalto<br> 
+                        <x class="text-info">♦ Nivel 5.</x> Titanio<br> 
+                        <x class="text-info">♦ Nivel 6.</x> Cobalto<br> 
+                        <x class="text-info">♦ Nivel 7.</x> Oricalco e infernita<br> 
+                        <x class="text-info">♦ Nivel 8.</x> Platino<br> 
+                        <x class="text-info">♦ Nivel 9.</x> Luminita<br> 
+                        <x class="text-info">♦ Nivel 10.</x> Druvix<br><br>
+                        Cualquier material que sea una aleación de varios materiales, requerirá que el nivel trabajado sea el del material superior.
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#2" aria-expanded="true" aria-controls="2">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Forja</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Herrería</h5>
+                    </a>
+                </div>
+                <div id="2" class="collapse" aria-labelledby="2" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        <x class="text-warning">Requerimientos</x><br>
+                        Para poder fabricar objetos mediante herrería, se requiere un <b>equipo de herrería</b>, <b>una forja (Instalable en una casa)</b>, y la profesión de herrero (Ver profesiones).<br>
+                        <br><x class="text-warning">Platinado y Forja mejorada</x><br>
+                        Puedes realizar aleaciones de otros materiales con este para fortalecerlos, y que estos obtengan mas daño o defensa.<br>
+                        Las armas platinadas, además, son las únicas que pueden soportar el usar una gema en ellos (Principalmente para canalizadores mágicos).<br>
+                        Para poder trabajar con platino e infernita, se requiere la Forja de Nivel 2, creable con una Forja, y 50 Lingotes de Oricalco.
+                        <br><br><x class="text-warning">Recetas de creación</x><br>
+                        Las armas creadas con Infernita, y Platino, requieren de una receta, y el Platino requiere de la receta específica de la creación del arma, y de la aleación.
+                        <br><br><x class="text-warning">Reciclaje</x><br>
+                        Muchos objetos hechos con lingotes, pueden ser reciclados al volver a ser fundidos, recuperando asi, la mitad de los materiales (Redondeando hacia abajo). El platino, nunca se recupera.<br>
+                        Cuando un material se funde, tiene un 50% de probabilidad de dejar "Polvos" del material correspondiente, los cuales pueden ser utilizados para otras creaciones.
+                        <br><br><x class="text-warning">Mejora de equipamiento</x><br>
+                        Se procederán a enlistar la cantidad de material requerido para subir de nivel un arma; para subir a un nivel, primero se debe pasar por el anterior.
+                        <div class="row mt-3">
+                            <div class="col-md-4 mb-2">
+                                <x class="text-warning">Armas de filo</x>
+                                <br><x class="text-info">♦ Nivel 1.</x> 2 lingotes del mismo material
+                                <br><x class="text-info">♦ Nivel 2.</x> 4 lingotes del mismo material
+                                <br><x class="text-info">♦ Nivel 3.</x> 6 lingotes del mismo material
+                                <br><x class="text-info">♦ Nivel 4.</x> Usar en el arma un afilador
+                                <br><x class="text-info">♦ Nivel 5.</x> 10 lingotes del mismo material + 2 afiladores
+                                <br><x class="text-info">♦ Bono.</x> Al llegar a Nivel 5, obtiene la habilidad del arma
+                            </div>
+                            <div class="col-md-4 mb-2">
+                                <x class="text-warning">Armas contundentes</x>
+                                <br><x class="text-info">♦ Nivel 1.</x> 3 lingotes del mismo material
+                                <br><x class="text-info">♦ Nivel 2.</x> 5 lingotes del mismo material
+                                <br><x class="text-info">♦ Nivel 3.</x> 7 lingotes del mismo material
+                                <br><x class="text-info">♦ Nivel 4.</x> 4 lingotes de distinto material (Igual o superior al del arma)
+                                <br><x class="text-info">♦ Nivel 5.</x> 12 lingotes del mismo material
+                                <br><x class="text-info">♦ Bono.</x> Al llegar a Nivel 5, obtiene la habilidad del arma
+                            </div>
+                            <div class="col-md-4 mb-2">
+                                <x class="text-warning">Protecciones</x>
+                                <br><x class="text-info">♦ Nivel 1.</x> 3 lingotes del mismo material
+                                <br><x class="text-info">♦ Nivel 2.</x> 5 lingotes del mismo material
+                                <br><x class="text-info">♦ Nivel 3.</x> 7 lingotes del mismo material
+                                <br><x class="text-info">♦ Nivel 4.</x> Utilizar un pulidor de armadura
+                                <br><x class="text-info">♦ Nivel 5.</x> 10 lingotes del mismo material
+                                <br><x class="text-info">♦ Bono por mejora.</x> Aumenta la protección provista por la pieza en 1 por nivel
+                            </div>
+                            <div class="col-md-4 mb-2">
+                                <x class="text-warning">Armas legendarias</x>
+                                <br><x class="text-info">♦ Nivel 1.</x> 30 lingotes del mismo material
+                                <br><x class="text-info">♦ Nivel 2.</x> 50 lingotes del mismo material
+                                <br><x class="text-info">♦ Nivel 3.</x> 70 lingotes del mismo material
+                                <br><x class="text-info">♦ Nivel 4.</x> 2 Afiladores de arma
+                                <br><x class="text-info">♦ Nivel 5.</x> 100 lingotes del mismo material
+                                <br><x class="text-info">♦ Bono por mejora.</x> Aumenta la protección provista por la pieza en 1 por nivel
+                            </div>
+                            <div class="col-md-4 mb-2">
+                                <x class="text-warning">Encantar armas</x>
+                                <br>Los encantamientos normales que se colocan a armas (Agregan efectos simples), se pueden realizar con un 
+                                alquimista de Nivel 5, solo pueden tener un encantamiento a la vez, y agregar uno, reemplazará al otro; un 
+                                alquimista Lv10, puede remover un encantamiento elemental, y meterlo en un pergamino.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script>
+    function cerrar() {
+        $('.collapse').collapse('hide');
+    }
+</script>
+</html>

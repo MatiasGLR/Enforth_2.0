@@ -28,4 +28,10 @@
         "imagen": "./files/index/dioses.png",
         "file": "dioses.html"
     }
+    ,
+    {
+        "titulo": "Creación",
+        "imagen": "./files/index/creacion.png",
+        "file": "creacion.html"
+    }
 ]

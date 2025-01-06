@@ -59,8 +59,20 @@ async function cargar_objeto(objeto) {
                                 <b>Habilidad. </b><x class="text-info">`+json_a.habilidadarmat+`. </x>`+json_a.habilidadarma+`<br>
                             </div>
                         </div>
-                        <br>
-                        <b class='text-danger'>El precio de compra y venta del arma, es el servicio por crearla. Para saber el precio del arma, agrega el arma al carrito y los materiales correspondientes</b>
+                    `; 
+                } else if(json_a.categoria == "Arma a distancia") {
+                    descripcion = `
+                        <div style="width:100%; background-color:#333; padding:8px; color:white;">
+                            <div class="text-center">
+                                <b>Datos del arma</b><br>
+                            </div>
+                            <div class="text-start">
+                                <b>Daño. </b>`+json_a.dañoarma+`<br>
+                                <b>Efecto. </b>Determinado por la bala, ver efectos por material<br>
+                                <b>Distancia de tiro. </b>`+json_a.distancia+`<br>
+                                <b>Habilidad. </b><x class="text-info">`+json_a.habilidadarmat+`. </x>`+json_a.habilidadarma+`<br>
+                            </div>
+                        </div>
                     `; 
                 } else descripcion = `<b>Descripción:</b><br> `+json_a.descripcion+`<br>`
                 str = str.concat(`
@@ -73,6 +85,8 @@ async function cargar_objeto(objeto) {
                     `+obtenida+`<br>
                     `+descripcion+`
                 `);
+                if(json_a.categoria == "Armas") str = str.concat("<br><b class='text-danger'>El precio de compra y venta del arma, es el servicio por crearla. Para saber el precio del arma, agrega el arma al carrito y los materiales correspondientes</b>")
+                if(json_a.categoria == "Armadura") str = str.concat("<br><b class='text-danger'>El precio de compra y venta de la armadura, es el servicio por crearla. Para saber el precio de la armadura, agrega la armadura al carrito y los materiales correspondientes</b>")
                 document.querySelector("#titulo_objeto").innerHTML = json_a.nombre;
                 document.querySelector("#datos_objeto").innerHTML = str;
                 document.querySelector("#botones_agregar_carrito").innerHTML = `
