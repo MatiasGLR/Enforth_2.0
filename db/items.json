@@ -897,7 +897,6 @@
         "categoria": "Arma a distancia",
         "dañoarma": "1d4", "distancia": "15ft",
         "habilidadarmat": "Cargador amplio","habilidadarma": "No requiere gastar acciones de utilidad para recargar.",
-        "armatipo": "Arma de fuego",
         "preciocompra": "1500","precioventa": "300",
         "materiales": "3 lingotes + 1 de Cuero",
         "obtenidaen": "Cofres y taller de armamentística",
@@ -909,7 +908,6 @@
         "categoria": "Arma a distancia",
         "dañoarma": "1d8", "distancia": "15ft",
         "habilidadarmat": "Disperción","habilidadarma": "Obtiene -4 de daño por cada 5ft de distancia del enemigo, a partir de los 10ft.",
-        "armatipo": "Arma de fuego",
         "preciocompra": "2000","precioventa": "500",
         "materiales": "6 lingotes + 1 de Cuero",
         "obtenidaen": "Cofres y taller de armamentística",
@@ -921,7 +919,6 @@
         "categoria": "Arma a distancia",
         "dañoarma": "1d6", "distancia": "10ft",
         "habilidadarmat": "Disperción","habilidadarma": "Obtiene -3 de daño por cada 5ft de distancia del enemigo, a partir de los 10ft.",
-        "armatipo": "Arma de fuego",
         "preciocompra": "1800","precioventa": "400",
         "materiales": "6 lingotes + 1 de Cuero",
         "obtenidaen": "Cofres y taller de armamentística",
@@ -933,11 +930,192 @@
         "categoria": "Arma a distancia",
         "dañoarma": "1d8", "distancia": "70ft",
         "habilidadarmat": "Distancia","habilidadarma": "Obtienes -1 en Puntería por cada 5ft que el objetivo esté lejos, a partir de los 5ft. Puedes evitar este negativo en el tiro, consumiendo una acción de utilidad para ponerte en 'Modo Francotirador', no pudiendo moverte o esquivar en este modo, deberás consumir una acción de utilidad para salir de este modo.",
-        "armatipo": "Arma de fuego",
         "preciocompra": "2500","precioventa": "400",
         "materiales": "12 lingotes + 1 de Cuero",
         "obtenidaen": "Cofres y taller de armamentística",
         "vendidaen": "Endricci"
+    }
+    ,
+    {
+        "nombre": "Arco corto",
+        "categoria": "Arma a distancia",
+        "dañoarma": "1d4", "distancia": "20ft",
+        "habilidadarmat": "Tiro preciso","habilidadarma": "Puedes atacar animales comunes de forma sigilosa, siempre que estos no te hayan detectado, y ejecutarlos, superando un 12 en Puntería.",
+        "preciocompra": "400","precioventa": "50",
+        "materiales": "5 de Madera + 1 Cuero",
+        "obtenidaen": "Cofres y taller de carpintería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Arco largo",
+        "categoria": "Arma a distancia",
+        "dañoarma": "1d6", "distancia": "40ft",
+        "habilidadarmat": "Tensión","habilidadarma": "Por cada 2 puntos en Fuerza, aumenta en 5ft el rango de tiro.",
+        "preciocompra": "800","precioventa": "150",
+        "materiales": "10 de Madera + 1 Cuero",
+        "obtenidaen": "Cofres y taller de carpintería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Ballesta",
+        "categoria": "Arma a distancia",
+        "dañoarma": "1d8", "distancia": "30ft",
+        "habilidadarmat": "Tiempo de recarga","habilidadarma": "Tras cada disparo, se debe consumir una acción de utilidad como recarga.",
+        "preciocompra": "1500","precioventa": "150",
+        "materiales": "10 de Madera + 1 Piezas mecánicas + 1 Cuero",
+        "obtenidaen": "Cofres y taller de carpintería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Polvora",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "20","precioventa": "0",
+        "materiales": "Polvo de hierro + Polvo de oro (5 unidades)",
+        "obtenidaen": "Taller de armamentística",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Metralla",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "150","precioventa": "10",
+        "materiales": "Lingote de hierro + Polvo de hierro (5 unidades)",
+        "obtenidaen": "Taller de armamentística",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cartucho vacío",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones, esto compondrá el material de la bala.",
+        "preciocompra": "10","precioventa": "0",
+        "materiales": "1 Lingote (2 unidades)",
+        "obtenidaen": "Taller de armamentística",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Bala básica",
+        "categoria": "Munición",
+        "descripcion": "Utilizable con armas de fuego para combates.",
+        "preciocompra": "10","precioventa": "0",
+        "materiales": "1 Munición vacía + 1 Lingote + 3 de pólvora",
+        "obtenidaen": "Taller de armamentística (5 unidades)",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Bala mágica",
+        "categoria": "Munición",
+        "descripcion": "Utilizable con armas de fuego para combates. Los fragmentos harán que la bala aplique el efecto correspondiente al de la gema (Si no tiene efecto, solo cambiará el efecto por causar daño mágico).",
+        "preciocompra": "90","precioventa": "5",
+        "materiales": "1 Munición vacía + 3 de pólvora + 4 fragmentos de gema iguales",
+        "obtenidaen": "Taller de armamentística (5 unidades)",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Bala explosiva",
+        "categoria": "Munición",
+        "descripcion": "Utilizable con armas de fuego para combates. Causan 1d10 de daño a todos los seres a 5ft del objetivo.",
+        "preciocompra": "150","precioventa": "10",
+        "materiales": "1 Munición vacía + 2 de pólvora + 2 metralla + Fragmento de rubí + Polvo de plata.",
+        "obtenidaen": "Taller de armamentística (5 unidades)",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Bala luminosa",
+        "categoria": "Munición",
+        "descripcion": "Utilizable con armas de fuego para combates. Iluminan la zona objetivo.",
+        "preciocompra": "75","precioventa": "0",
+        "materiales": "1 Munición vacía + 1 de pólvora + 1 Polvo de plata.",
+        "obtenidaen": "Taller de armamentística (5 unidades)",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Bala rompecerraduras",
+        "categoria": "Munición",
+        "descripcion": "Utilizable con armas de fuego para combates. Pueden romper cerraduras de puertas y cofres, hasta la plata, no pueden romper cerraduras de oro, o superior. Aplican veneno al impactar como efecto.",
+        "preciocompra": "250","precioventa": "30",
+        "materiales": "1 Munición vacía + 5 de pólvora + 1 Fragmento de esmeralda + 2 hojas de sauce verde + 2 viales de sangre verde.",
+        "obtenidaen": "Taller de armamentística",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Madera",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "50","precioventa": "10",
+        "materiales": "1 Tronco de madera dará 2 de este.",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuero",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones. Todos los cueros frescos terminan siendo este.",
+        "preciocompra": "50","precioventa": "10",
+        "obtenidaen": "Cazadores",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuero fresco",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones. Dura 1 dia fresco en el inventario.",
+        "preciocompra": "0","precioventa": "20",
+        "obtenidaen": "Animales",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuero duro",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "100","precioventa": "25",
+        "creadaen": "Taller o Kit de taller",
+        "materiales": "2 Cueros frescos + 1 Cuero",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Vial de afilación",
+        "categoria": "Viales",
+        "descripcion": "Imbuye el arma en 'Afilamiento' durante una ronda cambiando su efecto por sangrado. El arma tendrá un brillo cromático.",
+        "preciocompra": "400","precioventa": "100",
+        "creadaen": "Vial vacío (1) + Polvo de hierro (3) + Polvo de basalto (2)",
+        "materiales": "Vial vacío (1) + Polvo de hierro (3) + Polvo de basalto (2)",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Vial de ignición",
+        "categoria": "Viales",
+        "descripcion": "Imbuye el arma en 'Fuego' durante una ronda cambiando su efecto por quemadura. El filo de arma cambiará a naranja brillante.",
+        "preciocompra": "600","precioventa": "120",
+        "materiales": "Vial vacío (1) + Polvo de hierro (3) + Fragmento de rubí (2) + Hoja de sauce rojo (2)",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Vial de criogenia",
+        "categoria": "Viales",
+        "descripcion": "Imbuye el arma en 'Hielo' durante una ronda cambiando su efecto por congelamiento. El filo de arma cambiará a celeste brillante.",
+        "preciocompra": "600","precioventa": "120",
+        "materiales": "Vial vacío (1) + Polvo de plata (3) + Fragmento de zafiro (2) + Hoja de sauce azul (2)",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
     }
     ,
     {

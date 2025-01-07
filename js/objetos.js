@@ -10,21 +10,21 @@ async function read_index_json() {
     await $.get("./db/items.json", function(textString) {
         const index_json = Object.entries(textString);
         for(let i = 0; i < index_json.length ; i++) {
-            const categoria_val = input_categoria.value,
-            nombre_val = input_nombre.value;
+            const categoria_val = String(input_categoria.value),
+            nombre_val = String(input_nombre.value);
             let yes = 1;
             const json_a = JSON.parse(JSON.stringify(index_json[i][1]));
             let li_pv = 0, li_pc = 0;
             if(json_a.preciocompra) li_pc = Number(json_a.preciocompra);
             if(json_a.precioventa) li_pv = Number(json_a.precioventa);
             lista_objetos = lista_objetos.concat(`<option data-nombre='`+json_a.nombre+`' data-compra='`+li_pc+`' data-venta='`+li_pv+`'>`+json_a.nombre+`</option>`);
-            if(categoria_val != "") { if(!json_a.categoria.toLowerCase().includes(categoria_val.toLowerCase())) yes = 0; }
-            if(nombre_val != "") { if(!json_a.nombre.toLowerCase().includes(nombre_val.toLowerCase()) && !json_a.descripcion.toLowerCase().includes(nombre_val.toLowerCase()) ) yes = 0; }
+            if(categoria_val != "") { if(!String(json_a.categoria).toLowerCase().includes(categoria_val.toLowerCase())) yes = 0; }
+            if(nombre_val != "") { if(!String(json_a.nombre).toLowerCase().includes(nombre_val.toLowerCase()) && !String(json_a.descripcion).toLowerCase().includes(nombre_val.toLowerCase()) ) yes = 0; }
             if(yes == 1) {
                 str2 = str2.concat(`
                 <tr>
                     <td class="align-middle" colspan="2">`+json_a.nombre+`</td>
-                    <td class="align-middle text-center">`+json_a.categoria+`</td>
+                    <td class="align-middle text-center"><a href='#' onclick="document.querySelector('#categoria').value='`+json_a.categoria+`'; read_index_json();">`+json_a.categoria+`</a></td>
                     <td class="align-middle text-center"><button class="btn btn-light" onclick="cargar_objeto('`+json_a.nombre+`')">Más información</button></td>
                 </tr>
                 `);
@@ -42,11 +42,12 @@ async function cargar_objeto(objeto) {
         const index_json = Object.entries(textString);
         for(let i = 0; i < index_json.length ; i++) {
             const nombre_val = input_nombre.value, json_a = JSON.parse(JSON.stringify(index_json[i][1]));
-            if(objeto != "" && json_a.nombre.includes(objeto)) {
-                let material = "", obtenida = "", creada = "", descripcion = "";
+            if(objeto != "" && json_a.nombre.toLowerCase().includes(objeto.toLowerCase())) {
+                let material = "", obtenida = "", creada = "", descripcion = "", creacionfinal = 0;
                 if(json_a.obtenidaen && json_a.obtenidaen.length > 1) obtenida = `<b>Obtenida en:</b> `+json_a.obtenidaen+`<br>`;
                 if(json_a.materiales && json_a.materiales.length > 1) material = `<b>Materiales:</b> `+json_a.materiales+`<br>`;
                 if(json_a.creadaen && json_a.creadaen.length > 1) creada = `<b>Creada en:</b> `+json_a.creadaen+`<br>`;
+                if(json_a.preciofinal) creacionfinal = 1;
                 if(json_a.categoria == "Armas") {
                     descripcion = `
                         <div style="width:100%; background-color:#333; padding:8px; color:white;">
@@ -85,8 +86,8 @@ async function cargar_objeto(objeto) {
                     `+obtenida+`<br>
                     `+descripcion+`
                 `);
-                if(json_a.categoria == "Armas") str = str.concat("<br><b class='text-danger'>El precio de compra y venta del arma, es el servicio por crearla. Para saber el precio del arma, agrega el arma al carrito y los materiales correspondientes</b>")
-                if(json_a.categoria == "Armadura") str = str.concat("<br><b class='text-danger'>El precio de compra y venta de la armadura, es el servicio por crearla. Para saber el precio de la armadura, agrega la armadura al carrito y los materiales correspondientes</b>")
+                if(creacionfinal == 0) str = str.concat("<br><b class='text-danger'>El precio de compra y venta de un objeto que requiera materiales, será el precio del servicio para crear el producto, deberán agregarse además, los materiales para tener el precio total</b>");
+                else str = str.concat("<br><b class='text-success'>Este objeto ya tiene su precio final, no es necesario agregar los objetos adicionales</b>");
                 document.querySelector("#titulo_objeto").innerHTML = json_a.nombre;
                 document.querySelector("#datos_objeto").innerHTML = str;
                 document.querySelector("#botones_agregar_carrito").innerHTML = `
