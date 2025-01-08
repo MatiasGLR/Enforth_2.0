@@ -1119,6 +1119,26 @@
     }
     ,
     {
+        "nombre": "Vial de magnetismo",
+        "categoria": "Viales",
+        "descripcion": "Imbuye el arma en 'Electricidad' durante una ronda cambiando su efecto por estatizado. El filo de arma cambiará a celeste brillante.",
+        "preciocompra": "600","precioventa": "120",
+        "materiales": "Vial vacío (1) + Polvo de oro (3) + Fragmento de berilio (2) + Hoja de sauce blanco (2)",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Vial de magnetismo",
+        "categoria": "Viales",
+        "descripcion": "Imbuye el arma en 'Electricidad' durante una ronda cambiando su efecto por estatizado. El filo de arma cambiará a celeste brillante.",
+        "preciocompra": "600","precioventa": "120",
+        "materiales": "Vial vacío (1) + Polvo de plata (3) + Fragmento de zafiro (2) + Hoja de sauce azul (2)",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
         "nombre": "Mejora de arma",
         "categoria": "Servicio",
         "descripcion": "Este es el precio del servicio, para saber el precio completo, se deben agregar también los materiales",
