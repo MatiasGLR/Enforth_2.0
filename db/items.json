@@ -467,7 +467,6 @@
         "nombre": "Minerales",
         "categoria": "Material de herrería",
         "descripcion": "Pueden ser fundidos en lingotes, o vendidas a mineros (Por 20 monedas)",
-        "preciocompra": "0",
         "precioventa": "10",
         "obtenidaen": "Minería",
         "vendidaen": "Todo Enforth"
@@ -478,7 +477,6 @@
         "categoria": "Material de herrería",
         "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
         "preciocompra": "50",
-        "precioventa": "0",
         "creadaen": "Forja",
         "obtenidaen": "Cofres y taller de herrería",
         "vendidaen": "Todo Enforth"
@@ -973,7 +971,7 @@
         "nombre": "Polvora",
         "categoria": "Material general",
         "descripcion": "Utilizable para creaciones.",
-        "preciocompra": "20","precioventa": "0",
+        "preciocompra": "20",
         "materiales": "Polvo de hierro + Polvo de oro (5 unidades)",
         "obtenidaen": "Taller de armamentística",
         "vendidaen": "Todo Enforth"
@@ -993,7 +991,7 @@
         "nombre": "Cartucho vacío",
         "categoria": "Material general",
         "descripcion": "Utilizable para creaciones, esto compondrá el material de la bala.",
-        "preciocompra": "10","precioventa": "0",
+        "preciocompra": "10",
         "materiales": "1 Lingote (2 unidades)",
         "obtenidaen": "Taller de armamentística",
         "vendidaen": "Todo Enforth"
@@ -1003,7 +1001,7 @@
         "nombre": "Bala básica",
         "categoria": "Munición",
         "descripcion": "Utilizable con armas de fuego para combates.",
-        "preciocompra": "10","precioventa": "0",
+        "preciocompra": "10",
         "materiales": "1 Munición vacía + 1 Lingote + 3 de pólvora",
         "obtenidaen": "Taller de armamentística (5 unidades)",
         "vendidaen": "Todo Enforth"
@@ -1033,7 +1031,7 @@
         "nombre": "Bala luminosa",
         "categoria": "Munición",
         "descripcion": "Utilizable con armas de fuego para combates. Iluminan la zona objetivo.",
-        "preciocompra": "75","precioventa": "0",
+        "preciocompra": "75",
         "materiales": "1 Munición vacía + 1 de pólvora + 1 Polvo de plata.",
         "obtenidaen": "Taller de armamentística (5 unidades)",
         "vendidaen": "Todo Enforth"
@@ -1046,6 +1044,16 @@
         "preciocompra": "250","precioventa": "30",
         "materiales": "1 Munición vacía + 5 de pólvora + 1 Fragmento de esmeralda + 2 hojas de sauce verde + 2 viales de sangre verde.",
         "obtenidaen": "Taller de armamentística",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Tronco",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "75","precioventa": "15",
+        "materiales": "1 Tronco de madera dará 2 de este.",
+        "obtenidaen": "Taller de carpintería y Talando árboles que aparezcan en exploraciones",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -1072,7 +1080,7 @@
         "nombre": "Cuero fresco",
         "categoria": "Material general",
         "descripcion": "Utilizable para creaciones. Dura 1 dia fresco en el inventario.",
-        "preciocompra": "0","precioventa": "20",
+        "precioventa": "20",
         "obtenidaen": "Animales",
         "vendidaen": "Todo Enforth"
     }
@@ -1095,6 +1103,7 @@
         "creadaen": "Vial vacío (1) + Polvo de hierro (3) + Polvo de basalto (2)",
         "materiales": "Vial vacío (1) + Polvo de hierro (3) + Polvo de basalto (2)",
         "vendidaen": "Todo Enforth",
+        "obtenidaen": "Cofres y talleres de alquimia",
         "preciofinal": "Si"
     }
     ,
@@ -1105,6 +1114,7 @@
         "preciocompra": "600","precioventa": "120",
         "materiales": "Vial vacío (1) + Polvo de hierro (3) + Fragmento de rubí (2) + Hoja de sauce rojo (2)",
         "vendidaen": "Todo Enforth",
+        "obtenidaen": "Cofres y talleres de alquimia",
         "preciofinal": "Si"
     }
     ,
@@ -1115,6 +1125,7 @@
         "preciocompra": "600","precioventa": "120",
         "materiales": "Vial vacío (1) + Polvo de plata (3) + Fragmento de zafiro (2) + Hoja de sauce azul (2)",
         "vendidaen": "Todo Enforth",
+        "obtenidaen": "Cofres y talleres de alquimia",
         "preciofinal": "Si"
     }
     ,
@@ -1125,16 +1136,325 @@
         "preciocompra": "600","precioventa": "120",
         "materiales": "Vial vacío (1) + Polvo de oro (3) + Fragmento de berilio (2) + Hoja de sauce blanco (2)",
         "vendidaen": "Todo Enforth",
+        "obtenidaen": "Cofres y talleres de alquimia",
         "preciofinal": "Si"
     }
     ,
     {
-        "nombre": "Vial de magnetismo",
+        "nombre": "Vial de ectoplasma",
         "categoria": "Viales",
-        "descripcion": "Imbuye el arma en 'Electricidad' durante una ronda cambiando su efecto por estatizado. El filo de arma cambiará a celeste brillante.",
-        "preciocompra": "600","precioventa": "120",
-        "materiales": "Vial vacío (1) + Polvo de plata (3) + Fragmento de zafiro (2) + Hoja de sauce azul (2)",
+        "descripcion": "Imbuye el arma en 'Espectro' durante una ronda pudiendo dañar fantasmas y seres espectrales. El filo de arma cambiará a celeste semi transparente.",
+        "obtenidaen": "Cofres"
+    }
+    ,
+    {
+        "nombre": "Vial de brillos",
+        "categoria": "Viales",
+        "descripcion": "Imbuye el arma en 'Brillo' por lo que pasará a emanar luz. El filo de arma cambiará a blanco luminoso.",
+        "preciocompra": "400","precioventa": "80",
+        "obtenidaen": "Cofres y talleres de alquimia",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Vendaje",
+        "categoria": "Medicina",
+        "descripcion": "Elimina una carga de sangrado",
+        "preciocompra": "150","precioventa": "50",
         "vendidaen": "Todo Enforth",
+        "obtenidaen": "Médicos/Mercado",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Kit de Primeros Auxilios",
+        "categoria": "Medicina",
+        "descripcion": "Elimina todas las cargas de sangrado o veneno",
+        "preciocompra": "1800","precioventa": "300",
+        "vendidaen": "Todo Enforth",
+        "obtenidaen": "Médicos",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Carcaza de bomba",
+        "categoria": "Bombas",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "100","precioventa": "10",
+        "vendidaen": "Todo Enforth",
+        "materiales": "1 Lingote",
+        "creadaen": "Forja",
+        "obtenidaen": "Artificiero"
+    }
+    ,
+    {
+        "nombre": "Bomba explosiva",
+        "categoria": "Bombas",
+        "descripcion": "Causa 1d6 de daño en una zona de 3x3 (Siendo la explosión el centro)",
+        "preciocompra": "300","precioventa": "50",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Carcaza (1) + Metralla (1) + Pólvora (2)",
+        "creadaen": "Taller o Kit de taller",
+        "obtenidaen": "Cofres o artificieros",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Bomba de humo",
+        "categoria": "Bombas",
+        "descripcion": "Sirve para evitar confrontaciones, o crear una zona que aplica ceguera mientras estés dentro. Diametro de 5x5 (Siendo la explosión el centro).",
+        "preciocompra": "400","precioventa": "70",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Carcaza (1) + Azúcar (1) + Pólvora (2) + Polvo de plata (1)",
+        "creadaen": "Taller o Kit de taller",
+        "obtenidaen": "Cofres o artificieros",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Bomba incendiaria",
+        "categoria": "Bombas",
+        "descripcion": "Causa 1d6 de daño en una zona de 3x3 (Siendo la explosión el centro). Aplica quemadura con el crítico.",
+        "preciocompra": "350","precioventa": "70",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Caracaza (1) + Pólvora (2) + Fragmento de rubí (2)",
+        "creadaen": "Taller o Kit de taller",
+        "obtenidaen": "Cofres o artificieros",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Bomba criogénica",
+        "categoria": "Bombas",
+        "descripcion": "Causa 1d6 de daño en una zona de 3x3 (Siendo la explosión el centro). Aplica congelación con el crítico.",
+        "preciocompra": "350","precioventa": "70",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Caracaza (1) + Pólvora (2) + Fragmento de zafiro (2)",
+        "creadaen": "Taller o Kit de taller",
+        "obtenidaen": "Cofres o artificieros",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Bomba ponzoñosa",
+        "categoria": "Bombas",
+        "descripcion": "Causa 1d6 de daño en una zona de 1x1 (Siendo la explosión el centro). Aplica veneno con el crítico.",
+        "preciocompra": "450","precioventa": "100",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Caracaza (1) + Pólvora (2) + Fragmento de esmeralda (2)",
+        "creadaen": "Taller o Kit de taller",
+        "obtenidaen": "Cofres o artificieros",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Bomba ácida",
+        "categoria": "Bombas",
+        "descripcion": "Causa 1d6+1 de daño en una zona de 1x1 (Siendo la explosión el centro). Aplica rompearmadura a todas las piezas con el crítico.",
+        "preciocompra": "750","precioventa": "200",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Caracaza (1) + Pólvora (2) + Fragmento de esmeralda (2) + Vial de sangre azul (2) + Hoja de sauce verde (2)",
+        "creadaen": "Taller o Kit de taller",
+        "obtenidaen": "Cofres o artificieros",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Daga del colmillo gris",
+        "categoria": "Armas / Almas",
+        "descripcion": "Los ataques realizados con esta arma al arrojarla, tendrán atine asegurado, pero no tienen escalado fijo",
+        "preciocompra": "3500",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Daga de oro + Jade + Alma de lobo",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres o herreros con magia de alma",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Espadón de fauces",
+        "categoria": "Armas / Almas",
+        "descripcion": "El espadón se orientará solo a enemigos invisibles, o camuflados.",
+        "preciocompra": "5500",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Espadón de oro + Jade + Alma de perro",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres o herreros con magia de alma",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Vista de Minerva",
+        "categoria": "Armas / Almas",
+        "descripcion": "Arco cuyas extremidades están hechas para asemejarse a las alas abiertas de un buho. Los seres que hayan usado camuflaje o sigilo en el combate, reciben quemadura de forma asegurada. Al disparar la flecha a la oscuridad, iluminará la zona durante un turno.",
+        "preciocompra": "6500",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Arco de oricalco (1) + Piel de buho (2) + Alma de buho (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres o herreros con magia de alma",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Acometida de Jabalí",
+        "categoria": "Armas / Almas",
+        "descripcion": "Tiene una cabeza de basalto esculpida en forma de un jabalí furioso. Si se realiza un ataque tras un movimiento, obtiene +3 de daño fijo. Si el arma se rompe en el golpe, ese ataque gana un dado adicional de daño, y recupera el alma del jabalí.",
+        "preciocompra": "4000",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Gran martillo de basalto (1) + Alma de jabalí (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres o herreros con magia de alma",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Rugido del Rey",
+        "categoria": "Armas / Almas",
+        "descripcion": "Es una espada larga, adornada con la forma del rostro rugiendo de un león en el mango, con ojos brillantes por el rubi, que permite una vez por turno, de forma gratuita (No consume acciones) intimidar a un enemigo, causandole miedo hasta tu siguiente acción",
+        "preciocompra": "6000",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Espada larga de oro (1) + Fragmento de rubi (2) + Alma de león (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres o herreros con magia de alma",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Máscara de falsa ilusión",
+        "categoria": "Extras / Almas",
+        "descripcion": "Cuando mientes, obtienes dos puntos adicionales en la tirada de Carisma",
+        "preciocompra": "2500",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Lingote de plata + Jade + Alma de zorro",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres o herreros con magia de alma",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Máscara de falsa ilusión",
+        "categoria": "Extras / Almas",
+        "descripcion": "Cuando mientes, obtienes dos puntos adicionales en la tirada de Carisma",
+        "preciocompra": "2500",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Lingote de plata + Jade + Alma de zorro",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres o herreros con magia de alma",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Capa de Capibara",
+        "categoria": "Extras / Almas",
+        "descripcion": "+2 en Carisma",
+        "preciocompra": "3500",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Piel de Capibara + Cuero Fresco (2) +  Alma de Capibara",
+        "creadaen": "Taller",
+        "obtenidaen": "Cofres o talabarteros con magia de alma",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Cota de Camaleón",
+        "categoria": "Extras / Almas",
+        "descripcion": "Agrega +2 en sigilo. Tu primer ataque en un combate, tendrá critico asegurado.",
+        "preciocompra": "5700",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Cota de malla de cobalto (1) + Piel de camaleón (8) + Alma de camaleón (1)",
+        "creadaen": "Taller",
+        "obtenidaen": "Cofres o talabarteros con magia de alma",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Anillo de buho",
+        "categoria": "Joyas / Almas",
+        "descripcion": "Permite ver a traves de la neblina, y en la oscuridad.",
+        "preciocompra": "5000",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Armazón de cuarzo (1) + Fragmento de jade (3) + Alma de cuervo (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres o joyeros con magia de alma",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Casco de maldición ardiente",
+        "categoria": "Armadura / Almas",
+        "descripcion": "Inmunidad a los efectos causados por armas 'contundentes'",
+        "preciocompra": "3500",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Casco de oricalco + Rubí + Alma de orco",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres o herreros con magia de alma",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Escudo de escama de armadillo",
+        "categoria": "Armadura / Almas",
+        "descripcion": "Permite desviar proyectiles, y realizar un dash al esquivar, que, al esquivar hacia un enemigo, le hace un punto de daño verdadero si queda en el mismo lugar que él, alejandolo 5ft",
+        "preciocompra": "4000",
+        "vendidaen": "Todo Enforth",
+        "materiales": "Escudo de cobre (1) + Fragmento de jade (1) + Alma de armadillo (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres o herreros con magia de alma",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Adrenalina",
+        "categoria": "Medicina",
+        "descripcion": "Los ataques realizados con esta arma al arrojarla, tendrán atine asegurado, pero no tienen escalado",
+        "preciocompra": "1500","precioventa": "300",
+        "materiales": "Agua destilada (1) + Vial de sangre roja (1) + Hoja de sauce dorada (1)",
+        "vendidaen": "Todo Enforth",
+        "obtenidaen": "Médicos",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Coagulante",
+        "categoria": "Medicina",
+        "descripcion": "Elimina el efecto de sangrado, y te inmuniza a él por el resto del combate",
+        "preciocompra": "1500","precioventa": "300",
+        "materiales": "Agua destilada (1) + Vial de sangre roja (3) + Hoja de sauce roja (2)",
+        "vendidaen": "Todo Enforth",
+        "obtenidaen": "Médicos",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Relajante",
+        "categoria": "Medicina",
+        "descripcion": "Elimina el efecto de miedo, y te inmuniza a él por el resto del combate",
+        "preciocompra": "1500","precioventa": "300",
+        "materiales": "Agua destilada (1) + Polvo de basalto (1) + Vial de sangre de lobo (1)",
+        "vendidaen": "Todo Enforth",
+        "obtenidaen": "Médicos",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Antipsicótico",
+        "categoria": "Medicina",
+        "descripcion": "Elimina el efecto de la magia mental, y te inmuniza a él por el resto del combate",
+        "preciocompra": "1500","precioventa": "300",
+        "materiales": "Agua destilada (1) + Polvo de oro (2) + Fragmento de perla (2)",
+        "vendidaen": "Todo Enforth",
+        "obtenidaen": "Médicos",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Antiofídico",
+        "categoria": "Medicina",
+        "descripcion": "Elimina el efecto de veneno, y te inmuniza a él por el resto del combate",
+        "preciocompra": "1500","precioventa": "300",
+        "materiales": "Agua destilada (1) + Vial de sangre azul (1) + Hoja de sauce (1)",
+        "vendidaen": "Todo Enforth",
+        "obtenidaen": "Médicos",
         "preciofinal": "Si"
     }
     ,
@@ -1143,9 +1463,20 @@
         "categoria": "Servicio",
         "descripcion": "Este es el precio del servicio, para saber el precio completo, se deben agregar también los materiales",
         "armatipo": "Pesada a dos manos",
-        "preciocompra": "1000","precioventa": "200",
+        "preciocompra": "1000",
         "materiales": "<a href='./creacion.html#2'>Creación</a>",
-        "obtenidaen": "Cofres y taller de herrería",
+        "obtenidaen": "Taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Mejorar slot de mochila",
+        "categoria": "Servicio",
+        "descripcion": "Este es el precio del servicio, para saber el precio completo, se deben agregar también los materiales",
+        "preciocompra": "200",
+        "materiales": "1 Cuero duro",
+        "creadaen": "Taller o Kit de taller",
+        "obtenidaen": "Taller de talabartería",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -1170,12 +1501,32 @@
     }
     ,
     {
+        "nombre": "Yelmo de cuero",
+        "categoria": "Armadura",
+        "descripcion": "Si se utiliza una armadura completa del mismo material, se gana el bono por set completo.<br>Se le pueden agregar cueros a estas armaduras para darles bonos adicionales por set completo (Agregando ese cuero a todas las piezas), puedes verlos en la categoría <a href='#' onclick='document.querySelector(`#nombre`).value=``; document.querySelector(`#categoria`).value=`Cueros`; read_index_json(); modal();'>Cueros</a>.",
+        "preciocompra": "300","precioventa": "50",
+        "materiales": "1 Cuero + 1 Cuero duro",
+        "obtenidaen": "Cofres y taller de talabartería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
         "nombre": "Peto",
         "categoria": "Armadura",
         "descripcion": "Si se utiliza una armadura completa del mismo material, se gana el bono por set completo.",
         "preciocompra": "1200","precioventa": "350",
         "materiales": "8 Lingotes",
         "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Peto de cuero",
+        "categoria": "Armadura",
+        "descripcion": "Si se utiliza una armadura completa del mismo material, se gana el bono por set completo.<br>Se le pueden agregar cueros a estas armaduras para darles bonos adicionales por set completo (Agregando ese cuero a todas las piezas), puedes verlos en la categoría <a href='#' onclick='document.querySelector(`#nombre`).value=``; document.querySelector(`#categoria`).value=`Cueros`; read_index_json(); modal();'>Cueros</a>.",
+        "preciocompra": "700","precioventa": "150",
+        "materiales": "1 Cuero + 3 Cueros duros",
+        "obtenidaen": "Cofres y taller de talabartería",
         "vendidaen": "Todo Enforth"
     }
     ,
@@ -1190,7 +1541,17 @@
     }
     ,
     {
-        "nombre": "Botas",
+        "nombre": "Pantalones de cuero",
+        "categoria": "Armadura",
+        "descripcion": "Si se utiliza una armadura completa del mismo material, se gana el bono por set completo.<br>Se le pueden agregar cueros a estas armaduras para darles bonos adicionales por set completo (Agregando ese cuero a todas las piezas), puedes verlos en la categoría <a href='#' onclick='document.querySelector(`#nombre`).value=``; document.querySelector(`#categoria`).value=`Cueros`; read_index_json(); modal();'>Cueros</a>.",
+        "preciocompra": "600","precioventa": "100",
+        "materiales": "1 Cuero + 3 Cueros duros",
+        "obtenidaen": "Cofres y taller de talabartería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Guantes",
         "categoria": "Armadura",
         "descripcion": "Si se utiliza una armadura completa del mismo material, se gana el bono por set completo.",
         "preciocompra": "300","precioventa": "100",
@@ -1200,8 +1561,18 @@
     }
     ,
     {
-        "nombre": "Cota de malla",
+        "nombre": "Guantes de cuero",
         "categoria": "Armadura",
+        "descripcion": "Si se utiliza una armadura completa del mismo material, se gana el bono por set completo.<br>Se le pueden agregar cueros a estas armaduras para darles bonos adicionales por set completo (Agregando ese cuero a todas las piezas), puedes verlos en la categoría <a href='#' onclick='document.querySelector(`#nombre`).value=``; document.querySelector(`#categoria`).value=`Cueros`; read_index_json(); modal();'>Cueros</a>.",
+        "preciocompra": "200","precioventa": "40",
+        "materiales": "1 Cuero + 1 Cuero duro",
+        "obtenidaen": "Cofres y taller de talabartería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cota de malla",
+        "categoria": "Armadura / Extras",
         "descripcion": "Se utiliza en el slot de extra defensivo.",
         "preciocompra": "1500","precioventa": "200",
         "materiales": "5 Lingotes",
@@ -1226,6 +1597,456 @@
         "preciocompra": "2000","precioventa": "200",
         "materiales": "20 Lingotes",
         "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Armazón",
+        "categoria": "Joyas",
+        "descripcion": "Son requeridos como base para cualquier joya. Crear armazones solo te dará puntos de joyería hasta nivel 4, y solo dará puntos en herrería, si el material es del correspondiente al nivel trabajable. Requiere nivel de herrero, y el manual del material si corresponde. Los armazones pueden ser pendientes, collares, anillos, etc. Para crear joyas, y armazones, requieres un Libro de Joyería, y un molde de joyas",
+        "preciocompra": "100",
+        "materiales": "Lingote de basalto (1) + Otro lingote (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Armazón de Platino",
+        "categoria": "Joyas",
+        "descripcion": "Son requeridos como base para crear joyas de Nivel 3.",
+        "materiales": "Lingote de basalto platinado (1) + Lingote de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de filo Lv1",
+        "categoria": "Joyas",
+        "descripcion": "Obtienes 1 de daño fijo en ataques cuerpo a cuerpo (No acumulable)",
+        "preciocompra": "500",
+        "materiales": "Armazón de cobre (1) + Fragmento de rubí (4)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de filo Lv2",
+        "categoria": "Joyas",
+        "descripcion": "Obtienes 2 de daño fijo en ataques cuerpo a cuerpo (No acumulable)",
+        "preciocompra": "1000",
+        "materiales": "Joya de filo Lv1 (1) + Polvo de oro (2) + Afilador de arma",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de filo Lv3",
+        "categoria": "Joyas",
+        "descripcion": "Obtienes 3 de daño fijo en ataques cuerpo a cuerpo (No acumulable)",
+        "preciocompra": "1500",
+        "materiales": "Joya de filo Lv2 (1) + Armazón de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de vitalidad Lv1",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta la vida en 2 puntos (No acumulable)",
+        "preciocompra": "500",
+        "materiales": "Armazón de oro (1) + Fragmento de zafiro (1) + Fragmento de hematita (4)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de vitalidad Lv2",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta la vida en 5 puntos (No acumulable)",
+        "preciocompra": "1000",
+        "materiales": "Joya de vitalidad Lv1 (1) + Fragmento de onix (2) + Fragmento de amatista (2)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de vitalidad Lv3",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta la vida en 10 puntos (No acumulable)",
+        "preciocompra": "1500",
+        "materiales": "Joya de vitalidad Lv2 (1) + Armazón de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de lucha Lv1",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta tus acciones de ataque en 1",
+        "preciocompra": "1000",
+        "materiales": "Armazón de oro (1) + Fragmento de zafiro (1) + Fragmento de hematita (4)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de lucha Lv2",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta tus acciones de ataque en 2",
+        "preciocompra": "1500",
+        "materiales": "Joya de lucha Lv1 (1) + Armazón de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de sabiduría Lv1",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta la inteligencia en 1 punto (No acumulable)",
+        "preciocompra": "500",
+        "materiales": "Armazón de plata (1) + Fragmento de zafiro (2)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de sabiduría Lv2",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta la inteligencia en 2 puntos (No acumulable)",
+        "preciocompra": "1000",
+        "materiales": "Joya de sabiduría Lv1 (1) + Polvo de oro (2) + Fragmento de amatista (2)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de sabiduría Lv3",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta la inteligencia en 3 puntos (No acumulable)",
+        "preciocompra": "1500",
+        "materiales": "Joya de sabiduría Lv2 (1) + Armazón de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de incineración Lv1",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta el daño de los ataques de fuego en 2 (No acumulable)",
+        "preciocompra": "500",
+        "materiales": "Armazón de cuarzo (1) + Fragmento de rubí (4)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de incineración Lv2",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta el daño de los ataques de fuego en 3 (No acumulable)",
+        "preciocompra": "1000",
+        "materiales": "Joya de incineración Lv1 (1) + Polvo de oricalco (2) + Polvo de basalto (2)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de incineración Lv3",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta el daño de los ataques de fuego en 4 (No acumulable)",
+        "preciocompra": "1500",
+        "materiales": "Joya de incineración Lv2 (1) + Armazón de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de impulso mágico Lv1",
+        "categoria": "Joyas",
+        "descripcion": "Inicias el combate con 1 núcleo de maná (No acumulable)",
+        "preciocompra": "500",
+        "materiales": "Armazón de titanio (1) + Fragmento de rubí (2) + Fragmento de zafiro (2) + Fragmento de berilio (2) + Fragmento de amatista (2)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de impulso mágico Lv2",
+        "categoria": "Joyas",
+        "descripcion": "Inicias el combate con 2 núcleos de maná (No acumulable)",
+        "preciocompra": "1000",
+        "materiales": "Joya de impulso mágico Lv1 (1) + Polvo de oro (2) + Hoja de sauce dorada (2)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de impulso mágico Lv3",
+        "categoria": "Joyas",
+        "descripcion": "Inicias el combate con 3 núcleos de maná (No acumulable)",
+        "preciocompra": "1500",
+        "materiales": "Joya de impulso mágico Lv2 (1) + Armazón de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de profesión",
+        "categoria": "Joyas",
+        "descripcion": "Mientras esté siendo portada, la profesión cuenta como un nivel arriba para las creaciones, pero no para la subida de puntos de experiencia en la profesión (No acumulable)",
+        "preciocompra": "4500",
+        "materiales": "Armazón de titanio (1) + Fragmento de jade (4) + Fragmento de ónix (4) + Fragmento de hematita (4)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Anillo conjurador",
+        "categoria": "Joyas",
+        "descripcion": "Permite realizar hechizos desde esta gema",
+        "preciocompra": "6500",
+        "materiales": "Armazón platinado (1) + Gema",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de estadística Lv1",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta la estadística referida en la joya en 1 punto. El nombre de la joya pasará a ser el de la estadística (Ej. Anillo de Puntería Lv1)",
+        "preciocompra": "1000",
+        "materiales": "Armazón de oro (1) + Fragmento de zafiro (1) + Fragmento de hematita (4)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya de estadística Lv2",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta la estadística referida en la joya en 2 puntos. El nombre de la joya pasará a ser el de la estadística (Ej. Anillo de Puntería Lv2)",
+        "preciocompra": "1500",
+        "materiales": "Joya de estadística Lv1 (1) + Armazón de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya detectora de metales Lv1",
+        "categoria": "Joyas",
+        "descripcion": "Permite encontrar tesoros ocultos (5 usos)",
+        "preciocompra": "1200",
+        "materiales": "Armazón de oro (2) + Polvo de hierro (2) + Fragmento de perla (1) + Fragmento de ónix (1) + Polvo de oro (3) + Fragmento de rubí (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya detectora de metales Lv2",
+        "categoria": "Joyas",
+        "descripcion": "Permite encontrar tesoros ocultos (10 usos)",
+        "preciocompra": "1800",
+        "materiales": "Joya detectora de metales Lv1 (1) + Fragmento de esmeralda (4) + Fragmento de amatista (2)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya detectora de metales Lv3",
+        "categoria": "Joyas",
+        "descripcion": "Permite encontrar tesoros ocultos (Ilimitados usos)",
+        "preciocompra": "2500",
+        "materiales": "Joya detectora de metales Lv2 (1) + Armazón de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Joya reflectante",
+        "categoria": "Joyas",
+        "descripcion": "Evita el daño de un ataque enemigo, y le devuelve parte del daño (Se rompe tras el uso)",
+        "preciocompra": "3000",
+        "materiales": "Armazón de basalto (1) + Polvo de titanio (2) + Polvo de oro (2) + Fragmento de ónix (2) + Fragmento de diamante (2)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Anillo de sombras turbulentas Lv1",
+        "categoria": "Joyas",
+        "descripcion": "Agrega 1 de Resistencia contra ataques de oscuridad. Agrega 1 de precisión a hechizos de luz",
+        "preciocompra": "1200",
+        "materiales": "Armazón de oro (1) + Fragmento de ónix (2) + Fragmento de perla (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Anillo de sombras turbulentas Lv2",
+        "categoria": "Joyas",
+        "descripcion": "Agrega 3 de Resistencia contra ataques de oscuridad. Agrega 1 de precisión a hechizos de luz",
+        "preciocompra": "1800",
+        "materiales": "Anillo de sombras turbulentas Lv1 (1) + Hoja de sauce azul (2) + Polvo de cobalto (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Anillo de sombras turbulentas Lv3",
+        "categoria": "Joyas",
+        "descripcion": "Agrega 5 de Resistencia contra ataques de oscuridad. Agrega 2 de precisión a hechizos de luz",
+        "preciocompra": "2500",
+        "materiales": "Anillo de sombras turbulentas Lv2 (1) + Armazón de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Collar de aliento gélido Lv1",
+        "categoria": "Joyas",
+        "descripcion": "Agrega 1 de Resistencia contra ataques de hielo. Te remueves 1 carga de congelamiento adicional al final de tu turno. Efectos no acumulables.",
+        "preciocompra": "1200",
+        "materiales": "Armazón de plata (2) + Fragmento de zafiro (6) + Fragmento de amatista (4)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Collar de aliento gélido Lv2",
+        "categoria": "Joyas",
+        "descripcion": "Agrega 3 de Resistencia contra ataques de hielo. Te remueves 2 cargas de congelamiento adicional al final de tu turno. Efectos no acumulables.",
+        "preciocompra": "1800",
+        "materiales": "Collar de aliento gélido Lv1 (1) + Hoja de sauce azul (3) + Polvo de plata (4) + Fragmento de perla (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Collar de aliento gélido Lv3",
+        "categoria": "Joyas",
+        "descripcion": "Agrega 5 de Resistencia contra ataques de hielo. Te remueves 3 cargas de congelamiento adicional al final de tu turno. Efectos no acumulables.",
+        "preciocompra": "2500",
+        "materiales": "Collar de aliento gélido Lv2 (1) + Armazón de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Collar de poder de trueno Lv1",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta la probabilidad de causar estatizado en 5% para todas las fuentes y el daño eléctrico en 1. Inmune al estatizado. No acumulable.",
+        "preciocompra": "1200",
+        "materiales": "Armazón de cobalto (1) + Fragmento de berilio (6) + Fragmento de diamante (2)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Collar de poder de trueno Lv2",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta la probabilidad de causar estatizado en 10% para todas las fuentes y el daño eléctrico en 2. Inmune al estatizado. No acumulable.",
+        "preciocompra": "1800",
+        "materiales": "Collar de poder de trueno Lv1 (1) + Hoja de sauce verde (2) + Polvo de cobalto (2) + Fragmento de ónix (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Collar de poder de trueno Lv3",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta la probabilidad de causar estatizado en 15% para todas las fuentes y el daño eléctrico en 3. Inmune al estatizado. No acumulable.",
+        "preciocompra": "2500",
+        "materiales": "Collar de poder de trueno Lv2 (1) + Armazón de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Collar de cosecha oscura Lv1",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta en 5% la probabilidad de recolección de almas.",
+        "preciocompra": "1900",
+        "materiales": " Armazón de plata (2) + Fragemento de jade (3) + Fragmento de perla (3)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Collar de cosecha oscura Lv2",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta en 10% la probabilidad de recolección de almas.",
+        "preciocompra": "2800",
+        "materiales": "Collar de cosecha oscura Lv1 (1) + Vial de sangre verde (2) + Ojo + Fragmento de amatista (3)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Collar de cosecha oscura Lv3",
+        "categoria": "Joyas",
+        "descripcion": "Aumenta en 15% la probabilidad de recolección de almas.",
+        "preciocompra": "4500",
+        "materiales": "Collar de cosecha oscura Lv2 (1) + Armazón de platino (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Anillo de Don",
+        "categoria": "Joyas",
+        "descripcion": "El jugador obtendrá el don correspondiente mientras se porte el anilo. Al crearlo, el Don será aleatorio.<br><input id='don_aleatorio' style='width:100%' disabled></input><button onclick='donaleatorio()' style='width:100%'>Generar Don Aleatorio</button>",
+        "preciocompra": "4500",
+        "materiales": "Armazón de platino (2) + Fragmento de cada tipo de gema (1) + Vial de Sangre de dragón (2)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Anillo de Don",
+        "categoria": "Joyas",
+        "descripcion": "El jugador obtendrá el don correspondiente mientras se porte el anilo. Al crearlo, el Don será aleatorio.<br><input id='don_aleatorio' style='width:100%' disabled></input><button onclick='donaleatorio()' style='width:100%'>Generar Don Aleatorio</button>",
+        "preciocompra": "4500",
+        "materiales": "Armazón de platino (2) + Fragmento de cada tipo de gema (1) + Vial de Sangre de dragón (2)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de joyería",
         "vendidaen": "Todo Enforth"
     }
 ]

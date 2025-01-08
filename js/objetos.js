@@ -43,11 +43,14 @@ async function cargar_objeto(objeto) {
         for(let i = 0; i < index_json.length ; i++) {
             const nombre_val = input_nombre.value, json_a = JSON.parse(JSON.stringify(index_json[i][1]));
             if(objeto != "" && json_a.nombre.toLowerCase().includes(objeto.toLowerCase())) {
-                let material = "", obtenida = "", creada = "", descripcion = "", creacionfinal = 0;
+                let vendidaen = ``, material = "", obtenida = "", creada = "", descripcion = "", creacionfinal = 0, preciocompra = "<b>Precio de compra:</b> No se compra<br>", precioventa = "<b>Precio de venta:</b> No se vende<br>";
                 if(json_a.obtenidaen && json_a.obtenidaen.length > 1) obtenida = `<b>Obtenida en:</b> `+json_a.obtenidaen+`<br>`;
                 if(json_a.materiales && json_a.materiales.length > 1) material = `<b>Materiales:</b> `+json_a.materiales+`<br>`;
                 if(json_a.creadaen && json_a.creadaen.length > 1) creada = `<b>Creada en:</b> `+json_a.creadaen+`<br>`;
                 if(json_a.preciofinal) creacionfinal = 1;
+                if(json_a.preciocompra) preciocompra = `<b>Precio de compra:</b> `+json_a.preciocompra+`<br>`;
+                if(json_a.precioventa) precioventa = `<b>Precio de venta:</b> `+json_a.precioventa+`<br>`;
+                if(json_a.vendidaen) vendidaen = `<b>Zona de comercio:</b> `+json_a.vendidaen+`<br>`;
                 if(json_a.categoria == "Armas") {
                     descripcion = `
                         <div style="width:100%; background-color:#333; padding:8px; color:white;">
@@ -78,23 +81,25 @@ async function cargar_objeto(objeto) {
                 } else descripcion = `<b>Descripción:</b><br> `+json_a.descripcion+`<br>`
                 str = str.concat(`
                     <b>Categoría:</b> `+json_a.categoria+`<br>
-                    <b>Precio de compra:</b> `+json_a.preciocompra+`<br>
-                    <b>Precio de venta:</b> `+json_a.precioventa+`<br>
-                    <b>Zona de comercio:</b> `+json_a.vendidaen+`<br><br>
+                    `+preciocompra+`
+                    `+precioventa+`
+                    `+vendidaen+`<br>
                     `+material+`
                     `+creada+`
                     `+obtenida+`<br>
                     `+descripcion+`
                 `);
-                if(creacionfinal == 0) str = str.concat("<br><b class='text-danger'>El precio de compra y venta de un objeto que requiera materiales, será el precio del servicio para crear el producto, deberán agregarse además, los materiales para tener el precio total</b>");
-                else str = str.concat("<br><b class='text-success'>Este objeto ya tiene su precio final, no es necesario agregar los objetos adicionales</b>");
+                if(creacionfinal == 0 && json_a.materiales) str = str.concat("<br><b class='text-danger'>El precio de compra y venta de un objeto que requiera materiales, será el precio del servicio para crear el producto, deberán agregarse además, los materiales para tener el precio total</b>");
+                if(creacionfinal == 1 && json_a.materiales) str = str.concat("<br><b class='text-success'>Este objeto ya tiene su precio final, no es necesario agregar los objetos adicionales</b>");
                 document.querySelector("#titulo_objeto").innerHTML = json_a.nombre;
                 document.querySelector("#datos_objeto").innerHTML = str;
                 document.querySelector("#botones_agregar_carrito").innerHTML = `
                         <input id="cantidad_agregar" type="number" min='0' max='1000' style="width:80px" placeholder="Cantidad">
                         <button onclick="agregaritem_compra('`+json_a.nombre+`', `+json_a.preciocompra+`)" type="button" class="btn btn-info" data-bs-dismiss="modal">A la compra</button>
                         <button onclick="agregaritem('`+json_a.nombre+`', `+json_a.precioventa+`)" type="button" class="btn btn-success" data-bs-dismiss="modal">A la venta</button>
-                        <button onclick="modal()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>`;
+                        <button onclick="modal()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <br>
+                        <span id="error_div"></span>`;
                 modal();
                 break;
             }
@@ -201,23 +206,28 @@ function objeto_tienda(nombre, cantidad, precio) {
 }
 
 async function agregaritemrapido_compra(){
-    var nombre = $('#inputrapido_compra').val()
-    var precio = $('#agregado_rapido option').filter(function() {return this.value == nombre;}).data('compra');
+    var nombre = $('#inputrapido_compra').val(), 
+        precio = $('#agregado_rapido option').filter(function() {return this.value == nombre;}).data('compra');
 
     let yes = 1;
     const cantidad = Number(1);
     if(Number(cantidad) && cantidad >= 1){
-        carrito_compra.forEach(function (item){
-            if(item.nombre == nombre) {
-                yes = 0;
-            }
-        });
-        if(yes == 1) carrito_compra.push(new objeto_tienda_compra(nombre, cantidad, precio));
-        lista_tienda_compra();
-        document.querySelector("#inputrapido_compra").value = "";
+        if(precio >= 1){
+            carrito_compra.forEach(function (item){
+                if(item.nombre == nombre) {
+                    yes = 0;
+                }
+            });
+            if(yes == 1) carrito_compra.push(new objeto_tienda_compra(nombre, cantidad, precio));
+            lista_tienda_compra();
+        } else {
+            $("#cantidad_agregar").css("background-color", "#cc0000");
+            $("#error_div").html("Este objeto no se compra");
+        }
     } else {
         $("#cantidad_agregar").css("background-color", "#cc0000");
     }
+    document.querySelector("#inputrapido_compra").value = "";
 }
 
 async function agregaritemrapido(){
@@ -227,31 +237,41 @@ async function agregaritemrapido(){
     let yes = 1;
     const cantidad = Number(1);
     if(Number(cantidad) && cantidad >= 1){
-        carrito.forEach(function (item){
-            if(item.nombre == nombre) {
-                yes = 0;
-            }
-        });
-        if(yes == 1) carrito.push(new objeto_tienda(nombre, cantidad, precio));
-        lista_tienda();
-        document.querySelector("#inputrapido").value = "";
+        if(precio >= 1) {
+            carrito.forEach(function (item){
+                if(item.nombre == nombre) {
+                    yes = 0;
+                }
+            });
+            if(yes == 1) carrito.push(new objeto_tienda(nombre, cantidad, precio));
+            lista_tienda();
+        } else {
+            $("#cantidad_agregar").css("background-color", "#cc0000");
+            $("#error_div").html("Este objeto no se vende");
+        }
     } else {
         $("#cantidad_agregar").css("background-color", "#cc0000");
     }
+    document.querySelector("#inputrapido").value = "";
 }
 
 function agregaritem(nombre, precio){
     let yes = 1;
     const cantidad = document.querySelector("#cantidad_agregar").value;
     if(Number(cantidad) && cantidad >= 1){
-        carrito.forEach(function (item){
-            if(item.nombre == nombre) {
-                yes = 0;
-            }
-        });
-        if(yes == 1) carrito.push(new objeto_tienda(nombre, cantidad, precio));
-        $('#equipoAleatorioModal').modal('toggle');
-        modal_tienda();
+        if(precio >= 1) {
+            carrito.forEach(function (item){
+                if(item.nombre == nombre) {
+                    yes = 0;
+                }
+            });
+            if(yes == 1) carrito.push(new objeto_tienda(nombre, cantidad, precio));
+            $('#equipoAleatorioModal').modal('toggle');
+            modal_tienda();
+        } else {
+            $("#cantidad_agregar").css("background-color", "#cc0000");
+            $("#error_div").html("Este objeto no se vende");
+        }
     } else {
         $("#cantidad_agregar").css("background-color", "#cc0000");
     }
@@ -318,14 +338,19 @@ function agregaritem_compra(nombre, precio){
     let yes = 1;
     const cantidad = document.querySelector("#cantidad_agregar").value;
     if(Number(cantidad) && cantidad >= 1){
-        carrito_compra.forEach(function (item){
-            if(item.nombre == nombre) {
-                yes = 0;
-            }
-        });
-        if(yes == 1) carrito_compra.push(new objeto_tienda_compra(nombre, cantidad, precio));
-        $('#equipoAleatorioModal').modal('toggle');
-        modal_tienda_compra();
+        if(precio >= 1){
+            carrito_compra.forEach(function (item){
+                if(item.nombre == nombre) {
+                    yes = 0;
+                }
+            });
+            if(yes == 1) carrito_compra.push(new objeto_tienda_compra(nombre, cantidad, precio));
+            $('#equipoAleatorioModal').modal('toggle');
+            modal_tienda_compra();
+        } else {
+            $("#cantidad_agregar").css("background-color", "#cc0000");
+            $("#error_div").html("Este objeto no se compra");
+        }
     } else {
         $("#cantidad_agregar").css("background-color", "#cc0000");
     }
@@ -342,6 +367,70 @@ function cantidad_compra(nombre, cantidad){
             lista_tienda_compra();
         }
     });
+}
+
+const dones = [
+    "Joya de Don Vacío (No provee ningún Don)",
+    "Joya de Sangre de Cuarzo",
+    "Joya de Mano Dura",
+    "Joya de Carga",
+    "Joya del Glotón",
+    "Joya del Perdón",
+    "Joya del Fanático",
+    "Joya del Avance",
+    "Joya de la Afinidad Animal",
+    "Joya del Guerrero Eterno",
+    "Joya de la Magia",
+    "Joya de la Absorción",
+    "Joya del Sanguinario",
+    "Joya de la Velocidad",
+    "Joya del Recolector",
+    "Joya del Cowboy",
+    "Joya de la Pelea",
+    "Joya del Especialista",
+    "Joya del Completista",
+    "Joya del Incompletista",
+    "Joya del Ninja",
+    "Joya del Ejecutor",
+    "Joya de la Respuesta",
+    "Joya del Guionista",
+    "Joya del Liderazgo",
+    "Joya de la Fortuna",
+    "Joya del Imitador",
+    "Joya del Desafortunado",
+    "Joya de Fuerza (Solo agrega la ventaja)",
+    "Joya de Agilidad (Solo agrega la ventaja)",
+    "Joya de Carisma (Solo agrega la ventaja)",
+    "Joya de Resistencia (Solo agrega la ventaja)",
+    "Joya de Vitalidad (Solo agrega la ventaja)",
+    "Joya de Percepción (Solo agrega la ventaja)",
+    "Joya de Inteligencia (Solo agrega la ventaja)",
+    "Joya de Suerte (Solo agrega la ventaja)",
+    "Joya del Martillo (No da el equipo, solo permite portarlo)",
+    "Joya del Protector (No da el equipo, solo permite portarlo)",
+    "Joya de la Espada Real (No da el equipo, solo permite portarlo)",
+    "Joya del Espadachín Místico (No da el equipo, solo permite portarlo)",
+    "Joya del Arquero (No da el equipo, solo permite portarlo)",
+    "Joya del Cosechador (No da el equipo, solo permite portarlo)",
+    "Joya del Gatillo (No da el equipo, solo permite portarlo)",
+    "Joya del Trabajador",
+    "Joya del Cazador",
+    "Joya del Minero",
+    "Joya del Maestro",
+    "Joya de la Negociación",
+    "Joya del Fundidor",
+    "Joya del Traductor",
+    "Joya del Conocedor (No funciona con el del Maestro)",
+    "Joya del Ahorrista",
+    "Joya del Platinado",
+    "Joya del Falsificador",
+    "Joya del Ricachón",
+    "Joya del Contratista"
+]
+
+function donaleatorio(){
+    const random = Math.floor(Math.random() * dones.length);
+    $('#don_aleatorio').val(random+'. '+dones[random]);
 }
 
 read_index_json();
