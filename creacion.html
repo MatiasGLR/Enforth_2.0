@@ -167,6 +167,135 @@
                         <br><br>A partir del Nivel 10, el talabartero puede agregar cueros de animales a las armaduras, para proveerlo de habilidades mágicas, y, a partir del Nivel 12, puede agregarle dos cueros.
                     </div>
                 </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#propio" aria-expanded="true" aria-controls="propio">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Tienda</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Negocio propio</h5>
+                    </a>
+                </div>
+                <div id="propio" class="collapse" aria-labelledby="propio" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        Un jugador puede tener un negocio, al colocar una mejora de habitación de su casa correspondiente (Tienda), teniendo una probabilidad del 20% diario de poder vender un producto que tenga colocado, o 5%, si hay otro negocio en el pueblo que se dedique a ello. Al vender, podrán usar, en lugar del precio de venta, el 50% del precio de compra. Solo se podrá vender un tipo de objeto dependiendo de la profesión (Descritos en Vendedores).
+                    </div>
+                </div>
+                <div class="cabecera_main text-dark" style="border-top:5px solid black">
+                    <a id="title_button_info" class="row" data-toggle="collapse" data-target="#vndedores" aria-expanded="true" aria-controls="vndedores">
+                        <h5 class="col-2 m-auto" style="padding: 10px 0 10px 5%"><b>Tienda</b></h5>
+                        <h5 class="col-10 m-auto" style="padding: 10px 0 10px 15%">Vendedores</h5>
+                    </a>
+                </div>
+                <div id="vndedores" class="collapse" aria-labelledby="vndedores" data-parent="#listado_datos">
+                    <div class="card-body  bg-dark text-white">
+                        <div class="row">
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Armero</b><br>
+                                <b>Vende.</b> Armas de fuego y municiones.<br>
+                                <b>Compra.</b> Ninguno.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Bibliotecario</b><br>
+                                <b>Vende.</b> Libros de herrería, encantamientos y bestiarios (Solo en Abbasel).<br>
+                                <b>Compra.</b> Encantamientos.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Cantinero</b><br>
+                                <b>Compra y vende.</b> Comida y bebida (No pociones).<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Carpintero</b><br>
+                                <b>Vende.</b> Servicios de mejora de casas, objetos de madera, y vende, mejora y repara carretas.<br>
+                                <b>Compra.</b> Objetos de madera.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Cazador</b><br>
+                                <b>Vende.</b> Carnes, pieles y bestiarios (Estos últimos, solo en Abbasel).<br>
+                                <b>Compra.</b> Carnes, pieles, y partes de animales.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Domador</b><br>
+                                <b>Vende.</b> Monturas y animales domesticados.<br>
+                                <b>Compra.</b> Animales.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Explorador</b><br>
+                                <b>Vende.</b> Mapa y brújula.<br>
+                                <b>Compra.</b> Mapas del tesoro.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Granjero</b><br>
+                                <b>Vende.</b> Frutas y verduras, y materiales de cocina en general.<br>
+                                <b>Compra.</b> Frutas y verduras.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Guardia</b><br>
+                                <b>Vende.</b> Ninguno.<br>
+                                <b>Compra.</b> Misiones para los guardias y mercenarios. Además, arresta bandidos entregados y recompensa por los mismos.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Herrero</b><br>
+                                <b>Vende.</b> Objetos, armamento y equipamiento hechos de metales y rocas, mejora de equipamiento y lingotes.<br>
+                                <b>Compra.</b> Armas y equipamiento, lingotes y menas de minerales.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Ingeniero</b><br>
+                                <b>Vende.</b> Explosivos, piezas de explosivos o ingeniería, como engranajes y mecanismos.<br>
+                                <b>Compra.</b> Explosivos.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Mercader general</b><br>
+                                <b>Vende.</b> Objetos de la categoría "General", y otros aleatorios.<br>
+                                <b>Compra.</b> Todo tipo de objetos.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Joyero</b><br>
+                                <b>Vende.</b> Distintos tipos de joyería.<br>
+                                <b>Compra.</b> Gemas y joyas.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Ladrón</b><br>
+                                <b>Vende.</b> Servicio de apertura de cofres.<br>
+                                <b>Compra.</b> Cambio de monedas y objetos robados.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Médico</b><br>
+                                <b>Vende.</b> Medicamentos y servicios de medicina.<br>
+                                <b>Compra.</b> Materiales para medicamentos.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Mercenario</b><br>
+                                <b>Vende.</b> Servicio de contratación de mercenarios.<br>
+                                <b>Compra.</b> Ninguno.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Minero</b><br>
+                                <b>Vende.</b> Picos.<br>
+                                <b>Compra.</b> Menas de minerales, al triple de precio.<br>
+                            </p>
+                        
+                            <p class='col-md-4'>
+                                <b class='text-warning'>Talabartero</b><br>
+                                <b>Vende.</b> Equipamiento de cuero, y mejoras a objetos de cuero.<br>
+                                <b>Compra.</b> Cuero y objetos de cuero.<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
 
             </div>

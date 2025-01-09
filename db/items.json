@@ -1077,6 +1077,26 @@
     }
     ,
     {
+        "nombre": "Agua destilada",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones. Recupera 1 punto de vida al consumirlo.",
+        "preciocompra": "50","precioventa": "10",
+        "creadaen": "Laboratorio o equipo portatil de alquimia",
+        "obtenidaen": "Cazadores",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Polvo de lingote",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones. Recupera 1 punto de vida al consumirlo.",
+        "preciocompra": "50","precioventa": "10",
+        "creadaen": "Laboratorio o equipo portatil de alquimia",
+        "obtenidaen": "Cazadores",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
         "nombre": "Cuero fresco",
         "categoria": "Material general",
         "descripcion": "Utilizable para creaciones. Dura 1 dia fresco en el inventario.",
