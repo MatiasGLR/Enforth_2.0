@@ -2248,4 +2248,120 @@
         "obtenidaen": "Cofres y tiendas de joyería",
         "vendidaen": "Todo Enforth"
     }
+    ,
+    {
+        "nombre": "Frutas",
+        "categoria": "Alimentos",
+        "descripcion": "Fuera de combate, curan 5 puntos de vida; si ya se tiene la vida llena, agregan temporalmente 4 puntos de vida, hasta que tomen 4 puntos de daño.",
+        "preciocompra": "200", "precioventa": "20",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Verduras",
+        "categoria": "Alimentos",
+        "descripcion": "Obtienes una acción de utilidad adicional, durante un combate o exploración",
+        "preciocompra": "200", "precioventa": "20",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Carne de equino o roedor",
+        "categoria": "Alimentos",
+        "descripcion": "Obtienes un punto de agilidad, durante un combate o exploración. Debe ser cocinada para obtener el bono.",
+        "preciocompra": "200", "precioventa": "20",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Carne de canino",
+        "categoria": "Alimentos",
+        "descripcion": "Obtienes un punto de fuerza, durante un combate o exploración. Debe ser cocinada para obtener el bono.",
+        "preciocompra": "200", "precioventa": "20",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Carne de ave",
+        "categoria": "Alimentos",
+        "descripcion": "Obtienes un punto de percepción, durante un combate o exploración. Debe ser cocinada para obtener el bono.",
+        "preciocompra": "200", "precioventa": "20",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Carne de felino",
+        "categoria": "Alimentos",
+        "descripcion": "Obtienes un punto de puntería, durante un combate o exploración. Debe ser cocinada para obtener el bono.",
+        "preciocompra": "200", "precioventa": "20",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Carne de reptil o porcino",
+        "categoria": "Alimentos",
+        "descripcion": "Obtienes un punto de resistencia, durante un combate o exploración. Debe ser cocinada para obtener el bono.",
+        "preciocompra": "200", "precioventa": "20",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Carne de pez o animal marino",
+        "categoria": "Alimentos",
+        "descripcion": "Obtienes 3 de vida máxima adicional, durante un combate o exploración. Debe ser cocinada para obtener el bono.",
+        "preciocompra": "200", "precioventa": "20",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Fruto de Onix",
+        "categoria": "Alimentos",
+        "descripcion": "Obtienes +1 en tus tiradas de estadística, durante un combate o exploración. Debe ser cocinada para obtener el bono.",
+        "preciocompra": "1000", "precioventa": "100",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Fruto de raza",
+        "categoria": "Alimentos",
+        "descripcion": "Luego de ser consumido, hay 25% de probabilidad de obtener un hibrido aleatorio hibridable, o cambiar el actual.<br>Aplica uno de los siguientes efectos al ser consumido:<br>♦ Subir de nivel la raza<br>♦ Obtener la estadística de la raza secundaria y sus niveles en profesión",
+        "precioventa": "250",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Fruto de raza dorado",
+        "categoria": "Alimentos",
+        "descripcion": "Aplica uno de los siguientes efectos al ser consumido:<br>♦ Elimina la raza hibridada<br>♦ Si no tienes hibrido, te vuelves hibrido de una raza hibridable a elección<br>♦ Obtienes una habilidad de nivel 2 o menor de otra raza, pero también obtienes su pasiva",
+        "precioventa": "2000",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Fruto de raza carmesí",
+        "categoria": "Alimentos",
+        "descripcion": "Función desconocida",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Mariquita o tréboles de 4 hojas",
+        "categoria": "Alimentos / Material",
+        "descripcion": "Utilizable en poción. Consumirlos te dará un punto de suerte, durante un combate o exploración.",
+        "preciocompra": "200", "precioventa": "20",
+        "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
 ]
