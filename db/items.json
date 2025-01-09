@@ -1571,6 +1571,216 @@
     }
     ,
     {
+        "nombre": "Riñonera",
+        "categoria": "Extras / Almacenamiento",
+        "descripcion": "Agrega 4 slots de equipamiento para el jugador.",
+        "preciocompra": "1000","precioventa": "200",
+        "materiales": "1 Cuero duro + 2 Cueros frescos",
+        "obtenidaen": "Cofres y taller de talabartería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cinturón",
+        "categoria": "Extras / Almacenamiento",
+        "descripcion": "Agrega 3 slots de equipamiento para el jugador.",
+        "preciocompra": "800","precioventa": "100",
+        "materiales": "1 Cuero duro + 2 Cueros frescos",
+        "obtenidaen": "Cofres y taller de talabartería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Funda extra",
+        "categoria": "Extras / Almacenamiento",
+        "descripcion": "Permite llevar una categoría de objeto (Ejemplo, pociones, salud, armadura, armas, etc), se hace especifico cuando se lo confecciona",
+        "preciocompra": "500","precioventa": "50",
+        "materiales": "3 Cueros frescos + 1 Cuero duro + 2 Cueros",
+        "obtenidaen": "Cofres y taller de talabartería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuero de ciervo",
+        "categoria": "Cueros",
+        "descripcion": "<b>Efecto por set completo.</b> Los ataques cuerpo a cuerpo causarán un punto de daño fijo por cada pieza.",
+        "precioventa": "50",
+        "obtenidaen": "Animal correspondiente",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuero de jabalí",
+        "categoria": "Cueros",
+        "descripcion": "<b>Efecto por set completo.</b> Aumenta en uno la protección de la armadura por cada pieza.",
+        "precioventa": "100",
+        "obtenidaen": "Animal correspondiente",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuero de león",
+        "categoria": "Cueros",
+        "descripcion": "<b>Efecto por set completo.</b> Obtienes un punto en puntería, y 1d10 de daño al atacar a felinos.",
+        "precioventa": "200",
+        "obtenidaen": "Animal correspondiente",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuero de lobo",
+        "categoria": "Cueros",
+        "descripcion": "<b>Efecto por set completo.</b> Obtienes dos puntos de agilidad al esquivar.",
+        "precioventa": "150",
+        "obtenidaen": "Animal correspondiente",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuero de perro",
+        "categoria": "Cueros",
+        "descripcion": "<b>Efecto por set completo.</b> Obtienes dos puntos en percepción.",
+        "precioventa": "100",
+        "obtenidaen": "Animal correspondiente",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuero de puma",
+        "categoria": "Cueros",
+        "descripcion": "<b>Efecto por set completo.</b> Agrega un dado de daño contra felinos, y 3 puntos de armadura contra estos.",
+        "precioventa": "200",
+        "obtenidaen": "Animal correspondiente",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuero de serpiente",
+        "categoria": "Cueros",
+        "descripcion": "<b>Efecto por set completo.</b> Quien ataque al portador de esta armadura, tendrá un 20% de probabilidad de ser envenenado.",
+        "precioventa": "100",
+        "obtenidaen": "Animal correspondiente",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuero de tigre",
+        "categoria": "Cueros",
+        "descripcion": "<b>Efecto por set completo.</b> Aumenta la probabilidad de causar sangrados en 5%.",
+        "precioventa": "150",
+        "obtenidaen": "Animal correspondiente",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuero de zorro",
+        "categoria": "Cueros",
+        "descripcion": "<b>Efecto por set completo.</b> Al abatir a un enemigo, obtendrás un ataque adicional sin costo, contra un enemigo del mismo tipo a 10ft o menos del objetivo abatido (Una vez por ronda).",
+        "precioventa": "100",
+        "obtenidan": "Animal correspondiente",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Traje de comerciante",
+        "categoria": "Extras",
+        "descripcion": "Obtienes un 15% de aumento en tus ventas.",
+        "precioventa": "500",
+        "obtenidaen": "Cofres",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Traje de herrero",
+        "categoria": "Extras",
+        "descripcion": "Permite confeccionar objetos de herrería",
+        "preciocompra": "1500", "precioventa": "500",
+        "obtenidaen": "Cofres y mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Traje de explorador",
+        "categoria": "Extras",
+        "descripcion": "Portarás brújula y mapa con este traje",
+        "preciocompra": "800", "precioventa": "200",
+        "obtenidaen": "Cofres y mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Traje de bandido",
+        "categoria": "Extras",
+        "descripcion": "Es un set completo de cuero, que puede ser obtenida de los bandidos.<br><b>Bono por armadura completa.</b> Obtienes una parte del oro adicional al robar a enemigos abatidos (Una tirada ficticia del monto).",
+        "preciocompra": "800", "precioventa": "200",
+        "obtenidaen": "Cofres y mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Set de Necromante",
+        "categoria": "Clases",
+        "descripcion": "Obtienes la clase de Necromante, mientras tengas el set completo.<br><b>Yelmo.</b> 1<br><b>Peto.</b> 3<br><b>Pantalones.</b> 2<br><b>Guantes.</b> 1<br><b>Peso de armadura.</b> 1",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Set de Archpaladin",
+        "categoria": "Clases",
+        "descripcion": "Obtienes la clase de Archpaladin, mientras tengas el set completo.<br><b>Yelmo.</b> 3<br><b>Peto.</b> 5<br><b>Pantalones.</b> 4<br><b>Guantes.</b> 3<br><b>Peso de armadura.</b> 3",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Set de Cazadragones",
+        "categoria": "Clases",
+        "descripcion": "Obtienes la clase de Cazadragones, mientras tengas el set completo.<br><b>Yelmo.</b> 4<br><b>Peto.</b> 6<br><b>Pantalones.</b> 3<br><b>Guantes.</b> 1<br><b>Peso de armadura.</b> 3",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Set de Cazador",
+        "categoria": "Clases",
+        "descripcion": "Obtienes la clase de Cazador, mientras tengas el set completo.<br><b>Yelmo.</b> 1<br><b>Peto.</b> 3<br><b>Pantalones.</b> 2<br><b>Guantes.</b> 1<br><b>Peso de armadura.</b> 1",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Set de Danzante",
+        "categoria": "Clases",
+        "descripcion": "Obtienes la clase de Danzante, mientras tengas el set completo.<br><b>Yelmo.</b> 2<br><b>Peto.</b> 2<br><b>Pantalones.</b> 2<br><b>Guantes.</b> 2<br><b>Peso de armadura.</b> 1",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Set de Aracnomante",
+        "categoria": "Clases",
+        "descripcion": "Obtienes la clase de Aracnomante, mientras tengas el set completo.<br><b>Yelmo.</b> 1<br><b>Peto.</b> 3<br><b>Pantalones.</b> 2<br><b>Guantes.</b> 1<br><b>Peso de armadura.</b> 1",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Set de Gladiador",
+        "categoria": "Clases",
+        "descripcion": "Obtienes la clase de Gladiador, mientras tengas el set completo.<br><b>Yelmo.</b> 0<br><b>Peto.</b> 4<br><b>Pantalones.</b> 3<br><b>Guantes.</b> 2<br><b>Peso de armadura.</b> 1",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Set de Pirata",
+        "categoria": "Clases",
+        "descripcion": "Obtienes la clase de Pirata, mientras tengas el set completo.<br><b>Yelmo.</b> 2<br><b>Peto.</b> 5<br><b>Pantalones.</b> 2<br><b>Guantes.</b> 1<br><b>Peso de armadura.</b> 1",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Set de Monje",
+        "categoria": "Clases",
+        "descripcion": "Obtienes la clase de Monje, mientras tengas el set completo.<br><b>Yelmo.</b> 1<br><b>Peto.</b> 1<br><b>Pantalones.</b> 1<br><b>Guantes.</b> 1<br><b>Peso de armadura.</b> 1",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
         "nombre": "Cota de malla",
         "categoria": "Armadura / Extras",
         "descripcion": "Se utiliza en el slot de extra defensivo.",
@@ -2023,17 +2233,6 @@
         "descripcion": "Aumenta en 15% la probabilidad de recolección de almas.",
         "preciocompra": "4500",
         "materiales": "Collar de cosecha oscura Lv2 (1) + Armazón de platino (1)",
-        "creadaen": "Forja",
-        "obtenidaen": "Cofres y tiendas de joyería",
-        "vendidaen": "Todo Enforth"
-    }
-    ,
-    {
-        "nombre": "Anillo de Don",
-        "categoria": "Joyas",
-        "descripcion": "El jugador obtendrá el don correspondiente mientras se porte el anilo. Al crearlo, el Don será aleatorio.<br><input id='don_aleatorio' style='width:100%' disabled></input><button onclick='donaleatorio()' style='width:100%'>Generar Don Aleatorio</button>",
-        "preciocompra": "4500",
-        "materiales": "Armazón de platino (2) + Fragmento de cada tipo de gema (1) + Vial de Sangre de dragón (2)",
         "creadaen": "Forja",
         "obtenidaen": "Cofres y tiendas de joyería",
         "vendidaen": "Todo Enforth"
