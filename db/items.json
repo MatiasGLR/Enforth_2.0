@@ -1089,10 +1089,9 @@
     {
         "nombre": "Polvo de lingote",
         "categoria": "Material general",
-        "descripcion": "Utilizable para creaciones. Recupera 1 punto de vida al consumirlo.",
-        "preciocompra": "50","precioventa": "10",
-        "creadaen": "Laboratorio o equipo portatil de alquimia",
-        "obtenidaen": "Cazadores",
+        "descripcion": "Utilizable para creaciones. El costo de compra y venta será el 5% correspondiente al costo de compra o venta del lingote.",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y talleres de herrería",
         "vendidaen": "Todo Enforth"
     }
     ,
