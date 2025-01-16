@@ -1,5 +1,11 @@
 [
     {
+        "titulo": "Reglamento",
+        "imagen": "./files/index/reglas.webp",
+        "file": "reglamento.html"
+    }
+    ,
+    {
         "titulo": "Jugador",
         "imagen": "./files/index/jugador.jpg",
         "file": "personaje.html"
