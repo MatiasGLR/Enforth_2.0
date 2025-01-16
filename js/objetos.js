@@ -51,7 +51,7 @@ async function cargar_objeto(objeto) {
                 if(json_a.preciocompra) preciocompra = `<b>Precio de compra:</b> `+json_a.preciocompra+`<br>`;
                 if(json_a.precioventa) precioventa = `<b>Precio de venta:</b> `+json_a.precioventa+`<br>`;
                 if(json_a.vendidaen) vendidaen = `<b>Zona de comercio:</b> `+json_a.vendidaen+`<br>`;
-                if(json_a.categoria == "Armas") {
+                if(json_a.categoria.includes("Armas")) {
                     descripcion = `
                         <div style="width:100%; background-color:#333; padding:8px; color:white;">
                             <div class="text-center">

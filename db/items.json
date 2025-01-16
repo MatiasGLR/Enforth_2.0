@@ -891,6 +891,30 @@
     }
     ,
     {
+        "nombre": "Instrumento",
+        "categoria": "Armas / Magia",
+        "dañoarma": "1d4", "efectoarma": "El de la gema que tenga",
+        "habilidadarmat": "Conjuración","habilidadarma": "Permite conjurar hechizos de la misma magia que la gema.",
+        "armatipo": "Pesada a dos manos",
+        "preciocompra": "1500","precioventa": "300",
+        "materiales": "3 Lingotes + 1 Gema",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Báculo o Varita",
+        "categoria": "Armas / Magia",
+        "dañoarma": "1d4", "efectoarma": "El de la gema que tenga",
+        "habilidadarmat": "Conjuración","habilidadarma": "Permite conjurar hechizos de la misma magia que la gema.",
+        "armatipo": "Pesada a dos manos",
+        "preciocompra": "1500","precioventa": "300",
+        "materiales": "3 Lingotes + 1 Gema",
+        "obtenidaen": "Cofres y taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
         "nombre": "Pistola",
         "categoria": "Arma a distancia",
         "dañoarma": "1d4", "distancia": "15ft",
@@ -2237,6 +2261,17 @@
     }
     ,
     {
+        "nombre": "Grimorio de alquimia",
+        "categoria": "Libro",
+        "descripcion": "Permitirá crear pociones de cualquier nivel (El precio es por crearlo)",
+        "precioventa": "2000",
+        "materiales": "Libro de Alquimia Lv1 (1) + Libro de Alquimia Lv2 (1) + Libro de Alquimia Lv3 (1)",
+        "creadaen": "Taller",
+        "obtenidaen": "Taller de talabartería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
         "nombre": "Libro de joyería",
         "categoria": "Libro",
         "descripcion": "Requerido para crear las joyas",
@@ -2418,17 +2453,6 @@
         "categoria": "Pergamino",
         "descripcion": "Permite encantar un arma en 'Oscuridad', cambiando su efecto por oscuridad",
         "obtenidaen": "Cofres",
-        "vendidaen": "Todo Enforth"
-    }
-    ,
-    {
-        "nombre": "Grimorio de alquimia",
-        "categoria": "Libro",
-        "descripcion": "Permitirá crear pociones de cualquier nivel (El precio es por crearlo)",
-        "precioventa": "2000",
-        "materiales": "Libro de Alquimia Lv1 (1) + Libro de Alquimia Lv2 (1) + Libro de Alquimia Lv3 (1)",
-        "creadaen": "Taller",
-        "obtenidaen": "Taller de talabartería",
         "vendidaen": "Todo Enforth"
     }
     ,

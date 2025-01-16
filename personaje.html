@@ -33,6 +33,18 @@
         <topmain>
             
         </topmain>
+        <div class="modal fade" id="imagenModal" tabindex="-1" role="dialog" aria-labelledby="imagenModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered text-dark" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title m-auto" id="imagenModal"><b id="titulo_objeto" class="text-danger"></b></h5>
+                    </div> 
+                    <div id="imagen_mostrar" class="modal-body text-center">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
         <main id="main_personaje" class="text-white" style="margin-top:82px;">
             <div id="listado_datos" class="card bg-white text-dark" style="border-radius:0">
                 <div class="cabecera_main text-dark">
@@ -42,7 +54,101 @@
                 </div>
                 <div id="guia" class="collapse p-1" aria-labelledby="guia" data-parent="#listado_datos">
                     <div class="card-body bg-dark text-white">
-
+                        <p>
+                            Empezaremos a enumerar los pazos requeridos para crear un personaje, recomendamos para ello, ir leyendo toda esta sección al menos
+                            una vez, y luego ir releyendo a medida que se pide algun dato.
+                        </p>
+                        <p>
+                            <h4 class="text-warning">Pedir la ficha</h4>
+                            Se debe hablar con un administrador del rol, para pedir la ficha. Solo se te pedirá un mail de Google (gmail), al cuál se tiene
+                            acceso (Puedes ingresar), para darte permiso de edición en la ficha, mediante Google Spreadsheets (Google Docs).
+                        </p>
+                        <p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="text-warning">Hojas</h4>
+                                    Primero explicaremos las distintas hojas de la ficha, también llamadas <b>categorias</b>. Entre esta están:
+                                    <ol>
+                                        <li><b class="text-info">• Conocimientos. </b>Se enlistan los conocimientos, para desbloquearlos, se pintan en verde.</li>
+                                        <li><b class="text-info">• Inventario, equipo y otros. </b>Aqui va todo lo que se considera almacenamiento por parte del jugador.</li>
+                                        <li><b class="text-info">• Mascotas. </b>Lista de mascotas, con sus propios datos.</li>
+                                        <li><b class="text-info">• Estados actuales. </b>Diario personal del jugador para anotar todo.</li>
+                                        <li><b class="text-info">• Recetas. </b>Todo lo desbloqueable por recetas va aqui.</li>
+                                        <li><b class="text-info">• Habilidades. </b>Las habilidades pertenecientes a razas, clases, etc, van aquí.</li>
+                                        <li><b class="text-info">• Hechizos y Tácticas. </b>Las habilidades personalizadas van aquí.</li>
+                                        <li><b class="text-info">• Profesión. </b>Los niveles y experiencia en profesiones.</li>
+                                        <li><b class="text-info">• Bancos. </b>Objetos y dinero guardados en los bancos de capitales de todo este mundo.</li>
+                                        <li><b class="text-info">• Reputación. </b>Niveles de reputación de los jugadores con los NPC del mundo.</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6 m-auto"><div class="w-100 text-center"><img src="./files/ficha/2.png" alt=""></div></div>
+                            </div>
+                        </p>
+                        <p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="text-warning">Datos principales</h4>
+                                    Lo primero que se va a establecer son los datos del personaje, el <b>nombre</b>, la <b>edad</b>, el <b>género</b>, la <b>raza</b>,
+                                    y la raza hibrida, en caso de querer ser hibrido (Al ser hibrido, desbloquearás ambas habilidades al subir de nivel en raza, pero
+                                    también obtendrás las pasivas negativas de ambos), la <b>estatura</b>, el <b>peso</b>, la <b>maldición</b> (Si se quiere tener una),
+                                    y un <b>don</b>, de la lista de dones disponibles.<br><br>
+                                    En caso de que una raza desbloquee <a href="#" onclick="$('#imagen_mostrar').html(`<img src='./files/ficha/3.png' alt=''>`); $('#imagenModal').modal('toggle');">idiomas</a>, 
+                                    puedes desbloquearlos pintandolos de verde.<br><br>
+                                </div>
+                                <div class="col-md-6 m-auto"><div class="w-100 text-center"><img src="./files/ficha/1.png" alt=""></div></div>
+                            </div>
+                        </p>
+                        <p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="text-warning">Estadísticas</h4>
+                                    Para establecer tus estadísticas iniciales, puedes elegir entre dos opciones, distribuir 15 puntos, o distribuir el resultado
+                                    de esta tirada: "<code>7d4d2</code>". Lo máximo que puede ser distribuido es 5 puntos (Incluido lo que la raza te da, que se
+                                    coloca en la columna "raza"). Luego de distribuir, debes elegir una habilidad la cuál será considerada tu "habilidad principal";
+                                    esta podrá llegar hasta 10 puntos con mejoras adicionales; al elegir la "habilidad principal", esta ganará 1 punto, que si puede
+                                    superar el 5 (Este punto va en la columna de "mejora").<br><br>
+                                </div>
+                                <div class="col-md-6 m-auto"><div class="w-100 text-center"><img src="./files/ficha/4.png" alt=""></div></div>
+                            </div>
+                        </p>
+                        <p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="text-warning">Profesión inicial</h4>
+                                    Cuando empiezas un personaje, puedes elegir una profesión, en la categoría <b>profesiones</b> la cuál comenzará en Nivel 2 (No suma 2, la establece en 2),
+                                    para establecer un nivel, debes colocarlo en la columna <b>raza y otros</b>. El desbloquear una profesión de este modo,
+                                    también te dará los conocimientos requeridos para la misma.<br><br>
+                                </div>
+                                <div class="col-md-6 m-auto"><div class="w-100 text-center"><img src="./files/ficha/6.png" alt=""></div></div>
+                            </div>
+                        </p>
+                        <p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="text-warning">Conocimientos iniciales</h4>
+                                    Debes pintar en verde dentro de la categoría <b>conocimientos</b>, los que hayan sido desbloqueados por raza, y profesión
+                                    inicial.<br><br>
+                                </div>
+                                <div class="col-md-6 m-auto"><div class="w-100 text-center"><img src="./files/ficha/7.png" alt=""></div></div>
+                            </div>
+                        </p>
+                        <p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="text-warning">Equipamiento inicial</h4>
+                                    Cada jugador puede elegir un arma de la categoría "Armas", obtienes un traje normal, de tela, que no provee protección,
+                                    además, puedes obtener en tus 3 slots extras, una Poción de Nivel 1 de la categoría de "Pociones", un objeto de medicina,
+                                    de la categoría de "Medicina", y 1000 Monedas de la región de inicio.<br><br>
+                                </div>
+                                <div class="col-md-12 m-auto">
+                                    <div class="text-center">
+                                        <img src="./files/ficha/8.png" alt="">
+                                        <img src="./files/ficha/9.png" alt="">
+                                        <img src="./files/ficha/10.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </p>
                     </div>
                 </div>
                 <div class="cabecera_main text-dark">
