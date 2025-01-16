@@ -475,7 +475,7 @@
     {
         "nombre": "Cobre",
         "categoria": "Material de herrería",
-        "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
+        "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "50",
         "creadaen": "Forja",
         "obtenidaen": "Cofres y taller de herrería",
@@ -485,7 +485,7 @@
     {
         "nombre": "Hierro",
         "categoria": "Material de herrería",
-        "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo. ",
+        "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "100",
         "precioventa": "20",
         "creadaen": "Forja",
@@ -496,7 +496,7 @@
     {
         "nombre": "Plata",
         "categoria": "Material de herrería",
-        "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo.",
+        "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "150",
         "precioventa": "30",
         "creadaen": "Forja",
@@ -507,7 +507,7 @@
     {
         "nombre": "Oro",
         "categoria": "Material de herrería",
-        "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo",
+        "descripcion": "Material básico. Puede ser fundido en un lingote con 2 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "250",
         "precioventa": "50",
         "creadaen": "Forja",
@@ -518,7 +518,7 @@
     {
         "nombre": "Cuarzo",
         "categoria": "Material de herrería",
-        "descripcion": "Material medio. Puede ser fundido en un lingote con 3 minerales de este mismo tipo.",
+        "descripcion": "Material medio. Puede ser fundido en un lingote con 3 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "500",
         "precioventa": "150",
         "creadaen": "Forja",
@@ -529,7 +529,7 @@
     {
         "nombre": "Basalto",
         "categoria": "Material de herrería",
-        "descripcion": "Material medio. Puede ser fundido en un lingote con 3 minerales de este mismo tipo.",
+        "descripcion": "Material medio. Puede ser fundido en un lingote con 3 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "600",
         "precioventa": "150",
         "creadaen": "Forja",
@@ -540,7 +540,7 @@
     {
         "nombre": "Titanio",
         "categoria": "Material de herrería",
-        "descripcion": "Material medio. Puede ser fundido en un lingote con 3 minerales de este mismo tipo. ",
+        "descripcion": "Material medio. Puede ser fundido en un lingote con 3 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "500",
         "precioventa": "100",
         "creadaen": "Forja",
@@ -551,7 +551,7 @@
     {
         "nombre": "Cobalto",
         "categoria": "Material de herrería",
-        "descripcion": "Material alto. Puede ser fundido en un lingote con 4 minerales de este mismo tipo. ",
+        "descripcion": "Material alto. Puede ser fundido en un lingote con 4 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "1200",
         "precioventa": "300",
         "creadaen": "Forja",
@@ -562,7 +562,7 @@
     {
         "nombre": "Oricalco",
         "categoria": "Material de herrería",
-        "descripcion": "Material alto. Puede ser fundido en un lingote con 4 minerales de este mismo tipo. ",
+        "descripcion": "Material alto. Puede ser fundido en un lingote con 4 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "2000",
         "precioventa": "500",
         "creadaen": "Forja",
@@ -573,7 +573,7 @@
     {
         "nombre": "Infernita",
         "categoria": "Material de herrería",
-        "descripcion": "Material alto. Puede ser fundido en un lingote con 4 minerales de este mismo tipo. ",
+        "descripcion": "Material alto. Puede ser fundido en un lingote con 4 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "2500",
         "precioventa": "100",
         "creadaen": "Forja",
@@ -584,7 +584,7 @@
     {
         "nombre": "Luminita",
         "categoria": "Material de herrería",
-        "descripcion": "Material alto. Puede ser fundido en un lingote con 4 minerales de este mismo tipo. ",
+        "descripcion": "Material alto. Puede ser fundido en un lingote con 4 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "2500",
         "precioventa": "600",
         "creadaen": "Forja",
@@ -595,7 +595,7 @@
     {
         "nombre": "Druvix",
         "categoria": "Material de herrería",
-        "descripcion": "Material épico. Puede ser fundido en un lingote con 5 minerales de este mismo tipo. ",
+        "descripcion": "Material épico. Puede ser fundido en un lingote con 5 minerales de este mismo tipo, y un molde de lingote. Las armas de este material aplican <b>perforación, sangrado y rompearmadura</b>.",
         "preciocompra": "6000",
         "precioventa": "1200",
         "creadaen": "Forja",
@@ -606,7 +606,7 @@
     {
         "nombre": "Platino",
         "categoria": "Material de herrería",
-        "descripcion": "Material épico. Puede ser fundido en un lingote con 5 minerales de este mismo tipo. Las armas de este material aplican <b>perforación, sangrado y rompearmadura</b>.",
+        "descripcion": "Material épico. Puede ser fundido en un lingote con 5 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "3000",
         "precioventa": "700",
         "creadaen": "Forja",
@@ -1096,6 +1096,321 @@
     }
     ,
     {
+        "nombre": "Hoja de sauce rojo",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "50","precioventa": "10",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Hoja de sauce verde",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "150","precioventa": "20",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Hoja de sauce azul",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "300","precioventa": "50",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Hoja de sauce blanco",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "500","precioventa": "100",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Hoja de sauce dorado",
+        "categoria": "Material general",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "1500","precioventa": "300",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Fragmento de amatista",
+        "categoria": "Material general",
+        "preciocompra": "250","precioventa": "50",
+        "descripcion": "Utilizable para creaciones. ",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Amatista",
+        "categoria": "Magia",
+        "preciocompra": "1000","precioventa": "50",
+        "descripcion": "Utilizable para creaciones. Cristal morado oscuro que permite conjurar magia arcana. Romperla te dará 1d4 fragmentos de amatista, que aun conserven magia.",
+        "obtenidaen": "Cofres y tiendas de alquimia",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Fragmento de rubi",
+        "categoria": "Material general",
+        "preciocompra": "300","precioventa": "75",
+        "descripcion": "Utilizable para creaciones. ",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Rubi",
+        "categoria": "Magia",
+        "preciocompra": "1500","precioventa": "100",
+        "descripcion": "Utilizable para creaciones. Cristal rojo brillante que permite conjurar magia de fuego. Romperla te dará 1d4 fragmentos de rubi, que aun conserven magia.",
+        "obtenidaen": "Cofres y tiendas de alquimia",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Fragmento de zafiro",
+        "categoria": "Material general",
+        "preciocompra": "300","precioventa": "75",
+        "descripcion": "Utilizable para creaciones. ",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Zafiro",
+        "categoria": "Magia",
+        "preciocompra": "1500","precioventa": "100",
+        "descripcion": "Utilizable para creaciones. Cristal azul oscuro que permite conjurar magia de hielo. Romperla te dará 1d4 fragmentos de zafiro, que aun conserven magia.",
+        "obtenidaen": "Cofres y tiendas de alquimia",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Fragmento de turmalina",
+        "categoria": "Material general",
+        "preciocompra": "300","precioventa": "75",
+        "descripcion": "Utilizable para creaciones. ",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Turmalina",
+        "categoria": "Magia",
+        "preciocompra": "1500","precioventa": "100",
+        "descripcion": "Utilizable para creaciones. Cristal amarillo brillante que permite conjurar magia de electricidad. Romperla te dará 1d4 fragmentos de turmalina, que aun conserven magia.",
+        "obtenidaen": "Cofres y tiendas de alquimia",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Fragmento de diamante",
+        "categoria": "Material general",
+        "preciocompra": "300","precioventa": "75",
+        "descripcion": "Utilizable para creaciones. ",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Diamante",
+        "categoria": "Magia",
+        "preciocompra": "3000","precioventa": "500",
+        "descripcion": "Utilizable para creaciones. Cristal blanco casi transparente que permite conjurar magia de luz. Romperla te dará 1d4 fragmentos de diamante, que aun conserven magia.",
+        "obtenidaen": "Cofres y tiendas de alquimia",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Fragmento de onix",
+        "categoria": "Material general",
+        "preciocompra": "300","precioventa": "75",
+        "descripcion": "Utilizable para creaciones. ",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Onix",
+        "categoria": "Magia",
+        "preciocompra": "3000","precioventa": "500",
+        "descripcion": "Utilizable para creaciones. Cristal negro mate opaco que permite conjurar magia de oscuridad. Romperla te dará 1d4 fragmentos de onix, que aun conserven magia.",
+        "obtenidaen": "Cofres y tiendas de alquimia",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Fragmento de jade",
+        "categoria": "Material general",
+        "preciocompra": "300","precioventa": "75",
+        "descripcion": "Utilizable para creaciones.",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Jade",
+        "categoria": "Magia",
+        "preciocompra": "4000","precioventa": "700",
+        "descripcion": "Utilizable para creaciones. Cristal verde oscuro con trazos negros que permite conjurar magia de alma. Romperla te dará 1d4 fragmentos de jade, que aun conserven magia.",
+        "obtenidaen": "Cofres y tiendas de alquimia",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Fragmento de perla",
+        "categoria": "Material general",
+        "preciocompra": "300","precioventa": "75",
+        "descripcion": "Utilizable para creaciones.",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Perla",
+        "categoria": "Magia",
+        "precioventa": "800",
+        "descripcion": "Utilizable para creaciones. Cristal blanco mate opaco con trazos negros que permite conjurar magia mental. Romperla te dará 1d4 fragmentos de perla, que aun conserven magia.",
+        "obtenidaen": "Cofres y tiendas de alquimia",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Fragmento de esmeralda",
+        "categoria": "Material general",
+        "preciocompra": "300","precioventa": "75",
+        "descripcion": "Utilizable para creaciones.",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Esmeralda",
+        "categoria": "Magia",
+        "precioventa": "500",
+        "descripcion": "Utilizable para creaciones. Cristal verde claro con trazos negros que permite conjurar magia de veneno. Romperla te dará 1d4 fragmentos de esmeralda, que aun conserven magia.",
+        "obtenidaen": "Cofres y tiendas de alquimia",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Fragmento de hematita",
+        "categoria": "Material general",
+        "preciocompra": "300","precioventa": "75",
+        "descripcion": "Utilizable para creaciones.",
+        "obtenidaen": "Cofres y exploraciones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Hematita",
+        "categoria": "Magia",
+        "preciocompra": "3000","precioventa": "500",
+        "descripcion": "Utilizable para creaciones. Cristal verde claro con trazos negros que permite conjurar magia de sangre. Romperla te dará 1d4 fragmentos de esmeralda, que aun conserven magia.",
+        "obtenidaen": "Cofres y tiendas de alquimia",
+        "vendidaen": "Fostade",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Llave marrón",
+        "categoria": "Llaves",
+        "preciocompra": "500","precioventa": "50",
+        "descripcion": "Llave maestra de cobre. Sirve para abrir cofres de madera, se rompe tras su uso.",
+        "materiales": "Molde de llave de cobre (1) + Basalto (1) + Cobre (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de ladrones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Llave gris",
+        "categoria": "Llaves",
+        "preciocompra": "1000","precioventa": "150",
+        "descripcion": "Llave maestra de hierro. Sirve para abrir cofres de hierro, se rompe tras su uso.",
+        "materiales": "Molde de llave de hierro (1) + Basalto (1) + Hierro (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de ladrones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Llave blanca",
+        "categoria": "Llaves",
+        "preciocompra": "1500","precioventa": "250",
+        "descripcion": "Llave maestra de plata. Sirve para abrir cofres de plata, se rompe tras su uso.",
+        "materiales": "Molde de llave de plata (1) + Basalto (1) + Plata (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de ladrones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Llave amarilla",
+        "categoria": "Llaves",
+        "preciocompra": "1500","precioventa": "350",
+        "descripcion": "Llave maestra de oro. Sirve para abrir cofres de oro, se rompe tras su uso.",
+        "materiales": "Molde de llave de oro (1) + Basalto (1) + Oro (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de ladrones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Llave negra",
+        "categoria": "Llaves",
+        "preciocompra": "2500","precioventa": "550",
+        "descripcion": "Llave maestra de infernita. Sirve para abrir cofres de infernita, se rompe tras su uso.",
+        "materiales": "Molde de llave de infernita (1) + Basalto (1) + Infernita (1)",
+        "creadaen": "Forja",
+        "obtenidaen": "Cofres y tiendas de ladrones",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Llave de gema",
+        "categoria": "Llaves",
+        "descripcion": "Llave maestra de cofre de gema. Sirve para abrir cofres de gema con el mismo tipo del fragmento, se rompe tras su uso.",
+        "materiales": "Molde de llave de gema (1) + Basalto (1) + Titanio (1) + Fragmento de gema (1)",
+        "creadaen": "Forja",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
         "nombre": "Cuero fresco",
         "categoria": "Material general",
         "descripcion": "Utilizable para creaciones. Dura 1 dia fresco en el inventario.",
@@ -1153,7 +1468,7 @@
         "categoria": "Viales",
         "descripcion": "Imbuye el arma en 'Electricidad' durante una ronda cambiando su efecto por estatizado. El filo de arma cambiará a celeste brillante.",
         "preciocompra": "600","precioventa": "120",
-        "materiales": "Vial vacío (1) + Polvo de oro (3) + Fragmento de berilio (2) + Hoja de sauce blanco (2)",
+        "materiales": "Vial vacío (1) + Polvo de oro (3) + Fragmento de turmalina (2) + Hoja de sauce blanco (2)",
         "vendidaen": "Todo Enforth",
         "obtenidaen": "Cofres y talleres de alquimia",
         "preciofinal": "Si"
@@ -1495,6 +1810,624 @@
         "preciocompra": "200",
         "materiales": "1 Cuero duro",
         "creadaen": "Taller o Kit de taller",
+        "obtenidaen": "Taller de talabartería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Contratar mercenario",
+        "categoria": "Servicio",
+        "descripcion": "El precio de contratación es por nivel. Tendrá equipamiento de los siguientes tipos, dependiendo del nivel (Max. 5), Cuero > Cobre > Hierro > Plata > Oro",
+        "preciocompra": "500",
+        "obtenidaen": "Clanes de mercenarios",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Alquilar habitación de posada",
+        "categoria": "Servicio",
+        "descripcion": "El precio es por noche.",
+        "preciocompra": "50",
+        "obtenidaen": "Clanes de mercenarios",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Alquilar carroza mercante",
+        "categoria": "Servicio",
+        "descripcion": "El precio es por cuadro. Tiene probabilidad de 50% de ser asaltada en el transcurso al siguiente pueblo/ciudad",
+        "preciocompra": "20",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Alquilar carroza resguardada",
+        "categoria": "Servicio",
+        "descripcion": "El precio es por cuadro. Se detiene en la siguiente ciudad/pueblo.",
+        "preciocompra": "60",
+        "obtenidaen": "Guardia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Vender bandido (Vivo) a la guardia",
+        "categoria": "Servicio",
+        "descripcion": "Entrega al bandido a la guardia y te pagarán.",
+        "precioventa": "300",
+        "obtenidaen": "Guardia",
+        "vendidaen": "Swordsqal y Endricci"
+    }
+    ,
+    {
+        "nombre": "Vender bandido (Muerto) a la guardia",
+        "categoria": "Servicio",
+        "descripcion": "Entrega al bandido a la guardia y te pagarán.",
+        "precioventa": "100",
+        "obtenidaen": "Guardia",
+        "vendidaen": "Swordsqal"
+    }
+    ,
+    {
+        "nombre": "Alquilar caballo",
+        "categoria": "Servicio",
+        "descripcion": "El precio es por día, deberás pagar 3000 si el caballo muere.",
+        "preciocompra": "500",
+        "obtenidaen": "Establos",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Crear carreta",
+        "categoria": "Servicio",
+        "descripcion": "El precio es por día, deberás pagar 3000 si el caballo muere.",
+        "preciocompra": "5000",
+        "materiales": "50 tablones de Madera",
+        "creadaen": "Taller",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Mejorar carreta",
+        "categoria": "Servicio",
+        "descripcion": "Agregará 1 slot de espacio por cada mejora, y se debe realizar en orden de calidad por nivel en herrería",
+        "preciocompra": "1500",
+        "materiales": "10 Lingotes",
+        "creadaen": "Taller y forja",
+        "obtenidaen": "Taller de herrería",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Mensajero",
+        "categoria": "Servicio",
+        "descripcion": "Enviará cartas entre ciudades, tardará un tiempo",
+        "preciocompra": "200",
+        "obtenidaen": "Guardia",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Curarse",
+        "categoria": "Servicio",
+        "descripcion": "Curarte con un médico o doctor, el precio es por punto de vida",
+        "preciocompra": "50",
+        "obtenidaen": "Médico",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Encantar arma",
+        "categoria": "Servicio",
+        "descripcion": "Encantas el arma con un alquimista de nivel 5 o superior, para cambiar el efecto del arma.",
+        "preciocompra": "2000",
+        "materiales": "Pergamino de efecto (1)",
+        "obtenidaen": "Talleres de alquimia",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Curar fractura",
+        "categoria": "Servicio",
+        "descripcion": "Curarte con un médico o doctor, el precio es por fractura",
+        "preciocompra": "500",
+        "obtenidaen": "Médico",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Servicio de carpintero",
+        "categoria": "Casas",
+        "descripcion": "Te cobrará cada habitación que desees hacer.",
+        "preciocompra": "500",
+        "obtenidaen": "Médico",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Comprar casa construida",
+        "categoria": "Casas",
+        "descripcion": "Viene con cocina, habitación y sala de estar. Si fue comprada en ciudad, puede tener 4 habitaciones mas. Si fue comprada fuera de la ciudad y pueblos, tiene 6 habitaciones mas en su lugar.",
+        "preciocompra": "50000", "precioventa": "25000",
+        "obtenidaen": "Guardia",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Comprar terreno",
+        "categoria": "Casas",
+        "descripcion": "Requiere permiso del rey de la zona.",
+        "preciocompra": "60000", "precioventa": "10000",
+        "obtenidaen": "Guardia",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Edificar terreno",
+        "categoria": "Casas",
+        "descripcion": "Edificar a la base de 'Casa construida'",
+        "preciocompra": "20000",
+        "materiales": "200 tablones de madera",
+        "creadaen": "Equipo de taller y terreno",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Habitación vacía",
+        "categoria": "Casas",
+        "descripcion": "Para mejorar la casa",
+        "preciocompra": "1000",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Instalar Forja",
+        "categoria": "Casas",
+        "descripcion": "Se coloca en una habitación libre (Requiere crear habitación primero). Permitirá crear objetos.",
+        "preciocompra": "7000",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Instalar Sala de alquimia",
+        "categoria": "Casas",
+        "descripcion": "Se coloca en una habitación libre (Requiere crear habitación primero). Permitirá crear objetos.",
+        "preciocompra": "7500",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Instalar Dormitorio",
+        "categoria": "Casas",
+        "descripcion": "Se coloca en una habitación libre (Requiere crear habitación primero). Permitirá guardar hasta 10 objetos diferentes en cantidad ilimitada.",
+        "preciocompra": "2000",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Instalar Establo",
+        "categoria": "Casas",
+        "descripcion": "Se coloca en una habitación libre (Requiere crear habitación primero). Permitirá tener hasta 5 animales diferentes, con un máximo de 5 de cada uno.",
+        "preciocompra": "3000",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Instalar Taller",
+        "categoria": "Casas",
+        "descripcion": "Se coloca en una habitación libre (Requiere crear habitación primero). Permitirá crear objetos.",
+        "preciocompra": "5000",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Instalar Huerto",
+        "categoria": "Casas",
+        "descripcion": "Se coloca en una habitación libre (Requiere crear habitación primero). Permitirá plantar hasta 5 plantas diferentes.",
+        "preciocompra": "5000",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Instalar Cofre para lingotes",
+        "categoria": "Casas",
+        "descripcion": "Se coloca en una sala de fabricación. Permite tener hasta 10 objetos de tipo 'Lingote' diferentes, o que sea material para objetos creados por herreros, ilimitadamente.",
+        "preciocompra": "3000",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Instalar Cofre para alquimia",
+        "categoria": "Casas",
+        "descripcion": "Se coloca en una sala de fabricación. Permite tener hasta 10 objetos de tipo 'Material general' diferentes, o que sea material para objetos creados por alquimistas, ilimitadamente.",
+        "preciocompra": "3000",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Instalar Estantería para armamento",
+        "categoria": "Casas",
+        "descripcion": "Se coloca en una sala de fabricación o habitación. Permite tener hasta 10 objetos de tipo 'Armas' diferentes, ilimitadamente.",
+        "preciocompra": "4000",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Instalar Maniquí para armaduras",
+        "categoria": "Casas",
+        "descripcion": "Se coloca en una sala de fabricación o habitación. Permite tener hasta 10 objetos de tipo 'Armadura', 'Extras', o 'Set' diferentes, ilimitadamente. Si una armadura está completa, solo ocupará un slot.",
+        "preciocompra": "2500",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Instalar Librería",
+        "categoria": "Casas",
+        "descripcion": "Se coloca en una sala de fabricación o habitación. Permite tener hasta 10 objetos de tipo 'Libro' o 'Pergamino' diferentes, ilimitadamente.",
+        "preciocompra": "2000",
+        "obtenidaen": "Taller de carpintería",
+        "vendidaen": "Todo Enforth",
+        "preciofinal": "Si"
+    }
+    ,
+    {
+        "nombre": "Mapa o Brújula",
+        "categoria": "General",
+        "descripcion": "Estando en conjunto, permiten obtener puntos en la profesión 'Explorador', el precio es por cada uno.",
+        "preciocompra": "500","precioventa": "100",
+        "obtenidaen": "Cofres, mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Medallón de Karma",
+        "categoria": "General",
+        "descripcion": "Elimina los resultados de tener un karma negativo si se rompe sobre este.",
+        "preciocompra": "1000","precioventa": "50",
+        "obtenidaen": "Cofres, mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Ganzúas",
+        "categoria": "General",
+        "descripcion": "Permite abrir cofres encontrados en exploraciones (Madera, Hierro, Plata y Oro) y puertas. Se debe superar un 15 en 'Forzar cerradura'. ",
+        "preciocompra": "200","precioventa": "50",
+        "obtenidaen": "Cofres, mercado general o Tiendas de ladrones",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Ganzúas de infernita",
+        "categoria": "General",
+        "descripcion": "Antiguas ganzuas creadas con un arte ya olvidado. Permite abrir todo tipo de cerraduras, las de madera, las abrirá sin realizar tirada, pero igualmente se rompen al ser usadas.",
+        "precioventa": "500",
+        "obtenidaen": "Cofres",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Caña de pescar",
+        "categoria": "General",
+        "descripcion": "Permite obtener peces",
+        "preciocompra": "100","precioventa": "10",
+        "obtenidaen": "Cofres, mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cuerda",
+        "categoria": "General",
+        "descripcion": "Con extremos mágicos, pueden unirse piezas pequeñas para formar una cuerda larga, precio por pie.",
+        "preciocompra": "300","precioventa": "50",
+        "obtenidaen": "Cofres, mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Combo de supervivencia",
+        "categoria": "General",
+        "descripcion": "Da objetos generales, relacionados a sobrevivir exploraciones.",
+        "preciocompra": "500",
+        "obtenidaen": "Guardia",
+        "vendidaen": "Capitales"
+    }
+    ,
+    {
+        "nombre": "Equipo de herrería",
+        "categoria": "Equipo portátil",
+        "descripcion": "Permite realizar creaciones que requieran de este, puedes desarmar cofres encontrados para obtener 1 'Piezas rotas' de ese tipo, se pueden fundir en un lingote.",
+        "preciocompra": "2000", "precioventa": "500",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Equipo de taller",
+        "categoria": "Equipo portátil",
+        "descripcion": "Permite realizar creaciones que requieran de este. Puedes crear flechas y lanzas de madera, se romperán tras tres golpes con las mismas.",
+        "preciocompra": "2000", "precioventa": "500",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Equipo de laboratorio",
+        "categoria": "Equipo portátil",
+        "descripcion": "Permite realizar creaciones que requieran de este. Puedes crear pociones de nivel 1.",
+        "preciocompra": "3000", "precioventa": "600",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Equipo de cocina",
+        "categoria": "Equipo portátil",
+        "descripcion": "Permite realizar creaciones que requieran de este. Tiene todo lo necesario para que puedan comer juntos 3 personas.",
+        "preciocompra": "1500", "precioventa": "400",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Bestiario",
+        "categoria": "Libro",
+        "descripcion": "Al tener un bestiario de un animal, obtienes las debilidades del mismo.",
+        "preciocompra": "1000", "precioventa": "200",
+        "obtenidaen": "Cazadores",
+        "vendidaen": "Abbasel"
+    }
+    ,
+    {
+        "nombre": "Libro de pociones Lv1",
+        "categoria": "Libro",
+        "descripcion": "Requerido para crear las pociones de Nivel 1",
+        "preciocompra": "1500", "precioventa": "200",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Libro de pociones Lv2",
+        "categoria": "Libro",
+        "descripcion": "Requerido para crear las pociones de Nivel 2",
+        "preciocompra": "4500", "precioventa": "600",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Libro de pociones Lv3",
+        "categoria": "Libro",
+        "descripcion": "Requerido para crear las pociones de Nivel 3",
+        "preciocompra": "8500", "precioventa": "1000",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Libro de joyería",
+        "categoria": "Libro",
+        "descripcion": "Requerido para crear las joyas",
+        "preciocompra": "30000", "precioventa": "2000",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Libro de herrería con cuarzo",
+        "categoria": "Libro",
+        "descripcion": "Requerido para crear objetos de cuarzo",
+        "preciocompra": "10000", "precioventa": "2000",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Continente de Redain"
+    }
+    ,
+    {
+        "nombre": "Libro de herrería con basalto",
+        "categoria": "Libro",
+        "descripcion": "Requerido para crear objetos de basalto",
+        "preciocompra": "7000", "precioventa": "1500",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Libro de herrería con titanio",
+        "categoria": "Libro",
+        "descripcion": "Requerido para crear objetos de titanio",
+        "preciocompra": "10000", "precioventa": "1800",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Continente de Vaikne"
+    }
+    ,
+    {
+        "nombre": "Libro de herrería con cobalto",
+        "categoria": "Libro",
+        "descripcion": "Requerido para crear objetos de cobalto",
+        "preciocompra": "28000", "precioventa": "3000",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Continente de Suredozo"
+    }
+    ,
+    {
+        "nombre": "Libro de herrería con oricalco",
+        "categoria": "Libro",
+        "descripcion": "Requerido para crear objetos de oricalco",
+        "preciocompra": "35000", "precioventa": "3800",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Continente de Suredozo"
+    }
+    ,
+    {
+        "nombre": "Libro de herrería con luminita",
+        "categoria": "Libro",
+        "descripcion": "Requerido para crear objetos de luminita",
+        "preciocompra": "25000", "precioventa": "2000",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Continente de Fostade"
+    }
+    ,
+    {
+        "nombre": "Libro de herrería con platino",
+        "categoria": "Libro",
+        "descripcion": "Requerido para crear objetos de luminita",
+        "preciocompra": "35000", "precioventa": "5000",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Foreign Frontier"
+    }
+    ,
+    {
+        "nombre": "Libro de herrería con druvix",
+        "categoria": "Libro",
+        "descripcion": "Requerido para crear objetos de druvix",
+        "preciocompra": "90000", "precioventa": "10000",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Desconocido"
+    }
+    ,
+    {
+        "nombre": "Recetas de armas",
+        "categoria": "Pergamino",
+        "descripcion": "Cuesta el 10% del costo del libro correspondiente (Ej. Espada larga de druvix, sería el 10% del Libro de herrería con druvix)",
+        "preciocompra": "35000", "precioventa": "5000",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Foreign Frontier"
+    }
+    ,
+    {
+        "nombre": "Receta de escopeta",
+        "categoria": "Pergamino",
+        "descripcion": "Permite crear la escopeta.",
+        "preciocompra": "12000",
+        "obtenidaen": "Bibliotecas",
+        "vendidaen": "Endricci"
+    }
+    ,
+    {
+        "nombre": "Receta de cañón de mano",
+        "categoria": "Pergamino",
+        "descripcion": "Cuesta el 10% del costo del libro correspondiente (Ej. Espada larga de druvix, sería el 10% del Libro de herrería con druvix)",
+        "preciocompra": "15000",
+        "obtenidaen": "Bibliotecas",
+        "vendidaen": "Endricci"
+    }
+    ,
+    {
+        "nombre": "Receta de rifle de precisión",
+        "categoria": "Pergamino",
+        "descripcion": "Cuesta el 10% del costo del libro correspondiente (Ej. Espada larga de druvix, sería el 10% del Libro de herrería con druvix)",
+        "preciocompra": "18000",
+        "obtenidaen": "Bibliotecas",
+        "vendidaen": "Endricci"
+    }
+    ,
+    {
+        "nombre": "Encantamiento arcano",
+        "categoria": "Pergamino",
+        "descripcion": "Permite encantar un arma en 'Arcano', cambiando su daño por mágico",
+        "preciocompra": "500", "precioventa": "50",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Encantamiento de fuego",
+        "categoria": "Pergamino",
+        "descripcion": "Permite encantar un arma en 'Fuego', cambiando su efecto por quemadura",
+        "preciocompra": "800", "precioventa": "100",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Encantamiento de hielo",
+        "categoria": "Pergamino",
+        "descripcion": "Permite encantar un arma en 'Hielo', cambiando su efecto por congelamiento",
+        "preciocompra": "800", "precioventa": "100",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Encantamiento de electricidad",
+        "categoria": "Pergamino",
+        "descripcion": "Permite encantar un arma en 'Electricidad', cambiando su efecto por estatizado",
+        "preciocompra": "800", "precioventa": "100",
+        "obtenidaen": "Cofres y bibliotecas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Encantamiento de veneno",
+        "categoria": "Pergamino",
+        "descripcion": "Permite encantar un arma en 'Veneno', cambiando su efecto por veneno",
+        "obtenidaen": "Cofres",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Encantamiento de absorción",
+        "categoria": "Pergamino",
+        "descripcion": "Permite encantar un arma en 'Vampirismo', cambiando su efecto por absorción",
+        "obtenidaen": "Cofres",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Encantamiento de saqueo",
+        "categoria": "Pergamino",
+        "descripcion": "Permite encantar un arma en 'Usurpador', cambiando su efecto por saqueo",
+        "obtenidaen": "Cofres",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Encantamiento de oscuridad",
+        "categoria": "Pergamino",
+        "descripcion": "Permite encantar un arma en 'Oscuridad', cambiando su efecto por oscuridad",
+        "obtenidaen": "Cofres",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Grimorio de alquimia",
+        "categoria": "Libro",
+        "descripcion": "Permitirá crear pociones de cualquier nivel (El precio es por crearlo)",
+        "precioventa": "2000",
+        "materiales": "Libro de Alquimia Lv1 (1) + Libro de Alquimia Lv2 (1) + Libro de Alquimia Lv3 (1)",
+        "creadaen": "Taller",
         "obtenidaen": "Taller de talabartería",
         "vendidaen": "Todo Enforth"
     }
@@ -2009,7 +2942,7 @@
         "categoria": "Joyas",
         "descripcion": "Inicias el combate con 1 núcleo de maná (No acumulable)",
         "preciocompra": "500",
-        "materiales": "Armazón de titanio (1) + Fragmento de rubí (2) + Fragmento de zafiro (2) + Fragmento de berilio (2) + Fragmento de amatista (2)",
+        "materiales": "Armazón de titanio (1) + Fragmento de rubí (2) + Fragmento de zafiro (2) + Fragmento de turmalina (2) + Fragmento de amatista (2)",
         "creadaen": "Forja",
         "obtenidaen": "Cofres y tiendas de joyería",
         "vendidaen": "Todo Enforth"
@@ -2196,7 +3129,7 @@
         "categoria": "Joyas",
         "descripcion": "Aumenta la probabilidad de causar estatizado en 5% para todas las fuentes y el daño eléctrico en 1. Inmune al estatizado. No acumulable.",
         "preciocompra": "1200",
-        "materiales": "Armazón de cobalto (1) + Fragmento de berilio (6) + Fragmento de diamante (2)",
+        "materiales": "Armazón de cobalto (1) + Fragmento de turmalina (6) + Fragmento de diamante (2)",
         "creadaen": "Forja",
         "obtenidaen": "Cofres y tiendas de joyería",
         "vendidaen": "Todo Enforth"
@@ -2283,6 +3216,60 @@
         "descripcion": "Obtienes una acción de utilidad adicional, durante un combate o exploración",
         "preciocompra": "200", "precioventa": "20",
         "obtenidaen": "Diferentes plantas",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Harina",
+        "categoria": "Alimentos",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "100", "precioventa": "25",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Azúcar",
+        "categoria": "Alimentos",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "150", "precioventa": "40",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Cacao en grano",
+        "categoria": "Alimentos",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "200", "precioventa": "50",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Huevo",
+        "categoria": "Alimentos",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "50", "precioventa": "10",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Leche",
+        "categoria": "Alimentos",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "75", "precioventa": "15",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Todo Enforth"
+    }
+    ,
+    {
+        "nombre": "Café en grano",
+        "categoria": "Alimentos",
+        "descripcion": "Utilizable para creaciones.",
+        "preciocompra": "250", "precioventa": "50",
+        "obtenidaen": "Mercado general",
         "vendidaen": "Todo Enforth"
     }
     ,

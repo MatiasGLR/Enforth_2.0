@@ -91,6 +91,8 @@ async function cargar_objeto(objeto) {
                 `);
                 if(creacionfinal == 0 && json_a.materiales) str = str.concat("<br><b class='text-danger'>El precio de compra y venta de un objeto que requiera materiales, será el precio del servicio para crear el producto, deberán agregarse además, los materiales para tener el precio total</b>");
                 if(creacionfinal == 1 && json_a.materiales) str = str.concat("<br><b class='text-success'>Este objeto ya tiene su precio final, no es necesario agregar los objetos adicionales</b>");
+                if(json_a.categoria == "Pociones") str = str.concat("<br><b class='text-info'>Crear pociones requerirá tener el Libro de alquimia del nivel de la poción</b>");
+                if(json_a.categoria == "Joyas") str = str.concat("<br><b class='text-info'>Crear joyas requerirá tener el Libro de joyería</b>");
                 document.querySelector("#titulo_objeto").innerHTML = json_a.nombre;
                 document.querySelector("#datos_objeto").innerHTML = str;
                 document.querySelector("#botones_agregar_carrito").innerHTML = `
