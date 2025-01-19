@@ -1527,7 +1527,7 @@
     {
         "nombre": "Kit de Primeros Auxilios",
         "categoria": "Medicina",
-        "descripcion": "Elimina todas las cargas de sangrado o veneno",
+        "descripcion": "Elimina todas las cargas de sangrado o veneno. Requiere conocimiento en Medicina para usarlo.",
         "preciocompra": "1800","precioventa": "300",
         "vendidaen": "Todo Enforth",
         "obtenidaen": "Médicos",
