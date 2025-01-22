@@ -1,0 +1,9 @@
+[
+    {
+        "icon": "./files/hechizos/1.png",
+        "hechizo": "Antinicos",
+        "descripcion": "Consume 1 núcleo de maná, para ganar un núcleo de maná",
+        "elemento": "Arcano",
+        "conjurador": "Mago"
+    }
+]

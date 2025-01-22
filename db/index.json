@@ -40,4 +40,10 @@
         "imagen": "./files/index/creacion.png",
         "file": "creacion.html"
     }
+    ,
+    {
+        "titulo": "Listado de hechizos",
+        "imagen": "./files/index/hechizos.png",
+        "file": "hechizos.html"
+    }
 ]
