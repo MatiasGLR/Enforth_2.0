@@ -2,6 +2,7 @@
     {
         "id": "1","tipo": "Hechizo",
         "icon": "./files/hechizos/1.png",
+        "gif": "./files/hechizos/1.gif",
         "hechizo": "Bola de fuego pequeña", "escuela": "Fuego",
         "descripcion": "Lanza una pequeña bola de fuego, que impactará contra el primer obstáculo (Objeto, ser, etc.) que se encuentre en su camino, causando 1d6+Int de daño.",
         "costouso": "1 Núcleo + 1 Acción de ataque",
@@ -12,18 +13,33 @@
     {
         "id": "2","tipo": "Hechizo",
         "icon": "./files/hechizos/2.png",
+        "gif": "./files/hechizos/2.gif",
         "hechizo": "Filo igneo", "escuela": "Fuego",
-        "descripcion": "Imbuye el arma en la mano opuesta al canalizador (Si no hay canalizador en mano, puede ser a cualquiera de ambas manos) en un brillo anaranjado, que cambia el efecto del arma por quemadura.",
-        "costouso": "2 Núcleos + 1 Acción de utilidad"
+        "descripcion": "Imbuye el arma en la mano opuesta al canalizador (Si no hay canalizador en mano, puede ser a cualquiera de ambas manos) en llamas, que cambia el efecto del arma por quemadura.",
+        "costouso": "2 Núcleos + 1 Acción de utilidad",
+        "duración": "1 Ronda o 20 minutos"
     }
     ,
     {
         "id": "3","tipo": "Hechizo",
         "icon": "./files/hechizos/3.png",
+        "gif": "./files/hechizos/3.gif",
         "hechizo": "Zona ardiente", "escuela": "Fuego",
-        "descripcion": "Convierte la zona debajo de ti en llamas, por lo que causa quemadura asegurada a todos los que al inicio de su turno estén sobre él, y los que entren en el área.",
+        "descripcion": "Convierte la zona debajo de ti en llamas, por lo que causa quemadura asegurada a todos los que al inicio de su turno estén sobre él, y los que entren en el área. Tu no eres afectado por esta zona.",
         "costouso": "3 Núcleos + 1 Acción de utilidad",
         "efecto": "Quemadura",
-        "area": "3x3"
+        "area": "3x3",
+        "duración": "1 Ronda o 20 minutos"
+    }
+    ,
+    {
+        "id": "4","tipo": "Hechizo",
+        "icon": "./files/hechizos/4.png",
+        "gif": "./files/hechizos/4.gif",
+        "hechizo": "Flecha de fuego", "escuela": "Fuego",
+        "descripcion": "Genera una flecha con tus manos, la cuál es arrojada a alta velocidad en una dirección, impactando contra el primer ser u objeto, causando 1d6+3 de daño, y teniendo +2 en su precisión",
+        "costouso": "2 Núcleos + 1 Acción de ataque",
+        "efecto": "Quemadura",
+        "duración": "1 Ronda o 20 minutos"
     }
 ]

@@ -31,11 +31,26 @@ async function mostrardatos(id) {
             if(id == json_a.id){
                 let yes = 1;
                 if(yes == 1) {
-                    let costouso = "", distancia = "", area = "", efecto = "";
+                    let costouso = "", distancia = "", area = "", efecto = "", gif = "";
                     if(json_a.costouso && json_a.costouso.length > 0) costouso = "<b>Costo de uso.</b> "+json_a.costouso+"";
                     if(json_a.distancia && json_a.distancia.length > 0) distancia = "<br><b>Distancia de efecto.</b> "+json_a.distancia+"";
-                    if(json_a.area && json_a.area.length > 0) area = "<br><b>Area de efecto.</b> "+json_a.area+"";
                     if(json_a.efecto && json_a.efecto.length > 0) efecto = "<br><b>Efecto.</b> "+json_a.efecto+"";
+                    if(json_a.gif && json_a.gif.length > 0) gif = "<img style='width:100%; margin-top:10px' src='"+json_a.gif+"'>"
+                    if(json_a.area && json_a.area.length > 0) {
+                        if(json_a.area == "3x3") {
+                            area = `
+                            <span class="text-center">
+                                <br><b>Area de efecto (La zona gris representa al jugador):</b>
+                            
+                                <div class="grid gridtable justify-content-center">
+                                    <div class="cell"></div><div class="cell"></div><div class="cell"></div>
+                                    <div class="cell"></div><div class="cell" style="background-color:gray;"></div><div class="cell"></div>
+                                    <div class="cell"></div><div class="cell"></div><div class="cell"></div>
+                                </div>
+                            </span>
+                        `
+                        }
+                    }
                     $("#titulo_objeto").html(json_a.hechizo);
                     $("#datos_objeto").html(`
                         <div class="w-100 text-center">
@@ -46,8 +61,9 @@ async function mostrardatos(id) {
                         <div style="margin: 0; text-align: justify; text-justify: inter-word;"><b>Descripción.</b> `+json_a.descripcion+`</div>
                         `+costouso+`
                         `+distancia+`
-                        `+area+`
                         `+efecto+`
+                        `+area+`
+                        `+gif+`
                     `);
                     modal();
                 }
