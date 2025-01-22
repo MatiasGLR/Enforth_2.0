@@ -14,7 +14,7 @@ async function read_index_json() {
             const json_a = JSON.parse(JSON.stringify(index_json[i][1]));
             if(yes == 1) {
                 str2 = str2.concat(`
-                <tr role="button" style="cursor:pointer" data-toggle="collapse" data-target="#hechizo_`+json_a.id+`" aria-expanded="true" aria-controls="hechizo_`+json_a.id+`" onclick="$('#hechizo_`+json_a.id+`').collapse('show')">
+                <tr role="button" style="cursor:pointer" onclick="$('#hechizo_`+json_a.id+`').collapse('show')">
                     <td class="align-middle text-center" colspan="1"><img style="width:50px" src='`+json_a.icon+`'></td>
                     <td class="align-middle" colspan="2">`+json_a.hechizo+`</td>
                     <td class="align-middle" colspan="1">`+json_a.escuela+`</td>
