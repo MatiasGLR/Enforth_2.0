@@ -42,7 +42,7 @@
     }
     ,
     {
-        "titulo": "Listado de hechizos",
+        "titulo": "Hechizos y tácticas",
         "imagen": "./files/index/hechizos.png",
         "file": "hechizos.html"
     }

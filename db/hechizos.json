@@ -1,10 +1,9 @@
 [
     {
-        "id": "1",
+        "id": "1","tipo": "Hechizo",
         "icon": "./files/hechizos/1.png",
-        "hechizo": "Antinicos",
-        "descripcion": "Consume 1 núcleo de maná, para ganar un núcleo de maná",
-        "escuela": "Arcano",
+        "hechizo": "Antinicos", "escuela": "Fuego",
+        "descripcion": "Consume 2 núcleos de maná, para ganar un núcleo de maná.",
         "costouso": "",
         "distancia": "",
         "area": ""
