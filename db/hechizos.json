@@ -2,10 +2,28 @@
     {
         "id": "1","tipo": "Hechizo",
         "icon": "./files/hechizos/1.png",
-        "hechizo": "Antinicos", "escuela": "Fuego",
-        "descripcion": "Consume 2 núcleos de maná, para ganar un núcleo de maná.",
-        "costouso": "",
-        "distancia": "",
-        "area": ""
+        "hechizo": "Bola de fuego pequeña", "escuela": "Fuego",
+        "descripcion": "Lanza una pequeña bola de fuego, que impactará contra el primer obstáculo (Objeto, ser, etc.) que se encuentre en su camino, causando 1d6+Int de daño.",
+        "costouso": "1 Núcleo + 1 Acción de ataque",
+        "efecto": "Quemadura",
+        "distancia": "15ft linear"
+    }
+    ,
+    {
+        "id": "2","tipo": "Hechizo",
+        "icon": "./files/hechizos/2.png",
+        "hechizo": "Filo igneo", "escuela": "Fuego",
+        "descripcion": "Imbuye el arma en la mano opuesta al canalizador (Si no hay canalizador en mano, puede ser a cualquiera de ambas manos) en un brillo anaranjado, que cambia el efecto del arma por quemadura.",
+        "costouso": "2 Núcleos + 1 Acción de utilidad"
+    }
+    ,
+    {
+        "id": "3","tipo": "Hechizo",
+        "icon": "./files/hechizos/3.png",
+        "hechizo": "Zona ardiente", "escuela": "Fuego",
+        "descripcion": "Convierte la zona debajo de ti en llamas, por lo que causa quemadura asegurada a todos los que al inicio de su turno estén sobre él, y los que entren en el área.",
+        "costouso": "3 Núcleos + 1 Acción de utilidad",
+        "efecto": "Quemadura",
+        "area": "3x3"
     }
 ]

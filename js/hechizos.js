@@ -31,7 +31,11 @@ async function mostrardatos(id) {
             if(id == json_a.id){
                 let yes = 1;
                 if(yes == 1) {
-                    let costouso = "", distancia = "", area = "";
+                    let costouso = "", distancia = "", area = "", efecto = "";
+                    if(json_a.costouso && json_a.costouso.length > 0) costouso = "<b>Costo de uso.</b> "+json_a.costouso+"";
+                    if(json_a.distancia && json_a.distancia.length > 0) distancia = "<br><b>Distancia de efecto.</b> "+json_a.distancia+"";
+                    if(json_a.area && json_a.area.length > 0) area = "<br><b>Area de efecto.</b> "+json_a.area+"";
+                    if(json_a.efecto && json_a.efecto.length > 0) efecto = "<br><b>Efecto.</b> "+json_a.efecto+"";
                     $("#titulo_objeto").html(json_a.hechizo);
                     $("#datos_objeto").html(`
                         <div class="w-100 text-center">
@@ -39,10 +43,11 @@ async function mostrardatos(id) {
                             <b>`+json_a.escuela+`</b>
                         </div>
                         <br>
-                        <b>Descripción.</b> `+json_a.descripcion+`
+                        <div style="margin: 0; text-align: justify; text-justify: inter-word;"><b>Descripción.</b> `+json_a.descripcion+`</div>
                         `+costouso+`
                         `+distancia+`
                         `+area+`
+                        `+efecto+`
                     `);
                     modal();
                 }
