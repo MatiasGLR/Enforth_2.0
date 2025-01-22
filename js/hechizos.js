@@ -5,111 +5,34 @@ let carrito = [];
 let carrito_compra = [];
 
 async function read_index_json() {
-    let str2 = "", lista_objetos = "";
+    let str2 = "";
 
-    await $.get("./db/items.json", function(textString) {
+    await $.get("./db/hechizos.json", function(textString) {
         const index_json = Object.entries(textString);
         for(let i = 0; i < index_json.length ; i++) {
-            const categoria_val = String(input_categoria.value),
-            nombre_val = String(input_nombre.value);
             let yes = 1;
             const json_a = JSON.parse(JSON.stringify(index_json[i][1]));
-            let li_pv = 0, li_pc = 0;
-            if(json_a.preciocompra) li_pc = Number(json_a.preciocompra);
-            if(json_a.precioventa) li_pv = Number(json_a.precioventa);
-            lista_objetos = lista_objetos.concat(`<option data-nombre='`+json_a.nombre+`' data-compra='`+li_pc+`' data-venta='`+li_pv+`'>`+json_a.nombre+`</option>`);
-            if(categoria_val != "") { if(!String(json_a.categoria).toLowerCase().includes(categoria_val.toLowerCase())) yes = 0; }
-            if(nombre_val != "") { if(!String(json_a.nombre).toLowerCase().includes(nombre_val.toLowerCase()) && !String(json_a.descripcion).toLowerCase().includes(nombre_val.toLowerCase()) ) yes = 0; }
             if(yes == 1) {
                 str2 = str2.concat(`
-                <tr>
-                    <td class="align-middle" colspan="2">`+json_a.nombre+`</td>
-                    <td class="align-middle text-center"><a href='#' onclick="document.querySelector('#categoria').value='`+json_a.categoria+`'; read_index_json();">`+json_a.categoria+`</a></td>
-                    <td class="align-middle text-center"><button class="btn btn-light" onclick="cargar_objeto('`+json_a.nombre+`')">Más información</button></td>
+                <tr role="button" style="cursor:pointer" data-toggle="collapse" data-target="#hechizo_`+json_a.id+`" aria-expanded="true" aria-controls="hechizo_`+json_a.id+`" onclick="$('#hechizo_`+json_a.id+`').collapse('show')">
+                    <td class="align-middle text-center" colspan="1"><img style="width:50px" src='`+json_a.icon+`'></td>
+                    <td class="align-middle" colspan="2">`+json_a.hechizo+`</td>
+                    <td class="align-middle" colspan="1">`+json_a.escuela+`</td>
+                </tr>
+                <tr id="#hechizo_`+json_a.id+`" class="collapse" aria-labelledby="hechizo_`+json_a.id+`" data-parent="#listado_datos">
+                    <td colspan="4">
+                        <span class="m-2 bg-white">
+                            <span class="p-2 w-100">
+                                aaaaaa
+                            </span>
+                        </span>
+                    </td>
                 </tr>
                 `);
             }
         }
     });
-    document.querySelector("#agregado_rapido").innerHTML = lista_objetos;
     document.querySelector("#listado_datos").innerHTML = str2;
-}
-
-async function cargar_objeto(objeto) {
-    var str = "";
-
-    await $.get("./db/items.json", function(textString) {
-        const index_json = Object.entries(textString);
-        for(let i = 0; i < index_json.length ; i++) {
-            const nombre_val = input_nombre.value, json_a = JSON.parse(JSON.stringify(index_json[i][1]));
-            if(objeto != "" && json_a.nombre.toLowerCase().includes(objeto.toLowerCase())) {
-                let vendidaen = ``, material = "", obtenida = "", creada = "", descripcion = "", creacionfinal = 0, preciocompra = "<b>Precio de compra:</b> No se compra<br>", precioventa = "<b>Precio de venta:</b> No se vende<br>";
-                if(json_a.obtenidaen && json_a.obtenidaen.length > 1) obtenida = `<b>Obtenida en:</b> `+json_a.obtenidaen+`<br>`;
-                if(json_a.materiales && json_a.materiales.length > 1) material = `<b>Materiales:</b> `+json_a.materiales+`<br>`;
-                if(json_a.creadaen && json_a.creadaen.length > 1) creada = `<b>Creada en:</b> `+json_a.creadaen+`<br>`;
-                if(json_a.preciofinal) creacionfinal = 1;
-                if(json_a.preciocompra) preciocompra = `<b>Precio de compra:</b> `+json_a.preciocompra+`<br>`;
-                if(json_a.precioventa) precioventa = `<b>Precio de venta:</b> `+json_a.precioventa+`<br>`;
-                if(json_a.vendidaen) vendidaen = `<b>Zona de comercio:</b> `+json_a.vendidaen+`<br>`;
-                if(json_a.categoria.includes("Armas")) {
-                    descripcion = `
-                        <div style="width:100%; background-color:#333; padding:8px; color:white;">
-                            <div class="text-center">
-                                <b>Datos del arma</b><br>
-                            </div>
-                            <div class="text-start">
-                                <b>Daño. </b>`+json_a.dañoarma+`<br>
-                                <b>Efecto. </b>`+json_a.efectoarma+`<br>
-                                <b>Habilidad. </b><x class="text-info">`+json_a.habilidadarmat+`. </x>`+json_a.habilidadarma+`<br>
-                            </div>
-                        </div>
-                    `; 
-                } else if(json_a.categoria == "Arma a distancia") {
-                    descripcion = `
-                        <div style="width:100%; background-color:#333; padding:8px; color:white;">
-                            <div class="text-center">
-                                <b>Datos del arma</b><br>
-                            </div>
-                            <div class="text-start">
-                                <b>Daño. </b>`+json_a.dañoarma+`<br>
-                                <b>Efecto. </b>Determinado por la bala, ver efectos por material<br>
-                                <b>Distancia de tiro. </b>`+json_a.distancia+`<br>
-                                <b>Habilidad. </b><x class="text-info">`+json_a.habilidadarmat+`. </x>`+json_a.habilidadarma+`<br>
-                            </div>
-                        </div>
-                    `; 
-                } else descripcion = `<b>Descripción:</b><br> `+json_a.descripcion+`<br>`
-                str = str.concat(`
-                    <b>Categoría:</b> `+json_a.categoria+`<br>
-                    `+preciocompra+`
-                    `+precioventa+`
-                    `+vendidaen+`<br>
-                    `+material+`
-                    `+creada+`
-                    `+obtenida+`<br>
-                    `+descripcion+`
-                `);
-                if(creacionfinal == 0 && json_a.materiales) str = str.concat("<br><b class='text-danger'>El precio de compra y venta de un objeto que requiera materiales, será el precio del servicio para crear el producto, deberán agregarse además, los materiales para tener el precio total</b>");
-                if(creacionfinal == 1 && json_a.materiales) str = str.concat("<br><b class='text-success'>Este objeto ya tiene su precio final, no es necesario agregar los objetos adicionales</b>");
-                if(json_a.categoria == "Pociones") str = str.concat("<br><b class='text-info'>Crear pociones requerirá tener el Libro de alquimia del nivel de la poción</b>");
-                if(json_a.categoria == "Joyas") str = str.concat("<br><b class='text-info'>Crear joyas requerirá tener el Libro de joyería</b>");
-                document.querySelector("#titulo_objeto").innerHTML = json_a.nombre;
-                document.querySelector("#datos_objeto").innerHTML = str;
-                document.querySelector("#botones_agregar_carrito").innerHTML = `
-                        <input id="cantidad_agregar" type="number" min='0' max='1000' style="width:80px" placeholder="Cantidad">
-                        <button onclick="agregaritem_compra('`+json_a.nombre+`', `+json_a.preciocompra+`)" type="button" class="btn btn-info" data-bs-dismiss="modal">A la compra</button>
-                        <button onclick="agregaritem('`+json_a.nombre+`', `+json_a.precioventa+`)" type="button" class="btn btn-success" data-bs-dismiss="modal">A la venta</button>
-                        <button onclick="modal()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <br>
-                        <span id="error_div"></span>`;
-                modal();
-                break;
-            }
-        }
-    });
-
-    
-    
 }
 
 input_categoria.addEventListener("input", () => {
