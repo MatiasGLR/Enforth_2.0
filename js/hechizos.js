@@ -31,10 +31,11 @@ async function mostrardatos(id) {
             if(id == json_a.id){
                 let yes = 1;
                 if(yes == 1) {
-                    let costouso = "", distancia = "", area = "", efecto = "", gif = "";
+                    let costouso = "", distancia = "", area = "", efecto = "", gif = "", requiere = "";
                     if(json_a.costouso && json_a.costouso.length > 0) costouso = "<b>Costo de uso.</b> "+json_a.costouso+"";
                     if(json_a.distancia && json_a.distancia.length > 0) distancia = "<br><b>Distancia de efecto.</b> "+json_a.distancia+"";
                     if(json_a.efecto && json_a.efecto.length > 0) efecto = "<br><b>Efecto.</b> "+json_a.efecto+"";
+                    if(json_a.requiere && json_a.requiere.length > 0) requiere = "<br><b>Requerimiento.</b> "+json_a.requiere+"";
                     if(json_a.gif && json_a.gif.length > 0) gif = "<img style='width:100%; margin-top:10px' src='"+json_a.gif+"'>"
                     if(json_a.area && json_a.area.length > 0) {
                         if(json_a.area == "3x3") {
@@ -62,6 +63,7 @@ async function mostrardatos(id) {
                         `+costouso+`
                         `+distancia+`
                         `+efecto+`
+                        `+requiere+`
                         `+area+`
                         `+gif+`
                     `);
