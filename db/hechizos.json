@@ -57,12 +57,11 @@
     }
     ,
     {
-        "id": "5","tipo": "Hechizo",
-        "icon": "./files/hechizos/fuego_5.png",
-        "gif": "./files/hechizos/fuego_5.gif",
-        "requiere": "Nivel 3 de Mago Piromante",
-        "hechizo": "Alta Presión", "escuela": "Fuego",
-        "descripcion": "Debes canalizar el poder durante una ronda, mediante meditación, el atacar o utilizar objetos cancelará la canalización. Al inicio de tu siguiente turno, tu siguiente ataque de fuego tendrá radio aumentado en 1 (En caso de ser un ataque en área), el doble de daño, y pondrá una quemadura adicional asegurada.",
-        "costouso": "5 Núcleos + 1 Acción de ataque + Terminar tu turno"
+        "id": "6","tipo": "Hechizo",
+        "icon": "./files/hechizos/fuego_6.png",
+        "gif": "./files/hechizos/fuego_6.gif",
+        "hechizo": "Impacto Caliente", "escuela": "Fuego",
+        "descripcion": "Deten y destruye un proyectil no metálico que se encuentre en dirección a ti, o que pase a 5ft de tí, requiere un canalizador, o un arma inbuida en fuego con este canalizador.",
+        "costouso": "1 Núcleo + 1 Acción de utilidad"
     }
 ]
