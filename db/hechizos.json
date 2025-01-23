@@ -43,7 +43,8 @@
         "descripcion": "Genera una flecha con tus manos, la cuál es arrojada a alta velocidad en una dirección, impactando contra el primer ser u objeto, causando 1d6+3 de daño, y teniendo +2 en su precisión <fu>(En el caso de la animación, la mano derecha debe tener el canalizador)</fu>",
         "costouso": "2 Núcleos + 1 Acción de ataque",
         "efecto": "Quemadura",
-        "duración": "1 Ronda o 20 minutos"
+        "duración": "1 Ronda o 20 minutos",
+        "distancia": "20ft linear"
     }
     ,
     {
@@ -63,5 +64,103 @@
         "hechizo": "Impacto Caliente", "escuela": "Fuego",
         "descripcion": "Deten y destruye un proyectil no metálico que se encuentre en dirección a ti, o que pase a 5ft de tí, requiere un canalizador, o un arma inbuida en fuego con este canalizador.",
         "costouso": "1 Núcleo + 1 Acción de utilidad"
+    }
+    ,
+    {
+        "id": "7","tipo": "Hechizo",
+        "icon": "./files/hechizos/fuego_7.png",
+        "gif": "./files/hechizos/fuego_7.gif",
+        "requiere": "Nivel 5 de Mago",
+        "hechizo": "Ebullición Amplia", "escuela": "Fuego",
+        "descripcion": "Cuando recibes un ataque mágico de fuego a distancia de parte de un enemigo, puedes detenerlo, y relanzarlo en un cono de 45º, causando 1d6+Int de daño a todos los seres en su camino",
+        "costouso": "2 Núcleos",
+        "efecto": "Quemadura",
+        "distancia": "15ft"
+    }
+    ,
+    {
+        "id": "8","tipo": "Hechizo",
+        "icon": "./files/hechizos/fuego_8.png",
+        "gif": "./files/hechizos/fuego_8.gif",
+        "requiere": "Nivel 3 de Mago Piromante",
+        "hechizo": "Aliento Ardiente", "escuela": "Fuego",
+        "descripcion": "Expulsas una llamarada a 45º frente a ti, causando 1d6 de daño + 1 por quemadura que tenga el atacado.",
+        "costouso": "3 Núcleos + 1 Acción de ataque",
+        "efecto": "Quemadura",
+        "distancia": "5ft"
+    }
+    ,
+    {
+        "id": "9","tipo": "Hechizo",
+        "icon": "./files/hechizos/fuego_9.png",
+        "gif": "./files/hechizos/fuego_9.gif",
+        "requiere": "Nivel 2 de Mago Piromante",
+        "hechizo": "Armadura de Magma", "escuela": "Fuego",
+        "descripcion": "Imbuye tu armadura en fuego, por lo que te vuelve inmune al daño del siguiente ataque de fuego, y los enemigos que te ataquen cuerpo a cuerpo obtienen quemadura asegurada.",
+        "costouso": "3 Núcleos + 1 Acción de ataque",
+        "distancia": "5ft",
+        "duración": "1 Ronda o 30 minutos"
+    }
+    ,
+    {
+        "id": "10",
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/hielo_1.png",
+        "gif": "./files/hechizos/hielo_1.gif",
+        "hechizo": "Pico Helado",
+        "escuela": "Hielo",
+        "descripcion": "Invoca un pico de hielo que se lanza hacia una dirección, causando daño 1d6 de daño y causando una carga de congelación asegurada.",
+        "costouso": "1 Núcleo + 1 Acción de ataque",
+        "distancia": "15ft"
+    }
+    ,
+    {
+        "id": "11",
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/hielo_2.png",
+        "gif": "./files/hechizos/hielo_2.gif",
+        "requiere": "Nivel 2 de Mago",
+        "hechizo": "Manto Glacial",
+        "escuela": "Hielo",
+        "descripcion": "Cubre tu cuerpo en una capa de hielo, aumentando tu armadura mágica en 3 puntos. Los enemigos a 5ft de ti, ven su turno reducido en 1.",
+        "costouso": "3 Núcleos + 1 Acción de utilidad",
+        "duración": "1 Ronda o 1 hora"
+    }
+    ,
+    {
+        "id": "12",
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/hielo_3.png",
+        "gif": "./files/hechizos/hielo_3.gif",
+        "requiere": "Nivel 3 de Mago Cryomante",
+        "hechizo": "Estalactitas",
+        "escuela": "Hielo",
+        "descripcion": "Dispara 3 estalactitas de hielo en una dirección, causando 1d4 de daño por cada uno que impacte. Si el enemigo tenia una carga de congelación, aumenta en 1 el daño de cada impacto.",
+        "costouso": "3 Núcleos + 1 Acción de ataque",
+        "distancia": "30ft"
+    }
+    ,
+    {
+        "id": "13",
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/hielo_4.png",
+        "gif": "./files/hechizos/hielo_4.gif",
+        "requiere": "Nivel 2 de Mago",
+        "hechizo": "Terreno Congelado",
+        "escuela": "Hielo",
+        "descripcion": "Enfría el suelo en un área de 5x5, causando congelamiento a todos los que estén en ese área, incluido el conjurador.",
+        "costouso": "4 Núcleos + 1 Acción de utilidad",
+        "area": "5x5"
+    }
+    ,
+    {
+        "id": "14",
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/hielo_5.png",
+        "gif": "./files/hechizos/hielo_5.gif",
+        "hechizo": "Flecha de hielo",
+        "escuela": "Hielo",
+        "descripcion": "Crea una flecha de hielo, usable con el arco, que al impactar contra un ser, le causa congelamiento asegurado.",
+        "costouso": "1 Núcleo"
     }
 ]

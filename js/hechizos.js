@@ -43,10 +43,25 @@ async function mostrardatos(id) {
                             <span class="text-center">
                                 <br><b>Area de efecto (La zona gris representa al jugador):</b>
                             
-                                <div class="grid gridtable justify-content-center">
+                                <div class="grid z33 gridtable justify-content-center">
                                     <div class="cell"></div><div class="cell"></div><div class="cell"></div>
                                     <div class="cell"></div><div class="cell" style="background-color:gray;"></div><div class="cell"></div>
                                     <div class="cell"></div><div class="cell"></div><div class="cell"></div>
+                                </div>
+                            </span>
+                        `
+                        }
+                        if(json_a.area == "5x5") {
+                            area = `
+                            <span class="text-center">
+                                <br><b>Area de efecto (La zona gris representa al jugador):</b>
+                            
+                                <div class="grid z55 gridtable justify-content-center">
+                                    <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+                                    <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+                                    <div class="cell"></div><div class="cell"></div><div class="cell" style="background-color:gray;"></div><div class="cell"></div><div class="cell"></div>
+                                    <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+                                    <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
                                 </div>
                             </span>
                         `
