@@ -66,6 +66,18 @@ async function mostrardatos(id) {
                             </span>
                         `
                         }
+                        if(json_a.area == "3x1") {
+                            area = `
+                            <span class="text-center">
+                                <br><b>Area de efecto (La zona gris representa al jugador):</b>
+                            
+                                <div class="grid z33 gridtable justify-content-center">
+                                    <div class="cell"></div><div class="cell"></div><div class="cell"></div>
+                                    <div class="cell" style="border:none"></div><div class="cell" style="background-color:gray;"></div><div class="cell" style="border:none"></div>
+                                </div>
+                            </span>
+                        `
+                        }
                     }
                     $("#titulo_objeto").html(json_a.hechizo);
                     $("#datos_objeto").html(`

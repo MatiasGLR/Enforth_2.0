@@ -163,4 +163,41 @@
         "descripcion": "Crea una flecha de hielo, usable con el arco, que al impactar contra un ser, le causa congelamiento asegurado.",
         "costouso": "1 Núcleo"
     }
+    ,
+    {
+        "id": "15",
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/hielo_6.png",
+        "gif": "./files/hechizos/hielo_6.gif",
+        "requiere": "Nivel 4 de Mago",
+        "hechizo": "Respiración Ártica",
+        "escuela": "Hielo",
+        "descripcion": "Exhalas una ráfaga de viento helado que causa 1d8 de daño en un cono de 45º y empuja a los seres hacia atrás (en relación al conjurador) 1 casilla.",
+        "costouso": "4 Núcleos + 1 Acción de ataque",
+        "distancia": "15ft"
+    }
+    ,
+    {
+        "id": "16",
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/hielo_7.png",
+        "gif": "./files/hechizos/hielo_7.gif",
+        "requiere": "Nivel 4 de Mago",
+        "hechizo": "Barrera de Hielo",
+        "escuela": "Hielo",
+        "descripcion": "Levanta una barrera de hielo, destruible con tres ataques de fuego. Esta barrera tiene 10 de vida, y 10 de Armadura.",
+        "costouso": "2 Núcleos + 1 Acción de utilidad",
+        "area": "3x1"
+    }
+    ,
+    {
+        "id": "17","tipo": "Hechizo",
+        "icon": "./files/hechizos/hielo_8.png",
+        "gif": "./files/hechizos/hielo_8.gif",
+        "requiere": "Nivel 0 de Mago",
+        "hechizo": "Filo helado", "escuela": "Hielo",
+        "descripcion": "Imbuye el arma en la mano opuesta al canalizador (Si no hay canalizador en mano, puede ser a cualquiera de ambas manos) en hielo, que cambia el efecto del arma por congelamiento.",
+        "costouso": "2 Núcleos + 1 Acción de utilidad",
+        "duración": "1 Ronda o 20 minutos"
+    }
 ]
