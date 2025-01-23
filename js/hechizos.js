@@ -1,5 +1,6 @@
 const input_categoria = document.querySelector("#categoria");
 const input_nombre = document.querySelector("#nombre");
+const input_tipo = document.querySelector("#tipo");
 
 async function read_index_json() {
     let str2 = "";
@@ -8,10 +9,13 @@ async function read_index_json() {
         const index_json = Object.entries(textString);
         for(let i = 0; i < index_json.length ; i++) {
             let yes = 1;
-            const json_a = JSON.parse(JSON.stringify(index_json[i][1]));
+            const json_a = JSON.parse(JSON.stringify(index_json[i][1])), cat = input_categoria.value, nom = input_nombre.value, tipo = input_tipo.value;
+            if(!json_a.hechizo.toLowerCase().includes(nom.toLowerCase())) yes = 0;
+            if(!json_a.escuela.toLowerCase().includes(cat.toLowerCase())) yes = 0;
+            if(!json_a.tipo.toLowerCase().includes(tipo.toLowerCase())) yes = 0;
             if(yes == 1) {
                 str2 = str2.concat(`
-                <tr style="cursor:pointer" onclick="mostrardatos(`+json_a.id+`);">
+                <tr style="cursor:pointer" onclick="mostrardatos('`+json_a.hechizo+`');">
                     <td class="align-middle text-center" colspan="1"><img style="width:45px" src='`+json_a.icon+`'></td>
                     <td class="align-middle" colspan="2">`+json_a.hechizo+`</td>
                     <td class="align-middle" colspan="1">`+json_a.escuela+`</td>
@@ -28,7 +32,7 @@ async function mostrardatos(id) {
         const index_json = Object.entries(textString);
         for(let i = 0; i < index_json.length ; i++) {
             const json_a = JSON.parse(JSON.stringify(index_json[i][1]));
-            if(id == json_a.id){
+            if(id == json_a.hechizo){
                 let yes = 1;
                 if(yes == 1) {
                     let costouso = "", distancia = "", area = "", efecto = "", gif = "", requiere = "";
@@ -110,9 +114,14 @@ input_nombre.addEventListener("input", () => {
     read_index_json();
 })
 
+input_tipo.addEventListener("change", () => {
+    read_index_json();
+})
+
 function reiniciarFiltros() {
     input_nombre.value = "";
     input_categoria.value = "";
+    input_tipo.value = "";
     read_index_json();
 }
 

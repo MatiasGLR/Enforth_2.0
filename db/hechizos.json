@@ -1,6 +1,53 @@
 [
     {
-        "id": "1","tipo": "Hechizo",
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/arcana_1.png",
+        "gif": "./files/hechizos/arcana_1.gif",
+        "requiere": "Nivel 0 de Mago",
+        "hechizo": "Burbuja", "escuela": "Arcana",
+        "descripcion": "Lanza una burbuja en una dirección que empuja al ser impactado 5ft en una dirección deseada. El ser debe de ser de tamaño humano o inferior.",
+        "costouso": "2 Núcleos + 1 Acción de utilidad",
+        "distancia": "15ft linear"
+    }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/arcana_2.png",
+        "gif": "./files/hechizos/arcana_2.gif",
+        "requiere": "Nivel 1 de Mago",
+        "hechizo": "Visión Nocturna", "escuela": "Arcana",
+        "descripcion": "Obtienes visión en la oscuridad.",
+        "duración": "2 Rondas o 1 hora",
+        "costouso": "3 Núcleos + 1 Acción de utilidad",
+        "distancia": "30ft de radio"
+    }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/arcana_3.png",
+        "gif": "./files/hechizos/arcana_3.gif",
+        "requiere": "Nivel 3 de Mago",
+        "hechizo": "Sentidos", "escuela": "Arcana",
+        "duración": "1 Ronda o 30 minutos",
+        "descripcion": "Obtienes +1 en el esquive y la percepción.",
+        "costouso": "4 Núcleos + 1 Acción de utilidad",
+        "distancia": "30ft de radio"
+    }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/arcana_4.png",
+        "gif": "./files/hechizos/arcana_4.gif",
+        "requiere": "Nivel 2 de Mago Arcanista",
+        "hechizo": "Absorción arcana", "escuela": "Arcana",
+        "duración": "1 Ronda o 30 minutos",
+        "descripcion": "Un enemigo que golpees con tu siguiente hechizo o con un ataque cuerpo a cuerpo de daño mágico, pierde un núcleo de maná, y tu lo recibes, si el daño fue critico quitale y obten uno adicional. En caso de núcleos de sangre, solo funcionará este hechizo si ambos son vampiros.",
+        "costouso": "1 Núcleo + 1 Acción de utilidad",
+        "distancia": "30ft de radio"
+    }
+    ,
+    {
+        "tipo": "Hechizo",
         "icon": "./files/hechizos/fuego_1.png",
         "gif": "./files/hechizos/fuego_1.gif",
         "hechizo": "Bola de fuego pequeña", "escuela": "Fuego",
@@ -11,7 +58,7 @@
     }
     ,
     {
-        "id": "2","tipo": "Hechizo",
+        "tipo": "Hechizo",
         "icon": "./files/hechizos/fuego_2.png",
         "gif": "./files/hechizos/fuego_2.gif",
         "requiere": "Nivel 0 de Mago",
@@ -22,7 +69,7 @@
     }
     ,
     {
-        "id": "3","tipo": "Hechizo",
+        "tipo": "Hechizo",
         "icon": "./files/hechizos/fuego_3.png",
         "gif": "./files/hechizos/fuego_3.gif",
         "requiere": "Nivel 1 de Mago",
@@ -35,7 +82,7 @@
     }
     ,
     {
-        "id": "4","tipo": "Hechizo",
+        "tipo": "Hechizo",
         "icon": "./files/hechizos/fuego_4.png",
         "gif": "./files/hechizos/fuego_4.gif",
         "requiere": "Nivel 3 de Mago",
@@ -48,7 +95,7 @@
     }
     ,
     {
-        "id": "5","tipo": "Hechizo",
+        "tipo": "Hechizo",
         "icon": "./files/hechizos/fuego_5.png",
         "gif": "./files/hechizos/fuego_5.gif",
         "requiere": "Nivel 3 de Mago Piromante",
@@ -58,7 +105,7 @@
     }
     ,
     {
-        "id": "6","tipo": "Hechizo",
+        "tipo": "Hechizo",
         "icon": "./files/hechizos/fuego_6.png",
         "gif": "./files/hechizos/fuego_6.gif",
         "hechizo": "Impacto Caliente", "escuela": "Fuego",
@@ -67,7 +114,7 @@
     }
     ,
     {
-        "id": "7","tipo": "Hechizo",
+        "tipo": "Hechizo",
         "icon": "./files/hechizos/fuego_7.png",
         "gif": "./files/hechizos/fuego_7.gif",
         "requiere": "Nivel 5 de Mago",
@@ -79,7 +126,7 @@
     }
     ,
     {
-        "id": "8","tipo": "Hechizo",
+        "tipo": "Hechizo",
         "icon": "./files/hechizos/fuego_8.png",
         "gif": "./files/hechizos/fuego_8.gif",
         "requiere": "Nivel 3 de Mago Piromante",
@@ -91,7 +138,7 @@
     }
     ,
     {
-        "id": "9","tipo": "Hechizo",
+        "tipo": "Hechizo",
         "icon": "./files/hechizos/fuego_9.png",
         "gif": "./files/hechizos/fuego_9.gif",
         "requiere": "Nivel 2 de Mago Piromante",
@@ -103,7 +150,6 @@
     }
     ,
     {
-        "id": "10",
         "tipo": "Hechizo",
         "icon": "./files/hechizos/hielo_1.png",
         "gif": "./files/hechizos/hielo_1.gif",
@@ -115,7 +161,6 @@
     }
     ,
     {
-        "id": "11",
         "tipo": "Hechizo",
         "icon": "./files/hechizos/hielo_2.png",
         "gif": "./files/hechizos/hielo_2.gif",
@@ -128,7 +173,6 @@
     }
     ,
     {
-        "id": "12",
         "tipo": "Hechizo",
         "icon": "./files/hechizos/hielo_3.png",
         "gif": "./files/hechizos/hielo_3.gif",
@@ -141,7 +185,6 @@
     }
     ,
     {
-        "id": "13",
         "tipo": "Hechizo",
         "icon": "./files/hechizos/hielo_4.png",
         "gif": "./files/hechizos/hielo_4.gif",
@@ -154,7 +197,6 @@
     }
     ,
     {
-        "id": "14",
         "tipo": "Hechizo",
         "icon": "./files/hechizos/hielo_5.png",
         "gif": "./files/hechizos/hielo_5.gif",
@@ -165,7 +207,6 @@
     }
     ,
     {
-        "id": "15",
         "tipo": "Hechizo",
         "icon": "./files/hechizos/hielo_6.png",
         "gif": "./files/hechizos/hielo_6.gif",
@@ -178,7 +219,6 @@
     }
     ,
     {
-        "id": "16",
         "tipo": "Hechizo",
         "icon": "./files/hechizos/hielo_7.png",
         "gif": "./files/hechizos/hielo_7.gif",
@@ -191,7 +231,7 @@
     }
     ,
     {
-        "id": "17","tipo": "Hechizo",
+        "tipo": "Hechizo",
         "icon": "./files/hechizos/hielo_8.png",
         "gif": "./files/hechizos/hielo_8.gif",
         "requiere": "Nivel 0 de Mago",
