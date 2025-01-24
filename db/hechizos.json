@@ -287,4 +287,59 @@
         "costouso": "2 Núcleos + 1 Acción de utilidad",
         "duración": "1 Ronda o 20 minutos"
     }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/trueno_1.png",
+        "gif": "./files/hechizos/trueno_1.gif",
+        "requiere": "Nivel 0 de Mago",
+        "hechizo": "Rayo", "escuela": "Electricidad",
+        "descripcion": "Lanza un rayo en una dirección, impactando contra el primer ser en su camino. En caso de que pase a 5ft de un ser hecho de metal, o que tenga una armadura de metal, el ataque se desvía hacia él (Excepto si lo esquiva). Causa 1d6+Int al impactar, o 1d10+Int, si tiene una armadura de metal, o está hecho de metal.",
+        "costouso": "2 Núcleos + 1 Acción de ataque",
+        "duración": "1 Ronda o 20 minutos",
+        "distancia": "25ft"
+    }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/trueno_2.png",
+        "gif": "./files/hechizos/trueno_2.gif",
+        "requiere": "Nivel 2 de Mago",
+        "hechizo": "Electroimpacto", "escuela": "Electricidad",
+        "descripcion": "Mejora tu arma en electricidad hasta el siguiente ataque, al impactar, causa estatizado de forma asegurada, y aumenta el daño del ataque en 1d4.",
+        "costouso": "3 Núcleos + 1 Acción de utilidad"
+    }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/trueno_3.png",
+        "gif": "./files/hechizos/trueno_3.gif",
+        "requiere": "Nivel 3 de Mago Eléctrico",
+        "hechizo": "Electroesfera", "escuela": "Electricidad",
+        "descripcion": "Arroja una bola de rayos en una dirección, causando 1d8+Int de daño a todos los seres en una zona de 3x3; 1d10+Int a los que tengan una armadura de metal.",
+        "costouso": "6 Núcleos + 1 Acción de ataque",
+        "distancia": "20ft"
+    }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/trueno_4.png",
+        "gif": "./files/hechizos/trueno_4.gif",
+        "requiere": "Nivel 2 de Mago",
+        "hechizo": "Magnetismo", "escuela": "Electricidad",
+        "descripcion": "Al arrojar un arma, si esta está hecha de metal, puedes atraerla nuevamente hacia tí, si hay un enemigo en el camino, este recibe 1d6 de daño, y es empujado 5ft en tu dirección, si es de tamaño humano o inferior.",
+        "costouso": "2 Núcleos",
+        "distancia": "15ft"
+    }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/trueno_5.png",
+        "gif": "./files/hechizos/trueno_5.gif",
+        "requiere": "Nivel 0 de Mago",
+        "hechizo": "Filo estático", "escuela": "Electricidad",
+        "descripcion": "Imbuye el arma en la mano opuesta al canalizador (Si no hay canalizador en mano, puede ser a cualquiera de ambas manos) en electricidad, que cambia el efecto del arma por estatizado.",
+        "costouso": "3 Núcleos + 1 Acción de utilidad",
+        "duración": "1 Ronda o 20 minutos"
+    }
 ]
