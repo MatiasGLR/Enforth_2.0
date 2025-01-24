@@ -48,6 +48,53 @@
     ,
     {
         "tipo": "Hechizo",
+        "icon": "./files/hechizos/arcana_5.png",
+        "gif": "./files/hechizos/arcana_5.webp",
+        "requiere": "Nivel 2 de Mago",
+        "hechizo": "Barrera arcana", "escuela": "Arcana",
+        "duración": "1 Ronda o 30 minutos",
+        "descripcion": "Crea una barrera sobre ti, o un aliado, por lo que este recibe 8+Int de Armadura mágica hasta el siguiente ataque que reciba. Este hechizo puede ser utilizado, incluso en mitad de un ataque, pero se deberá tirar reacción (Agilidad).",
+        "costouso": "2 Núcleos + 1 Acción de utilidad",
+        "distancia": "15ft de radio"
+    }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/arcana_6.png",
+        "gif": "./files/hechizos/arcana_6.gif",
+        "requiere": "Nivel 1 de Mago",
+        "hechizo": "Ilusión", "escuela": "Arcana",
+        "duración": "1 turno o 5 minutos",
+        "descripcion": "Puedes crear una ilusión de algo conocido, en una zona en la que puedas ver bien; no podrá realizar acciones, el nivel de realismo de la ilusión dependerá de una tirada de Inteligencia.",
+        "costouso": "3 Núcleos",
+        "distancia": "25ft de radio"
+    }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/arcana_7.png",
+        "gif": "./files/hechizos/arcana_7.gif",
+        "requiere": "Nivel 2 de Mago",
+        "hechizo": "Velocidad", "escuela": "Arcana",
+        "descripcion": "Solo puedes usar este hechizo al inicio de combate, tu orden de turnos sube en 1d4, o en 1, si hay igual o menos de 3 participantes en el combate. En caso de quedar primero, obtienes +1 en el esquive por el resto del combate.",
+        "costouso": "3 Núcleos"
+    }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/arcana_8.png",
+        "gif": "./files/hechizos/arcana_8.gif",
+        "requiere": "Nivel 3 de Mago Arcanista",
+        "duración": "5 segundos",
+        "hechizo": "Teletransportación", "escuela": "Arcana",
+        "descripcion": "Puedes canalizar durante todo tu turno una teletransportación, todos los seres a 5ft de ti pueden optar por teleportarse a una zona preseleccionada por ti (Se abrirá un portal en esa zona, haciendola evidente), tras ello, tú, y los seres que decidieron teleportarse, se moverán a la zona seleccionada.",
+        "costouso": "4 Núcleos + Todo el turno",
+        "distancia": "Personal",
+        "area": "3x3"
+    }
+    ,
+    {
+        "tipo": "Hechizo",
         "icon": "./files/hechizos/fuego_1.png",
         "gif": "./files/hechizos/fuego_1.gif",
         "hechizo": "Bola de fuego pequeña", "escuela": "Fuego",
