@@ -342,4 +342,13 @@
         "costouso": "3 Núcleos + 1 Acción de utilidad",
         "duración": "1 Ronda o 20 minutos"
     }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/trueno_6.png",
+        "gif": "./files/hechizos/trueno_6.gif",
+        "requiere": "Nivel 2 de Mago Eléctrico",
+        "hechizo": "Pararayos", "escuela": "Electricidad",
+        "descripcion": "Si estás combatiendo durante una tormenta eléctrica, aumenta la probabilidad de criticos (con tirada de puntería) en 20%."
+    }
 ]
