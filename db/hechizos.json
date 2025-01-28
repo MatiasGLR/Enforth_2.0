@@ -351,4 +351,23 @@
         "hechizo": "Pararayos", "escuela": "Electricidad",
         "descripcion": "Si estás combatiendo durante una tormenta eléctrica, aumenta la probabilidad de criticos (con tirada de puntería) en 20%."
     }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/trueno_7.png",
+        "gif": "./files/hechizos/trueno_7.gif",
+        "requiere": "Nivel 4 de Mago Eléctrico",
+        "hechizo": "Potenciando amperios", "escuela": "Electricidad",
+        "descripcion": "Paga el triple de núcleos del costo de un hechizo, para agregarle un dado de daño, auemntar su area en 1 de radio y duplicar su probabilidad de efecto."
+    }
+    ,
+    {
+        "tipo": "Hechizo",
+        "icon": "./files/hechizos/trueno_8.png",
+        "gif": "./files/hechizos/trueno_8.gif",
+        "requiere": "Nivel 3 de Mago Eléctrico",
+        "hechizo": "Estática", "escuela": "Electricidad",
+        "costouso": "1 Núcleos + 1 Acción de utilidad",
+        "descripcion": "Al esquivar, puedes moverte mas rápido, siendo tu, un borrón frente al enemigo, obteniendo +2 en el esquive."
+    }
 ]
