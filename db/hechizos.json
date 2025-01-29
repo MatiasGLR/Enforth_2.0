@@ -1,5 +1,155 @@
 [
     {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_1.png",
+        "gif": "./files/hechizos/tactica_1.gif",
+        "requiere": "Nivel 0 de Jugador",
+        "hechizo": "Golpe afortunado", "escuela": "General",
+        "descripcion": "Cuando realizas un ataque hacia un oponente, y este lo esquiva con el mismo valor, puedes hacerle 1d4 de daño verdadero.",
+        "costouso": "1 Acción de utilidad"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_8.png",
+        "gif": "./files/hechizos/tactica_8.gif",
+        "requiere": "Nivel 1 de Jugador",
+        "hechizo": "Cobertura", "escuela": "General",
+        "descripcion": "Cuando recibes un ataque cuerpo a cuerpo, puedes realizar una tirada de resistencia contra la fuerza del oponente, en caso de superarlo, aumenta la armadura en 5 puntos.",
+        "costouso": "1 Acción de utilidad"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_2.png",
+        "gif": "./files/hechizos/tactica_2.gif",
+        "requiere": "Nivel 2 de Jugador",
+        "hechizo": "Grito de dolor", "escuela": "General",
+        "descripcion": "Una vez por ronda, si recibes un ataque que te haga como daño el 25% de tu vida o mas, tu siguiente ataque cuerpo a cuerpo tendrá critico adicional.",
+        "costouso": "1 Acción de utilidad"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_9.png",
+        "requiere": "Nivel 2 de Jugador.",
+        "hechizo": "Ruptura perforante", "escuela": "General",
+        "descripcion": "Si causas rompearmadura en tu ataque, puedes usar esta habilidad, para aplicar sangrado con un 25% de probabilidad.",
+        "costouso": "1 Acción de utilidad"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_11.png",
+        "requiere": "Nivel 0 de Jugador",
+        "hechizo": "Intercepción", "escuela": "General",
+        "descripcion": "Puedes ponerte delante de un enemigo para recibir un proyectil en el último momento, debes estar a 5ft de la linea que une al enemigo con tu aliado",
+        "costouso": "1 Acción de utilidad"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_12.png",
+        "requiere": "Nivel 3 de Jugador",
+        "hechizo": "Embestida", "escuela": "General",
+        "descripcion": "Si tienes un escudo, puedes correr en dirección a un enemigo que se encuentre a 20ft de ti o menos (Min. 10ft) para atacarlo, aumentando el daño de tu ataque en 1d6.",
+        "costouso": "1 Acción de utilidad + 1 Acción de ataque"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_3.png",
+        "gif": "./files/hechizos/tactica_3.gif",
+        "requiere": "Nivel 4 de Jugador",
+        "hechizo": "Cortar contraataque", "escuela": "Guerrero",
+        "descripcion": "Cuando el oponente detiene uno de tus ataques, puedes realizar una tirada de agilidad (Con +2) contra la agilidad del oponente, y, en caso de superar, obtienes un ataque gratis, evita un contraataque del oponente, y causale critico adicional.",
+        "costouso": "1 Acción de utilidad"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_13.png",
+        "requiere": "Nivel 3 de Jugador",
+        "hechizo": "Arte ninja: Acopio", "escuela": "Picaro",
+        "descripcion": "Tras realizar un ataque critico contra un enemigo, puedes inmediatamente apartarte de él 10ft (No dará ataque de oportunidad) y arrojar tus armas contra él (Esquivable), causando el efecto de estas armas de forma asegurada.",
+        "costouso": "2 Acciones de utilidad"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_14.png",
+        "requiere": "Nivel 3 de Jugador",
+        "hechizo": "Arte ninja: Clon multimpacto", "escuela": "Picaro",
+        "descripcion": "Puedes lanzar una arrojadiza en cono de 45º, causando clones espejo en las zonas (Escepto la central), los cuales harán daño. El arrojadizo original (centro) es el único que puede hacer crítico.",
+        "costouso": "1 Acción de ataque + 1 Acción de utilidad",
+        "area": "3x1",
+        "distancia": "5ft"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_15.png",
+        "requiere": "Nivel 3 de Jugador",
+        "hechizo": "Rompescudos", "escuela": "Luchador",
+        "descripcion": "Si el oponente tiene un escudo, y tu ataque fue critico, aplica desarme a su escudo, enviandolo detrás de ti (Con respecto al oponente), 10ft.",
+        "costouso": "Sin costo"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_16.png",
+        "requiere": "Nivel 3 de Jugador",
+        "hechizo": "Espiritu en batalla", "escuela": "Guerrero",
+        "descripcion": "Si utilizas un arma pesada a dos manos y causas daño a un enemigo, puedes cambiar el hacer daño por un 50% de probabilidad de causar derribo.",
+        "costouso": "1 Acción de utilidad"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_4.png",
+        "requiere": "Nivel 3 de Jugador. Uso de Estoque o Schiavona.",
+        "hechizo": "Marca de la rosa", "escuela": "Desconocida",
+        "descripcion": "Solo puedes usar tácticas ''Rosa'' por el resto del combate. Realiza una estocada aurea en 10ft hacia adelante, dañando con un ataque básico a todos los enemigos que allí se encuentren, y aplicandoles una carga de 'Marca de la rosa'",
+        "costouso": "1 Acción de ataque"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_5.png",
+        "requiere": "Nivel 3 de Jugador. Uso de Estoque o Schiavona.",
+        "hechizo": "Puñal de la rosa", "escuela": "Desconocida",
+        "descripcion": "Solo puedes usar tácticas ''Rosa'' por el resto del combate. Aumenta el daño del siguiente ataque en 1 por cada 'Marca de la rosa' en el campo de batalla.",
+        "costouso": "1 Acción de utilidad"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_6.png",
+        "requiere": "Nivel 3 de Jugador. Uso de Estoque o Schiavona.",
+        "hechizo": "Pulso de la rosa", "escuela": "Desconocida",
+        "descripcion": "Solo puedes usar tácticas ''Rosa'' por el resto del combate. Absorbe todas las marcas de la rosa, para aumentar el daño de tu siguiente ataque en 3, y te curas tanto como marcas hayas absorbido.",
+        "costouso": "1 Acción de utilidad"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_7.png",
+        "requiere": "Nivel 3 de Jugador. Uso de Estoque o Schiavona.",
+        "hechizo": "Ciclón de la rosa", "escuela": "Desconocida",
+        "descripcion": "Solo puedes usar tácticas ''Rosa'' por el resto del combate. Aplica desarme a todos los seres a 5ft de ti (Esquivable), y causa 1d4 de daño verdadero.",
+        "costouso": "1 Acción de ataque"
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/tactica_10.png",
+        "requiere": "Nivel 3 de Jugador. Uso de Estoque o Schiavona.",
+        "hechizo": "Sello de la rosa", "escuela": "Desconocida",
+        "descripcion": "Solo puedes usar tácticas ''Rosa'' por el resto del combate. Si todos los enemigos en el combate tienen una marca de la rosa, obtienes un dado de daño, y +2 en puntería.",
+        "costouso": "1 Acción de utilidad"
+    }
+    ,
+    {
         "tipo": "Hechizo",
         "icon": "./files/hechizos/arcana_1.png",
         "gif": "./files/hechizos/arcana_1.gif",
