@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuentos de Enforth</title>
+    <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    
+</head>
+<body class="bg-dark">
+    <header style="max-height:80px; overflow: hidden;">
+        <div class="bg-primary d-flex justify-content-between">
+            <a href="./index.html" class="align-items-center">
+                <h4 class="m-auto align-items-center" style="overflow:hidden">
+                    <i class="bi bi-house"></i> Cuentos de Enforth
+                </h4>
+            </a>
+            <a onclick="cerrar()" class="align-items-center">
+                <h4 class="m-auto align-items-center" style="overflow:hidden">
+                    <i class="bi bi-x"></i> Cerrar
+                </h4>
+            </a>
+        </div>
+    </header>
+    <style>
+        td a {
+            color:white;
+            text-decoration-color: skyblue;
+        }
+        td a:hover {
+            color:skyblue;
+        }
+
+        .z33 {
+            display: grid;
+            gap: 1px;
+            grid-template-columns: repeat(3, 50px);
+        }
+
+        .z55 {
+            display: grid;
+            gap: 1px;
+            grid-template-columns: repeat(5, 50px);
+        }
+
+        .cell {
+            height: 50px;
+            width: 50px;
+            border: 1px solid gray;
+        }
+
+        fu {
+           color: #e16737; 
+        }
+    </style>
+    <div style="width:100%; border-left: 5px solid black; border-right: 5px solid black;" class="bg-dark m-auto">
+        <topmain></topmain>
+        <datalist id="agregado_rapido"></datalist>
+        <div class="modal fade" id="equipoAleatorioModal" tabindex="-1" role="dialog" aria-labelledby="equipoAleatorioModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered text-dark" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title m-auto" id="equipoAleatorioModal"><b id="titulo_objeto" class="text-dark"></b></h5>
+                    </div> 
+                    <div id="datos_objeto" class="modal-body">
+                        
+                    </div>
+                    <div id="botones_agregar_carrito" class="modal-footer d-flex justify-content-between">
+                        <button class="btn btn-secondary" onclick="modal()">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main style="margin-top:82px;" id="main_objetos" class="text-white">
+            <div class="d-flex flex-wrap justify-content-center bg-dark text-white mt-1" style="border-bottom:1px solid black">
+                <button onclick="reiniciarFiltros()" style="border-radius: 0;" class="btn btn-light">Reiniciar filtros</button>
+                <div class="ms-4 d-flex align-items-center">
+                    <label class="me-2" for="nombre">Nombre</label>
+                    <input type="text" id="nombre">
+                </div>
+            </div>
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th colspan="1"></th>
+                        <th colspan="2">Nombre</th>
+                    </tr>
+                </thead>
+                <tbody id="listado_datos">
+
+                </tbody>
+            </table>
+            
+        </main>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="./js/bestiario.js"></script>
+<script>
+    function cerrar() {
+        $('.collapse').collapse('hide');
+    }
+</script>
+</html>
