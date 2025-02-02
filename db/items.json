@@ -2189,7 +2189,7 @@
     }
     ,
     {
-        "nombre": "Caja aleatorio común",
+        "nombre": "Combo aleatorio común",
         "categoria": "General",
         "descripcion": "Da 2 objetos de la rareza común.",
         "preciocompra": "400",
@@ -2198,10 +2198,19 @@
     }
     ,
     {
-        "nombre": "Caja aleatorio poco común",
+        "nombre": "Combo aleatorio poco común",
         "categoria": "General",
-        "descripcion": "Da 1 objeto de la rareza común.",
+        "descripcion": "Da 2 objetos de la rareza poco común.",
         "preciocompra": "800",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Capitales"
+    }
+    ,
+    {
+        "nombre": "Combo aleatorio raro",
+        "categoria": "General",
+        "descripcion": "Da 1 objetos de la rareza raro.",
+        "preciocompra": "1500",
         "obtenidaen": "Mercado general",
         "vendidaen": "Capitales"
     }
