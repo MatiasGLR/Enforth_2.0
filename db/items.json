@@ -2189,6 +2189,24 @@
     }
     ,
     {
+        "nombre": "Caja aleatorio común",
+        "categoria": "General",
+        "descripcion": "Da 2 objetos de la rareza común.",
+        "preciocompra": "400",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Capitales"
+    }
+    ,
+    {
+        "nombre": "Caja aleatorio poco común",
+        "categoria": "General",
+        "descripcion": "Da 1 objeto de la rareza común.",
+        "preciocompra": "800",
+        "obtenidaen": "Mercado general",
+        "vendidaen": "Capitales"
+    }
+    ,
+    {
         "nombre": "Equipo de herrería",
         "categoria": "Equipo portátil",
         "descripcion": "Permite realizar creaciones que requieran de este, puedes desarmar cofres encontrados para obtener 1 'Piezas rotas' de ese tipo, se pueden fundir en un lingote.",
