@@ -527,6 +527,6 @@
         "gif": "./files/hechizos/alma_1.webp",
         "requiere": "Nivel 2 de Mago de Almas",
         "hechizo": "Llave espectral", "escuela": "Almas",
-        "descripcion": "Pueden convertir almas en llaves, que deben ser utilizadas en el momento o se disiparan, mediante una tirada d20. (1-4 Madera)(5-8 Hierro)(9-12 Plata)(13-16 Oro)(17-20 Infernita). Al usar 3 almas, se puede elegir el tipo de llave."
+        "descripcion": "Pueden convertir almas en llaves, que deben ser utilizadas en el momento o se disiparan, mediante una tirada d20. (1-4 Madera)(5-8 Hierro)(9-12 Plata)(13-16 Oro)(17-20 Infernita). Al usar 3 almas, se puede elegir el tipo de llave de entre las anteriores."
     }
 ]
