@@ -116,7 +116,6 @@ input_tipo.addEventListener("change", () => {
 
 function reiniciarFiltros() {
     input_nombre.value = "";
-    input_categoria.value = "";
     input_tipo.value = "";
     read_index_json();
 }
