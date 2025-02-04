@@ -77,15 +77,6 @@
     ,
     {
         "tipo": "Táctica",
-        "icon": "./files/hechizos/tactica_16.png",
-        "requiere": "Nivel 3 de Jugador",
-        "hechizo": "Espiritu en batalla", "escuela": "Guerrero",
-        "descripcion": "Si utilizas un arma pesada a dos manos y causas daño a un enemigo, puedes cambiar el hacer daño por un 50% de probabilidad de causar derribo.",
-        "costouso": "1 Acción de utilidad"
-    }
-    ,
-    {
-        "tipo": "Táctica",
         "icon": "./files/hechizos/tactica_13.png",
         "requiere": "Nivel 3 de Jugador",
         "hechizo": "Arte ninja: Acopio", "escuela": "Picaro",
