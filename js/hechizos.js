@@ -1,4 +1,3 @@
-const input_categoria = document.querySelector("#categoria");
 const input_nombre = document.querySelector("#nombre");
 const input_tipo = document.querySelector("#tipo");
 
