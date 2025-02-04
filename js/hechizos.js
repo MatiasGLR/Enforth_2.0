@@ -106,10 +106,6 @@ async function mostrardatos(id) {
     });
 }   
 
-input_categoria.addEventListener("input", () => {
-    read_index_json();
-})
-
 input_nombre.addEventListener("input", () => {
     read_index_json();
 })
