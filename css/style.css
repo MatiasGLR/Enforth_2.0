@@ -15,6 +15,10 @@
     font-family: Merriweather;
     src: url(../files/fonts/Merryweather/Merriweather.ttf);
 }
+@font-face {
+    font-family: Kings;
+    src: url(../files/fonts/Kings/Kings-Regular.ttf);
+}
 
 * {
     margin:0;

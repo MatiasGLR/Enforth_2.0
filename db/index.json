@@ -46,4 +46,10 @@
         "imagen": "./files/index/hechizos.png",
         "file": "hechizos.html"
     }
+    ,
+    {
+        "titulo": "Lore desbloqueado",
+        "imagen": "./files/index/lore.jpg",
+        "file": "lore.html"
+    }
 ]

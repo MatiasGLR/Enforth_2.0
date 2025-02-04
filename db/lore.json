@@ -1,0 +1,5 @@
+[
+    {"nombre": "Abbasel","imagen": "abbasel.png","datos": "abbasel.html", "posicion": "100% 30%", "zoom": "40%"},
+    {"nombre": "Endricci","imagen": "endricci.png","datos": "endricci.html", "posicion": "92% 45%", "zoom": "30%"},
+    {"nombre": "Swordsqal","imagen": "swordsqal.png","datos": "swordsqal.html", "posicion": "95% 30%", "zoom": "30%"}
+]
