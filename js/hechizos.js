@@ -8,16 +8,16 @@ async function read_index_json() {
     await $.get("./db/hechizos.json", function(textString) {
         const index_json = Object.entries(textString);
         index_json.sort((a, b) => {
-            const nameA = a[1].tipo.toLowerCase();
-            const nameB = b[1].tipo.toLowerCase();
+            const nameA = a[1].escuela.toLowerCase();
+            const nameB = b[1].escuela.toLowerCase();
             if(nameA == "desconocida") return 1;
             if(nameA < nameB) return -1;
             if(nameA > nameB) return 1;
             return 0;
         });
         index_json.sort((a, b) => {
-            const nameA = a[1].escuela.toLowerCase();
-            const nameB = b[1].escuela.toLowerCase();
+            const nameA = a[1].tipo.toLowerCase();
+            const nameB = b[1].tipo.toLowerCase();
             if(nameA == "desconocida") return 1;
             if(nameA < nameB) return -1;
             if(nameA > nameB) return 1;
