@@ -531,7 +531,7 @@
         "categoria": "Material de herrería",
         "descripcion": "Material medio. Puede ser fundido en un lingote con 3 minerales de este mismo tipo, y un molde de lingote",
         "preciocompra": "600",
-        "precioventa": "150",
+        "precioventa": "75",
         "creadaen": "Forja",
         "obtenidaen": "Cofres y taller de herrería",
         "vendidaen": "Todo Enforth"
