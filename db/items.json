@@ -2818,7 +2818,7 @@
         "categoria": "Joyas",
         "descripcion": "Son requeridos como base para cualquier joya. Crear armazones solo te dará puntos de joyería hasta nivel 4, y solo dará puntos en herrería, si el material es del correspondiente al nivel trabajable. Requiere nivel de herrero, y el manual del material si corresponde. Los armazones pueden ser pendientes, collares, anillos, etc. Para crear joyas, y armazones, requieres un Libro de Joyería, y un molde de joyas",
         "preciocompra": "200",
-        "precioventa": "0",
+        "precioventa": "100",
         "materiales": "Lingote de basalto (1) + Otro lingote (1)",
         "creadaen": "Forja",
         "obtenidaen": "Cofres y tiendas de joyería",
