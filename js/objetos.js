@@ -42,7 +42,7 @@ async function cargar_objeto(objeto) {
         const index_json = Object.entries(textString);
         for(let i = 0; i < index_json.length ; i++) {
             const nombre_val = input_nombre.value, json_a = JSON.parse(JSON.stringify(index_json[i][1]));
-            if(objeto != "" && json_a.nombre.toLowerCase().includes(objeto.toLowerCase())) {
+            if(objeto != "" && json_a.nombre.toLowerCase() == objeto.toLowerCase()) {
                 let vendidaen = ``, material = "", obtenida = "", creada = "", descripcion = "", creacionfinal = 0, preciocompra = "<b>Precio de compra:</b> No se compra<br>", precioventa = "<b>Precio de venta:</b> No se vende<br>";
                 if(json_a.obtenidaen && json_a.obtenidaen.length > 1) obtenida = `<b>Obtenida en:</b> `+json_a.obtenidaen+`<br>`;
                 if(json_a.materiales && json_a.materiales.length > 1) material = `<b>Materiales:</b> `+json_a.materiales+`<br>`;
