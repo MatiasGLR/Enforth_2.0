@@ -7,6 +7,23 @@ async function read_index_json() {
 
     await $.get("./db/hechizos.json", function(textString) {
         const index_json = Object.entries(textString);
+        index_json.sort((a, b) => {
+            const nameA = a[1].escuela.toLowerCase();
+            const nameB = b[1].escuela.toLowerCase();
+            if(nameA == "desconocida") return 1;
+            if(nameA < nameB) return -1;
+            if(nameA > nameB) return 1;
+            return 0;
+        });
+        index_json.sort((a, b) => {
+            const nameA = a[1].tipo.toLowerCase();
+            const nameB = b[1].tipo.toLowerCase();
+            if(nameA == "desconocida") return 1;
+            if(nameA < nameB) return -1;
+            if(nameA > nameB) return 1;
+            return 0;
+        });
+        console.log(index_json);
         for(let i = 0; i < index_json.length ; i++) {
             let yes = 1;
             const json_a = JSON.parse(JSON.stringify(index_json[i][1])), cat = input_categoria.value, nom = input_nombre.value, tipo = input_tipo.value;

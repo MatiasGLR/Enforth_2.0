@@ -6,5 +6,5 @@
         "habilespeciales": "<ul><li><b>Galope Rápido:</b> Pueden moverse 15ft por accion de movimiento.</li><li><b>Esquivo:</b> Cada ronda obtienen +2 en esquive.</li></ul>",
         "loot": "<ul><li><b>Piel (1, o 2 con 4 o mas en agilidad):</b>  Usable en artículos de cuero.</li><li><b>Carne: </b> Comestible y puede utilizarse para alimentación.</li></ul>"
     },
-    {"nombre": "Tigre"}
+    {"nombre": "Tigre","img": "./tigre.png"}
 ]
