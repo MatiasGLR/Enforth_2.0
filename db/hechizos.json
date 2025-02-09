@@ -1,6 +1,23 @@
 [
     {
         "tipo": "Táctica",
+        "icon": "./files/hechizos/marmol_1.png",
+        "gif": "./files/hechizos/marmol_1.gif",
+        "hechizo": "Moldeado", "escuela": "Marmol",
+        "descripcion": "Pueden transformar su arma en cualquier otra, de forma instantanea. Al ser destruidos, el arma resultante no podrá cambiar de forma."
+    }
+    ,
+    {
+        "tipo": "Táctica",
+        "icon": "./files/hechizos/marmol_2.png",
+        "gif": "./files/hechizos/marmol_2.gif",
+        "hechizo": "Parry rocoso", "escuela": "Marmol y roca",
+        "descripcion": "Pueden detener rapidamente el ataque de un enemigo (Enfrentado de puntería), y realizar un ataque de 3x2 frente a él, causando derribo a los enemigos, y 1d6 de daño.",
+        "costo": "1 Acción de utilidad"
+    }
+    ,
+    {
+        "tipo": "Táctica",
         "icon": "./files/hechizos/tactica_1.png",
         "gif": "./files/hechizos/tactica_1.gif",
         "requiere": "Nivel 0 de Jugador",
