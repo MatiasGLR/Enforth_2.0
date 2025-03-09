@@ -1,0 +1,5 @@
+Alquimista, Armero, Bardo, Cantinero, Carpintero, Mercader general, Noble, Religioso, Cazador, Domador, Explorador, Granjero, Guardia, Herrero, Ingeniero, Joyero, Ladrón, Médico, Mercenario, Médico, Minero y Talabartero.
+
+Dame 10 misiones sin repetir, tomando como base a esas profesiones, para un mundo medieval
+
+Dame misiones mas para principiantes, y no seas tan especifico en los objetos

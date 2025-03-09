@@ -1764,7 +1764,7 @@
     {
         "nombre": "Adrenalina",
         "categoria": "Medicina",
-        "descripcion": "Los ataques realizados con esta arma al arrojarla, tendrán atine asegurado, pero no tienen escalado",
+        "descripcion": "Elimina el efecto de derribo, y te inmuniza a él por el resto del combate",
         "preciocompra": "1500","precioventa": "300",
         "materiales": "Agua destilada (1) + Vial de sangre roja (1) + Hoja de sauce dorada (1)",
         "vendidaen": "Todo Enforth",
